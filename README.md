@@ -1,2 +1,2 @@
-# Description
-JSON Well Log Format Description
+# JSON Well Log Format
+Hello, world!

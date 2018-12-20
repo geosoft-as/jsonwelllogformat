@@ -63,7 +63,7 @@ A JSON Well Log file consists of one or more log sets each containing logging me
                 "valueType": "float",
                 "dimensions": 1
             }
-        ]
+        ],
         "data": [
             [2907.79, 29.955],
             [2907.80, 28.892],

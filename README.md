@@ -123,14 +123,14 @@ In addition to the listed entries, clients may add any number of _custom_ metada
 
 The following keys are used for curve definitions:
 
-| Key               | Type     | Description           |
-|-------------------|----------|-----------------------|
-| *name*            | string   | Curve name or mnemonic. Mandatory. Non-null.              |
-| *description*     | string   | Curve description. Optional.       |
-| *quantity*        | string   | Curve quantity such as _length_, _pressure_, _force_ etc. Optional.|
-| *unit*            | string   | Unit of measurement such as _m_, _ft_, _bar_, etc. Optional. |
-| *valueType*       | string   | Curve value type: _float_, _integer_, _string_, _datetime_ or _boolean_. Non-null. Optional. _float_ assumed if not present. |
-| *dimensions*      | integer  | Number of dimensions. [1,>. Non-null. Optional. 1 assumed if not present.|
+| Key                 | Type     | Description           |
+|---------------------|----------|-----------------------|
+| **name**            | string   | Curve name or mnemonic. Mandatory. Non-null.              |
+| **description**     | string   | Curve description. Optional.       |
+| **quantity**        | string   | Curve quantity such as _length_, _pressure_, _force_ etc. Optional.|
+| **unit**            | string   | Unit of measurement such as _m_, _ft_, _bar_, etc. Optional. |
+| **valueType**       | string   | Curve value type: _float_, _integer_, _string_, _datetime_ or _boolean_. Non-null. Optional. _float_ assumed if not present. |
+| **dimensions**      | integer  | Number of dimensions. [1,>. Non-null. Optional. 1 assumed if not present.|
 
 Quantities and units should follow the [Unit of Measure Standard](https://www.energistics.org/energistics-unit-of-measure-standard/) from Energistics. To ease transition from legacy formats this is no requirement.
 

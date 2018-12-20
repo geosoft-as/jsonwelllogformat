@@ -1,0 +1,29 @@
+#
+# Netbeans
+#
+nbproject/private/
+
+#
+# Eclipse
+#
+.settings/
+
+#
+# Visual Studio
+#
+.vs/
+
+#
+# Derived content
+#
+bin/
+obj/
+objtest/
+docs/
+build/
+dist/
+
+#
+# Temporary files
+#
+*~

@@ -43,7 +43,7 @@ A JSON Well Log file consists of one or more log sets each containing logging me
             "date": "2019-06-14",
             "operator": "Logtek Petroleum",
             "startIndex": 2907.79,
-            "endIndex": 2938.09,
+            "endIndex": 2907.84,
             "step": 0.01
         },
         "curves": [
@@ -70,9 +70,7 @@ A JSON Well Log file consists of one or more log sets each containing logging me
             [2907.81, 27.868],
             [2907.82, 31.451],
             [2907.83, 28.080],
-            :
-            :
-            [2938.09, 27.733]
+            [2907.84, 27.733]
         ]
     }
 }
@@ -156,7 +154,7 @@ This is the _LAS parameter_ type that will capture general LAS parameter records
 
 This should be converted to JSON as follows:
 
-```json
+```txt
 "<name>": {
     "value": <value>,
     "unit": <unit>,
@@ -208,7 +206,7 @@ objectm    vm1    vm2    vm3        vmn
 
 This should be converted to JSON as follows:
 
-```json
+```txt
 "setName": {
     "attributes": ["attr1", "attr2", "attr3", ... "attrn"],
     "objects": [
@@ -235,7 +233,7 @@ MSSD900   14.5 in  SZR            FC-71545      68.0 kg
 
 Converts to:
 
-```json
+```txt
 "HzEquipment": {
     "attributes":
         ["LENGTH", "TRADEMARK-NAME", "SERIAL-NUMBER", "WEIGHT"],
@@ -253,7 +251,7 @@ Writing JSON well logs can be done in two different formats: _condensed_ or _pre
 
 For well logs that may possibly be viewed by humans the pretty format should always be used. This format should contain whitespace and indentation that emphasizes the logical structure of the content. For the data section in particular, arrays of curve data for each index must be written _horizontally_ and commas between entries should be _aligned_:
 
-```json
+```txt
 "data": [
     [828420, 282.589,  8.6657, 2.202, 2.222, [1.759, 2.31469,  1.33991E-3, 3.75839], 0.52435, ... ],
     [828480, 286.239,  9.6601, 2.277, 2.297, [2.219, 2.31189,  1.12295E-3, 3.72152], 0.52387, ... ],
@@ -266,8 +264,8 @@ For well logs that may possibly be viewed by humans the pretty format should alw
 
 ## More examples
 
-[wlc_composite.json](https://petroware.no/json/wlc_composite.json)
-[Real Time HILT - MD Log.json](https://petroware.no/json/Real Time HILT - MD Log.json)
-[Real Time RAB Images (LWD) - MD Log.json]("https://petroware.no/json/Real Time RAB Images (LWD) - MD Log.json")
-[RTAC Production Data - Time Log.json](https://petroware.no/json/RTAC Production Data - Time Log.json)
-[SonicScope proVision - Time Log.json](https://petroware.no/json/SonicScope proVision - Time Log.json)
+* [wlc_composite.json](https://petroware.no/json/wlc_composite.json)
+* [Real Time HILT - MD Log.json](https://petroware.no/json/Real Time HILT - MD Log.json)
+* [Real Time RAB Images (LWD) - MD Log.json]("https://petroware.no/json/Real Time RAB Images (LWD) - MD Log.json")
+* [RTAC Production Data - Time Log.json](https://petroware.no/json/RTAC Production Data - Time Log.json)
+* [SonicScope proVision - Time Log.json](https://petroware.no/json/SonicScope proVision - Time Log.json)

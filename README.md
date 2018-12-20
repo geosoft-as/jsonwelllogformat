@@ -83,13 +83,13 @@ The JSON syntax can be efficiently parsed in [any](http://json.org) programming 
 The JSON Well Log Format defines the following data types for metadata and curves:
 
 
-| Type       | Description                    | Examples                                        |
-|------------|--------------------------------|-------------------------------------------------|
-| *float*    | Floating point decimal numbers | 10.2, 0.014, 3.1e-108, 2.13e12, 0.0, null       |
-| *integer*  | Integer decimal numbers        | 10, 42, 1000038233, -501, null                  |
-| *string*   | Text strings                   | "error", "final depth", "message 402", "", null |
-| *datetime* | Date/time specifications according to [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) | "2019-12-19", "2010-02-18T16:23:48,3-06:00", null |
-| *boolean*  | Logic states                   | true, false, null                               |
+| Type         | Description                    | Examples                                        |
+|--------------|--------------------------------|-------------------------------------------------|
+| **float**    | Floating point decimal numbers | 10.2, 0.014, 3.1e-108, 2.13e12, 0.0, null       |
+| **integer**  | Integer decimal numbers        | 10, 42, 1000038233, -501, null                  |
+| **string**   | Text strings                   | "error", "final depth", "message 402", "", null |
+| **datetime** | Date/time specifications according to [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) | "2019-12-19", "2010-02-18T16:23:48,3-06:00", null |
+| **boolean**  | Logic states                   | true, false, null                               |
 
 Numbers must contain values corresponding to a double-precision 64-bit [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) binary format value. Integer values has the same internal representation in JavaScript as floats and should be limited to 52 bits (+/-9007199254740991) to ensure accuracy.
 
@@ -99,21 +99,21 @@ Also, numeric values that cannot be represented as sequences of digits (such as 
 
 The following metadata keys are defined as _well known_:
 
-| Key              | Type     | Description           |
-|------------------|----------|-----------------------|
-| *name*           | string   | Log name              |
-| *description*    | string   | Log description       |
-| *well*           | string   | Well name             |
-| *wellbore*       | string   | Wellbore name         |
-| *field*          | string   | Field name            |
-| *country*        | string   | Country of operation  |
-| *date*           | datetime | Logging date          |
-| *operator*       | string   | Operator company name |
-| *serviceCompany* | string   | Service company name  |
-| *runNumber*      | string   | Run number            |
-| *startInde*x     | _According to index value type_  | Value of the first index. Unit according to index curve. |
-| *endIndex*       | _According to index value type_  | Value of the last index. Unit according to index curve. |
-| *step*           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
+| Key                | Type     | Description           |
+|--------------------|----------|-----------------------|
+| **name**           | string   | Log name              |
+| **description**    | string   | Log description       |
+| **well**           | string   | Well name             |
+| **wellbore**       | string   | Wellbore name         |
+| **field**          | string   | Field name            |
+| **country**        | string   | Country of operation  |
+| **date**           | datetime | Logging date          |
+| **operator**       | string   | Operator company name |
+| **serviceCompany** | string   | Service company name  |
+| **runNumber**      | string   | Run number            |
+| **startInde**      | _According to index value type_  | Value of the first index. Unit according to index curve. |
+| **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |
+| **step**           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
 
 All metadata are optional.
 

@@ -37,7 +37,7 @@ A JSON Well Log file consists of one or more log sets each containing logging me
 {
   "logs": [
     {
-      "metadata": {
+      "log": {
         "name": "EcoScope Data",
         "well": "35/12-6S",
         "field": "Fram",

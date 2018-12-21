@@ -74,7 +74,7 @@ A JSON Well Log file consists of one or more log sets each containing logging me
         [2907.84, 27.733]
       ]
     }
-  }
+  ]
 }
 ```
 

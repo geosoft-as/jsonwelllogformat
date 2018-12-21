@@ -35,44 +35,45 @@ A JSON Well Log file consists of one or more log sets each containing logging me
 
 ```json
 {
-    "log": {
-        "metadata": {
-            "name": "EcoScope Data",
-            "well": "35/12-6S",
-            "field": "Fram",
-            "date": "2019-06-14",
-            "operator": "Logtek Petroleum",
-            "startIndex": 2907.79,
-            "endIndex": 2907.84,
-            "step": 0.01
-        },
-        "curves": [
-            {
-                "name": "MD",
-                "description": "Measured depth",
-                "quantity": "length",
-                "unit": "m",
-                "valueType": "float",
-                "dimensions": 1
-            },
-            {
-                "name": "A40H",
-                "description": "Attenuation resistivity 40 inch",
-                "quantity": "electrical resistivity",
-                "unit": "ohm.m",
-                "valueType": "float",
-                "dimensions": 1
-            }
-        ],
-        "data": [
-            [2907.79, 29.955],
-            [2907.80, 28.892],
-            [2907.81, 27.868],
-            [2907.82, 31.451],
-            [2907.83, 28.080],
-            [2907.84, 27.733]
-        ]
-    }
+  "logs": [
+    {
+      "metadata": {
+      "name": "EcoScope Data",
+      "well": "35/12-6S",
+      "field": "Fram",
+      "date": "2019-06-14",
+      "operator": "Logtek Petroleum",
+      "startIndex": 2907.79,
+      "endIndex": 2907.84,
+      "step": 0.01
+    },
+    "curves": [
+      {
+        "name": "MD",
+        "description": "Measured depth",
+        "quantity": "length",
+        "unit": "m",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "A40H",
+        "description": "Attenuation resistivity 40 inch",
+        "quantity": "electrical resistivity",
+        "unit": "ohm.m",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [2907.79, 29.955],
+      [2907.80, 28.892],
+      [2907.81, 27.868],
+      [2907.82, 31.451],
+      [2907.83, 28.080],
+      [2907.84, 27.733]
+    ]
+  }
 }
 ```
 

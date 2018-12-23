@@ -80,7 +80,7 @@ The JSON syntax can be efficiently parsed in [any](http://json.org) programming 
 
 ## Data types
 
-The JSON Well Log Format defines the following data types for metadata and curves:
+The JSON Well Log Format defines the following data types for header data and curves:
 
 
 | Type         | Description                    | Examples                                        |
@@ -95,9 +95,9 @@ Numbers must contain values corresponding to a double-precision 64-bit [IEEE 754
 
 Also, numeric values that cannot be represented as sequences of digits (such as _Infinity_ and _NaN_) must be avoided.
 
-## Logging metadata
+## Log header
 
-The following metadata keys are defined as _well known_:
+The following header keys are defined as _well known_:
 
 | Key                | Type     | Description           |
 |--------------------|----------|-----------------------|
@@ -115,9 +115,9 @@ The following metadata keys are defined as _well known_:
 | **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |
 | **step**           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
 
-All metadata are optional.
+All header data are optional.
 
-In addition to the listed entries, clients may add any number of _custom_ metadata in any form supported by the JSON syntax. Note that the general informational value of custom metadata is _low_. Some clients may understand the meaning of the entries, but in general such information is not fit for further processing.
+In addition to the listed entries, clients may add any number of _custom_ header data in any form supported by the JSON syntax. Note that the general informational value of custom header data is _low_. Some clients may understand the meaning of the entries, but in general such information is not fit for further processing.
 
 ## Curve definition
 
@@ -190,7 +190,7 @@ Converts to:
 }
 ```
 
-Another common data type for metadata is the _DLIS set_. This is a named entity with a number of attributes and a number of objects with one or more values for each of the attributes. A DLIS set has a binary representation within a DLIS file, but it can be viewed as a matrix as follows:
+Another common data type is the _DLIS set_. This is a named entity with a number of attributes and a number of objects with one or more values for each of the attributes. A DLIS set has a binary representation within a DLIS file, but it can be viewed as a matrix as follows:
 
 ```txt
 setName

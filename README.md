@@ -31,51 +31,49 @@ The JSON Well Log Format is a modern well log format designed for the future req
 
 ## Example
 
-A JSON Well Log file consists of one or more log sets each containing logging meta data, curve definitions and the corresponding measurement data. This example contains a single log set with two one-dimensional curves:
+A JSON Well Log file consists of one or more log sets each containing a _header_, curve definitions and the corresponding measurement data. This example contains a single log set with two one-dimensional curves:
 
 ```json
-{
-  "logs": [
-    {
-      "log": {
-        "name": "EcoScope Data",
-        "well": "35/12-6S",
-        "field": "Fram",
-        "date": "2019-06-14",
-        "operator": "Logtek Petroleum",
-        "startIndex": 2907.79,
-        "endIndex": 2907.84,
-        "step": 0.01
+[
+  {
+    "header": {
+      "name": "EcoScope Data",
+      "well": "35/12-6S",
+      "field": "Fram",
+      "date": "2019-06-14",
+      "operator": "Logtek Petroleum",
+      "startIndex": 2907.79,
+      "endIndex": 2907.84,
+      "step": 0.01
+    },
+    "curves": [
+      {
+        "name": "MD",
+        "description": "Measured depth",
+        "quantity": "length",
+        "unit": "m",
+        "valueType": "float",
+        "dimensions": 1
       },
-      "curves": [
-        {
-          "name": "MD",
-          "description": "Measured depth",
-          "quantity": "length",
-          "unit": "m",
-          "valueType": "float",
-          "dimensions": 1
-        },
-        {
-          "name": "A40H",
-          "description": "Attenuation resistivity 40 inch",
-          "quantity": "electrical resistivity",
-          "unit": "ohm.m",
-          "valueType": "float",
-          "dimensions": 1
-        }
-      ],
-      "data": [
-        [2907.79, 29.955],
-        [2907.80, 28.892],
-        [2907.81, 27.868],
-        [2907.82, 31.451],
-        [2907.83, 28.080],
-        [2907.84, 27.733]
-      ]
-    }
-  ]
-}
+      {
+        "name": "A40H",
+        "description": "Attenuation resistivity 40 inch",
+        "quantity": "electrical resistivity",
+        "unit": "ohm.m",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [2907.79, 29.955],
+      [2907.80, 28.892],
+      [2907.81, 27.868],
+      [2907.82, 31.451],
+      [2907.83, 28.080],
+      [2907.84, 27.733]
+    ]
+  }
+]
 ```
 
 The JSON syntax can be efficiently parsed in [any](http://json.org) programming environment available. The well log _semantics_ must still be parsed by the client code, but this is far simpler to do navigating in-memory data structures in the programming environment at hand, instead of dealing with external disk resources of obscure proprietary formats.

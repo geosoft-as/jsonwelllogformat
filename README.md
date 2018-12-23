@@ -31,7 +31,7 @@ The JSON Well Log Format is a modern well log format designed for the future req
 
 ## Example
 
-A JSON Well Log file consists of one or more log sets each containing a _header_, curve definitions and the corresponding measurement data. This example contains a single log set with two one-dimensional curves:
+A JSON Well Log file consists of one or more log sets each containing a log header, curve definitions and the corresponding measurement data. This example contains a single log set with two one-dimensional curves:
 
 ```json
 [

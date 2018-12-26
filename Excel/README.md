@@ -3,7 +3,7 @@
 With the simple macro available here, files in the JSON Well Log Format can
 be opened in Microsoft Excel in two simple steps:
 
-<img hspace="100" width="900" src="https://jsonwelllogformat.org/images/excel1.png">
+<img hspace="100" width="1000" src="https://jsonwelllogformat.org/images/excel1.png">
 
 
 ## Installation
@@ -11,19 +11,19 @@ be opened in Microsoft Excel in two simple steps:
 Installing the JSON macros and adding the function to the Excel ribbon can
 be done by the following the simple procedure:
 
-1. Open Microsoft Excel
+1. Save [JsonConverter.bas](JsonConverter.bas) and [JsonWellLogFormatReader.bas](JsonWellLogFormatReader.bas) to local disk
+
+2. Open Microsoft Excel
 
 The following steps are necessary to make the macro available _across worksheets_:
 
-2. Select the **Developer** ribbon
+3. Select the **Developer** ribbon
 
-3. Click the **Record Macro** button to open the _Record Macro_ dialog
+4. Click the **Record Macro** button to open the _Record Macro_ dialog
 
-4. For _Store macro in:_ select **Personal Macro Workbook** and click **OK**
+5. For _Store macro in:_ select **Personal Macro Workbook** and click **OK**
 
 Now we import the macro itself:
-
-5. Save [JsonConverter.bas](JsonConverter.bas) and [JsonWellLogFormatReader.bas](JsonWellLogFormatReader.bas) to local disk
 
 6. From the _Developer_ ribbon, select **Visual Basic** to open the _Visual Basic for Applications_ window
 
@@ -66,4 +66,5 @@ the usability by putting it directly on a ribbon.
 
 4. Click **OK** to close the window
 
-The macro is now installed and is available from the _Data_ ribbon.
+The macro is now installed and is available from the _Data_ ribbon as shown in the
+initial image.

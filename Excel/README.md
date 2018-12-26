@@ -13,51 +13,52 @@ be done by the following the simple procedure:
 
 1. Open Microsoft Excel
 
- The following steps are necessary to make the macro available _across
- worksheets_:
+The following steps are necessary to make the macro available _across worksheets_:
 
 2. Select the **Developer** ribbon
 
-2. Click the **Record Macro** button to open the _Record Macro_ dialog
+3. Click the **Record Macro** button to open the _Record Macro_ dialog
 
-2. For "Store macro in:" select **Personal Macro Workbook** and click **OK**
+4. For _Store macro in:_ select **Personal Macro Workbook** and click **OK**
 
- Now we include the macro itself:
+Now we import the macro itself:
 
-3. From the _Developer_ ribbon, select **Visual Basic** to open the _Visual Basic for Applications_ window
+5. Save [JsonConverter.bas](JsonConverter.bas) and [JsonWellLogFormatReader.bas](JsonWellLogFormatReader.bas) to local disk
 
-3. Select **Tools->References...** and tick **Microsoft Scripting Runtime**
+6. From the _Developer_ ribbon, select **Visual Basic** to open the _Visual Basic for Applications_ window
 
-3. Make sure the project explorer is visible by selecting **View->Project Explorer**
+7. Select **Tools->References...** and tick **Microsoft Scripting Runtime**
 
-3. Expand the **VBAProject (PERSONAL.XLSB)** node in the Project Explorer
+8. Make sure the project explorer is visible by selecting **View->Project Explorer**
 
-3. Right click the **Module1** entry and select **Import File...**
+9. Expand the **VBAProject (PERSONAL.XLSB)** node in the Project Explorer
 
-3. Select the **JsonConverter.bas** file and click **Open**
+10. Right click the **Module1** entry and select **Import File...**
 
-3. Right click the **Module1** entry a second time and select **Import File...**
+11. Select the **JsonConverter.bas** file and click **Open**
 
-3. Select the **JsonWellLogFormatReader.bas** file and click **Open**
+12. Right click the **Module1** entry a second time and select **Import File...**
 
-3. Select **File->Save PERSONAL.XLSB** to save it all
+13. Select the **JsonWellLogFormatReader.bas** file and click **Open**
 
-3. **Close** the Visual Basic for Application window
+14. Select **File->Save PERSONAL.XLSB** to save it all
 
- Now the JSON Well Log Format macro is installed and can be used,
- but we will improve the usability by putting it directly on a ribbon.
+15. **Close** the Visual Basic for Application window
 
-4. Right click the ribbon and select **Customize the Ribbon...** to open _Excel Options_
+Now the JSON Well Log Format macro is installed and can be used, but we will improve
+the usability by putting it directly on a ribbon.
 
-4. In the _Choose commands from_, select **Macros**
+16. Right click the ribbon and select **Customize the Ribbon...** to open _Excel Options_
 
-4. The function can be put in any ribbon, we will choose the _Data_ ribbon.
+17. In the _Choose commands from_, select **Macros**
 
-4. Select the **Get External Data** group and click the **New Group** button at the bottom
+18. The function can be put in any ribbon, we will choose the _Data_ ribbon.
 
-4. Click **Rename...** to give the new group a descriptive name, for instance "JSON"
+19. Select the **Get External Data** group and click the **New Group** button at the bottom
 
-4. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** macro on the left and click **Add >>>**
+20. Click **Rename...** to give the new group a descriptive name, for instance "JSON"
+
+21. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** macro on the left and click **Add >>>**
 
 4. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** entry on the right and click **Rename...**
 

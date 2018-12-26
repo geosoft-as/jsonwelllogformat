@@ -3,7 +3,7 @@
 With the simple macro available here, files in the JSON Well Log Format can
 be opened in Microsoft Excel in two simple steps:
 
-<img hspace="20" width="1000" src="https://jsonwelllogformat.org/images/excel1.png">
+<img hspace="20" width="1000" src="https://jsonwelllogformat.org/images/excel2.png">
 
 
 ## Installation

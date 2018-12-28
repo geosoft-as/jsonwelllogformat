@@ -80,15 +80,19 @@ the usability by putting it directly on a ribbon.
 
 20. Click **Rename...** to give the new group a descriptive name, for instance "JSON"
 
-    <img hspace="40" width="535" src="https://jsonwelllogformat.org/images/excel15.png">
+    <img hspace="40" width="535" src="https://jsonwelllogformat.org/images/excel16.png">
 
 21. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** macro on the left and click **Add >>>**
 
-4. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** entry on the right and click **Rename...**
+    <img hspace="40" width="435" src="https://jsonwelllogformat.org/images/excel17.png">
 
-4. Give it a descriptive name like **Open Well Log** and choose an icon
+22. Select the **PERSONAL.XLSB!LoadJsonWellLogFormat** entry on the right and click **Rename...**
 
-4. Click **OK** to close the window
+    <img hspace="40" width="557" src="https://jsonwelllogformat.org/images/excel18.png">
+
+23. Give it a descriptive name like **Open Well Log** and choose an icon
+
+24. Click **OK** to close the window
 
 The macro is now installed and is available from the _Data_ ribbon as shown in the
 initial image.

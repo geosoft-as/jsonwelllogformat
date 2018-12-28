@@ -1,6 +1,6 @@
 # Open JSON Well Log files in MS/Excel
 
-With the macro available here files in the JSON Well Log Format can
+With the macro available here, files in the JSON Well Log Format can
 be opened in Excel in two simple steps:
 
 <img hspace="20" width="1000" src="https://jsonwelllogformat.org/images/excel3.png">
@@ -8,7 +8,7 @@ be opened in Excel in two simple steps:
 
 ## Installation
 
-Installing the JSON macros and adding the function to the Excel ribbon can
+Installing the JSON macro and adding the function to the Excel ribbon can
 be done by the following simple procedure:
 
 1. Save [JsonConverter.bas](JsonConverter.bas) and [JsonWellLogFormatReader.bas](JsonWellLogFormatReader.bas) to local disk
@@ -53,7 +53,7 @@ Now we import the macro itself:
 
 12. Right click the **Module1** entry a second time and select **Import File...**
 
-13. Select the **JsonWellLogFormatReader.bas** file and click **Open**
+13. This time, select the **JsonWellLogFormatReader.bas** file and click **Open**
 
 14. Select **File->Save PERSONAL.XLSB** to save it all
 
@@ -73,13 +73,13 @@ the usability by putting it directly on a ribbon:
 
     <img hspace="40" width="435" src="https://jsonwelllogformat.org/images/excel13.png">
 
-18. The function can be put in any ribbon, we will choose the _Data_ ribbon.
+18. The function can be put in any ribbon, we will choose the _Data_ ribbon
 
-19. Select the **Get External Data** group and click the **New Group** button at the bottom:
+19. Select the **Get External Data** group and click the **New Group** button to add a new group after the selected one:
 
     <img hspace="40" width="435" src="https://jsonwelllogformat.org/images/excel14.png">
 
-20. Click **Rename...** to give the new group a descriptive name, for instance "JSON":
+20. Click **Rename...** to give the new group a descriptive name, for instance "JSON", and click **OK**:
 
     <img hspace="40" width="535" src="https://jsonwelllogformat.org/images/excel16.png">
 
@@ -91,9 +91,9 @@ the usability by putting it directly on a ribbon:
 
     <img hspace="40" width="557" src="https://jsonwelllogformat.org/images/excel18.png">
 
-23. Give it a descriptive name like **Open Well Log** and choose an icon
+23. Give it a descriptive name like **Open Well Log**, choose an icon and click **OK**
 
-24. Click **OK** to close the window
+24. Click **OK** to close the _Excel Options_ window
 
 The macro is now installed and available from the _Data_ ribbon as shown in the
 initial image.

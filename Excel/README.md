@@ -31,7 +31,11 @@ Now we import the macro itself:
 
 6. From the _Developer_ ribbon, select **Visual Basic** to open the _Visual Basic for Applications_ window
 
+<img hspace="40" width="608" src="https://jsonwelllogformat.org/images/excel6.png">
+
 7. Select **Tools->References...** and tick **Microsoft Scripting Runtime**
+
+<img hspace="40" width="608" src="https://jsonwelllogformat.org/images/excel7.png">
 
 8. Make sure the project explorer is visible by selecting **View->Project Explorer**
 

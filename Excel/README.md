@@ -1,7 +1,7 @@
 # Open JSON Well Log files in MS/Excel
 
-With the simple macro available here, files in the JSON Well Log Format can
-be opened in Microsoft Excel in two simple steps:
+With the macro available here files in the JSON Well Log Format can
+be opened in Excel in two simple steps:
 
 <img hspace="20" width="1000" src="https://jsonwelllogformat.org/images/excel3.png">
 
@@ -18,6 +18,8 @@ be done by the following the simple procedure:
 The following steps are necessary to make the macro available _across worksheets_:
 
 3. Select the **Developer** ribbon
+
+<img hspace="20" width="601" src="https://jsonwelllogformat.org/images/excel4.png">
 
 4. Click the **Record Macro** button to open the _Record Macro_ dialog
 

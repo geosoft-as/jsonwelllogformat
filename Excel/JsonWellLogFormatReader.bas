@@ -18,15 +18,14 @@ Public Sub LoadJsonWellLogFormat()
     Exit Sub
   End If
 
-
   '
-  ' Catpure the user selected file and read as text
+  ' Capture the user selected file and read as text
   '
   fileName = fileDialog.SelectedItems(1)
 
-  Dim fileSystemObject As New FileSystemObject
+  Dim FileSystemObject As New FileSystemObject
   Dim jsonTextStream As TextStream
-  Set jsonTextStream = fileSystemObject.OpenTextFile(fileName, ForReading)
+  Set jsonTextStream = FileSystemObject.OpenTextFile(fileName, ForReading)
   jsonText = jsonTextStream.ReadAll
   jsonTextStream.Close
 
@@ -45,7 +44,11 @@ Public Sub LoadJsonWellLogFormat()
     Sheets(sheetNo).Cells.Delete
 
     ' Use log name as the sheet name
-    logName = logObject.Item("header")("name")
+    logName = "Log"
+    If Not IsNull(logObject.Item("header")) And Not IsNull(logObject.Item("header")("name")) Then
+      logName = logObject.Item("header")("name")
+    End If
+
     Sheets(sheetNo).Name = logName
 
     ' Loop over the curve definitions and populate curve name
@@ -56,6 +59,9 @@ Public Sub LoadJsonWellLogFormat()
     columnNo = 1
     For Each curveDefinition In curveDefinitions
       nDimensions = curveDefinition.Item("dimensions")
+      If IsNull(nDimensions) Then
+        nDimensions = 1
+      End If
       curveName = curveDefinition.Item("name")
       unit = curveDefinition.Item("unit")
 

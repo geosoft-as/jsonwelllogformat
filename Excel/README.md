@@ -19,9 +19,11 @@ The following steps are necessary to make the macro available _across worksheets
 
 3. Select the **Developer** ribbon
 
-<img hspace="20" width="601" src="https://jsonwelllogformat.org/images/excel4.png">
+<img hspace="40" width="601" src="https://jsonwelllogformat.org/images/excel4.png">
 
 4. Click the **Record Macro** button to open the _Record Macro_ dialog
+
+<img hspace="40" width="601" src="https://jsonwelllogformat.org/images/excel5.png">
 
 5. For _Store macro in:_ select **Personal Macro Workbook** and click **OK**
 

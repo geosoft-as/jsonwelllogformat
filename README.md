@@ -111,7 +111,7 @@ The following header keys are defined as _well known_:
 | **operator**       | string   | Operator company name |
 | **serviceCompany** | string   | Service company name  |
 | **runNumber**      | string   | Run number            |
-| **startInde**      | _According to index value type_  | Value of the first index. Unit according to index curve. |
+| **startIndex**     | _According to index value type_  | Value of the first index. Unit according to index curve. |
 | **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |
 | **step**           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
 

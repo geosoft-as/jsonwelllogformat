@@ -2,20 +2,18 @@
 
 Log I/O is a library from Petroware AS for reading and writing well log files.
 
-As of Q4/2018 Log I/O supports DLIS, LIS, LAS 2.0, LAS 3.0, BIT, XTF, ASC,
+As of Q1/2019 Log I/O supports DLIS, LIS, LAS 2.0, LAS 3.0, BIT, XTF, ASC,
 SPWLA, CSV, and JSON Well Log Format. Log I/O wraps the complexity of these
 formats in a clean, complete, well documented, efficient and extremely simple
 to use programming API.
 
 <img hspace="100" src="https://petroware.no/images/LogIoBox.250.png">
 
-The open source version of Log I/O contains the Java accessor and validator
-for the JSON Well Log Format.
+The [https://github.com/Petroware/LogIo](open source) version of Log I/O contains
+the Java accessor and validator for the JSON Well Log Format.
 
 Log I/O web page: https://petroware.no/logio.html
 
-The source code is available from the Petroware GitHub
-repository: [https://github.com/Petroware/LogIo](https://github.com/Petroware/LogIo).
 
 
 ## Setup

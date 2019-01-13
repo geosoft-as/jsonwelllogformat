@@ -9,7 +9,7 @@ to use programming API.
 
 <img hspace="100" src="https://petroware.no/images/LogIoBox.250.png">
 
-The [https://github.com/Petroware/LogIo](open source) version of Log I/O contains
+The [open source](https://github.com/Petroware/LogIo) version of Log I/O contains
 the Java accessor and validator for the JSON Well Log Format.
 
 Log I/O web page: https://petroware.no/logio.html
@@ -40,7 +40,7 @@ lib/javax.json-1.1.3.jar
 
 ## API Documentation
 
-Java: https://petroware.no/logio/javadoc/index.html
+https://petroware.no/logio/javadoc/index.html
 
 
 

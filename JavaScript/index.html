@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "./style.css" />
+</head>
+<body>
+<div id="app">
+  <h1>JSON Well Log &mdash; Volve</h1>
+  <h1 v-if="loading">Loading...</h1>
+  <div id="plot"></div>
+  <ul v-for="filter in filters">
+    <li v-for="value in filter.values">
+      <button :class="value.state" v-on:click="toggle(value)" v-bind:style="filter.style">{{ value.text }}</button>
+    </li>
+  </ul>
+  <ol>
+    <li v-for="item in items" v-if="filterMatch(item)">
+      <button class="launcher" v-on:click="load(item)" :title="item.url">{{item.type}} {{ item.well }} {{ item.name }}</button>
+    </li>
+  </ol>
+</div>
+<script src="./app.js">
+</script>
+</body>
+</html>

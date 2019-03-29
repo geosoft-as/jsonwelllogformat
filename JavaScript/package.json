@@ -1,0 +1,21 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "parcel-bundler": "^1.12.2",
+    "vue": "^2.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx ./index.html",
+    "build": "npx parcel build --no-minify --public-url 'viewer' ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
+  }
+}

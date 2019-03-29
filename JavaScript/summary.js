@@ -81,6 +81,9 @@ var serviceCompanies = {
     "UNKNOWN": "Unknown"
 }
 
+var knownWellNames = {
+}
+
 var filters = {
     serviceCompany: v => serviceCompanies[v] || v,
     operator: v => operators[v] || v,
@@ -92,7 +95,13 @@ var filters = {
             return "Unknown"
         }
     },
-    well: well => (well || 'Unknown well').replace('NO_', '').replace('_', ' ').replace(',', ' ').toUpperCase()
+    well: well => {
+        let name = (well || 'Unknown well').replace('NO_', '').replace('_', ' ').replace(',', ' ').toUpperCase()
+        let key = name.replace(/\W/g, '')
+        let result = knownWellNames[key] || name
+        knownWellNames[key] = result
+        return result
+    }
 }
 
 function collect(item, sum) {

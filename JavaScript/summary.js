@@ -126,7 +126,6 @@ function proc(log, list, summary) {
 let files = []
 find(directory, 'json', f => files.push(f))
 files = files.filter(f => !skip.includes(f))
-//files = files.slice(100, 102)
 
 let logs = []
 files.forEach(f => extract(f, l => logs.push(l)))
@@ -139,6 +138,7 @@ var summary = {
 logs.forEach(l => proc(l, list, summary))
 
 let toc = {
+    license: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). By Equinor (operator), ExxonMobil (partner), Bayerngas (partner) and Norwegian Petroleum Directorate (NPD)",
     summary,
     items: list
 }

@@ -1,4 +1,5 @@
 {
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). By Equinor (operator), ExxonMobil (partner), Bayerngas (partner) and Norwegian Petroleum Directorate (NPD)",
     "summary": {
         "type": [
             "BIOSTRAT",
@@ -41,8 +42,8 @@
             "15/9-19 S",
             "15/9-19 SR",
             "15/9-19A",
+            "15/9-19B  T2",
             "15/9-19B T2",
-            "15/9-19B, T2",
             "15/9-19BT2",
             "15/9-19S",
             "15/9-F-1",
@@ -947,7 +948,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.3",
-            "well": "15/9-19B, T2",
+            "well": "15/9-19B  T2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -956,7 +957,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.2",
-            "well": "15/9-19B, T2",
+            "well": "15/9-19B  T2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",

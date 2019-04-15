@@ -11,11 +11,11 @@
   "devDependencies": {},
   "scripts": {
     "start": "npx ./index.html",
-    "build": "npx parcel build --no-minify --public-url 'viewer' ./index.html"
+    "build": "npx parcel build --no-minify --public-url \".\" ./index.html"
   },
   "author": "",
   "license": "ISC",
   "alias": {
-    "vue" : "./node_modules/vue/dist/vue.common.js"
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }

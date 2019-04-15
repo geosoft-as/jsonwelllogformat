@@ -160,13 +160,13 @@ To support convertion of legacy formats to JSON a generic _table_ object has bee
 ```txt
 "name": {
   "attributes": ["attr1", "attr2", "attr3", ... "attrn"],
-  "objects": [
+  "objects": {
     "object1": [v11, v12, v13, ... v1n],
     "object2": [v21, v22, v23, ... v2n],
     "object3": [v31, v32, v33, ... v3n],
     :
     "objectm": [vm1, vm2, vm3, ... vmn]
-  ]
+  }
 }
 ```
 
@@ -194,13 +194,13 @@ Using the table object above, this should convert to JSON as follows:
 ```json
 "PARAMETER INFORMATION": {
   "attributes": ["value", "unit", "description"],
-  "objects": [
+  "objects": {
     "RUN":  ["1A",  null, "RUN NUMBER"],
     "PDAT": ["MSL", null, "Permanent Datum"],
     "EPD":  [0.0,   "C3", "Elevation of Permanent Datum above Mean Sea Level"],
     "LMF":  ["DF",  null, "Logging Measured From (Name of Logging Elevation Reference)"],
     "APD":  [30.0,  "M",  "Elevation of Depth Reference (LMF) above Permanent Datum"]
-  ]
+  }
 }
 ```
 
@@ -235,11 +235,11 @@ Using the generic table structure, this will convert to JSON as follows:
 ```json
 "HzEquipment": {
   "attributes": ["LENGTH", "TRADEMARK-NAME", "SERIAL-NUMBER", "WEIGHT"],
-  "objects": [
+  "objects": {
     "APWD": ["0.0 in", "APWD25-AA", "241408", "0.0 kg"],
     "ARDC": ["224.8 in", "ARC9D-BA", "738", "1270.0 kg"],
     "MSSD900": ["14.5 in", "SZR", "FC-71545", "68.0 kg"]
-  ]
+  }
 }
 ```
 

@@ -1,4 +1,5 @@
 {
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). By Equinor (operator), ExxonMobil (partner), Bayerngas (partner) and Norwegian Petroleum Directorate (NPD)",
     "summary": {
         "type": [
             "BIOSTRAT",
@@ -30,26 +31,18 @@
             "Unknown"
         ],
         "well": [
-            "15 9-F-15A",
             "15 9_F-12",
             "15 9_F7",
             "15 9_F_14",
             "15/9-19",
-            "15/9-19 A",
-            "15/9-19 B T2",
-            "15/9-19 BT2",
-            "15/9-19 S",
             "15/9-19 SR",
             "15/9-19A",
-            "15/9-19B T2",
-            "15/9-19B, T2",
             "15/9-19BT2",
             "15/9-19S",
             "15/9-F-1",
             "15/9-F-1 A",
             "15/9-F-1 B",
             "15/9-F-1 C",
-            "15/9-F-1-C",
             "15/9-F-10",
             "15/9-F-11",
             "15/9-F-11 A",
@@ -62,21 +55,12 @@
             "15/9-F-15 B",
             "15/9-F-15 C",
             "15/9-F-15 D",
-            "15/9-F-15A",
-            "15/9-F-15B",
-            "15/9-F-15C",
             "15/9-F-4",
             "15/9-F-5",
             "15/9-F-7",
             "15/9-F-9",
             "15/9-F-9 A",
-            "15/9-F11 T2",
-            "15/9-F14",
-            "15/9-F15",
-            "15/9-F15A",
             "15/9-F15S",
-            "15/9-F5",
-            "15/9-F7",
             "1519-F-14",
             "TEST SAMAP"
         ],
@@ -614,7 +598,7 @@
         {
             "type": "LWD_EWL",
             "name": "LIS   .001",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -623,7 +607,7 @@
         {
             "type": "LWD_EWL",
             "name": "L916AUD",
-            "well": "15/9-19 B T2",
+            "well": "15/9-19BT2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -650,7 +634,7 @@
         {
             "type": "LWD_EWL",
             "name": "LIS   .001",
-            "well": "15/9-19B T2",
+            "well": "15/9-19BT2",
             "operator": "Equinor",
             "serviceCompany": "Baker Hughes",
             "date": "Unknown",
@@ -947,7 +931,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.3",
-            "well": "15/9-19B, T2",
+            "well": "15/9-19BT2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -956,7 +940,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.2",
-            "well": "15/9-19B, T2",
+            "well": "15/9-19BT2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -983,7 +967,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.1",
-            "well": "15/9-19 S",
+            "well": "15/9-19S",
             "operator": "Equinor",
             "serviceCompany": "Baker Hughes",
             "date": "Unknown",
@@ -992,7 +976,7 @@
         {
             "type": "LWD_EWL",
             "name": "MINCOM.2",
-            "well": "15/9-19 S",
+            "well": "15/9-19S",
             "operator": "Equinor",
             "serviceCompany": "Baker Hughes",
             "date": "Unknown",
@@ -2207,7 +2191,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_2",
-            "well": "15/9-F14",
+            "well": "15/9-F-14",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2008,
@@ -2216,7 +2200,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_2",
-            "well": "15/9-F14",
+            "well": "15/9-F-14",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2657,7 +2641,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_1",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2008,
@@ -2666,7 +2650,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_1",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2675,7 +2659,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_1",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2684,7 +2668,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_2",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2008,
@@ -2693,7 +2677,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_2",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2702,7 +2686,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_AAC_MWD_2",
-            "well": "15/9-F15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2855,7 +2839,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_MWD_1",
-            "well": "15/9-F-15B",
+            "well": "15/9-F-15 B",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -2864,7 +2848,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_TIME_MWD_1",
-            "well": "15/9-F-15B",
+            "well": "15/9-F-15 B",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3494,7 +3478,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_MWD_1",
-            "well": "15/9-F5",
+            "well": "15/9-F-5",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3512,7 +3496,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_TIME_MWD_1",
-            "well": "15/9-F5",
+            "well": "15/9-F-5",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3620,7 +3604,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_TIME_MWD_1",
-            "well": "15/9-F7",
+            "well": "15/9-F-7",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3629,7 +3613,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_TIME_MWD_2",
-            "well": "15/9-F7",
+            "well": "15/9-F-7",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3638,7 +3622,7 @@
         {
             "type": "LWD_EWL",
             "name": "WL_RAW_BHPR-GR-MECH_TIME_MWD_3",
-            "well": "15/9-F7",
+            "well": "15/9-F-7",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": "Unknown",
@@ -3791,7 +3775,7 @@
         {
             "type": "PRESSURE",
             "name": "SFINX .001",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -4835,7 +4819,7 @@
         {
             "type": "COMPOSITE",
             "name": "L916AUD",
-            "well": "15/9-19 B T2",
+            "well": "15/9-19BT2",
             "operator": "Equinor",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5303,7 +5287,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "15_9-19_A_CPI",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5312,7 +5296,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .001",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5321,7 +5305,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .002",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5330,7 +5314,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .003",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5339,7 +5323,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .004",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5348,7 +5332,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "15_9-19_BT2_CPI",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5357,7 +5341,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .001",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5366,7 +5350,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .002",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5375,7 +5359,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .003",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5384,7 +5368,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "SFINX .004",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5393,7 +5377,7 @@
         {
             "type": "PETROPHYSICAL INTERPRETATION",
             "name": "NO_15_9-19_BT2_KLOGH_NEW",
-            "well": "15/9-19 BT2",
+            "well": "15/9-19BT2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5924,7 +5908,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "SFINX .001",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5933,7 +5917,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "SFINX .002",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5942,7 +5926,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "SFINX .003",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5951,7 +5935,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "SFINX .004",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -5996,7 +5980,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_CHECKSHOT_1",
-            "well": "15/9-F11 T2",
+            "well": "15/9-F-11 T2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -6005,7 +5989,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_CHECKSHOT_2",
-            "well": "15/9-F11 T2",
+            "well": "15/9-F-11 T2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -6014,7 +5998,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_CHECKSHOT_3",
-            "well": "15/9-F11 T2",
+            "well": "15/9-F-11 T2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -6032,7 +6016,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "VSPRS_COMPUTED_42",
-            "well": "15/9-F11 T2",
+            "well": "15/9-F-11 T2",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -6041,7 +6025,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_DEPTH_MD_COMPUTED_1",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6050,7 +6034,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_CHECKSHOT_1",
-            "well": "15 9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Unknown",
             "serviceCompany": "Unknown",
             "date": "Unknown",
@@ -6059,7 +6043,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_SYNSEIS_1",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6068,7 +6052,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_SYNSEIS_2",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6077,7 +6061,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_SYNSEIS_3",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6086,7 +6070,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "TZV_TIME_SYNSEIS_4",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6095,7 +6079,7 @@
         {
             "type": "VSP_VELOCITY",
             "name": "VSPNI_COMPUTED_31",
-            "well": "15/9-F-15A",
+            "well": "15/9-F-15 A",
             "operator": "Equinor",
             "serviceCompany": "Read",
             "date": "Unknown",
@@ -6104,7 +6088,7 @@
         {
             "type": "CORE",
             "name": "15919A",
-            "well": "15/9-19 A",
+            "well": "15/9-19A",
             "operator": "Equinor",
             "serviceCompany": "Weatherford",
             "date": 1998,
@@ -7337,7 +7321,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_CCL-PERF_2014-12-03_1",
-            "well": "15/9-F-1-C",
+            "well": "15/9-F-1 C",
             "operator": "Equinor",
             "serviceCompany": "Halliburton",
             "date": "Unknown",
@@ -7346,7 +7330,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_CCL-PERF_2014-12-03_2",
-            "well": "15/9-F-1-C",
+            "well": "15/9-F-1 C",
             "operator": "Equinor",
             "serviceCompany": "Halliburton",
             "date": "Unknown",
@@ -7355,7 +7339,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_CCL-PERF_2014-12-03_3",
-            "well": "15/9-F-1-C",
+            "well": "15/9-F-1 C",
             "operator": "Equinor",
             "serviceCompany": "Halliburton",
             "date": "Unknown",
@@ -7364,7 +7348,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_CCL-PERF_2014-12-03_4",
-            "well": "15/9-F-1-C",
+            "well": "15/9-F-1 C",
             "operator": "Equinor",
             "serviceCompany": "Halliburton",
             "date": "Unknown",
@@ -11657,7 +11641,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_1",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11666,7 +11650,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_1",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11675,7 +11659,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_2",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11684,7 +11668,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_2",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11693,7 +11677,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_3",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11702,7 +11686,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_3",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11711,7 +11695,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_4",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11720,7 +11704,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_4",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11729,7 +11713,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_5",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -11738,7 +11722,7 @@
         {
             "type": "PRODUCTION LOGS",
             "name": "WL_RAW_PROD_PERF-CCL-GR_2009-03-05_5",
-            "well": "15/9-F-15C",
+            "well": "15/9-F-15 C",
             "operator": "Equinor",
             "serviceCompany": "Schlumberger",
             "date": 2009,
@@ -12989,7 +12973,7 @@
         {
             "type": "GEOCHEM",
             "name": "FI080096a-2",
-            "well": "15/9-19B T2",
+            "well": "15/9-19BT2",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,
@@ -12998,7 +12982,7 @@
         {
             "type": "GEOCHEM",
             "name": "FI080096a-2a",
-            "well": "15/9-19B T2",
+            "well": "15/9-19BT2",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,
@@ -13007,7 +12991,7 @@
         {
             "type": "GEOCHEM",
             "name": "GCH_REPORT_1_ENCL_2",
-            "well": "15/9-19B T2",
+            "well": "15/9-19BT2",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,
@@ -13016,7 +13000,7 @@
         {
             "type": "GEOCHEM",
             "name": "GCH_REPORT_1_ENCL_3",
-            "well": "15/9-19B T2",
+            "well": "15/9-19BT2",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,
@@ -13043,7 +13027,7 @@
         {
             "type": "GEOCHEM",
             "name": "GCH_REPORT_1_ENCL_2",
-            "well": "15/9-F15",
+            "well": "15/9-F-15",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,
@@ -13052,7 +13036,7 @@
         {
             "type": "GEOCHEM",
             "name": "GCH_REPORT_1_ENCL_3",
-            "well": "15/9-F15",
+            "well": "15/9-F-15",
             "operator": "XXXXX",
             "serviceCompany": "Fluid Inclusion",
             "date": 2009,

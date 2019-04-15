@@ -81,6 +81,9 @@ var serviceCompanies = {
     "UNKNOWN": "Unknown"
 }
 
+var knownWellNames = {
+}
+
 var filters = {
     serviceCompany: v => serviceCompanies[v] || v,
     operator: v => operators[v] || v,
@@ -92,7 +95,13 @@ var filters = {
             return "Unknown"
         }
     },
-    well: well => (well || 'Unknown well').replace('NO_', '').replace('_', ' ').replace(',', ' ').toUpperCase()
+    well: well => {
+        let name = (well || 'Unknown well').replace('NO_', '').replace('_', ' ').replace(',', ' ').toUpperCase()
+        let key = name.replace(/\W/g, '')
+        let result = knownWellNames[key] || name
+        knownWellNames[key] = result
+        return result
+    }
 }
 
 function collect(item, sum) {
@@ -126,7 +135,6 @@ function proc(log, list, summary) {
 let files = []
 find(directory, 'json', f => files.push(f))
 files = files.filter(f => !skip.includes(f))
-//files = files.slice(100, 102)
 
 let logs = []
 files.forEach(f => extract(f, l => logs.push(l)))
@@ -139,6 +147,7 @@ var summary = {
 logs.forEach(l => proc(l, list, summary))
 
 let toc = {
+    license: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). By Equinor (operator), ExxonMobil (partner), Bayerngas (partner) and Norwegian Petroleum Directorate (NPD)",
     summary,
     items: list
 }

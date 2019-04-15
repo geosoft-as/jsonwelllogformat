@@ -157,7 +157,7 @@ Curve values are according to the value type defined for the curve, or `null` fo
 
 To support convertion of legacy formats to JSON a generic _table_ object has been suggested. The table has a set of _attributes_ and it contains a number of named _objects_ with one or more _values_ for each attribute. The table is able to represent metadata from existing well log formats in a consistent and simple manner:
 
-```json
+```txt
 "name": {
   "attributes": ["attr1", "attr2", "attr3", ... "attrn"],
   "objects": [
@@ -194,7 +194,7 @@ Using the table object above, this should convert to JSON as follows:
 ```json
 "PARAMETER INFORMATION": {
   "attributes": ["value", "unit", "description"],
-  "objects>": [
+  "objects": [
     "RUN":  ["1A",  null, "RUN NUMBER"],
     "PDAT": ["MSL", null, "Permanent Datum"],
     "EPD":  [0.0,   "C3", "Elevation of Permanent Datum above Mean Sea Level"],
@@ -271,6 +271,6 @@ Schema for the JSON Well Log Format is available at [https://jsonwelllogformat.o
 
 Thanks to [Equinor](http://equinor.com) all subsurface and production data from the Volve field on the Norwegian continental shelf has been disclosed and made available to the public. It can be downloaded from [http://data.equinor.com](http://data.equinor.com).
 
-The dataset contains about 15GB of well log data in about 1000 different DLIS, LIS, LAS, ASC and SPWLA files. This part has been converted to the JSON Well Log Format by [Petroware](https://petroware.no) and is available [here](https://petroware.no/Volve).
+The dataset contains about 15GB of well log data in about 1000 different DLIS, LIS, LAS, ASC and SPWLA files. This part has been converted to the JSON Well Log Format by [Petroware](https://petroware.no) and is available [here](https://jsonwelllogformat.org/Volve).
 
 An online viewer based on the JavaScript code contributed here is available at [https://jsonwelllogformat.org/viewer](https://jsonwelllogformat.org/viewer/index.html).

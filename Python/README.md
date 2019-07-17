@@ -1,35 +1,31 @@
 # Accessing JSON Well Log Format files with Python
 
-Accessing JSON Well Log Format files with Python is trivial.
-Loading and parsing a .json file is done as follows:
+As Python has built-in JSON support, accessing JSON Well Log Format files with
+Python is trivial. Loading and parsing the logs of a .json file is done as follows:
 
 ```python
 import json
 
 with open("<filename>", "r") as file:
   logs = json.load(file)
-
-:
 ```
 
-The ```logs``` instance now holds the content of the file in a structural
-form, where the header data, curve entries or the log data can be easily
-accessed as:
+The ```logs``` instance now holds the content of the file in a structural form,
+where the header data, curve entries and the log data can be easily be accessed as:
 
 ```python
-header = logs[0]['header']
-curves = logs[0]['curves']
-data = logs[0]['data']
-:
-```
+logNo = 0
 
-etc.
+header = logs[logNo]['header']
+curves = logs[logNo]['curves']
+data = logs[logNo]['data']
+```
 
 
 ## Example
 
 The following example demonstrates how easy it is to parse a JSON Well Log Format
-file and create a basic _log plot_. The program utilize the
+file and create a basic log plot. The program utilize the
 _matplotlib_ plotting library from [matplotlib.org](https://matplotlib.org).
 
 

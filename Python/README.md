@@ -33,7 +33,7 @@ _matplotlib_ plotting library from [matplotlib.org](https://matplotlib.org).
 import matplotlib.pyplot as plot
 import json
 
-with open("<filename>", "r") as file:
+with open("demo.json", "r") as file:
   logs = json.load(file)
 
 curves = logs[0]['curves']

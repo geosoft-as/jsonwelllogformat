@@ -17,7 +17,7 @@ form, where the header data, curve entries or the log data can be easily
 accessed as:
 
 ```python
-header = lohs[0]['header']
+header = logs[0]['header']
 curves = logs[0]['curves']
 data = logs[0]['data']
 :
@@ -29,7 +29,7 @@ etc.
 ## Example
 
 The following example demonstrates how easy it is to parse a JSON Well Log Format
-file and create a basic plot of its content. The program utilize the
+file and create a basic _log plot_. The program utilize the
 _matplotlib_ plotting library from [matplotlib.org](https://matplotlib.org).
 
 
@@ -65,7 +65,7 @@ plot.show()
 ```
 
 
-To resolve dependencies and run the program
+To install dependencies and run the program:
 
 ```
 $ pip install --user --requirement requirements.txt
@@ -73,14 +73,15 @@ $ python plotlog.py
 ```
 
 
-For a given sample file the output will be as follows:
+For the ```demo.json``` file available in this repository the result is as follows:
 
 
+IMG
 
 
 
 ## Test data
 
-The public _Volve_ data is available in the JSON Well Log Format
+The public _Volve_ data from Equinor is available in the JSON Well Log Format
 at [https://jsonwelllogformat.org/Volve](https://jsonwelllogformat.org/Volve)
 

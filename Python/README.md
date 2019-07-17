@@ -14,12 +14,12 @@ The ```logs``` instance now holds the content of the file in a structural form,
 where the header data, curve entries and the log data can be easily be accessed as:
 
 ```python
-logNo = 0
-
-header = logs[logNo]['header']
-curves = logs[logNo]['curves']
-data = logs[logNo]['data']
+header = logs[0]['header']
+curves = logs[0]['curves']
+data = logs[0]['data']
 ```
+
+etc.
 
 
 ## Example
@@ -76,7 +76,7 @@ IMG
 
 
 
-## Test data
+## More test data
 
 The public _Volve_ data from Equinor is available in the JSON Well Log Format
 at [https://jsonwelllogformat.org/Volve](https://jsonwelllogformat.org/Volve)

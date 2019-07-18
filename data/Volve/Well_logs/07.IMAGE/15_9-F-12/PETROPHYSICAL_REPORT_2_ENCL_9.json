@@ -1,0 +1,88 @@
+[
+  {
+    "header": {
+      "name": "PETROPHYSICAL_REPORT_2_ENCL_9",
+      "well": "15/9-F-12",
+      "operator": "STATOIL ASA",
+      "country": "NORWAY",
+      "field": "VOLVE",
+      "source": "Converted from ASC by Log Studio 4.87 - Petroware AS",
+      "startIndex": 3484.92,
+      "endIndex": 3251.30,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "DRILL PERMIT#: 2883-P",
+        "description": null,
+        "quantity": null,
+        "unit": "m",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": "",
+        "valueType": "string",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [3484.92, 52.7539, 105.905, 29.5871, 150.121, 75.8405, 20.8004, null],
+      [3425.63, 52.9604, 106.953, 52.9604, 286.953,     0.0,     0.0, null],
+      [3311.16, 53.4321, 106.201, 36.4665, 284.628, 17.0009,  3.2001, null],
+      [3297.70, 53.6691, 105.782, 36.8562, 282.676, 16.9529,  6.4002, null],
+      [3251.30, 53.2783, 103.089, 53.2783, 283.089,     0.0,     0.0, null]
+    ]
+  }
+]

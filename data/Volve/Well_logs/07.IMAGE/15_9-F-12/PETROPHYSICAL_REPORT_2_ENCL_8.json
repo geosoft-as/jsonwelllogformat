@@ -1,0 +1,106 @@
+[
+  {
+    "header": {
+      "name": "PETROPHYSICAL_REPORT_2_ENCL_8",
+      "well": "15/9-F-12",
+      "operator": "STATOIL ASA",
+      "country": "NORWAY",
+      "field": "VOLVE",
+      "source": "Converted from ASC by Log Studio 4.87 - Petroware AS",
+      "startIndex": 3125.13,
+      "endIndex": 3461.25,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "m",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "deg",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [3125.13, 53.8397,  96.017, 39.2418,   7.770, 63.8096, 315.199, "Unconformable Surface"],
+      [3126.66, 53.8215,  95.976, 30.2514, 176.269, 63.8096,  33.601, "Unconformable Surface"],
+      [3129.43, 53.7878,  95.899, 75.2242, 340.126, 60.6668, 267.199, "Unconformable Surface"],
+      [3139.12, 53.7066,  95.872, 28.6662, 291.778, 26.9747, 343.152, "Unconformable Surface"],
+      [3153.29, 53.7308,  96.835, 53.7308, 276.835,     0.0,     0.0, "Unconformable Surface"],
+      [3177.04, 53.7592,  98.473, 36.6669,  12.383, 63.8096, 318.399, "Unconformable Surface"],
+      [3190.23, 53.7460,  99.422, 79.8518, 272.116, 26.9330, 163.955, "Unconformable Surface"],
+      [3194.87, 53.7413,  99.752, 27.0252, 274.217, 26.9330,   5.553, "Unconformable Surface"],
+      [3212.76, 53.7233, 101.042, 45.6037,  12.363, 66.3797, 308.772, "Unconformable Surface"],
+      [3213.71, 53.7224, 101.108, 53.3372,   6.907, 66.3797, 299.172, "Unconformable Surface"],
+      [3215.13, 53.7209, 101.217, 43.0260,  14.542, 66.3797, 311.972, "Unconformable Surface"],
+      [3215.91, 53.7201, 101.272, 45.6037,  12.596, 66.3797, 308.772, "Unconformable Surface"],
+      [3266.17, 53.3109, 103.926, 12.4301, 236.894, 45.4836,  12.761, "Unconformable Surface"],
+      [3267.79, 53.3295, 104.020, 82.1353, 113.731, 45.4578, 193.559, "Unconformable Surface"],
+      [3280.09, 53.4735, 104.750,  3.2736, 104.261, 56.7470, 359.967, "Unconformable Surface"],
+      [3314.86, 53.3648, 106.321, 81.4934,   5.386, 76.1837, 270.399, "Unconformable Surface"],
+      [3316.15, 53.3419, 106.361, 72.3239,  65.932, 66.3881, 137.597, "Unconformable Surface"],
+      [3336.99, 52.9771, 107.007, 67.1290, 285.296, 14.2286, 173.572, "Unconformable Surface"],
+      [3378.43, 52.8811, 106.619, 68.2999,   5.477, 68.5125, 281.561, "Unconformable Surface"],
+      [3407.98, 52.9731, 106.927, 28.1741, 303.811, 26.9330, 342.377, "Unconformable Surface"],
+      [3430.35, 52.9397, 106.920, 85.8654,  86.224, 45.4836, 150.375, "Unconformable Surface"],
+      [3459.90, 52.8186, 106.633, 66.5212, 281.963, 14.2778, 162.372, "Unconformable Surface"],
+      [3461.25, 52.8150, 106.593, 38.5815, 288.180, 14.2778, 355.986, "Unconformable Surface"]
+    ]
+  }
+]

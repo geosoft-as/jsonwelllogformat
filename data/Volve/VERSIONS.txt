@@ -1,0 +1,22 @@
+1.2 27.03.2019
+o Proper escape JSON strings
+o Set step to explicit null on irregular log sets
+o Handle more LAS time files
+o Exclude some obvious non-log ASC files
+
+1.1 17.03.2019
+o Convert DLIS Infinity to null instead of empty string
+o Fix double JSON entries on streaming DLIS
+
+1.0 22.02.2019
+o First public version
+
+0.3 15.02.2019
+o Handle integral index curve in meta-data
+o Fix double entries in streaming DLIS -> JSON converter
+
+0.2 01.02.2019
+o Fixed accuracy in index curves and meta-data
+
+0.1 18.01.2019
+o Initial conversion

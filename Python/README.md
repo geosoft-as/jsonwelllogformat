@@ -72,7 +72,7 @@ $ python plotlog.py
 For the ```demo.json``` file available in this repository the result is as follows:
 
 
-IMG
+![Plot](https://petroware.no/images/pythonPlot.png)
 
 
 

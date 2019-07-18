@@ -1,0 +1,1529 @@
+[
+  {
+    "header": {
+      "name": "GCH_REPORT_1_ENCL_3",
+      "well": "15/9-F15",
+      "operator": "XXXXX",
+      "serviceCompany": "FLUID INCLUSION TECH",
+      "field": "XXXXX",
+      "date": "2009-06-21T22:00:00Z",
+      "source": "Converted from LAS by Log Studio 4.87 - Petroware AS",
+      "startIndex": 3710,
+      "endIndex": 4096,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "DEPTH",
+        "description": "Curve #1, CNTRCTR=FIT, TOP= 3710.0, BOTTOM= 4096.0",
+        "quantity": null,
+        "unit": "M",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU1",
+        "description": "M/Z=  1",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU2",
+        "description": "M/Z=  2",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU3",
+        "description": "M/Z=  3",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU4",
+        "description": "M/Z=  4",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU5",
+        "description": "M/Z=  5",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU6",
+        "description": "M/Z=  6",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU7",
+        "description": "M/Z=  7",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU8",
+        "description": "M/Z=  8",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU9",
+        "description": "M/Z=  9",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU10",
+        "description": "M/Z= 10",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU11",
+        "description": "M/Z= 11",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU12",
+        "description": "M/Z= 12",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU13",
+        "description": "M/Z= 13",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU14",
+        "description": "M/Z= 14",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU15",
+        "description": "M/Z= 15",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU16",
+        "description": "M/Z= 16",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU17",
+        "description": "M/Z= 17",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU18",
+        "description": "M/Z= 18",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU19",
+        "description": "M/Z= 19",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU20",
+        "description": "M/Z= 20",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU21",
+        "description": "M/Z= 21",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU22",
+        "description": "M/Z= 22",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU23",
+        "description": "M/Z= 23",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU24",
+        "description": "M/Z= 24",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU25",
+        "description": "M/Z= 25",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU26",
+        "description": "M/Z= 26",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU27",
+        "description": "M/Z= 27",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU28",
+        "description": "M/Z= 28",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU29",
+        "description": "M/Z= 29",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU30",
+        "description": "M/Z= 30",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU31",
+        "description": "M/Z= 31",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU32",
+        "description": "M/Z= 32",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU33",
+        "description": "M/Z= 33",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU34",
+        "description": "M/Z= 34",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU35",
+        "description": "M/Z= 35",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU36",
+        "description": "M/Z= 36",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU37",
+        "description": "M/Z= 37",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU38",
+        "description": "M/Z= 38",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU39",
+        "description": "M/Z= 39",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU40",
+        "description": "M/Z= 40",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU41",
+        "description": "M/Z= 41",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU42",
+        "description": "M/Z= 42",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU43",
+        "description": "M/Z= 43",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU44",
+        "description": "M/Z= 44",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU45",
+        "description": "M/Z= 45",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU46",
+        "description": "M/Z= 46",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU47",
+        "description": "M/Z= 47",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU48",
+        "description": "M/Z= 48",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU49",
+        "description": "M/Z= 49",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU50",
+        "description": "M/Z= 50",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU51",
+        "description": "M/Z= 51",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU52",
+        "description": "M/Z= 52",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU53",
+        "description": "M/Z= 53",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU54",
+        "description": "M/Z= 54",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU55",
+        "description": "M/Z= 55",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU56",
+        "description": "M/Z= 56",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU57",
+        "description": "M/Z= 57",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU58",
+        "description": "M/Z= 58",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU59",
+        "description": "M/Z= 59",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU60",
+        "description": "M/Z= 60",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU61",
+        "description": "M/Z= 61",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU62",
+        "description": "M/Z= 62",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU63",
+        "description": "M/Z= 63",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU64",
+        "description": "M/Z= 64",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU65",
+        "description": "M/Z= 65",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU66",
+        "description": "M/Z= 66",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU67",
+        "description": "M/Z= 67",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU68",
+        "description": "M/Z= 68",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU69",
+        "description": "M/Z= 69",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU70",
+        "description": "M/Z= 70",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU71",
+        "description": "M/Z= 71",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU72",
+        "description": "M/Z= 72",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU73",
+        "description": "M/Z= 73",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU74",
+        "description": "M/Z= 74",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU75",
+        "description": "M/Z= 75",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU76",
+        "description": "M/Z= 76",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU77",
+        "description": "M/Z= 77",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU78",
+        "description": "M/Z= 78",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU79",
+        "description": "M/Z= 79",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU80",
+        "description": "M/Z= 80",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU81",
+        "description": "M/Z= 81",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU82",
+        "description": "M/Z= 82",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU83",
+        "description": "M/Z= 83",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU84",
+        "description": "M/Z= 84",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU85",
+        "description": "M/Z= 85",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU86",
+        "description": "M/Z= 86",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU87",
+        "description": "M/Z= 87",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU88",
+        "description": "M/Z= 88",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU89",
+        "description": "M/Z= 89",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU90",
+        "description": "M/Z= 90",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU91",
+        "description": "M/Z= 91",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU92",
+        "description": "M/Z= 92",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU93",
+        "description": "M/Z= 93",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU94",
+        "description": "M/Z= 94",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU95",
+        "description": "M/Z= 95",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU96",
+        "description": "M/Z= 96",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU97",
+        "description": "M/Z= 97",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU98",
+        "description": "M/Z= 98",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU99",
+        "description": "M/Z= 99",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU100",
+        "description": "M/Z=100",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU101",
+        "description": "M/Z=101",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU102",
+        "description": "M/Z=102",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU103",
+        "description": "M/Z=103",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU104",
+        "description": "M/Z=104",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU105",
+        "description": "M/Z=105",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU106",
+        "description": "M/Z=106",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU107",
+        "description": "M/Z=107",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU108",
+        "description": "M/Z=108",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU109",
+        "description": "M/Z=109",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU110",
+        "description": "M/Z=110",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU111",
+        "description": "M/Z=111",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU112",
+        "description": "M/Z=112",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU113",
+        "description": "M/Z=113",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU114",
+        "description": "M/Z=114",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU115",
+        "description": "M/Z=115",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU116",
+        "description": "M/Z=116",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU117",
+        "description": "M/Z=117",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU118",
+        "description": "M/Z=118",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU119",
+        "description": "M/Z=119",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU120",
+        "description": "M/Z=120",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU121",
+        "description": "M/Z=121",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU122",
+        "description": "M/Z=122",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU123",
+        "description": "M/Z=123",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU124",
+        "description": "M/Z=124",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU125",
+        "description": "M/Z=125",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU126",
+        "description": "M/Z=126",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU127",
+        "description": "M/Z=127",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU128",
+        "description": "M/Z=128",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU129",
+        "description": "M/Z=129",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU130",
+        "description": "M/Z=130",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU131",
+        "description": "M/Z=131",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU132",
+        "description": "M/Z=132",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU133",
+        "description": "M/Z=133",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU134",
+        "description": "M/Z=134",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU135",
+        "description": "M/Z=135",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU136",
+        "description": "M/Z=136",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU137",
+        "description": "M/Z=137",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU138",
+        "description": "M/Z=138",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU139",
+        "description": "M/Z=139",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU140",
+        "description": "M/Z=140",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU141",
+        "description": "M/Z=141",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU142",
+        "description": "M/Z=142",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU143",
+        "description": "M/Z=143",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU144",
+        "description": "M/Z=144",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU145",
+        "description": "M/Z=145",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU146",
+        "description": "M/Z=146",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU147",
+        "description": "M/Z=147",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU148",
+        "description": "M/Z=148",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU149",
+        "description": "M/Z=149",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU150",
+        "description": "M/Z=150",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU151",
+        "description": "M/Z=151",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU152",
+        "description": "M/Z=152",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU153",
+        "description": "M/Z=153",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU154",
+        "description": "M/Z=154",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU155",
+        "description": "M/Z=155",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU156",
+        "description": "M/Z=156",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU157",
+        "description": "M/Z=157",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU158",
+        "description": "M/Z=158",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU159",
+        "description": "M/Z=159",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU160",
+        "description": "M/Z=160",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU161",
+        "description": "M/Z=161",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU162",
+        "description": "M/Z=162",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU163",
+        "description": "M/Z=163",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU164",
+        "description": "M/Z=164",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU165",
+        "description": "M/Z=165",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU166",
+        "description": "M/Z=166",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU167",
+        "description": "M/Z=167",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU168",
+        "description": "M/Z=168",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU169",
+        "description": "M/Z=169",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU170",
+        "description": "M/Z=170",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU171",
+        "description": "M/Z=171",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU172",
+        "description": "M/Z=172",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU173",
+        "description": "M/Z=173",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU174",
+        "description": "M/Z=174",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU175",
+        "description": "M/Z=175",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU176",
+        "description": "M/Z=176",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU177",
+        "description": "M/Z=177",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU178",
+        "description": "M/Z=178",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU179",
+        "description": "M/Z=179",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AMU180",
+        "description": "M/Z=180",
+        "quantity": null,
+        "unit": "UNKN",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [3710,  952200, 3.68800E7,  97810,  4446.0,   1.25500E2,         0.0,         0.0,         0.0, 2377.00,         0.0,  45650, 5.89000E6,  433200,  934200, 1.17600E7, 1.98600E7, 5.29800E6, 2.09000E7,  129200,   4344,   4435, 1.04800E6,  24280,  8722,  35530,  387800, 2.82300E5, 1.94500E7, 1222000,  266100,      0,  883400,     0.0,  8110.0,   802.3,  2502.0,  18530,  41870,  195300, 392400,  612200,  280700, 7.82600E6, 7.35600E7, 8.66900E5,  241600,  4523.0,  2686.0,  1174.0,  12610, 15580,  6019,  17130,   9938,   63900,  100900,   81200,  32850,  2959.0, -107600,  -8424, -14220,  -33210, -1529000,  -50820,  -46650, -9.35000E7, -161000, -9.33200E7, -1.71800E7, -1.43200E8,  -41010, -13700, -25470,  -8267, -26920, -117700,  -583300, -115400,   -4008, -4.69600E7, -3238000, -7.59200E7, -204700, -1.02900E7,  -19420, -1029.00, -1692,  -3298.0,  -1892, -146000,  -73760,   -4465,   -3664, -2.77800E7, -2182000, -4.36900E7,  -16110,   -6707,  -9085.0,   244.70,  -325.30,  -4591,  -3002.0,  -20600,  -17180,  -1666.0,  -1389.0, -246500,   -4659, -45810,   -7489,  -1251.0,  -3395,   -722.6,  -114.30,  -2875,  -2084,  -2339.0, -4605000, -1280000, -1898000, -1812000, -1898000, -1295000, -376800,    49.7,   -959.8,   -789.5,  -338.60,  -219.90,   -237.8,  -578.1, -137700, -1318000, -1425000, -173800, -154800,  -493.0,   -119.3,    -24.6,   -83.8,  -232.60,   -89.93,  -156.30,   -162.4,   -469.7,  -161.8, -30280, -41120,  -8504,  -1120,   -223.8,   -108.7,  -136.0,  -148.8,  -236.7,   -87.77,   -26.32,  -165.40,   -128.0,   -303.8,   -296.3,   -498.0,   -515.2,   -156.0,   -275.4,   -240.7,  -125.3,   -38.9,   -37.2,   -73.14,   -72.42,  -150.40,   -196.5,   -43.3,   -127.9,   -339.5,   -398.4,   -314.8],
+      [3730,  731800, 3.96200E7,  63780,  2648.0,   2.96800E3,   1.93000E3,   2.00400E3,   5.10700E2,     0.0,         0.0,  57390, 6.81800E6,  661000, 1248000, 1.84900E7, 2.15600E7, 4.30700E6, 1.64900E7,   82400,      0,  13570, 1.19700E6,  24760,  8837,  56190,  473500, 2.15900E6, 1.95800E7, 1415000,  330100,  30960,  880700, 20230.0,  2058.0,  2510.0,    64.5,  29730,  53900,  177600, 201000,  593100,  289000, 9.11500E6, 8.85500E7, 1.06300E6,  330200,  3058.0,  7607.0,   485.0,  20820, 14160, 16550,  18150,   4351,   74010,   90190,   91710,  25810,     0.0, -105400,  -8448, -13790,  -33510, -1532000,  -53000,  -49950, -7.36300E7, -158300, -7.19400E7, -1.46500E7, -1.10700E8,  -36960, -13190, -24990,  -7891, -26330, -115000,  -575500, -115600,   -4463, -3.69300E7, -2790000, -5.98500E7, -199700, -8.68200E6,  -16970, -1247.00, -1723,  -3468.0,  -2330, -145400,  -73910,   -4834,   -3595, -2.23500E7, -1910000, -3.50700E7,  -16470,   -7797,  -7317.0,   143.20,  -445.20,  -5084,  -3365.0,  -21260,  -17320,  -1699.0,  -1281.0, -231700,   -5376, -45000,   -8532,  -1681.0,  -3281,  -1088.0,    17.29,  -2569,  -2137,  -1892.0, -3692000, -1019000, -1506000, -1439000, -1506000, -1030000, -317600,   -15.7,   -884.4,   -762.1,  -406.60,  -304.00,   -362.7,  -469.8, -119500, -1067000, -1152000, -147300, -134400,  -672.0,    -24.4,   -259.5,  -167.0,  -243.20,   -87.78,  -131.30,    -99.1,   -504.2,  -324.3, -27380, -36970,  -8054,  -1282,   -296.7,   -320.8,  -125.7,  -178.3,  -299.0,   -88.38,   -27.82,  -173.40,    -53.9,   -312.2,   -292.6,   -442.0,   -542.7,    -63.0,   -325.1,   -283.9,  -100.1,     5.3,    -7.4,   -76.31,   -75.85,  -160.50,   -202.5,   -25.8,   -200.5,   -421.3,   -411.7,   -350.0],
+      [3750,  640200, 4.16400E7,  84840,     0.0,         0.0,         0.0,         0.0,   1.93200E3, 1148.00,   5.69400E2,  56600, 6.65000E6,  581400, 1993000, 8.34700E6, 1.97600E7, 3.65000E6, 1.35100E7,       0,  52850,     11, 1.17800E6,  26190,  8745,  50880,  405600, 1.51800E6, 2.36600E7, 1398000,  327100,  84670,  139600,     0.0,  4523.0, 16990.0,  3482.0,  13610,  39560,  231300,  70920,  581700,  279600, 9.19000E6, 8.84100E7, 8.48300E5,  337700,  2810.0,   618.2,     0.0,  20010,  7179, 10170,  14830,   6070,   83210,   90840,   70510,  39880,   452.6, -106300,  -8222, -14200,  -34750, -1534000,  -53460,  -49610, -5.80000E7, -158200, -5.54900E7, -1.25000E7, -8.55900E7,  -45970, -14180, -25820,  -8293, -26720, -123100,  -591100, -116500,   -4491, -2.90500E7, -2404000, -4.72000E7, -202200, -7.32900E6,  -20130, -1060.00, -1312,  -3043.0,  -2105, -151400,  -76440,   -4662,   -3559, -1.79900E7, -1673000, -2.81500E7,  -17920,   -8044, -10250.0,   269.80,  -317.00,  -5067,  -2645.0,  -21370,  -17780,  -1742.0,  -1429.0, -218000,   -5120, -45310,   -9249,  -1388.0,  -3672,   -876.7,   -58.67,  -2818,  -2035,  -1983.0, -2962000,  -811300, -1196000, -1142000, -1195000,  -820300, -267700,  -144.9,   -911.2,   -537.8,  -489.10,  -224.70,   -338.5,  -443.2, -104100,  -863100,  -932100, -125200, -116900,  -428.0,    -50.0,   -214.5,  -133.0,  -267.90,   -83.02,  -105.40,    -78.2,   -447.2,  -152.5, -24610, -33220,  -7532,  -1084,   -229.6,   -273.1,   -62.2,  -161.6,  -274.8,   -87.07,   -24.11,  -181.90,   -157.3,   -387.9,   -424.7,   -479.1,   -460.8,    -95.5,   -202.7,   -136.5,   -59.7,    13.0,   -27.9,   -35.36,   -57.19,  -161.70,   -179.2,   -57.2,    -67.4,   -395.5,   -399.9,   -297.7],
+      [3770,  766600, 4.88900E7,  74140,     0.0,   2.03100E3,         0.0,   9.09100E2,   5.40000E2, 3695.00,         0.0,  84610, 8.74800E6,  801400, 1357000, 1.76200E7, 3.16700E7, 4.12800E6, 1.93600E7,   71790,  71850,  24310, 1.50500E6,  25040, 18270,  83880,  766900, 1.96200E6, 2.07700E7, 1953000,  464600,  27730,       0,   381.9,  9061.0,  6466.0,     0.0,  49480,  66650,  306900, 176500,  869200,  373900, 1.22000E7, 1.06200E8, 1.36600E6,  347800, 18240.0, 11900.0,  6300.0,  18430, 28370, 14180,  19010,    433,  114600,  162100,  107900,  35180,   878.5, -109600,  -7968, -14230,  -32680, -1519000,  -55270,  -50150, -4.56800E7, -156600, -4.27800E7, -1.06600E7, -6.61500E7,  -37700, -12940, -25960,  -8350, -27440, -120800,  -583300, -113500,   -4451, -2.28500E7, -2071000, -3.72100E7, -192300, -6.18300E6,  -18120, -1040.00, -1600,  -3548.0,  -2060, -148700,  -74270,   -4588,   -3521, -1.44800E7, -1462000, -2.26000E7,  -16200,   -7406,  -8853.0,   462.20,  -309.30,  -5496,  -3064.0,  -22240,  -17760,  -1764.0,  -1360.0, -204800,   -4802, -44890,   -8632,  -2020.0,  -3829,  -1038.0,  -131.20,  -3019,  -1944,  -2043.0, -2376000,  -646100,  -949700,  -906800,  -948500,  -652300, -225500,  -201.7,  -1048.0,   -851.3,  -498.60,  -360.30,   -234.6,  -417.4,  -90510,  -698500,  -753700, -105800, -101600,  -590.3,    -92.2,   -249.1,  -113.6,  -282.90,   -69.92,  -134.50,   -105.7,   -519.1,  -219.9, -22470, -29930,  -7065,  -1148,   -199.0,   -187.1,   -71.2,  -203.3,  -312.1,   -70.82,    44.90,  -190.80,   -141.0,   -348.1,   -319.1,   -440.0,   -544.0,   -122.6,   -297.8,   -258.1,   -75.0,     7.1,   -37.4,   -82.37,   -49.25,  -133.60,   -199.2,   -20.3,   -272.7,   -384.1,   -455.3,   -276.8],
+      [3790,  821300, 4.81100E7,  62340,  5930.0,   1.35100E3,         0.0,   9.25800E2,   5.27100E2,     0.0,         0.0,  48900, 8.14400E6,  794400, 1611000, 1.81500E7, 2.72400E7, 2.77700E6, 1.22100E7,   66210,   4903,  16380, 1.52800E6,  31460, 23670,  82120,  733600, 2.37000E6, 2.27200E7, 2055000,  537000,  58620,  310600,     0.0,   386.1,     0.0,  9134.0,  30470,  73050,  254000, 137300,  800100,  430800, 1.19500E7, 1.00800E8, 1.28900E6,  402500,  2424.0,  4138.0,  5230.0,  28710, 19840, 11100,  15650,  13190,   98280,  148900,  109600,  30840,  2766.0, -108600,  -7938, -14400,  -33150, -1531000,  -54250,  -53210, -3.59300E7, -153300, -3.29400E7, -9.07400E6, -5.10600E7,  -36190, -13100, -25470,  -8516, -27170, -124000,  -590300, -111300,   -4997, -1.79500E7, -1783000, -2.93000E7, -186300, -5.21200E6,  -16600, -1028.00, -1727,  -3529.0,  -2069, -149800,  -75660,   -4842,   -4194, -1.16300E7, -1278000, -1.81200E7,  -16470,   -8046,  -8774.0,   -69.61,  -456.50,  -5285,  -2918.0,  -22000,  -18590,  -2023.0,  -1599.0, -192100,   -5120, -44770,   -8964,  -1694.0,  -3012,   -774.2,  -133.00,  -3118,  -2141,  -2013.0, -1903000,  -513200,  -753100,  -719400,  -751300,  -518500, -189900,    97.3,  -1128.0,   -792.0,  -470.40,  -339.70,   -399.9,  -372.4,  -78910,  -564900,  -608700,  -89790,  -88200,  -438.3,    -24.8,    -85.3,  -126.3,  -211.90,   -92.90,  -121.50,   -141.1,   -549.3,  -154.4, -20230, -26910,  -6739,  -1003,   -301.7,   -230.8,   -65.1,  -138.4,  -314.2,  -108.00,    -0.74,  -200.10,   -159.2,   -383.2,   -316.7,   -524.4,   -816.1,   -150.5,   -353.4,   -229.4,  -125.5,   -48.6,    -7.6,   -85.54,   -87.12,  -150.30,   -233.3,   -89.7,   -301.5,   -502.5,   -545.6,   -290.1],
+      [3793,  853500, 3.90400E7, 138800,     0.0,   2.93900E3,   3.47100E2,         0.0,         0.0,     0.0,   4.77000E3, 117100, 7.42900E6,  563000, 1391000, 1.47800E7, 2.25200E7, 3.12200E6, 1.16100E7,       0,      0,   7624, 1.28900E6,  20380, 14730, 127600, 1016000, 1.93400E6, 1.97900E7, 1739000,  358800,      0,  135500,     0.0,     0.0, 16580.0,  3499.0,  22680,  60970,  316000, 153100,  823500,  315800, 8.79900E6, 8.27300E7, 9.50700E5,  370000, 10160.0,     0.0,   241.3,  39390, 13280,  2593,  19240,  24150,  119300,  185000,   89780,  25640,    29.4,  -94470,  -8576, -14910,  -35890, -1527000,  -56350,  -54330, -2.82900E7, -152800, -2.54000E7, -7.74100E6, -3.94800E7,  -48510, -14030, -26560,  -8647, -27820, -126100,  -599200, -111700,   -4970, -1.41100E7, -1535000, -2.31000E7, -185100, -4.39800E6,  -19710, -1408.00, -1700,  -3164.0,  -2321, -149200,  -76150,   -5307,   -4087, -9.36300E6, -1119000, -1.45500E7,  -15920,   -8814,  -9714.0,  -249.00,  -422.70,  -5193,  -3684.0,  -22820,  -18810,  -2135.0,  -1548.0, -181400,   -6058, -43660,   -8918,  -2073.0,  -3828,  -1125.0,  -100.30,  -2948,  -2283,  -2268.0, -1526000,  -408200,  -597700,  -570400,  -595900,  -412600, -160000,   494.4,  -1059.0,   -699.7,  -471.30,  -389.90,   -498.0,  -292.6,  -68790,  -456600,  -492000,  -76070,  -76290,  -572.5,    -81.1,   -126.5,  -204.1,  -243.60,  -110.60,  -134.40,   -173.2,   -675.7,  -276.6, -18240, -24200,  -5706,  -1067,   -221.2,   -257.9,  -118.4,  -209.7,  -288.9,  -112.30,    -9.04,  -156.20,   -234.4,   -372.1,   -359.6,   -479.8,   -438.7,    -76.2,   -257.2,   -242.4,  -103.9,   -34.0,     9.8,   -66.69,   -91.24,  -192.10,   -194.9,   -68.7,   -175.0,   -381.1,   -361.2,   -153.3],
+      [3796, 1739000, 4.37100E7, 135100,     0.0,   1.89200E3,   1.83300E2,         0.0,         0.0,     0.0,   9.10900E2,  52000, 6.14000E6,  705100, 1686000, 1.87900E7, 2.53500E7, 3.71300E6, 1.19500E7,       0,  20320,   3913, 1.13100E6,  26450, 25040, 104300, 1072000,       0.0, 2.58800E7, 1994000,  405100,      0,       0, 15710.0,     0.0,     0.0, 27530.0,  44870,  71990,  367600,   8351, 1009000,  384900, 7.66700E6, 7.46800E7, 8.79100E5,  275100,  8018.0,     0.0,     0.0,  29420, 10070,  3856,  34400,  24140,   89750,  172800,   98360,  53450,   787.6,  -91680,  -8509, -12240,  -33940, -1525000,  -56570,  -55300, -2.22800E7, -149600, -1.95800E7, -6.59500E6, -3.05000E7,  -43380, -14290, -26100,  -8422, -26270, -125600,  -596200, -110300,   -4842, -1.11000E7, -1322000, -1.82100E7, -184000, -3.71000E6,  -19990, -1022.00, -1890,  -3582.0,  -2434, -152200,  -76180,   -5215,   -4356, -7.53600E6,  -979900, -1.16800E7,  -17030,   -9319,  -9005.0,   389.00,  -500.00,  -5453,  -3744.0,  -23580,  -19710,  -1896.0,  -1853.0, -169900,   -6555, -43640,   -9182,  -2108.0,  -2922,   -735.0,  -150.50,  -2991,  -2233,  -2485.0, -1224000,  -325200,  -474400,  -453600,  -472800,  -328000, -134800,  -156.9,  -1163.0,   -995.0,  -496.20,  -384.70,   -509.1,  -345.4,  -59580,  -369500,  -397800,  -64530,  -66490,  -464.5,   -158.6,   -142.1,  -115.7,  -255.70,  -115.30,  -218.40,   -182.0,   -627.7,  -317.9, -16460, -21830,  -5843,  -1098,   -177.5,   -248.2,  -112.6,  -197.4,  -357.4,   -97.88,   -36.73,  -219.60,   -234.5,   -359.1,   -349.2,   -577.2,   -696.0,   -269.9,   -364.6,   -245.5,  -179.5,   -54.4,   -26.6,   -92.41,   -95.54,  -167.60,   -214.4,   -10.0,   -241.4,   -574.7,   -465.9,   -416.5],
+      [3799,  901000, 4.02000E7, 128100,  1894.0, 6.82400E-11,         0.0,         0.0,         0.0,  637.20,   2.16100E3,  60860, 6.09600E6, 1022000, 2223000, 2.28900E7, 3.27600E7, 4.75900E6, 2.07100E7,   76830,  53270,   6475, 1.02100E6,  20680, 36730, 132800, 1102000, 1.81800E6, 1.70600E7, 2932000,  610500,  92560,       0, 16380.0,     0.0,     0.0,   316.3,  39130,  85680,  582100, 221200, 1376000,  640800, 7.56100E6, 6.66100E7, 6.70800E5,  188100, 10760.0,  7287.0,  7354.0,  43080, 30160, 14850,  38800,  20190,  213600,  273000,  165900,  51060,   684.1, -100600,  -7671, -13770,  -32890, -1520000,  -53270,  -54530, -1.75300E7, -130200, -1.50200E7, -5.52700E6, -2.35200E7,  -20010, -12300, -24710,  -8445, -25460, -120500,  -572000, -103500,   -4981, -8.72000E6, -1122000, -1.43200E7, -141800, -3.11100E6,   -7389,  -947.10, -1712,  -3104.0,  -2273, -145200,  -70800,   -4158,   -3698, -6.05200E6,  -848900, -9.35300E6,    5216,   -4310,   -413.2,   525.10,  -537.00,  -5189,  -4027.0,  -24110,  -19160,  -2229.0,  -1696.0, -156800,   -3235, -36510,   -1148,   -736.3,  -1852,   -497.6,  -157.60,  -3187,  -2410,  -2044.0,  -979700,  -255900,  -373300,  -356300,  -371000,  -257300, -110600,  1265.0,   -446.8,   -605.7,  -502.20,  -208.10,    -14.4,   484.5,  -50160,  -296600,  -319600,  -52050,  -55280,   911.2,    928.6,    392.0,   139.6,  -273.50,   -71.30,  -119.30,     -6.2,   -150.6,   489.4, -13740, -17370,  -3181,    932,    829.3,    418.7,   441.3,   188.0,    -2.2,   -73.86,   -22.87,   -93.60,     39.3,    -53.7,    298.5,    748.5,    569.6,   1380.0,    209.4,    -23.2,   213.3,   296.2,   175.9,   -40.66,   -77.33,  -107.40,    -82.6,   279.4,    -58.8,     83.2,    511.7,    459.4],
+      [3802, 1101000, 3.94200E7, 133300,     0.0,   3.67700E2,   1.47600E3,         0.0,         0.0,     0.0,   6.79400E1,  40900, 5.42700E6,  588700,  836400, 1.91600E7, 2.15600E7, 2.02300E6, 8.73000E6,   83130,  47980,   3351, 8.06500E5,  21770, 17560, 115100, 1042000, 7.80000E5, 1.65500E7, 1952000,  330700,      0,  247500,  3167.0,     0.0,     0.0, 10360.0,  27610,  72490,  407300, 210900, 1163000,  404000, 6.50300E6, 5.61000E7, 5.99900E5,  200900, 10500.0,  7265.0,  7526.0,  25250, 21290,  8298,  24560,  23550,  154200,  175200,  153700,  36400,  2737.0, -104500,  -8869, -15730,  -36070, -1519000,  -61840,  -57800, -1.38200E7, -146600, -1.16200E7, -4.76900E6, -1.82100E7,  -46350, -14370, -26840,  -8599, -27460, -127500,  -606400, -107500,   -5563, -6.86700E6,  -968900, -1.13200E7, -168700, -2.63400E6,  -18710, -1590.00, -1962,  -3734.0,  -2532, -160700,  -76910,   -5299,   -5143, -4.87700E6,  -745700, -7.52600E6,  -16910,   -8102,  -7094.0,   253.10,  -530.70,  -5838,  -3937.0,  -23870,  -19870,  -2025.0,  -1892.0, -150200,   -4751, -38080,   -7388,  -1512.0,  -3300,  -1064.0,  -156.40,  -3205,  -2565,  -2382.0,  -787700,  -204100,  -298100,  -282600,  -295900,  -206600,  -94650,    -0.9,   -233.9,   -766.9,  -391.20,  -265.70,     20.4,  -437.7,  -44100,  -240600,  -258300,  -44730,  -49820,   473.9,      1.9,   -370.6,   105.1,  -125.90,  -116.90,  -102.70,    -44.2,   -350.3,    53.1, -13260, -16990,  -3268,   -297,    512.1,   -298.0,   534.5,   -89.2,  -379.9,  -126.00,   -41.04,   -58.20,    -91.9,    -31.4,    227.5,    -46.7,     19.2,    923.0,     94.3,   -276.3,   -63.4,   -60.8,    70.2,   -99.75,  -104.80,  -219.70,   -118.2,   282.2,    170.9,   -159.3,   -179.3,    -71.9],
+      [3805,  578600, 4.02500E7,  93200,     0.0,         0.0,   3.58200E3,   1.27000E3,         0.0,     0.0,         0.0,  82570, 5.88100E6,  663500, 1999000, 1.08700E7, 2.29800E7, 1.98600E6, 8.43000E6,   38020,  47690,  10180, 9.39100E5,  14380, 24310, 151300, 1271000, 1.47600E6, 1.62500E7, 2242000,  413700,  15200,       0,  8091.0,     0.0,     0.0,     0.0,  48810,  93180,  404200, 189900, 1243000,  479400, 7.53800E6, 6.78000E7, 7.49100E5,  222600,  6535.0, 14690.0, 11010.0,  37680, 34870, 13410,  26400,  14920,  148900,  219300,  115300,  90040,  1924.0, -104700,  -8602, -14530,  -35500, -1521000,  -59730,  -59400, -1.08600E7, -137900, -8.92100E6, -4.04300E6, -1.40400E7,  -42310, -13870, -26150,  -8645, -27810, -131500,  -609700, -106000,   -3775, -5.38400E6,  -833700, -8.89400E6, -164500, -2.21900E6,  -18650, -1230.00, -1884,  -3540.0,  -2191, -149000,  -77410,   -4506,   -5245, -3.91400E6,  -653600, -6.02600E6,  -12840,   -7435,  -6547.0,   203.70,  -357.60,  -5383,  -4056.0,  -24350,  -19120,  -2558.0,  -1224.0, -140800,   -5944, -37900,   -8132,  -2019.0,  -2900,   -566.6,  -172.70,  -3000,  -2459,  -2344.0,  -629600,  -162100,  -234100,  -224200,  -233700,  -163600,  -78590,   292.5,   -689.2,   -659.2,  -562.20,  -453.50,    -30.0,   460.9,  -38360,  -194000,  -208200,  -38170,  -41850,  -144.7,    773.0,    -55.5,    14.0,  -161.60,  -130.50,  -121.40,    -23.8,   -402.9,   163.9, -11010, -14840,  -3658,    309,    359.1,    -22.4,   312.5,    -7.4,  -349.6,  -131.00,   -23.58,  -109.10,     57.5,   -224.0,    676.3,   -247.7,     -8.2,    807.4,    319.1,   -308.4,   -81.1,   122.0,    31.3,  -101.10,   -64.07,  -113.30,   -141.1,   143.4,     73.8,    237.8,    112.4,     10.5],
+      [3808,  799600, 4.30400E7,  70480,     0.0,   3.18700E3,         0.0,         0.0,         0.0,     0.0,   9.24500E2,  36380, 6.03100E6,  602600, 1686000, 1.13600E7, 1.93300E7, 1.92200E6, 6.98900E6,   29520,      0,   6529, 9.80200E5,  33470, 21790, 134600, 1269000, 1.66900E6, 2.29400E7, 2029000,  416500,  32880,       0,     0.0,     0.0,     0.0,     0.0,  52950, 113600,  491100, 105700, 1228000,  416300, 6.75400E6, 7.51500E7, 7.12800E5,  175600,  6231.0,  7495.0,  3192.0,  41030, 36820, 14020,  47420,  16400,  143100,  242900,  119400,  32050,  1570.0,  -97150,  -8991, -13480,  -37520, -1516000,  -55530,  -60390, -8.54400E6, -138500, -6.87900E6, -3.44400E6, -1.08400E7,  -47950, -14590, -25600,  -8838, -27590, -130900,  -609900, -105700,   -5574, -4.23500E6,  -721500, -7.01100E6, -166400, -1.87000E6,  -21490, -1235.00, -1946,  -3527.0,  -2449, -156100,  -79680,   -5956,   -4502, -3.15300E6,  -572900, -4.83900E6,  -14620,   -9461,  -9842.0,  -215.90,  -449.70,  -6094,  -4388.0,  -25110,  -20980,  -1736.0,  -1573.0, -134800,   -8322, -40400,   -7640,  -1540.0,  -2441,  -1214.0,  -157.60,  -3760,  -2537,  -2825.0,  -504100,  -129400,  -186400,  -177300,  -186300,  -130100,  -66660,   -48.4,  -1140.0,   -856.4,  -509.10,  -185.00,   -351.6,    43.4,  -33770,  -157300,  -168500,  -32200,  -37000,  -259.8,    463.0,     52.1,    62.8,  -254.30,   -56.15,  -158.50,   -170.0,   -643.9,   341.2, -10010, -13480,  -4250,   -192,    153.8,   -364.1,   -47.1,  -110.4,  -216.5,  -106.00,    31.56,  -139.00,   -124.4,   -260.7,   -636.2,   -350.4,   -888.8,    286.0,   -191.3,   -267.6,  -110.9,   -28.5,    36.2,  -107.70,  -114.90,  -137.10,   -111.4,    18.2,     62.3,   -470.2,   -338.2,    143.7],
+      [3811, 1629000, 4.73400E7,  27680,     0.0,         0.0,   9.01700E2,         0.0,   7.44000E2, 5385.00,   7.43600E2,  24380, 5.01700E6, 1054000, 1833000, 2.03300E7, 2.12900E7, 3.65700E6, 1.58700E7,   93930,  41970,   8617, 8.43900E5,   8300, 29890, 173800, 1320000, 1.14900E6, 2.26000E7, 2354000,  571100,   3892,  761500, 11890.0,  9568.0, 10100.0,  9477.0,  36340, 108300,  364400, 235900, 1011000,  355700, 7.30300E6, 5.93200E7, 7.08800E5,  198400,  8843.0, 15530.0,  1626.0,  28990, 18140, 11910,  21060,  16410,  109500,  195800,  120100,  39720,     0.0, -115200, -10510, -18060,  -42420, -1498000,  -68100,  -71620, -2.57500E6, -136000, -1.84100E6, -1.52400E6, -2.94300E6,  -55160, -15600, -27760,  -9482, -30520, -146600,  -640100,  -99450,   -7178, -1.26200E6,  -337500, -2.12300E6, -159600, -7.84200E5,  -23290, -1741.00, -2167,  -4308.0,  -2623, -182900,  -87390,   -8131,   -6273, -1.05600E6,  -290000, -1.60100E6,  -22110,   -9848,  -9986.0,  -262.60,  -504.50,  -7107,  -4932.0,  -28500,  -23270,  -2375.0,  -2158.0,  -95370,   -7535, -39280,  -13440,  -2158.0,  -3095,   -956.7,  -227.40,  -3896,  -2954,  -3417.0,  -166200,   -39860,   -56670,   -54090,   -56280,   -38950,  -27170,   178.8,  -1573.0,  -1103.0,  -716.00,  -407.70,   -605.4,   186.4,  -15930,   -53290,   -56930,  -13720,  -17460,   168.5,    275.2,   -185.1,   142.0,  -398.70,  -115.60,  -252.80,   -156.1,   -952.5,   315.2,  -5390,  -7581,  -1694,   -148,   -209.5,   -216.1,   -18.9,   -98.1,  -339.9,   -81.13,   -59.30,  -280.00,    -88.1,   -232.4,    429.9,   -209.8,   -344.8,    191.9,   -325.1,   -438.8,   122.2,    -6.1,   -39.2,   -35.15,   -71.56,  -276.00,   -288.0,   153.6,   -243.8,   -224.1,   -214.6,     60.2],
+      [3814,  660700, 4.53300E7,  84040,  3664.0,         0.0,   1.25600E3,         0.0,         0.0,     0.0,   3.40400E3,  52990, 6.00900E6,  884500, 2081000, 1.96700E7, 2.76800E7, 2.94300E6, 1.08100E7,   75510,  81440,      0, 9.74900E5,  26250, 32940, 219100, 1485000, 2.16600E6, 2.43100E7, 2706000,  681400,  68260,       0,     0.0,     0.0,     0.0,   565.2,  42090, 122100,  502800,  93640, 1299000,  532000, 7.35100E6, 7.34100E7, 8.44800E5,  260600,  1188.0,     0.0,  5380.0,  26190, 27020,  8055,  57550,  17340,  163400,  238500,  143300,  45300,  1376.0, -113200,  -9358, -16390,  -40990, -1512000,  -67340,  -68340, -2.01000E6, -127200, -1.37200E6, -1.24400E6, -2.25500E6,  -47110, -15070, -27850,  -9961, -29970, -146500,  -641600, -100900,   -7632, -9.89300E5,  -280600, -1.64400E6, -130500, -6.54300E5,  -20290, -1718.00, -1824,  -4329.0,  -2771, -177700,  -88170,   -7824,   -6411, -8.49300E5,  -252100, -1.27500E6,  -11070,  -10880,  -7539.0,   251.80,  -711.40,  -7222,  -4763.0,  -28490,  -23180,  -3107.0,  -2576.0,  -91890,   -9458, -34720,   -8251,  -3160.0,  -3084,  -1470.0,     2.68,  -4515,  -2981,  -4031.0,  -133600,   -31900,   -45410,   -42760,   -44480,   -30670,  -22530,   420.4,  -1196.0,  -1098.0,  -606.20,  -414.40,   -546.3,   231.9,  -13800,   -42940,   -46180,  -11330,  -15320,  -167.8,    -53.8,   -150.1,  -138.3,  -219.70,  -127.50,   -96.19,   -268.7,  -1063.0,  -512.3,  -5235,  -6707,  -2714,   -478,   -425.7,   -422.7,    35.2,  -229.4,  -303.8,  -150.70,   -30.59,  -263.10,   -247.7,   -771.3,   -423.7,   -704.6,   -736.6,   -124.2,   -699.7,   -443.1,  -106.7,   -95.3,   -32.8,  -135.50,  -124.40,  -283.20,   -316.6,    56.0,   -247.0,   -474.7,   -778.2,   -388.1],
+      [3817,  794000, 4.71700E7,  97940,   923.0, 1.34400E-10,   2.25800E3,   3.08700E2,   5.27100E2,    0.28,         0.0,  59960, 5.61600E6,  983200, 1919000, 1.63100E7, 2.26500E7, 2.68700E6, 9.37600E6,   20520,  72320,   8022, 8.20300E5,  15910, 33790, 175200, 1168000, 1.28200E6, 2.18200E7, 2349000,  620200,      0,       0, 15820.0,  6214.0, 14980.0,  6780.0,  45220,  89750,  479700, 217100,  991400,  540600, 6.78800E6, 6.55900E7, 7.72400E5,  241500,  5752.0,     0.0,  5832.0,  37640, 25970, 16850,  33300,  13970,  170400,  193900,  105800,  50420,     0.0, -114000,  -9892, -18000,  -40700, -1502000,  -68510,  -73100, -1.57900E6, -129800, -1.06300E6, -1.06800E6, -1.72900E6,  -48480, -15630, -29270,  -9895, -30950, -151600,  -646800,  -97520,   -8014, -7.79900E5,  -244700, -1.30300E6, -146200, -5.55100E5,  -21490, -1763.00, -2117,  -4845.0,  -2966, -181300,  -88790,   -8861,   -6069, -6.84600E5,  -222500, -1.02500E6,  -20270,  -11860,  -8271.0,   599.10,  -487.20,  -6814,  -5141.0,  -29290,  -23570,  -3633.0,  -2601.0,  -85790,  -10040, -36290,  -12460,  -3316.0,  -3410,  -1695.0,  -178.70,  -4641,  -3078,  -3925.0,  -107000,   -24770,   -35120,   -33650,   -34960,   -24940,  -19030,   341.4,  -1398.0,  -1332.0,  -725.00,  -479.90,   -808.1,   114.5,  -12460,   -34660,   -37270,   -9530,  -13610,  -293.6,    -95.7,   -130.9,   -64.5,  -340.90,  -154.40,  -327.90,   -325.1,  -1294.0,  -256.8,  -4863,  -6569,  -2303,   -208,   -448.4,   -265.3,    18.6,  -303.1,  -357.9,  -154.50,   -12.05,  -342.50,   -222.1,   -663.4,   -641.9,   -784.6,  -1107.0,   -544.7,   -639.2,   -444.6,  -181.2,   -38.8,    16.2,  -116.30,  -108.60,  -329.20,   -379.4,  -114.8,   -328.8,   -617.7,   -950.5,   -641.2],
+      [3820, 1065000, 4.88100E7, 144800,   911.6,         0.0,         0.0,         0.0,   1.03000E3,     0.0, 1.34400E-10,  95340, 7.67000E6,  746100, 1937000, 1.52200E7, 2.79300E7, 4.00200E6, 1.24800E7,   93060,  32610,  19040, 1.27000E6,  25490, 24770, 202700, 1162000, 5.17600E5, 2.88800E7, 2368000,  603500,  20630,  537400, 13310.0, 12180.0,  4123.0,  9602.0,  43090,  92270,  435300, 276200, 1110000,  488800, 1.01600E7, 9.94400E7, 9.74500E5,  296600,  5936.0, 11450.0,  7403.0,  35860, 43610,  7284,  32550,   9807,  161900,  218700,  129800,  47660,  2635.0, -121100, -10200, -17030,  -42280, -1506000,  -71990,  -73480, -1.24000E6, -129600, -8.07200E5, -9.02400E5, -1.33200E6,  -59860, -15980, -28540, -10460, -32770, -155100,  -665600,  -98770,   -7752, -6.09300E5,  -208000, -1.01900E6, -145200, -4.64300E5,  -26940, -1997.00, -2135,  -3867.0,  -3234, -178400,  -91010,   -8236,   -7281, -5.46600E5,  -190400, -8.21500E5,  -24420,  -13220,  -9350.0,   482.20,  -466.00,  -7184,  -5038.0,  -30450,  -23740,  -3668.0,  -3098.0,  -80990,  -10010, -37400,  -12600,  -2792.0,  -3691,  -1675.0,  -148.40,  -4366,  -3075,  -3718.0,   -84290,   -18060,   -26710,   -25530,   -26270,   -18250,  -15700,   322.3,  -1874.0,  -1270.0,  -660.50,  -550.80,   -588.7,   136.8,  -10030,   -27500,   -29410,   -8318,  -11120,   235.5,    104.2,    -92.4,     1.1,  -337.60,  -189.40,  -286.60,   -356.3,  -1034.0,  -207.8,  -4171,  -4967,  -1411,  -1241,   -246.2,   -400.8,    53.5,   -11.4,  -428.2,  -185.50,   -39.21,  -373.40,   -324.6,   -601.2,   -249.8,   -622.3,   -907.6,    193.8,   -146.1,   -474.8,  -271.6,   -23.7,   -27.6,  -119.60,  -152.70,  -344.30,   -479.7,    45.8,   -116.7,   -431.2,   -587.7,   -679.8],
+      [3826,  510900, 4.08700E7,  70290,     0.0,         0.0, 1.34400E-10,         0.0,   3.24900E3,   26.15,         0.0,  36960, 5.18500E6,  747900, 1397000, 1.43600E7, 1.99500E7, 2.77600E6, 1.10500E7,   50450,   5477,    898, 8.35700E5,  19780, 34580, 179300, 1114000, 1.30100E6, 1.51900E7, 1910000,  447200,  87230,       0, 13880.0,     0.0,     0.0,     0.0,  36770,  60340,  337200, 296100,  908600,  322500, 5.91900E6, 5.60100E7, 6.58900E5,  206200,  9581.0,  3117.0,  6379.0,  27930, 13770, 15520,  18220,  13010,  128000,  218000,   94940,  23960,  1354.0, -115900, -12000, -20730,  -45090, -1501000,  -75870,  -75310, -9.68900E5, -128800, -6.17000E5, -7.65200E5, -1.02100E6,  -63350, -16400, -29460, -10550, -32390, -160700,  -669700,  -99550,   -8637, -4.79600E5,  -179000, -8.07500E5, -150200, -3.89100E5,  -25500, -1840.00, -2388,  -5064.0,  -2750, -192600,  -90290,   -8742,   -8183, -4.41100E5,  -167900, -6.61600E5,  -29850,  -12770, -12060.0,  -493.90,  -688.10,  -7065,  -4896.0,  -32010,  -26590,  -3827.0,  -2913.0,  -76920,   -9762, -36630,  -17580,  -3782.0,  -4165,  -1543.0,  -100.40,  -4903,  -3376,  -4549.0,   -68410,   -15230,   -21150,   -20460,   -22260,   -14820,  -12940,   396.3,  -1426.0,  -1442.0,  -871.90,  -618.10,   -638.2,   223.6,   -9120,   -22080,   -23430,   -6602,   -9970,  -371.8,    132.4,   -757.0,  -439.8,  -370.50,  -197.10,  -242.40,   -309.4,  -1313.0,  -265.3,  -4107,  -4767,  -1640,   -732,   -356.1,   -642.3,   -64.1,  -213.0,  -437.9,  -192.80,   -57.99,  -381.00,   -387.1,   -411.2,   -541.7,  -1138.0,  -1018.0,    119.3,   -465.1,   -414.0,  -253.6,   -22.6,    32.5,  -113.40,  -159.10,  -341.20,   -508.9,   -67.6,   -555.0,   -616.0,   -867.0,   -727.7],
+      [3832, 1483000, 4.41500E7, 122500,     0.0,         0.0,   7.96600E2, 1.34400E-10,         0.0,  795.60,   1.59700E3,  47120, 6.65600E6,  826000, 2116000, 2.06100E7, 2.99600E7, 4.32800E6, 1.80000E7,   91310,  23800,   7327, 1.32400E6,  19720, 26010, 138800, 1324000, 4.68000E5, 3.19100E7, 2896000,  467500,      0,  502500,     0.0,     0.0, 12690.0,     0.0,  63710,  97970,  471200, 286800, 1382000,  525000, 8.03700E6, 8.55200E7, 8.17900E5,  282400,  5951.0, 14920.0,  5648.0,  43930, 29310, 18240,  36280,  17750,  173300,  234500,  171900,  62600,    16.1, -123400, -11190, -18900,  -43610, -1500000,  -75110,  -76030, -7.51400E5, -120600, -4.23700E5, -5.92800E5, -7.53100E5,  -45180, -15940, -27190, -10720, -31850, -156000,  -661700,  -91520,   -8827, -3.61400E5,  -145000, -6.11800E5, -134300, -3.12600E5,  -21410, -1942.00, -2349,  -4669.0,  -3233, -194300,  -91220,   -7066,   -8030, -3.47100E5,  -139900, -5.23100E5,  -21280,  -14810,  -9254.0,    72.42,  -806.20,  -7812,  -5745.0,  -32230,  -25430,  -3654.0,  -3016.0,  -67170,   -8900, -35030,  -11580,  -4045.0,  -3166,  -1594.0,   -76.47,  -4752,  -3761,  -4818.0,   -53590,   -10100,   -14640,   -12970,   -13590,    -8914,   -9287,   832.3,  -1399.0,  -1439.0,  -645.90,  -509.70,   -377.4,   128.5,   -6539,   -15900,   -17130,   -4337,   -7324,    84.6,    348.3,   -176.5,   333.1,  -304.50,  -156.10,  -258.60,   -274.0,   -796.0,   -19.4,  -2379,  -2932,   -825,    689,     10.6,     28.5,   308.6,   -49.7,  -183.6,  -195.30,    -5.58,  -324.60,   -134.5,   -484.8,   -134.9,    255.6,   -156.5,   1071.0,    287.3,   -447.6,   -53.0,   197.9,    35.0,  -129.30,  -179.20,  -376.70,   -246.2,   292.4,    -75.4,   -198.2,   -306.7,    -90.1],
+      [3838, 1062000, 5.04700E7,  67930,  1462.0,   3.19500E3,   7.69600E1,   5.94500E3,   2.19500E2, 5765.00,   1.10300E3,  44620, 7.75700E6,  925000, 1897000, 1.47400E7, 2.77800E7, 1.31000E7, 5.65600E7,  149600,  48310,  21330, 1.37900E6,  18650, 24170, 159700, 1606000, 3.35200E6, 3.05500E7, 3066000,  592500,  30670,       0,  6926.0,     0.0,     0.0,  3803.0,  55990, 115500,  722500, 132800, 1507000,  628400, 1.07000E7, 9.75600E7, 1.10000E6,  345000,  4773.0,     0.0,   501.1,  46550, 46940, 18240,  42070,  16630,  291000,  309600,  281500,  73430,     0.4,  -64120, -10350, -16880,  -39130, -1499000,  -74620,  -74730, -5.65000E5, -117600, -2.88500E5, -4.72300E5, -5.39400E5,  -43280, -14310, -27710,  -9474, -29090, -155200,  -648700,  -92200,   -6147, -2.73300E5,  -111100, -4.65200E5, -114900, -2.43800E5,  -16020, -1526.00, -2496,  -4500.0,  -3255, -171700,  -85920,   -5030,   -5880, -2.65200E5,  -114600, -3.99000E5,  -19270,  -11140,  -6888.0,   341.70,  -788.70,  -7603,  -5617.0,  -29620,  -25260,  -1493.0,  -2181.0,  -55380,   -3111, -25490,  -10770,   -539.2,  -3585,  -1442.0,  -299.40,  -4777,  -3727,  -4053.0,   -36880,     1662,    -2045,    -1075,      719,    -1312,   -2967,  4425.0,    219.4,   -824.6,  -672.20,  -535.10,    -29.9,  1976.0,    -824,    -5859,    -7649,    1812,   -1493,  3192.0,   1970.0,   1095.0,   410.6,  -279.70,    -0.93,  -112.00,   -160.6,    354.3,  2110.0,   2647,   2981,   3934,   3770,   1593.0,   1041.0,  1355.0,   513.2,   360.4,   -99.70,    44.30,   -54.21,    297.2,    200.7,   1905.0,   2939.0,   3210.0,   3909.0,   2604.0,    948.5,  1642.0,  1008.0,   755.7,   111.30,    -0.62,  -137.40,    165.9,  1250.0,   1322.0,   1958.0,   1609.0,   2316.0],
+      [3844, 2521000, 5.56200E7, 138400,  2827.0,   1.37400E3,   2.21100E3,   9.84200E2,         0.0, 2600.00,   2.76100E2, 145200, 9.46700E6, 1166000, 3648000, 2.48300E7, 3.48400E7, 2.40500E7, 1.05300E8,  315400, 182700,  51410, 1.48000E6,  23600, 67540, 321200, 2342000, 4.99400E6, 5.69700E7, 7073000, 1077000, 203200,  355500, 15450.0,  8601.0,     0.0, 14700.0, 125700, 251900, 1826000, 676000, 5585000, 1720000, 1.39400E7, 1.14600E8, 1.35400E6,  395500,   925.7,     0.0, 28760.0, 113500, 94080, 62660, 339700, 290100, 2312000, 1187000, 3282000, 183600, 12360.0,    8916,  -4812,  -5504,  -25170, -1467000,  -21490,  -37990,  1.69600E4,   62930,  3.60300E5, -1.30500E4,  2.70700E5,    7212, -12170, -25110,  -7245, -19270,  -94730,  -575700,   33260,   48610,  3.46800E5,   230400,  8.40100E2,   81310,  1.50600E5,   18360,   -37.14, -2075,   -467.3,  -1546,  -77040,  -48950,   55590,   48810,  2.60100E5,   178900, -3.35900E4,  102100,   79940,  12490.0,  1879.00,    -7.12,  -5404,  -3879.0,  -19410,  -14170,  29390.0,  32860.0,  152100,  140200, 114400,   61140,  62110.0,   5601,   1352.0,   302.70,  -1769,  -2700,   -138.6,    95980,   196900,   211400,   227000,   223200,   168600,  125700, 77750.0,  36180.0,   6215.0,  3196.00,  7292.00,  28550.0, 69910.0,  102300,   145100,   160500,  145200,  116500, 77450.0,  56850.0,  39550.0, 23240.0,  5523.00,  1540.00,  3456.00,  13160.0,  34850.0, 64960.0, 110100, 125700, 127400, 103800,  58520.0,  38440.0, 32230.0, 21430.0, 12480.0,  2031.00,  2592.00,  6524.00,  19630.0,  34330.0,  62490.0,  79910.0,  87230.0,  77690.0,  48480.0,  31040.0, 28550.0, 22520.0, 20250.0,  1936.00,  2090.00,  4832.00,  12870.0, 25300.0,  39890.0,  55380.0,  63930.0,  54980.0],
+      [3850, 5315000, 5.28100E7,  81220,  8293.0,   5.47000E3,         0.0,   1.71800E2,   6.85000E2,   44.79,         0.0, 680900, 5.47700E7, 2517000, 5062000, 3.94700E7, 1.55400E8, 6.15900E7, 2.60400E8,  802000, 731800, 335600, 1.67500E7, 145300, 50670, 224200, 2150000, 1.12500E7, 1.30700E8, 5370000, 1307000, 286300, 4808000, 12440.0, 15020.0,     0.0, 21370.0,  79490, 129800,  931600, 965800, 2425000, 1162000, 9.87300E7, 8.11800E8, 1.05400E7, 3607000, 44200.0,  8510.0, 14400.0,  67260, 61170, 33650,  59870,  28360,  546200,  463300,  666300,  98930,  2903.0,  -60140, -10460, -10480,  -35660, -1397000,  -64200,  -68550, -2.03300E5,  -70350,  9.37400E4, -1.36100E5, -4.87500E4,  -23990, -11510, -25120,  -8645, -27950, -130600,  -582400,  -54090,    3423, -2.44200E4,    19820, -1.05700E5,  -44720, -4.53900E4,   -6091, -1029.00, -1756,  -1315.0,  -2630, -116200,  -57400,   10330,    5237, -2.71400E4,   -24860, -1.39900E5,   21490,    7113,  -3142.0,   285.00,  -375.60,  -6493,  -4809.0,  -23760,  -20590,  12700.0,   2963.0,   -4121,   24940,  13010,    7083,   8835.0,  -1793,   -953.3,  -201.10,  -3869,  -3186,   -660.9,    15560,    51980,    61020,    69930,    63260,    44320,   36250, 20660.0,   7905.0,     -6.0,   483.20,  1671.00,   6445.0, 18910.0,   22650,    33500,    33290,   33990,   27830, 21360.0,  14060.0,   8455.0,  5062.0,  1412.00,   463.50,   677.20,   3345.0,   6429.0, 19620.0,  26000,  30220,  26620,  24090,  14170.0,   9026.0,  8399.0,  3996.0,  2359.0,   347.10,   621.80,  1250.00,   5403.0,   8752.0,  14480.0,  16750.0,  15670.0,  16850.0,  10430.0,   5846.0,  4932.0,  4324.0,  2194.0,   214.90,   173.50,  1116.00,   3320.0,  5885.0,  10450.0,  11050.0,  10610.0,  10020.0],
+      [3856,  697500, 3.74600E7,  71270,     0.0,         0.0,         0.0,         0.0,         0.0,     0.0,         0.0,  27810, 5.76500E6,  675600, 1045000, 1.58100E7, 1.98000E7, 2.40100E6, 9.48300E6,   24950, 143100,  29290, 1.04500E6,  13910, 26440, 127700, 1055000, 2.21100E6, 1.67300E7, 2045000,  375700,   9735,       0,  1638.0, 11140.0,     0.0,  3339.0,  43060,  94030,  578300, 153600, 1377000,  512600, 8.59600E6, 6.37800E7, 7.46200E5,  199100,  5865.0,     0.0,  4691.0,  41860, 48710, 15850,  29330,  37390,  225500,  299700,  172000,  49460,     0.0,  -83440, -11650, -18220,  -46000, -1504000,  -78910,  -83170, -2.39200E5, -108800, -6.61300E4, -2.30000E5, -1.81500E5,  -65520, -16960, -29620, -11090, -33390, -169400,  -694600,  -82380,   -3891, -1.19200E5,   -58920, -1.98600E5, -114500, -1.29500E5,  -23600, -2156.00, -2638,  -4913.0,  -3088, -190300, -103900,   -6275,   -8249, -1.24100E5,   -70090, -1.88600E5,  -27670,  -10500,  -8584.0,  -291.00,  -752.80,  -6746,  -4408.0,  -29220,  -28020,  -3194.0,  -3662.0,  -45010,   -8976, -28740,  -14150,  -1149.0,  -3308,  -1845.0,   124.70,  -5111,  -3553,  -4738.0,   -16580,     3458,     3687,     3397,     3192,     4502,    2018,  3868.0,    441.1,  -1305.0,  -453.80,  -802.30,    -30.1,  2133.0,     581,    -2114,    -1783,    3103,    -973,  4240.0,   1441.0,    941.1,   587.5,  -595.40,  -242.80,  -107.30,   -356.7,     -6.7,  1561.0,   2436,   1819,   1930,   2148,    898.8,    137.7,   246.6,   222.1,  -590.1,    22.63,   239.00,     9.85,    157.2,   -181.7,   1794.0,   1370.0,    287.0,   2827.0,    -13.3,     15.6,   -22.1,   435.3,   -36.8,  -184.00,  -214.40,   188.40,    149.8,   265.0,   1078.0,   -262.7,    -47.5,    470.8],
+      [3862,  756600, 3.73600E7, 116500,  1435.0,   1.65400E3,   4.40200E2,   2.08100E3,   7.38100E3,     0.0,   1.77500E3,  63090, 5.57500E6,  919200, 2188000, 1.28100E7, 2.06900E7, 3.57700E6, 1.65700E7,  106700,  18140,   4794, 9.47400E5,   3683, 13260, 105500,  942900, 7.50800E5, 2.25100E7, 2325000,  388900,  35640,  112600,  9120.0, 10260.0,     0.0,  6308.0,  39110, 110400,  713400, 172100, 1787000,  720300, 7.97500E6, 6.30400E7, 6.88100E5,  185700,  3297.0,  5340.0, 15700.0,  66820, 50880, 37490,  73450,  35830,  319500,  453800,  268800,  78460,   427.3, -119500, -11530, -18030,  -41050, -1485000,  -65970,  -75940, -1.48400E5,  -82740,  9.96600E4, -1.13500E5, -1.17200E5,  -53420, -13980, -22930,  -8620, -29090, -147100,  -611300,  -76180,   -1718, -4.38100E4,   -13830, -5.18700E4,   34450, -8.70300E4,  -26270, -1987.00, -2279,  -1785.0,  -2736, -153200,  -67210,   -9280,   -4121, -6.40900E4,   -34380, -1.14700E5,   16650,   -9223, -12000.0,  -423.60,  -310.30,  -5310,  -4142.0,  -20560,  -22040,  -1736.0,  -2043.0,  -34380,   -1812, -16930,   -4247,   5388.0,  -5515,  -2414.0,  -133.70,  -4846,  -3309,  -3878.0,    -6127,    11330,    10000,    11630,    10340,     9194,    4049,  5892.0,     82.9,  -1131.0,  -888.80,    22.16,    225.7,  3407.0,    2240,     4844,     5765,    8128,    6252,  4453.0,   3555.0,   1566.0,   885.7,  -127.90,  -223.80,  -475.00,   -507.8,    -16.7,  2559.0,   2305,   6078,   9342,   9229,   2959.0,   1502.0,  2378.0,   750.2,   493.5,   -91.33,   202.80,   250.40,    148.9,   -297.0,   1741.0,   2726.0,   3540.0,   3538.0,    931.1,    653.7,  1244.0,   964.7,   559.8,    81.57,   147.00,  -267.60,    -29.6,   207.9,   1155.0,   1777.0,   1412.0,   1436.0],
+      [3868, 7433000, 4.12400E7,  25360,  6791.0,         0.0,         0.0,   1.69000E3,         0.0,   93.52,         0.0,  77420, 8.18600E6,  751200, 2149000, 1.46200E7, 2.51900E7, 3.95100E7, 1.55200E8,  774900, 343300,   7298, 1.67100E6,  26090, 18050,  92410,  783500, 2.44500E6, 3.79300E7, 2193000,  401900, 114500,  973600,     0.0, 20290.0,  3324.0,  8477.0,  42700,  76570,  630500, 277000, 1592000,  497900, 1.01600E7, 1.02500E8, 1.40000E6,  416000,  7417.0,  4623.0,  6525.0,  40510, 41790, 25640,  77460,  35880,  278300,  404300,  332600,  52960,  4798.0, -109000, -14760, -21900,  -49050, -1436000,  -90850,  -85840,  1.69100E4,  -88730,  1.36500E5,  1.98100E4,  8.23100E4,  -73060, -17800, -31430, -10760, -33290, -185000,  -695900,  -75600,   -5655,  6.20000E4,    41330,  6.15700E4,  -67290,  9.23200E3,  -34980, -1966.00, -2573,  -4882.0,  -3460, -212500, -102800,   -5264,   -4691,  3.10100E4,     5094, -9.01800E3,  -17740,  -12760, -14670.0,  -570.60,  -676.50,  -6613,  -6336.0,  -28500,  -29270,   -243.3,    117.4,  -15000,   -2388, -12080,  -15150,   4517.0,  -5341,  -2699.0,   -17.72,  -5446,  -4384,  -3520.0,     8810,    21950,    21650,    28210,    28260,    20240,   12920,  8399.0,    355.8,   -729.5,  -576.10,   377.10,   1180.0,  5545.0,    7923,    13230,    16450,   14150,    7959,  8207.0,   4385.0,   1999.0,  2140.0,   119.80,  -178.30,  -146.90,   1514.0,   1420.0,  4976.0,   9114,  11660,  12180,   9195,   5341.0,   1525.0,  2934.0,  1681.0,  1450.0,  -139.50,   174.70,   314.50,    693.8,   1325.0,   5622.0,   7296.0,   8586.0,   6372.0,   3284.0,   2248.0,  1750.0,  1639.0,  1931.0,    11.66,   197.80,  -157.70,    642.1,  2190.0,   2594.0,   2555.0,   4046.0,   4432.0],
+      [3874, 2819000, 3.85500E7,  36650,   768.5,   6.56700E3,   3.18400E3,   5.59200E1,   2.65500E3,     0.0,   3.35400E1,  65710, 6.48600E6,  927800, 2613000, 1.24200E7, 2.81500E7, 1.11800E7, 5.14200E7,  167200,  98510,  13740, 1.05300E6,  16890, 33540, 178800, 1304000, 1.62500E6, 4.58500E7, 2675000,  488300,  92270,  270300, 16680.0,     0.0,  2740.0,  7824.0,  71590, 115700,  923900, 277100, 2502000,  644200, 7.29400E6, 7.58400E7, 8.76500E5,  233500,  6712.0, 14570.0, 12210.0,  53620, 54130, 28160, 101000,  66740,  588200,  530600,  797400, 104000,  4485.0, -107700, -12580, -19730,  -47150, -1465000,  -79370,  -93950,  1.26100E5,  -54360,  2.57600E5,  8.14100E4,  2.48400E5,  -67190, -17620, -32440, -11390, -35550, -164900,  -712000,  -55000,    5737,  1.90800E5,   108900,  1.09300E5,  -54420,  1.24900E5,  -29540, -2543.00, -2461,  -4453.0,  -3143, -187100,  -85300,    7758,    7536,  1.61400E5,    55400,  6.56500E4,    -347,    5611, -12550.0,  -542.80,  -489.10,  -7510,  -4589.0,  -28280,  -27990,   7301.0,   8053.0,   44890,   33190,   8558,    5152,  18700.0,  -2801,  -1185.0,  -115.70,  -4918,  -4839,  -4647.0,    29540,    52120,    60500,    61100,    56540,    45520,   34540, 19840.0,   6669.0,    410.0,   158.90,  1067.00,   5053.0, 17550.0,   24430,    39500,    41740,   41500,   31450, 19970.0,  14570.0,   7286.0,  5411.0,   948.00,   344.40,  -220.80,   2537.0,   6185.0, 14940.0,  28610,  32280,  31400,  26760,  13330.0,   9071.0,  9527.0,  5830.0,  3833.0,    15.88,   256.60,  1406.00,   3798.0,   6492.0,  15060.0,  18270.0,  18910.0,  18240.0,  12260.0,   7241.0,  7636.0,  6006.0,  4624.0,   299.70,   430.20,  1600.00,   2385.0,  5763.0,   7312.0,  12150.0,  12240.0,  12350.0],
+      [3880, 1591000, 3.84900E7,  13750,  6194.0,   1.17500E3,         0.0,   1.46600E3,   3.05600E0, 1363.00,         0.0,  15710, 3.20200E6,  773400, 1577000, 1.53700E7, 1.78600E7, 2.90200E6, 1.50900E7,   84780,  12140,   8191, 4.49600E5,   9287, 14000,  96200,  681400, 7.21700E5, 1.89900E7, 1635000,  349300,  54530,       0,  2299.0,     0.0,     0.0, 11770.0,  38620, 106700,  589400, 199100, 1505000,  365600, 3.58900E6, 4.00700E7, 4.19700E5,  122500,     0.0,  4023.0, 10370.0,  57270, 40900, 23280,  63350,  11420,  243300,  219300,  152600,  19090,     0.0, -131700, -15040, -24730,  -48140, -1492000,  -98570, -103700,  2.40900E4, -104200,  1.00800E5,  1.60400E4,  1.40500E5,  -99890, -19000, -33730, -14080, -37740, -206600,  -756200,  -76120,   -7158,  6.13100E4,    24930,  2.11800E4, -108900,  8.76600E3,  -38720, -2195.00, -2999,  -6022.0,  -4170, -227000, -111000,   -8053,    6267,  2.39300E4,   -19370, -8.51100E2,  -35000,  -10250, -17380.0, -1210.00,  -237.80,  -7521,  -4848.0,  -32960,  -34080,   3992.0,  -3247.0,  -32060,     874, -14860,  -21720,  -8446.0,  -7661,  -2153.0,  1028.00,  -6725,  -5359,  -2611.0,     6690,    19390,    14210,     9827,    21010,    18680,    9432,  3376.0,   -531.1,  -1212.0,   -54.96,  -466.20,   1161.0,  2764.0,    6389,     9518,    13130,    5873,    7574,  6819.0,   3769.0,  -1426.0,  1404.0,  -790.60,  -140.80,   236.40,     61.9,  -2135.0,  3145.0,   6498,   5741,   9493,   2834,   3321.0,   1332.0,  1410.0,   409.5,  -113.1,  -234.40,  -124.90,  -328.70,  -1052.0,   1013.0,   2565.0,   5173.0,  -2888.0,   3020.0,   3570.0,   -707.3,   -73.5,  1375.0,   192.2,    43.58,  -317.30,   318.40,    319.8,  1821.0,   1410.0,    349.5,   -500.5,  -1603.0],
+      [3886, 1406000, 4.11800E7,  83230,  1578.0,         0.0,         0.0,         0.0,         0.0,     0.0,         0.0,  58260, 7.48600E6,  556200, 1655000, 1.17900E7, 2.16200E7, 9.00800E6, 3.90300E7,  139300,  60570,  18200, 1.40700E6,  25490, 19780, 117700,  762500, 1.99200E6, 3.47200E7, 2001000,  266200,      0,  394000,  3937.0, 13310.0,     0.0, 10200.0,  39320, 125000,  746000, 302400, 1850000,  515900, 1.00700E7, 9.53100E7, 1.04100E6,  282700,  4413.0,  6464.0, 10250.0,  49320, 38270, 36720, 113200,  20920,  316600,  425200,  279300,  77370,  1418.0, -133500, -16280, -26220,  -53790, -1479000,  -96710, -103900,  5.01600E4, -107500,  1.16600E5,  5.29400E4,  1.16000E5,  -90800, -17520, -32620, -13380, -37870, -204400,  -756100,  -62470,   -1521,  6.70500E4,    33560,  4.44000E4, -113500,  3.28900E4,  -38980, -2838.00, -2903,  -5316.0,  -4638, -226300, -116000,  -14530,  -10110,  2.13700E4,    12680,  3.46900E4,  -38320,  -10770, -17060.0, -1326.00,   127.50,  -6164,  -4997.0,  -14180,  -33570,   1073.0,  -3829.0,  -16770,  -11700, -27770,  -20650,  -5836.0,  -5685,  -2393.0,   460.70,  -6283,  -3989,  -6237.0,     9614,    11620,    19620,    17760,    19650,    23280,   17100,   840.3,  -1221.0,  -2504.0, -1156.00,   -81.59,   -763.6,  5363.0,    3318,    14470,    10590,   10710,    5617,  9132.0,   7307.0,   1653.0,  1697.0,   -79.76,  -352.50,  -272.50,    223.2,    802.2,  5844.0,   1921,   6220,   7607,   6101,   2523.0,   1688.0,  1056.0,    66.0,    97.1,  -331.10,  -164.60,    44.91,   1009.0,   -245.9,   3621.0,   5363.0,   2477.0,   3234.0,   1725.0,   -105.6,   479.5,   868.7,   259.8,  -192.20,    43.46,  -576.50,   -645.3,  1951.0,   1623.0,   2156.0,   1644.0,   2444.0],
+      [3892, 1562000, 3.48400E7,  38380,  2110.0,   8.13700E2,   5.35500E3,         0.0,   1.29300E3,     0.0,   7.82200E2,  80480, 8.01100E6,  493800, 1453000, 1.21700E7, 2.65700E7, 9.36400E6, 3.84100E7,  107200,  81390,   3727, 1.51800E6,  25950, 14080, 105200,  784000, 2.29000E6, 2.70600E7, 2054000,  386200,      0,  664000, 10550.0, 16890.0,  9258.0,  9227.0,  42190,  73840,  564400, 165200, 1665000,  443600, 1.17800E7, 9.71100E7, 1.25100E6,  412400,  6749.0,     0.0, 14940.0,  68450, 34590, 25470,  65160,  20700,  291100,  401500,  259500,  62430,  3312.0, -131600, -14500, -25520,  -58790, -1463000, -109100, -109000,  4.48600E4,  -96480,  1.22700E5,  8.11100E4,  7.73300E4,  -91090, -20550, -34150, -11500, -41410, -195400,  -761300,  -74970,  -13810,  4.98200E4,    27550,  6.66900E4,  -90250,  5.20700E4,  -43850, -2376.00, -2819,  -6311.0,  -4251, -232800, -115900,   -4783,   -4672,  3.29100E4,     5004,  5.35500E4,  -34800,  -17570, -16620.0, -1043.00,  -394.50,  -6529,  -7089.0,  -37420,  -32050,  -7101.0,  -5125.0,  -16870,  -11020, -21520,  -21450,   5081.0,  -8395,  -2532.0,   304.60,  -3169,  -5138,  -3792.0,     7688,    17160,    21270,    21840,    26020,    20510,    8651,  5304.0,   -282.4,  -1338.0,   -84.98,   -46.78,   -567.8,   780.0,    2883,    11700,    12100,    7533,    6574,  5876.0,   5746.0,   1063.0,  1403.0,   -80.05,  -185.40,   103.70,   -103.9,  -1496.0,  4084.0,   7186,   9533,   8048,   4583,   1838.0,   -253.7,  2513.0,  1480.0,  -298.2,  -344.10,   498.30,  -102.00,   1025.0,   3345.0,   1937.0,   3326.0,   3326.0,   4876.0,     30.4,   1350.0,  2092.0,  -235.8,   714.1,  -229.60,  -348.00,   -27.03,   -595.8,  1587.0,   1733.0,   -218.7,    626.6,   2285.0],
+      [3898, 1511000, 3.95400E7,  75400,     0.0,         0.0,   7.56100E2,   7.60000E2,         0.0,     0.0,   7.29200E2,  53760, 4.78300E6,  589800, 1770000, 1.15900E7, 1.73100E7, 3.85800E6, 1.40700E7,   38970,  57680,   9000, 8.04900E5,  21860, 41370, 140900, 1145000, 6.42600E5, 2.68100E7, 2042000,  325000,  15360,       0,     0.0,     0.0,  3877.0,  7098.0,  74180, 116100,  882500, 291800, 2658000,  474000, 5.61100E6, 5.65900E7, 6.50700E5,  178600,  7508.0,  1662.0, 10980.0,  66690, 58420, 26500, 103400,  36050,  483300,  570600,  362200,  65270,  2189.0, -119700, -14700, -23930,  -54650, -1476000, -103500, -102300,  5.07200E4, -108500,  1.51900E5,  1.00800E5,  1.64500E5,  -87940, -19860, -33910, -13790, -39820, -203000,  -770800,  -91210,  -19020,  5.19400E4,    53360,  9.84900E4,  -67120,  5.70200E4,  -40140, -2290.00, -2827,  -5040.0,  -3102, -230400, -126300,   -1344,   -7131,  3.87600E4,    28280,  5.09100E4,  -40540,   -3028, -15070.0,  -915.20,   758.40,  -1403,   2176.0,  -18870,  -34210,   8423.0,  -1818.0,   -9098,  -14670, -16540,  -15490,  -2454.0,  -5766,   -817.4,   290.40,  -5827,  -2125,  -4166.0,     7904,    22280,    21790,    19670,    13730,    11590,    6508,  7381.0,  -3494.0,  -2905.0,  -527.90,  -529.10,   2079.0,  8128.0,    5400,    13250,     9547,    8622,    5771,  3413.0,   3869.0,   2077.0,   -11.6,  -647.50,   263.00,   -94.65,     87.6,  -1033.0,  3057.0,   5981,   4114,   3784,   5346,   -192.8,   -885.1,  1929.0,   923.0,  -111.6,  -244.80,    26.38,  -292.40,    202.6,   -755.9,   2548.0,   3412.0,   2343.0,   4554.0,   2468.0,    904.8,   316.7,  1956.0,  1497.0,    14.48,   255.70,     5.54,    654.5,   519.2,   1583.0,   2749.0,   3432.0,    813.2],
+      [3904,  796200, 3.57800E7,  18540,     0.0,         0.0,   1.27100E3,   3.45100E2,         0.0,     0.0,         0.0,  29460, 3.31000E6,  724900, 1963000, 1.30500E7, 1.95100E7, 1.64600E6, 1.03400E7,   45780,  15040,   9076, 5.06100E5,  12480, 13450,  88320,  791300, 1.34000E6, 2.04800E7, 1895000,  412800,  62990,  246800,     0.0,     0.0,     0.0,  7811.0,  48730,  71940,  641300, 285600, 1713000,  303100, 4.17900E6, 4.02800E7, 4.17900E5,  169200,  2239.0,  4015.0,  8815.0,  72240, 44880, 12260,  57560,   1184,  209900,  370200,  130600,  50810,     0.0, -136100, -15370, -24870,  -55630, -1471000, -117100, -115200,  3.24900E4, -100600,  9.93800E4,  1.15900E5,  8.30900E4, -100600, -19790, -36940, -13750, -41070, -224400,  -789700,  -70630,  -18960,  2.69400E4,    29990,  5.25100E4, -111200,  2.83600E4,  -49990, -2801.00, -3070,  -4440.0,  -4220, -254900, -125000,   -3219,   -6380,  2.40200E4,    10460,  2.28300E4,  -56710,  -28240, -21190.0,  -521.70,  -416.90,  -5722,  -4826.0,  -38490,  -31280,  -1275.0,  -5003.0,  -18480,  -17350, -24780,  -26390,   -856.2,  -8776,  -1902.0,    94.43,  -3740,  -3328,  -8345.0,    14490,    13740,    16130,     8885,    14090,     6524,    1762,  1524.0,  -3312.0,  -2718.0, -1312.00,    27.72,     42.3,  3383.0,    3126,     9815,     6920,    7468,    6072,  5840.0,   1501.0,   2728.0, -1046.0,  -911.10,  -260.50,  -383.30,     86.3,   -285.9,  -601.4,   3140,   5408,   1940,     23,   1594.0,    724.5,   306.4,  -872.4,  -882.2,     7.43,  -194.50,  -439.70,     96.7,    113.1,   -557.9,  -2869.0,  -2385.0,   -833.9,  -1391.0,   -433.9,  -474.6,    78.8,  -210.6,  -246.10,  -256.90,    63.58,  -1066.0,  1266.0,    658.6,  -2117.0,   -543.1,  -1034.0],
+      [3910, 1079000, 3.58200E7,  12290,  3813.0,         0.0,   2.56600E3,   2.91200E3,   3.01600E3,  690.90,         0.0,  78030, 7.77500E6,  745800, 2297000, 1.69700E7, 2.50000E7, 8.36800E6, 2.95300E7,  172300,  80380,  18830, 1.39200E6,  21700, 14280, 123900,  933500, 2.72700E6, 2.33200E7, 2059000,  363300,  22290,       0,  6231.0,   924.0,     0.0,  9626.0,  53290, 131800,  746300, 340200, 1958000,  456300, 1.10800E7, 8.92600E7, 9.80700E5,  304400,  3993.0,  7458.0, 17550.0,  78800, 52360, 13990,  84640,  54320,  426800,  478900,  257600,  43060,   651.6, -126100, -15970, -25220,  -60320, -1466000, -112200, -114600,  8.54200E4,  -92250,  1.18900E5,  1.09000E5,  1.19200E5,  -93670, -19210, -35490, -13920, -39900, -215000,  -766200,  -63890,  -18520,  6.42700E4,    20690,  8.55600E4,  -76600,  4.91000E4,  -46800, -2443.00, -3357,  -4420.0,  -4423, -261800, -125300,  -13810,  -17610,  5.36200E4,     8096,  4.79100E4,  -53530,  -20940, -17090.0,  -482.10,   395.10,  -7168,   -643.5,  -28180,  -35370,  -7727.0,  -1557.0,  -16800,  -24340, -21500,  -21980,    -68.3,  -8200,  -1734.0,    75.32,  -4870,  -3216,  -5470.0,    12290,    18870,    10660,    18780,    14610,    16790,    7164,  2133.0,   -883.6,  -2521.0,  -346.80, -1376.00,   -692.8,  3799.0,    5998,     4824,    11620,    8612,    8268,  5348.0,   1757.0,   -322.6,   181.6,  -662.10,  -246.90,  -403.00,   -274.1,   -414.4,  -147.3,   8673,   8618,   3526,   4342,   1242.0,   1054.0,   434.1,    93.8,  -454.3,  -163.70,  -190.00,    27.75,    383.3,  -1671.0,   1108.0,   1970.0,  -2254.0,   1093.0,    362.3,   -253.7,  -816.8,   152.6,   252.4,  -280.40,  -147.10,  -808.20,     43.1,  1693.0,   1990.0,   -671.1,   -296.7,     -8.8],
+      [3916, 2329000, 4.39600E7,  56260,  1151.0,         0.0,   3.25100E3,         0.0,   1.73100E3, 1994.00,         0.0,  46270, 6.04200E6,  838200, 1908000, 1.16100E7, 2.48400E7, 1.77500E7, 6.72900E7,  312100, 242700,  15730, 1.04400E6,  13150, 27320, 144000, 1098000, 2.26200E6, 2.28700E7, 2457000,  385300,  51830,  225400,  6990.0,  4620.0,     0.0,  1721.0,  48770, 121800,  762100,  12370, 2244000,  588200, 8.20400E6, 7.00800E7, 9.71400E5,  282600,  8322.0,  7759.0, 12890.0,  60830, 46300, 21860,  71710,  42110,  378600,  389700,  207700,  51460,  4138.0,  -86950, -14750, -22560,  -57710, -1453000, -111300, -111800,  7.32000E4,  -75600,  1.33600E5,  1.18600E5,  1.03000E5,  -92960, -18040, -34010, -12150, -35790, -212700,  -739300,  -67540,  -15870,  4.91600E4,    44780,  7.64300E4,  -68330,  5.07100E4,  -38360, -1714.00, -3419,  -6835.0,  -3150, -232000, -111800,  -10980,  -11110,  4.68600E4,    25260,  5.20300E4,  -38710,  -24640, -15700.0,  -953.60,    78.53,  -5317,  -3946.0,  -21300,  -32650,  -6656.0,  -5149.0,   -2748,  -16320, -16920,  -22520,  -4586.0,  -6178,  -1938.0,  -652.70,  -4698,  -4171,  -7250.0,    13270,    16620,    14890,    15740,    14740,    11180,    9467,  4736.0,    358.5,  -2728.0,  -646.30, -1135.00,     40.7,  3117.0,    8029,     7664,    11320,    4351,    5884,  2931.0,    207.1,     94.0,  1553.0,   346.90,   292.80,     0.65,   -460.3,  -3209.0,   644.2,   4553,   5336,   1624,   3225,    857.7,   -473.0,  1144.0,  1432.0,  -857.3,  -140.20,  -146.90,  -469.20,    254.7,    389.5,    306.3,   2681.0,   1541.0,   2046.0,   -947.9,  -1176.0,  -468.2,  -110.3,   462.3,  -199.00,  -327.20,  -845.30,   -770.9,  1484.0,    904.4,    687.8,     40.6,    183.2],
+      [3922, 2562000, 4.39500E7,  49360,     0.0,         0.0,   2.82200E3,   7.06200E2,   1.12100E3, 1720.00,   6.01300E3,  60240, 7.62600E6, 1345000, 3306000, 2.91900E7, 3.88200E7, 1.86400E7, 8.53300E7,  247400, 206600,   7219, 1.30100E6,  24940, 29870, 114600,  902500, 2.97500E6, 3.58500E7, 2870000,  466500,  36830,  914300,  1684.0,  5067.0,     0.0, 19610.0,  55150, 120200,  857100, 146800, 1985000,  565500, 9.15900E6, 9.67100E7, 1.05400E6,  283700,  7369.0,  2643.0,  8881.0,  61740, 65650, 39370,  46960,  48540,  335500,  387200,  234700,  59530,  3581.0, -117300, -13480, -22070,  -53760, -1448000, -107700, -122700,  6.90800E4,  -92650,  1.38800E5,  1.14600E5,  1.19500E5,  -97100, -18220, -30590, -11320, -32690, -206300,  -678600,  -73890,  -16300,  5.64900E4,    42860,  6.06900E4,  -72960,  5.12600E4,  -45840, -2789.00, -3380,  -5473.0,  -3267, -224000, -108100,  -10400,   -7285,  3.33700E4,    20210,  1.99900E4,  -59620,  -30700, -14930.0,  -966.70, -1064.00,  -5605,  -3147.0,  -30870,  -37670,  -9587.0,  -6536.0,  -11850,  -23670, -27280,  -24860,  -7895.0,  -6436,  -2788.0,  -683.30,  -5451,  -4106,  -7018.0,    10380,     8554,    14960,    20400,    15770,    11140,    6111,  1882.0,  -1597.0,  -2196.0, -1427.00,  -457.20,   -906.9,  2391.0,    3835,    10290,     9846,    8398,    5284,  4284.0,    144.4,  -2058.0,   341.1,  -552.10,  -198.10,  -505.30,   -673.7,  -1545.0,  2948.0,   5172,   6088,   4715,   2747,    -89.5,   -458.5,   593.8,    50.5,  -680.5,  -397.10,  -151.10,  -749.90,   -104.5,  -1475.0,   1484.0,   1655.0,    113.1,   -295.5,   -404.3,   -122.2,     2.9,   804.1,   456.4,  -251.80,  -117.50,  -385.30,   -323.9,   769.1,   -521.3,   -236.2,    -68.7,    392.1],
+      [3928, 8040000, 6.50500E7,      0, 15580.0,   3.19700E2,   5.31400E3,   1.50800E3,   6.32600E2, 4838.00,   1.37000E3, 138500, 1.53500E7, 1882000, 4548000, 3.51300E7, 6.80600E7, 9.94700E7, 4.34800E8, 1887000, 866800,  64940, 3.51300E6,  44060, 53560, 218200, 1867000, 8.52400E6, 7.69400E7, 5168000,  861900, 300800, 2459000,     0.0, 11470.0,  7774.0, 23440.0,  93920, 222400, 1624000, 623000, 4076000, 1187000, 2.56900E7, 2.35300E8, 3.03900E6,  882100, 19930.0,  8252.0, 30880.0, 147300, 97160, 47050, 197500, 116800,  908600,  871400, 1111000, 102700,  3857.0,  -73520, -12990, -16150,  -46750, -1377000,  -83340,  -98810,  3.03400E5,   10580,  4.28200E5,  4.04600E5,  4.57600E5,  -52690, -13880, -25410,  -9077, -33940, -161200,  -654800,  -11740,   10750,  2.94000E5,   186100,  2.92500E5,   57840,  2.52400E5,  -20250, -1622.00, -2502,  -2171.0,  -2245, -165400,  -77100,   15910,    4443,  2.24500E5,   133700,  1.72500E5,   24350,   12370,  -5913.0,  -349.00,    60.61,  -3704,  -1437.0,  -18240,  -28590,   8232.0,   6504.0,   80050,   30730,  43750,   12260,  21070.0,  -1937,  -1052.0,   494.90,  -4061,  -3376,  -3971.0,    47470,    63890,    82620,    86620,    86970,    66200,   51160, 31270.0,  10640.0,   1095.0,   144.70,  1767.00,   8441.0, 26760.0,   37320,    56390,    62570,   50180,   45710, 28070.0,  19640.0,  13620.0,  7822.0,  1951.00,   367.00,   861.40,   3889.0,  10280.0, 25070.0,  38770,  43940,  39750,  32890,  17820.0,  11360.0, 10290.0,  6571.0,  4586.0,   439.30,   705.80,  1433.00,   6011.0,   9953.0,  21000.0,  24500.0,  24420.0,  25120.0,  13710.0,   8986.0,  9260.0,  7565.0,  5789.0,   445.00,   708.20,   989.10,   3840.0,  7840.0,  11560.0,  15170.0,  15480.0,  14480.0],
+      [3934, 5323000, 3.68500E7,  26320,  2828.0,   4.47200E2,   2.93700E3,   4.31800E3,   8.85000E2,     0.0,   2.27400E3,  53280, 5.61200E6,  779700, 1794000, 1.55100E7, 2.16300E7, 1.23200E7, 4.88100E7,  283600, 175000,   5443, 9.90800E5,  22200, 14150,  97480, 1040000, 3.66300E4, 3.14400E7, 1998000,  423800,      0,  572300, 13970.0,  4230.0,  5072.0, 11080.0,  52240, 100400,  591200, 268600, 1483000,  452000, 6.26100E6, 6.43100E7, 8.26500E5,  235500,  4527.0,     0.0, 15960.0,  69230, 49950, 18440,  62020,  35520,  228800,  363100,  153300,  48820,     0.0, -116700, -19040, -30500,  -66990, -1438000, -141000, -146200,  3.92000E4, -102100,  7.15600E4,  9.47400E4,  7.17600E4, -123800, -20990, -37350, -16160, -45040, -256300,  -833500,  -80490,  -29750,  1.82300E4,    13620,  3.78000E4,  -87090,  2.73600E4,  -56670, -4452.00, -3893,  -8416.0,  -5341, -300300, -151000,  -25030,  -18920,  1.87200E4,    10480,  1.55700E4,  -84850,  -45770, -22130.0, -1097.00,  -971.60, -12420, -10630.0,  -50150,  -44790, -12190.0, -12030.0,   -9341,  -39600, -28690,  -41450, -11080.0,  -9442,  -5294.0,  -632.50,  -8691,  -7039,  -8869.0,     5128,     7998,     7042,     5718,     8154,     5931,    1329,  -864.9,  -5157.0,  -3253.0, -1931.00, -1728.00,  -1806.0,  1563.0,    4304,     3573,     2728,    2156,    2158,  1532.0,  -1845.0,  -2082.0, -1572.0, -1098.00,  -385.00,  -859.90,  -1147.0,  -3519.0,   141.9,   2519,   2910,   1712,   1684,  -1344.0,  -1984.0,  -807.2,  -878.0, -1176.0,  -482.50,  -320.70, -1006.00,  -1600.0,  -2877.0,  -2625.0,  -3020.0,  -4260.0,   -182.4,  -2009.0,   -517.1,  -398.8,  -359.1,   165.0,  -411.20,  -578.40, -1158.00,  -1615.0,   -16.9,  -2778.0,  -3018.0,  -2722.0,  -1733.0],
+      [3940, 1863000, 3.79200E7,      0, 10240.0,         0.0,         0.0,         0.0,   3.66800E3, 2035.00,         0.0,  46270, 5.75500E6,  552600, 1620000, 1.28900E7, 1.67000E7, 9.99200E6, 3.97900E7,  211900, 254700,   6713, 9.87400E5,  28710, 23040, 113000,  799600, 1.51900E6, 2.51700E7, 2068000,  286800,  49770,  225300,     0.0,     0.0,  7905.0,  4113.0,  40820, 101700,  693300, 217800, 1645000,  430500, 7.69500E6, 6.54300E7, 7.71700E5,  259700,  4534.0, 11880.0, 14550.0,  80170, 67200, 15980,  61310,  36550,  307900,  454900,  185800,  55650,  7980.0, -160300, -19450, -35510,  -66950, -1446000, -144000, -150700,  4.92300E4,  -91890,  8.56000E4,  1.09800E5,  8.74900E4, -121600, -22030, -40240, -15870, -45480, -263500,  -843100,  -74220,  -28020,  2.56600E4,    14310,  4.54600E4,  -93280,  3.65500E4,  -56360, -3591.00, -3843,  -8370.0,  -5690, -308100, -142300,  -27430,  -19050,  1.72100E4,    10520,  1.21900E4,  -82530,  -49030, -23330.0,  -530.60, -1117.00, -12820,  -9467.0,  -46630,  -45550, -12320.0, -12290.0,   -9048,  -39520, -28720,  -43690, -15870.0,  -9572,  -4648.0,  -746.70,  -9436,  -7467, -10480.0,     5450,     7236,    10210,     5601,     5691,     5097,    6475,   317.2,  -4485.0,  -2727.0, -2111.00, -1212.00,  -2894.0,  1698.0,    5150,     4318,     3572,    3780,    2584,  -260.0,   -253.0,  -2109.0,  -907.9,  -782.50,  -311.60, -1083.00,  -1724.0,  -3393.0,   803.7,   1554,   1142,   1343,   2336,  -1776.0,  -1631.0,  -810.7,  -946.2, -1212.0,  -547.20,   -40.04, -1410.00,  -1603.0,  -3150.0,  -1921.0,  -4507.0,  -4492.0,  -1181.0,  -2260.0,  -1608.0,  -631.2,  -331.6,  -262.9,  -329.30,  -478.10,  -876.60,  -1806.0,  -512.3,  -1428.0,  -3051.0,  -3520.0,  -2191.0],
+      [3946,       0, 4.13500E7,  62610,  1715.0,   3.66300E2,         0.0,   2.55200E2,   8.06700E3,     0.0,         0.0,  30900, 4.37200E6,  743000, 2295000, 1.57800E7, 1.46500E7, 5.57100E6, 2.26300E7,   79930,  40610,   5111, 6.58400E5,  15030, 11120,  68230,  718000, 3.50100E6, 1.42500E7, 1471000,  258200,  46050,       0,  2277.0,   788.7,  2655.0, 13910.0,  39100,  68300,  417300,  97300, 1292000,  360100, 6.40300E6, 5.10300E7, 5.84900E5,  177400,  1007.0,  1227.0,  4323.0,  48320, 27060, 13000,  28760,  30430,  190100,  270900,  150400,  31850,  2151.0, -171300, -20230, -37600,  -73160, -1450000, -151800, -152200,  3.31900E4,  -96560,  5.74900E4,  9.65300E4,  7.59400E4, -130900, -22060, -40510, -17100, -49960, -274000,  -878800,  -74450,  -30190,  2.84400E4,    12110,  4.22800E4, -114200,  2.83900E4,  -61180, -4250.00, -3814, -10050.0,  -6403, -324000, -163000,  -25910,  -23140,  1.63000E4,     8450,  1.86300E4,  -92930,  -49120, -22620.0, -1114.00, -1874.00, -12790, -12870.0,  -55520,  -50780, -12030.0,  -9298.0,  -11490,  -42940, -30460,  -52050, -13430.0,  -8258,  -5230.0,  -861.40,  -9142,  -7944, -10370.0,     7496,    10550,    10680,    10240,     7546,     6200,    5841,  1139.0,  -4768.0,  -3513.0, -1715.00, -1023.00,  -3039.0,  2608.0,    4249,     3931,     5453,    3566,    4276,   775.6,  -1110.0,  -2315.0, -1720.0, -1057.00,  -454.00, -1059.00,  -1646.0,  -4302.0,   639.7,   2571,   3665,   2328,    566,  -1864.0,  -2412.0, -1052.0, -1072.0, -1201.0,  -421.20,  -358.40, -1002.00,  -2079.0,  -3220.0,  -1688.0,  -1012.0,  -4394.0,  -1807.0,  -2006.0,  -1401.0,  -214.2,  1128.0,    68.3,  -102.10,  -613.50, -1009.00,  -1226.0,  -383.9,  -1979.0,  -2513.0,  -3038.0,  -2460.0],
+      [3952, 2514000, 3.53100E7,  13550,  2042.0,   8.17000E2,         0.0,   1.45200E3,         0.0,  572.30,   1.55600E3,  34400, 6.77900E6,  779900, 2160000, 1.12300E7, 1.82500E7, 4.74100E6, 2.73900E7,   68360,  65290,  15010, 1.22500E6,  36350, 20370,  95950,  784800, 6.50800E5, 2.72800E7, 1835000,  242800,  41050,  188400,  2339.0, 24800.0,     0.0,  7681.0,  38770,  72070,  472000, 274000, 1343000,  396400, 7.63400E6, 7.50300E7, 9.27400E5,  317900,  8434.0,  3377.0,  7674.0,  47480, 45100, 22150,  66570,  31980,  186200,  279900,  117400,  35230,  2131.0, -162500, -21900, -36150,  -69980, -1455000, -153200, -158700,  4.00300E4,  -95470,  8.43900E4,  8.21900E4,  8.01700E4, -134200, -22720, -40240, -16470, -48620, -278000,  -878000,  -78900,  -33460,  2.80400E4,    19720,  4.36000E4, -103800,  2.87600E4,  -64080, -3811.00, -4115,  -9409.0,  -6687, -327300, -154200,  -31820,  -23610,  1.24900E4,     8979,  1.80800E4,  -98090,  -55900, -24170.0,  -613.60, -1782.00, -12900, -12550.0,  -55570,  -51040, -12750.0, -13140.0,   -3712,  -45990, -28360,  -54150, -13630.0,  -9876,  -5417.0,  -688.70,  -8655,  -8226, -10790.0,     9082,     9272,    12850,     7414,     6159,     9245,    6136,  1458.0,  -4776.0,  -3891.0, -1704.00, -1641.00,  -2137.0,  -138.4,    4045,     2735,     7049,    3275,    3147,  2108.0,  -1526.0,  -1528.0, -1660.0, -1394.00,  -655.90, -1284.00,  -1339.0,  -5164.0,   667.1,   3283,   4425,   2682,   2256,  -2787.0,  -2122.0,  -669.4, -1088.0, -1182.0,  -590.40,  -295.00, -1160.00,  -1615.0,  -3849.0,  -1612.0,  -2320.0,  -3075.0,  -1326.0,  -2219.0,  -2093.0,  -530.3,  -200.7,  -161.7,  -353.70,  -620.80, -1198.00,  -1686.0,  -732.5,   -790.7,  -3118.0,  -4861.0,  -2185.0],
+      [3958, 1381000, 3.91400E7,  69970,  9891.0,         0.0,   3.94300E3,         0.0,   7.81600E2,     0.0,         0.0,  68810, 7.55200E6,  767100, 1765000, 1.48400E7, 2.67400E7, 5.98100E6, 2.71000E7,  102000,  77150,  20650, 1.39800E6,  25180, 19810, 132000,  895300, 9.54100E5, 3.42500E7, 1722000,  313200,      0,  377800,  2837.0,  3108.0,     0.0, 14990.0,  57190,  84730,  447000, 295700, 1160000,  384500, 1.09300E7, 1.01200E8, 1.15900E6,  277900,  5822.0,  6196.0, 11090.0,  41370, 22430, 16240,  42250,  23520,  189600,  240100,  158200,  48380,  4070.0, -164300, -22510, -37840,  -76790, -1451000, -156800, -161800,  4.74200E4,  -94230,  6.87600E4,  1.08000E5,  7.03100E4, -132500, -23670, -42720, -17280, -49470, -280600,  -892900,  -70520,  -34680,  1.86100E4,    14960,  4.49600E4,  -99600,  2.87100E4,  -66070, -4539.00, -4193, -10120.0,  -6985, -337300, -162800,  -30620,  -24150,  1.32100E4,    15280,  1.81200E4,  -99400,  -53340, -24960.0, -1178.00, -1776.00, -14430, -11570.0,  -58360,  -53330, -17140.0, -12510.0,   -5073,  -52820, -23140,  -52150, -18520.0,  -9321,  -5381.0,  -683.70, -10060,  -8617, -11730.0,      174,     9551,     9065,     8383,    11290,     8318,    8725,   610.2,  -6108.0,  -4382.0, -2007.00, -1598.00,  -3544.0,  1006.0,    2174,     3411,     4116,    3280,    3449,  2381.0,  -1172.0,  -2749.0, -1129.0, -1133.00,  -415.40, -1231.00,  -1229.0,  -4659.0,   695.9,   3066,    928,   4326,   1197,  -3491.0,  -2176.0,  -832.5,  -724.7, -1252.0,  -391.50,  -381.10, -1261.00,  -1639.0,  -3403.0,  -2231.0,  -3748.0,  -3692.0,  -2330.0,  -3094.0,  -1913.0, -1274.0,  -165.6,   247.5,  -479.30,  -347.90, -1356.00,  -1276.0, -1262.0,  -3148.0,  -2933.0,  -3111.0,  -1812.0],
+      [3964,  806900, 3.43900E7,  68530,     0.0,   6.69800E2,   4.00500E3,         0.0,         0.0,  342.90,   1.60600E3,  76740, 6.49700E6,  450400, 2487000, 1.25200E7, 1.97400E7, 4.12600E6, 1.60600E7,   59940,  21930,   4239, 1.28200E6,  28020, 15670,  62690,  634700, 2.34300E6, 3.35800E7, 1828000,  270000,      0,  323100,     0.0,     0.0,  1963.0,     0.0,  25080,  74630,  414700, 242200, 1167000,  586000, 9.16800E6, 7.86100E7, 8.31700E5,  265700,  4408.0,     0.0,  5743.0,  28770, 26560, 16800,  32180,  22830,  171500,  241800,  273600,  30220,  4832.0, -164400, -21950, -38950,  -77370, -1450000, -163200, -164800,  4.75100E4,  -93230,  1.13700E5,  1.31400E5,  1.40800E5, -124000, -23510, -44010, -17870, -50640, -290900,  -903500,  -77380,  -36800,  2.13800E4,    24370,  5.11500E4,  -90380,  6.11300E4,  -53960, -3248.00, -4271, -11100.0,  -7038, -344900, -164500,  -30340,  -28230,  1.54300E4,     5398,  2.61300E4,  -95320,  -52710, -19610.0,  -859.40, -1444.00, -14220, -13170.0,  -52060,  -52850, -16790.0, -13240.0,   -6794,  -47540, -22990,  -49340, -15920.0,  -7608,  -5198.0, -1132.00, -11130,  -8213, -11550.0,     8738,     4961,    10020,    10640,     9685,     7548,    6506,  2977.0,  -4279.0,  -4373.0, -1943.00, -1688.00,  -3549.0,  3761.0,    4693,     4812,     6450,    5424,    6119,  2082.0,  -1171.0,  -2163.0, -1084.0, -1335.00,  -712.60,  -872.70,  -1113.0,  -6324.0,  -940.6,   3527,   2090,   3216,   1802,  -2462.0,  -2733.0, -1760.0, -1390.0,  -760.4,  -558.30,   -73.09, -1573.00,  -2589.0,  -4444.0,  -1087.0,  -2749.0,  -4372.0,  -1191.0,  -2445.0,  -2313.0,  -643.1,  -312.7,   -66.3,  -434.60,  -653.90,  -997.00,  -1786.0,  -606.7,  -2826.0,  -3218.0,  -3345.0,  -3274.0],
+      [3970, 1271000, 4.03000E7,  42400, 11580.0,   1.81000E3,         0.0,         0.0,   5.56400E2,     0.0,   4.13600E3,  96470, 9.15800E6, 1854000, 4155000, 2.83600E7, 4.57100E7, 3.41300E6, 1.20300E7,  111800, 101900,  17610, 1.57900E6,  22780, 52170, 150600, 1582000, 2.58200E6, 4.11400E7, 2390000,  481000,    335,  544700,     0.0,  1522.0,     0.0, 11960.0,  54080, 106100,  586600, 491000, 1566000,  435700, 1.17900E7, 1.05000E8, 1.25900E6,  363700,  6060.0, 14840.0,  9614.0,  64610, 27740, 29300,  56080,  30940,  143200,  323600,  163900,  33670,  1526.0,  -75010, -18630, -34850,  -76620, -1456000, -167300, -170100,  4.24600E4,  -98330,  6.51600E4,  1.07700E5,  7.35400E4, -141100, -22240, -40780, -16980, -49590, -283600,  -862300,  -69290,  -37840,  2.32100E4,    18510,  4.29800E4,  -90220,  3.57600E4,  -64940, -4142.00, -3959, -10630.0,  -6700, -347800, -166300,  -32300,  -28420,  2.11100E4,    10470,  1.97900E4, -105800,  -57540, -25880.0, -1494.00, -1874.00, -14910, -14140.0,  -60770,  -57200, -15720.0, -12890.0,   -9678,  -51470, -27340,  -55200, -20020.0, -10050,  -5770.0, -1070.00, -10990,  -8816, -12510.0,     7278,     7055,    10970,    11630,     8763,     7959,    6673,   260.4,  -6717.0,  -4450.0, -2216.00, -1617.00,  -1882.0,  1110.0,    3355,     5043,     4418,    3284,    4478,  4005.0,  -1332.0,  -1920.0,  -948.1, -1176.00,  -552.70, -1376.00,  -2054.0,  -5003.0,    71.0,   3361,   4101,   1236,   3249,  -2697.0,  -2715.0, -1173.0,  -851.7, -1064.0,  -589.60,  -447.60, -1564.00,  -2168.0,  -4723.0,  -2175.0,  -4017.0,  -4388.0,   -879.1,  -3160.0,  -2768.0,  -722.1,  -550.6,  -145.6,  -517.40,  -412.10, -1350.00,  -2160.0, -1016.0,  -1718.0,  -3450.0,  -4983.0,  -3062.0],
+      [3976,  886900, 4.25300E7,  44920,  3273.0,         0.0,   4.81300E2,         0.0,         0.0,     0.0,   1.22000E3, 106500, 9.77000E6, 1324000, 2501000, 1.84400E7, 3.99400E7, 5.62100E6, 1.68800E7,   86520, 112700,  32680, 1.87200E6,  29960, 27630, 184200, 1249000, 2.81600E6, 4.41700E7, 2466000,  522600,  36120,  527400,     0.0,     0.0, 10130.0,  2769.0,  65290, 144400,  801800, 329400, 2291000, 1265000, 1.32800E7, 1.25000E8, 1.30400E6,  465900, 10070.0,     0.0, 10030.0,  43300, 43730, 17190,  46760,  36460,  211800,  340400,  349600,  77270,  3678.0, -167900, -23230, -40220,  -75780, -1440000, -169300, -171100,  6.19100E4,  -88600,  1.03600E5,  1.65000E5,  1.86500E5,  -79360, -20870, -42660, -18890, -48660, -297400,  -893200,  -74190,  -36570,  3.93600E4,    23920,  6.41500E4,  -79340,  8.78600E4,  -42300, -3080.00, -4332, -11280.0,  -6825, -363100, -173200,  -36360,  -29250,  1.87900E4,     8392,  3.49500E4,  -96040,  -50010, -15180.0,  -668.10, -1900.00, -15600, -12400.0,  -64580,  -54010, -18740.0, -15660.0,    4616,  -50300, -24840,  -52770, -16410.0,  -6158,  -5859.0, -1192.00, -11330,  -8475, -12090.0,     6132,    15990,    10540,    16510,    13960,     9875,    7207,  2222.0,  -6015.0,  -4059.0, -2364.00, -1427.00,  -4086.0,  -272.6,    7263,     7635,     7826,    5430,    4197,  2554.0,  -2166.0,  -2786.0,  -596.3, -1053.00,  -392.90, -1010.00,  -2399.0,  -5508.0,   746.3,   5353,   3942,   4751,   3494,  -3242.0,  -2867.0, -1056.0, -1229.0, -1199.0,  -689.90,   -49.12, -1226.00,  -2351.0,  -4501.0,  -3103.0,  -3061.0,  -5414.0,  -2743.0,  -3184.0,  -2870.0, -1016.0,  -219.7,  -242.2,  -472.80,  -578.00, -1124.00,  -2284.0,  -575.8,  -3557.0,  -3926.0,  -4197.0,  -2449.0],
+      [3982, 1454000, 3.29100E7,  49170,     0.0,   1.38600E3,   3.07100E3,         0.0,         0.0,     0.0,   2.45800E2,  48620, 4.53500E6,  444800, 1178000, 1.04800E7, 1.54700E7, 2.91600E6, 1.33800E7,   41330,      0,   4743, 8.39800E5,  19000, 11940,  78130,  656500, 6.09300E5, 2.33700E7, 1490000,  235200,  12860,  503300,     0.0,     0.0,  2037.0,     0.0,  21720,  67710,  462200, 253900, 1207000,  341000, 5.49900E6, 5.88000E7, 6.70500E5,  182600,     0.0,     0.0,  2904.0,  44530, 16280, 13340,  23810,  15200,  196200,  214600,  178200,  15960,  1214.0, -184500, -23010, -42760,  -80870, -1447000, -181500, -181300,  2.22200E4,  -97150,  6.39000E4,  8.70300E4,  7.20700E4, -148200, -26140, -45960, -18830, -52740, -309300,  -935900,  -70970,  -41560,  1.68100E4,    12690,  2.63400E4,  -96400,  3.17600E4,  -68540, -4999.00, -4515, -11180.0,  -7852, -372500, -176700,  -37290,  -32810,  1.28300E4,     4155,  2.52700E4, -118400,  -62730, -26290.0,  -806.70, -2087.00, -16550, -14390.0,  -67530,  -58170, -18230.0, -15570.0,   -2665,  -56670, -29200,  -60780, -19730.0,  -9519,  -5981.0, -1163.00, -11800,  -9574, -12850.0,     4156,     3473,     8807,     7691,     7975,     7118,    1821,   399.7,  -6790.0,  -3908.0, -2536.00, -2587.00,  -2294.0,   847.3,    3422,     4727,     7720,    3302,    3503,  1171.0,  -2432.0,  -3358.0, -1587.0, -1313.00,  -609.00, -1406.00,  -2387.0,  -6191.0,   164.8,   2254,   1675,   2265,   1938,  -3425.0,  -3321.0, -1337.0, -1269.0, -1273.0,  -697.60,  -500.30, -2068.00,  -3124.0,  -5227.0,  -3466.0,  -4832.0,  -5971.0,  -2607.0,  -2884.0,  -2721.0, -1592.0,  -399.8,  -210.2,  -548.70,  -836.90, -1650.00,  -2325.0,  -413.5,  -3179.0,  -4492.0,  -4471.0,  -3758.0],
+      [3988,  585800, 4.07100E7,  30530,     0.0,         0.0,         0.0,         0.0,         0.0,     0.0,   9.77300E2,  23490, 3.84900E6,  413400, 1496000, 1.49000E7, 1.19600E7, 1.49200E6, 3.80900E6,   38410,      0,  14730, 6.66900E5,   7901, 15530,  94180,  761900, 2.03000E6, 1.04500E7, 1755000,  274500,  54360,       0,     0.0, 11990.0,     0.0,  9253.0,  19980,  99340,  542800,  83810, 1282000,  358900, 5.48600E6, 4.47600E7, 5.14600E5,  127500,  2138.0,     0.0, 12540.0,  54450, 33870, 15910,  41260,  14510,  211700,  282000,  112600,  28160,  4231.0, -182300, -24450, -42170,  -81920, -1454000, -185300, -182100,  2.84900E4,  -98260,  6.35500E4,  9.86000E4,  5.77800E4, -155900, -26240, -44960, -20070, -52490, -313800,  -943000,  -72200,  -44440,  1.40200E4,    16520,  3.82100E4, -106300,  3.18900E4,  -75170, -4514.00, -4331, -11650.0,  -8038, -379600, -179700,  -33840,  -32310,  1.31200E4,     6148,  1.99200E4, -120400,  -69460, -27320.0, -1312.00, -2295.00, -15920, -14230.0,  -66430,  -58080, -17910.0, -17250.0,   -7837,  -62480, -25140,  -67550, -22550.0, -10280,  -6624.0, -1082.00, -12010,  -9244, -13240.0,     2386,     4766,     6966,     8353,     7129,     4718,    4926,   -10.5,  -8781.0,  -5077.0, -2543.00, -2671.00,  -3025.0,    78.3,    2201,     3796,     1853,    2315,    3041,  1371.0,  -3814.0,  -3780.0, -2009.0, -1363.00,  -778.30, -1278.00,  -1667.0,  -5689.0,  -608.2,   2007,   2397,   1381,    863,  -4026.0,  -3345.0, -1756.0, -1032.0, -1272.0,  -568.20,  -503.80, -2169.00,  -3014.0,  -4546.0,  -3655.0,  -4947.0,  -6705.0,  -3949.0,  -3635.0,  -2929.0, -2025.0,  -295.5,  -501.0,  -443.00,  -597.00, -1734.00,  -2940.0, -1427.0,  -3509.0,  -4852.0,  -5933.0,  -3993.0],
+      [3994,  290700, 3.79000E7,  41110,     0.0,         0.0,         0.0,         0.0,         0.0,     0.0,         0.0,  34540, 4.04500E6,  405300, 1820000, 1.12700E7, 1.24300E7, 1.08400E6, 6.36700E6,   51240,      0,   3510, 6.47700E5,   8730, 12850, 103000,  503600, 1.47300E6, 1.17900E7, 1264000,  214300,  48400,       0,     0.0,     0.0,     0.0, 14200.0,  26240,  69020,  446300, 176200, 1160000,  280800, 5.80000E6, 4.87600E7, 5.30500E5,  162000,  6239.0,     0.0,  6610.0,  40250, 33260, 14240,  49720,  24090,  240400,  264200,   81760,  26460,  2586.0, -187000, -25550, -45520,  -85820, -1449000, -184400, -190400,  3.69900E4,  -94200,  6.36100E4,  8.34400E4,  6.05400E4, -163400, -26720, -45120, -20270, -53610, -326400,  -950400,  -73830,  -45120,  1.57700E4,    15450,  2.62500E4,  -94150,  2.55800E4,  -78720, -4769.00, -4640, -11560.0,  -8010, -391400, -187600,  -38880,  -34120,  1.39400E4,    11040,  1.58700E4, -128300,  -73290, -29770.0, -1846.00, -2119.00, -15500, -15360.0,  -70570,  -61260, -19580.0, -19460.0,    1835,  -66070, -29350,  -70500, -23080.0, -11570,  -7102.0, -1425.00, -13210,  -9461, -11070.0,     4348,     6186,     8951,     8008,     5041,     4540,    3004,  -643.0,  -7666.0,  -4683.0, -3019.00, -1579.00,  -3826.0,  1856.0,    1605,     5385,     3385,    3645,     526,  1587.0,  -3073.0,  -3181.0, -1969.0, -1613.00,  -579.10, -1613.00,  -3109.0,  -7073.0, -1614.0,   2682,   2817,   1681,   1355,  -4418.0,  -3977.0, -1338.0, -1652.0, -1543.0,  -756.60,  -559.80, -1944.00,  -1699.0,  -5877.0,  -4614.0,  -5231.0,  -7353.0,  -3850.0,  -3348.0,  -3694.0, -2026.0,  -660.9,  -355.1,  -603.50,  -884.20, -1623.00,  -3064.0, -1863.0,  -4263.0,  -6303.0,  -5266.0,  -4778.0],
+      [4000,  725000, 4.20500E7,  52740,  4105.0,   1.58800E2,   1.83500E2,   1.56300E3,   1.18900E3,     0.0,         0.0,  73200, 7.08800E6, 1054000, 2622000, 2.00800E7, 2.23400E7, 1.18200E6, 1.00100E7,   76050,  43940,  11560, 1.20500E6,  16040, 23930, 107100,  815300, 3.21600E6, 1.81300E7, 2014000,  389200,      0,       0,     0.0,     0.0, 19590.0,  5597.0,  54860,  99960,  513800, 183000, 1499000,  481000, 9.25000E6, 7.66500E7, 1.04000E6,  343800,  5573.0,     0.0,  6537.0,  48290, 35910, 29770,  52380,  48830,  276500,  293100,  146300,  27820,     0.0, -182900, -25090, -44750,  -82570, -1448000, -192600, -194700,  3.24000E4,  -91620,  7.31600E4,  1.13300E5,  8.12600E4, -157300, -26390, -47260, -20880, -55130, -329000,  -963100,  -72420,  -48780,  1.83200E4,    18490,  3.51100E4,  -87020,  4.38900E4,  -74780, -5109.00, -4771, -12230.0,  -7828, -399800, -185900,  -44660,  -38020,  1.52100E4,     1637,  2.56100E4, -130200,  -74280, -26640.0, -1091.00, -2220.00, -18260, -15860.0,  -72870,  -62610, -20900.0, -18730.0,   -6449,  -70390, -26270,  -73020, -26500.0, -10290,  -6342.0, -1351.00, -12910, -10380, -14530.0,     6494,     5946,     6452,     7386,     9744,     6884,    4397,  -405.7,  -7586.0,  -5456.0, -2693.00, -2235.00,  -4756.0,  1691.0,    4007,     2423,     6222,    3215,    2670,  2823.0,  -3421.0,  -4160.0, -1951.0, -1768.00,  -909.00, -1629.00,  -2749.0,  -5956.0,   -19.3,   2459,   2325,   3241,   1335,  -4894.0,  -4008.0, -2407.0, -1931.0, -1502.0,  -682.50,  -387.80, -2269.00,  -3050.0,  -6216.0,  -4655.0,  -5576.0,  -7395.0,  -3607.0,  -4601.0,  -3017.0, -1908.0,  -895.1,  -551.0,  -553.20,  -960.10, -1895.00,  -2776.0, -1785.0,  -3930.0,  -6179.0,  -5475.0,  -4532.0],
+      [4006,       0, 3.26800E7,  18370,     0.0,   4.36800E3,         0.0,         0.0,         0.0,     0.0,         0.0,  38020, 6.36500E6,  811900, 1974000, 1.51500E7, 2.60200E7, 2.28700E6, 2.10200E7,   94000,  29800,      0, 1.13100E6,  21930, 12780, 102400,  742600, 2.88500E6, 2.84800E7, 1767000,  319600,  79960,  686100,     0.0, 11580.0,  6662.0,     0.0,  16100,  93540,  544000, 213800, 1541000,  450800, 8.47200E6, 7.95100E7, 9.68700E5,  296600,  7371.0,  4357.0,  5642.0,  40250, 47580, 26700,  76800,  60620,  444300,  403700,  582900,  47450,     0.0, -199100, -28890, -50440,  -94290, -1424000, -208200, -213900,  9.84100E4,  -56930,  1.58800E5,  1.38500E5,  1.67100E5, -176900, -26920, -49420, -21850, -59500, -353800, -1011000,  -56520,  -47800,  1.16000E5,    77320,  9.05500E4,  -67670,  9.17200E4,  -84520, -5688.00, -5171, -13700.0,  -8982, -433200, -200400,  -41320,  -37050,  9.87400E4,    60190,  6.23200E4, -144100,  -73790, -33050.0, -1931.00, -2701.00, -19620, -18470.0,  -77930,  -69560, -22700.0, -16780.0,   38560,  -63910,   8258,  -73850, -21620.0, -12700,  -8502.0, -1762.00, -14740, -11890, -15610.0,    30410,    43930,    48880,    53290,    51300,    41010,   31430, 12850.0,  -2280.0,  -4914.0, -2519.00, -1972.00,  -1099.0, 12700.0,   21270,    35010,    38530,   35190,   28960, 15050.0,   6458.0,   3063.0,  1263.0,  -633.90,  -553.00, -1495.00,  -1796.0,  -4655.0,  9288.0,  24420,  29320,  28680,  23280,   6278.0,   3633.0,  4946.0,  3707.0,  2385.0,  -453.70,   -28.78, -1636.00,  -1935.0,  -2113.0,   5364.0,   9925.0,  10290.0,  11000.0,   5878.0,   2225.0,  4396.0,  4364.0,  3421.0,    20.23,  -504.60, -1338.00,  -1296.0,  1547.0,   1533.0,   2894.0,   4035.0,   6158.0],
+      [4012, 1208000, 3.57500E7,  40340,  1951.0,   2.35600E3,         0.0,         0.0,   1.67000E3, 1856.00,         0.0,  39410, 2.68100E6,  354100, 1183000, 8.09900E6, 1.00900E7, 5.96700E6, 2.30300E7,  112700,  64450,      0, 3.92700E5,  18460,     0,  45260,  405600, 1.07200E6, 1.71100E7,  987700,  195200,      0,   48060,  2872.0,     0.0,     0.0, 12950.0,  23440,  38190,  284500, 206400,  724700,  235700, 3.18700E6, 3.35500E7, 3.70800E5,   92310,     0.0,     0.0,  3174.0,  36780, 18360,  3762,  30700,  34540,  135100,  132000,  204800,  37660,  2028.0, -201100, -30030, -53290, -100500, -1443000, -220000, -224700,  4.34200E4,  -79890,  9.37900E4,  9.21800E4,  7.40800E4, -191200, -27060, -51110, -22770, -59830, -370300, -1016000,  -59680,  -60740,  4.40600E4,    28500,  2.83800E4,  -80730,  4.44500E4,  -91450, -6258.00, -5319, -14270.0,  -9479, -446600, -210900,  -52270,  -46010,  1.78400E4,    17070,  2.41500E4, -169000,  -95400, -33640.0, -1901.00, -2807.00, -20790, -18290.0,  -83920,  -72910, -28590.0, -25080.0,   13080,  -87560, -12600,  -95910, -29160.0, -13930,  -9149.0, -1861.00, -15100, -11960, -16430.0,    11340,     8633,    20560,    22830,    15700,    11030,    9347,  4434.0,  -9192.0,  -5681.0, -2746.00, -3685.00,  -4601.0,  3441.0,   10900,     8692,    17670,    5447,    6274,  4739.0,  -2793.0,  -5053.0, -2089.0, -1321.00, -1139.00, -1411.00,  -3700.0,  -8864.0,  1002.0,  10420,   4728,   3708,   1947,  -2947.0,  -4423.0, -1838.0, -1115.0, -1539.0, -1015.00,  -549.30, -3173.00,  -4147.0,  -8106.0,  -3809.0,  -4725.0,  -6802.0,  -1896.0,  -4747.0,  -3273.0, -1355.0,  -772.0,   213.4,  -551.70, -1267.00, -2309.00,  -4082.0, -2038.0,  -4003.0,  -5971.0,  -6761.0,  -4431.0],
+      [4018, 1315000, 3.62900E7,  15740,  3627.0,   2.06800E3,         0.0,   1.96900E3,   1.53600E3,     0.0,         0.0,  30780, 5.05500E6,  641800, 1910000, 1.16400E7, 1.64700E7, 3.73500E6, 1.78300E7,  114200,  56700,   2753, 7.25400E5,  24400, 18740,  70760,  664200, 7.63300E5, 2.44800E7, 1857000,  304200,      0,  484300,  8341.0,  2765.0,     0.0, 11080.0,  43170,  73830,  614000, 103900, 1503000,  504400, 6.26700E6, 5.79600E7, 6.35500E5,  194600,  4157.0,  9419.0,  9005.0,  65310, 42360, 16410,  67110,  40100,  234900,  335300,  186100,  48490,  1456.0, -203200, -29810, -53190, -100100, -1433000, -229800, -228900,  4.96000E4,  -80420,  9.68400E4,  1.26500E5,  1.21600E5, -179600, -27660, -51240, -21410, -60600, -374200, -1027000,  -70360,  -60680,  2.27200E4,    41040,  5.71000E4,  -81150,  4.96100E4,  -84080, -5204.00, -5433, -14130.0,  -9085, -454100, -210600,  -57240,  -52890,  3.37100E4,    17790,  3.15300E4, -165400,  -96820, -31930.0, -1533.00, -2772.00, -20640, -19930.0,  -84000,  -71520, -32610.0, -28330.0,   12710,  -93290, -28180,  -88860, -31000.0, -12090,  -7956.0, -1753.00, -15210, -12070, -17730.0,     5612,     6802,    14400,    11470,    17740,    12870,    5512,  2420.0,  -9872.0,  -7377.0, -3969.00, -2058.00,  -5813.0,  2106.0,    6931,     9502,    10510,    5559,    4601,  3670.0,  -4273.0,  -5174.0, -2624.0, -1824.00, -1041.00, -2289.00,  -4231.0, -10570.0, -1093.0,   6272,   4044,   4618,   4135,  -5537.0,  -5997.0, -3434.0, -2595.0, -2008.0,  -957.40,  -871.50, -2798.00,  -4824.0,  -7589.0,  -6868.0,  -6669.0,  -9156.0,  -2812.0,  -5879.0,  -4863.0, -2379.0,  -648.1,  -551.8,  -757.10, -1229.00, -1798.00,  -3468.0, -2535.0,  -3584.0,  -9735.0,  -6831.0,  -5017.0],
+      [4024, 1099000, 3.93700E7,  48790,     0.0,   7.75100E3,         0.0,         0.0,   8.68900E2,     0.0,   9.56000E2,  56870, 4.97900E6,  497900, 1335000, 1.24500E7, 1.76400E7, 2.92600E6, 1.09600E7,       0, 116400,   7199, 9.68700E5,  13470, 28320, 100100,  496700, 7.42400E5, 1.92200E7, 1387000,  236200,  20480,  261900,     0.0,     0.0,  7774.0, 14550.0,  43790,  49940,  465200, 137300, 1058000,  357400, 6.23800E6, 5.92700E7, 6.27900E5,  211500,     0.0,   520.7,  7853.0,  31110, 32560, 15250,  32270,  24640,  172800,  231900,   90470,  16330,     0.0, -200200, -30970, -55690,  -99850, -1444000, -233900, -235500,  4.49300E4,  -77810,  7.21000E4,  9.57800E4,  8.52000E4, -194100, -29280, -50240, -23750, -62020, -379900, -1027000,  -63980,  -69510,  2.85400E4,    15000,  3.77500E4,  -80330,  5.01400E4,  -92770, -6222.00, -5314, -15090.0,  -9292, -458000, -217900,  -56450,  -51870,  2.76000E4,    10480,  3.24600E4, -178500, -101500, -34610.0, -1772.00, -3189.00, -20390, -20710.0,  -90960,  -75110, -28750.0, -27240.0,    5994, -104300, -24810,  -96830, -38240.0, -14090,  -9155.0, -1875.00, -15910, -13120, -18640.0,     9724,     9614,     8955,    10780,    14720,     6912,    6969,  -447.8, -11760.0,  -7630.0, -3870.00, -2954.00,  -2739.0,  3246.0,    5367,     8692,    10430,    5298,    4351,  1485.0,  -4884.0,  -5948.0, -2789.0, -2458.00, -1101.00, -2101.00,  -4701.0, -10640.0,   261.8,   3749,   5930,   3484,   4069,  -7172.0,  -6479.0, -2423.0, -2473.0, -1932.0,  -957.70,  -921.80, -3381.00,  -5898.0,  -8269.0,  -6409.0,  -8560.0,  -8411.0,  -5663.0,  -6756.0,  -4368.0, -2271.0, -1165.0,  -686.1,  -630.50,  -955.40, -2126.00,  -4563.0, -2865.0,  -6210.0,  -9719.0,  -8355.0,  -6117.0],
+      [4030,  548500, 3.73100E7,  83890,   716.9,         0.0,         0.0,         0.0,         0.0,     0.0,         0.0,   2742, 3.06000E6,  382100,  880500, 1.20200E7, 1.38100E7, 2.55800E6, 1.30700E7,   45500,   3134,   3199, 5.07200E5,  11980, 17950,  97060, 1148000,       0.0, 1.79000E7, 1836000,  305600,      0,       0,  1047.0, 14800.0,     0.0,  5779.0,  46720,  99370,  642600, 266200, 1999000,  655300, 4.04800E6, 3.34600E7, 3.46600E5,  140500,     0.0,  2828.0, 17310.0,  59500, 30820, 25130,  74910,  30660,  232800,  337500,  202600,  36050,  1099.0, -196900, -31200, -54230,  -99290, -1437000, -237400, -239800,  4.71000E4,  -82210,  7.81100E4,  1.15000E5,  7.83600E4, -186500, -29060, -52790, -23610, -60940, -386800, -1046000,  -63190,  -69500,  1.51500E4,    21690,  4.87900E4,  -77740,  4.64300E4,  -90160, -6294.00, -5640, -15420.0,  -9997, -473300, -219200,  -58480,  -54910,  1.73100E4,     6656,  2.49500E4, -178900,  -98470, -34130.0, -1667.00, -2913.00, -21160, -20880.0,  -93720,  -76240, -32180.0, -29480.0,    7745, -106600, -21900, -102500, -37720.0, -12790,  -9529.0, -1923.00, -17390, -12920, -19160.0,     4159,     7281,     8311,     8981,     8757,     5571,    2906,  -729.8, -11590.0,  -7358.0, -3784.00, -4068.00,  -7361.0,  1390.0,    2357,     3145,     3927,    2959,    5006,  -487.8,  -4131.0,  -6232.0, -3439.0, -2139.00, -1327.00, -2630.00,  -4816.0, -11790.0, -1770.0,   3353,   3100,   1664,    480,  -8543.0,  -7442.0, -3828.0, -2954.0, -1809.0,  -974.80,  -712.00, -3390.00,  -5662.0,  -9943.0,  -6216.0,  -8894.0, -11500.0,  -6021.0,  -6744.0,  -4934.0, -2699.0,  -850.5,  -319.7,  -884.60, -1439.00, -2612.00,  -4680.0, -3840.0,  -7664.0,  -8496.0, -10750.0,  -6920.0],
+      [4036,  319800, 4.14300E7,  69900, 10280.0,   5.75500E3,   3.50500E2,         0.0, 9.51300E-11, 2877.00,   6.20500E2,  58080, 4.60300E6,  833300, 2235000, 1.63100E7, 2.05500E7, 3.84000E6, 1.60000E7,   37990,  27430,  13080, 7.52300E5,  10860, 25820, 108400,  846500, 2.11400E6, 1.38700E7, 2274000,  360000,  57900,       0,  4038.0,     0.0,     0.0, 11620.0,  34490, 113700,  618200, 393800, 1690000,  460300, 6.03500E6, 4.99700E7, 6.69100E5,  164300,  3293.0, 18270.0,  8825.0,  57660, 46910, 16360,  49870,  26500,  202600,  369000,  113800,  61510,     0.0, -201900, -31290, -55790, -102000, -1433000, -242800, -248800,  3.90400E4,  -77920,  9.76300E4,  1.28200E5,  1.09200E5, -194400, -29200, -51800, -23530, -62570, -395400, -1049000,  -69680,  -75860,  3.01300E4,    19840,  5.11300E4,  -61260,  4.50100E4,  -94240, -6100.00, -5178, -15810.0, -10140, -472500, -215800,  -62510,  -56550,  1.33700E4,    12320,  3.45200E4, -179700, -105800, -30410.0, -1308.00, -2826.00, -22590, -21310.0,  -99040,  -80030, -35490.0, -31420.0,     967, -114000, -21030,  -98830, -37470.0, -12830,  -9873.0, -2121.00, -17710, -14110, -21710.0,     5439,     8191,     7704,    13710,    10130,     7623,    8068,  2007.0, -12100.0,  -6933.0, -4404.00, -4156.00,  -7256.0,  2217.0,    4496,     5461,     5758,    3396,    2145,  2330.0,  -5036.0,  -6598.0, -3467.0, -2240.00, -1383.00, -2270.00,  -5200.0, -12790.0, -2431.0,   4048,   1639,   3765,   1052,  -8442.0,  -6926.0, -3926.0, -3083.0, -2216.0, -1110.00,  -892.10, -3779.00,  -6196.0, -11220.0,  -8231.0,  -9196.0, -11640.0,  -7371.0,  -7455.0,  -6171.0, -3650.0,  -830.6,  -534.9,  -878.50, -1527.00, -2976.00,  -4796.0, -4059.0,  -8045.0,  -9976.0, -10740.0,  -7678.0],
+      [4042, 3355000, 4.37000E7, 115200,  4641.0,   1.66700E3,         0.0,   1.08300E3,   2.00600E3,     0.0,         0.0,  10970, 3.51700E6,  477400, 1529000, 1.16000E7, 1.45400E7, 9.41500E6, 4.23800E7,  180600,  54340,   8237, 6.27700E5,   8830,  8824,  94290,  789000,       0.0, 2.54800E7, 1554000,  349600,      0,  422800, 24350.0,  3446.0,  1803.0,     0.0,  57930, 108000,  539200, 219900, 1684000,  418500, 3.57700E6, 4.19900E7, 4.10700E5,  140300,  3442.0, 10210.0,  9576.0,  62030, 42080, 11130,  53010,  42920,  241400,  354400,  103200,  47780,  4665.0, -206300, -31530, -57880, -105900, -1425000, -248400, -254200,  3.35300E4,  -79940,  7.47800E4,  1.23200E5,  8.18800E4, -204300, -29950, -54000, -25090, -63990, -406900, -1063000,  -69120,  -77960,  2.46700E4,    21430,  3.69300E4,  -71750,  3.54500E4,  -99830, -6332.00, -5849, -16100.0, -10440, -481400, -227400,  -66150,  -59680,  1.22700E4,    11790,  2.25500E4, -198700, -116200, -35970.0, -2135.00, -3156.00, -22920, -21520.0, -101800,  -82290, -38860.0, -32860.0,    1024, -118500, -21100, -105300, -42980.0, -15580, -10610.0, -2176.00, -17300, -13960, -21730.0,     2479,     7209,     7842,     9302,     8372,     7796,    3413, -1866.0, -12830.0,  -6976.0, -4219.00, -4016.00,  -8655.0,  2254.0,    4404,     3244,     5057,    3958,    2684,   383.3,  -4761.0,  -7037.0, -3273.0, -2251.00, -1438.00, -2488.00,  -4620.0, -13640.0, -2237.0,   3346,   2980,   2377,   1640,  -8958.0,  -6885.0, -3533.0, -3022.0, -1829.0, -1180.00,  -913.00, -4026.00,  -6875.0, -11900.0,  -9137.0,  -9179.0, -12420.0,  -7610.0,  -7516.0,  -5864.0, -3262.0, -1291.0,  -848.0,  -849.80, -1541.00, -3106.00,  -5347.0, -3885.0,  -8276.0, -11080.0, -11790.0,  -7399.0],
+      [4048, 1539000, 4.56500E7,  69910,  4102.0,   1.26300E3,         0.0,         0.0,         0.0,  613.80,         0.0,  65120, 5.22400E6, 1018000, 2044000, 1.85800E7, 2.83900E7, 1.33600E7, 5.23600E7,  182100,  93940,   5823, 8.46200E5,  11680, 13860, 128100, 1058000, 2.20600E6, 2.03900E7, 3482000,  491800,  28930,   43770,  3957.0,     0.0, 17140.0,  7981.0,  55510, 118200,  751100, 199200, 1878000,  676600, 6.71200E6, 6.21200E7, 8.13200E5,  213800,  6830.0,     0.0,  6841.0,  36560, 43650, 23570,  45230,  23680,  202700,  319600,  198700,  55440,  2812.0, -193400, -31340, -57410, -104500, -1410000, -254300, -258900,  4.32800E4,  -80310,  8.99600E4,  1.42100E5,  9.18500E4, -187900, -27940, -52040, -24640, -64210, -409000, -1057000,  -64160,  -82260,  3.06300E4,    17680,  5.06400E4,  -60300,  3.77900E4,  -95370, -6367.00, -5813, -16270.0, -10560, -490500, -229700,  -68550,  -60590,  1.74800E4,    11190,  2.45000E4, -202700, -122000, -32800.0, -1858.00, -3280.00, -24010, -22450.0, -105700,  -83770, -38740.0, -35460.0,     730, -121600, -21300, -114100, -44540.0, -14270, -10400.0, -2489.00, -17900, -14570, -22060.0,     6989,     9707,    10680,    12020,    11430,     9935,    6335,  1159.0, -12880.0,  -7719.0, -3886.00, -4252.00,  -7645.0,  3071.0,    5474,     7979,     6063,    6181,    3574,   666.4,  -5931.0,  -7306.0, -3257.0, -2143.00, -1260.00, -2733.00,  -5821.0, -13400.0,   -68.9,   5191,   3889,   3945,   2381,  -9064.0,  -7371.0, -3856.0, -2716.0, -1651.0, -1039.00, -1093.00, -3846.00,  -7384.0, -11910.0,  -7974.0,  -9646.0, -12040.0,  -5413.0,  -7185.0,  -5893.0, -3975.0, -1033.0,  -722.7,  -932.10, -1489.00, -2863.00,  -5406.0, -4426.0,  -8459.0, -10720.0, -11530.0,  -7622.0],
+      [4054,  629400, 4.52000E7,  87100,   597.6,         0.0,         0.0,         0.0,         0.0,   65.12,   9.91400E2,  23830, 3.76500E6,  607800, 2040000, 1.52400E7, 1.50200E7, 5.96100E6, 2.43700E7,  154700,  34710,  10860, 6.82800E5,   4193, 11540,  92190,  510700, 4.72700E5, 1.93600E7, 1759000,  297000,      0,  506600, 16170.0,     0.0,     0.0,  3900.0,  25400,  87030,  428600, 302500, 1141000,  325200, 5.70000E6, 5.24400E7, 5.56600E5,  161400,  1930.0,     0.0,  6716.0,  47790, 30730, 16420,  49530,  22290,  139300,  234200,   99270,  35050,  4193.0, -210600, -34340, -61560, -111200, -1426000, -261600, -268000,  3.11400E4,  -80230,  5.76200E4,  9.08100E4,  6.59300E4, -219000, -29730, -56180, -25970, -65510, -417600, -1082000,  -67090,  -83550,  1.77500E4,    18900,  3.39800E4,  -73230,  2.60700E4, -108200, -6695.00, -6072, -16350.0, -11030, -503300, -239900,  -72660,  -67740,  1.32100E4,    11110,  1.32300E4, -215100, -128600, -37390.0, -2078.00, -3513.00, -25480, -22610.0, -108000,  -83750, -41530.0, -36190.0,    7290, -132600, -23220, -120200, -46680.0, -16200, -10930.0, -2703.00, -19310, -15930, -24110.0,     5903,     8339,     5285,     6024,     6307,     6426,    2165,   118.3, -14400.0,  -8630.0, -4770.00, -4507.00,  -8979.0,   213.2,    2442,     4421,     1613,    4813,    4643,   654.2,  -7325.0,  -8341.0, -3754.0, -2797.00, -1218.00, -3087.00,  -5873.0, -15260.0, -2386.0,   3276,   1464,   2005,   1159, -10460.0,  -8574.0, -3945.0, -3116.0, -2374.0, -1138.00, -1134.00, -4144.00,  -7100.0, -11890.0, -10840.0, -11510.0, -13490.0,  -7247.0,  -8809.0,  -6583.0, -3721.0, -1613.0,  -780.5, -1030.00, -1389.00, -2794.00,  -5560.0, -4886.0, -10130.0, -11730.0, -12800.0,  -9266.0],
+      [4060,  273100, 4.55900E7,  53150,  1298.0,   1.42500E3,   3.82600E3,   6.38000E2,         0.0,  385.30,         0.0,  47700, 4.70900E6,  526800, 1262000, 1.11200E7, 1.80400E7, 4.16600E6, 1.56300E7,   84130,      0,   7947, 8.28600E5,  10930,  1515,  49160,  465200, 1.65100E6, 1.21500E7, 1194000,  176400,  17010,       0,  5507.0,     0.0,     0.0,     0.0,  27370,  57800,  401400, 285700,  951700,  334600, 7.93600E6, 5.62100E7, 6.17500E5,  220300,  6125.0,  8669.0,  4774.0,  29740, 25210, 14780,  60290,  16120,  169200,  175300,   87110,  33620,     0.0, -209500, -34910, -60490, -107300, -1428000, -269400, -274000,  3.63200E4,  -78180,  5.58500E4,  9.69500E4,  6.92300E4, -227400, -29660, -56100, -26140, -66620, -425200, -1098000,  -67080,  -88910,  1.61800E4,    22010,  2.80400E4,  -85230,  2.41600E4, -111500, -6489.00, -5845, -17530.0, -11220, -518100, -237400,  -73260,  -68380,  1.17500E4,     8913,  1.32900E4, -224100, -133500, -39500.0, -2269.00, -3213.00, -24460, -24180.0, -109900,  -86910, -41070.0, -38390.0,    1037, -137600, -24880, -123700, -46860.0, -16990, -11610.0, -2553.00, -19360, -15740, -23970.0,     5472,     7104,     8945,     6358,     7708,     6225,    5425,  -840.3, -13200.0,  -8763.0, -4417.00, -4014.00,  -8370.0,  1722.0,    3440,     4247,     3865,    3898,    3655,  1125.0,  -7127.0,  -7815.0, -4537.0, -2660.00, -1631.00, -2950.00,  -6593.0, -16400.0, -3266.0,   2448,   3518,   1943,   1140,  -9995.0,  -9148.0, -3591.0, -3312.0, -2167.0, -1383.00, -1287.00, -4516.00,  -7127.0, -13440.0,  -9809.0, -12310.0, -14450.0,  -8527.0,  -8177.0,  -6616.0, -4062.0, -1705.0,  -971.2, -1071.00, -1728.00, -3268.00,  -6204.0, -4602.0,  -9647.0, -12790.0, -12680.0,  -9345.0],
+      [4066,  655300, 3.41300E7,  55970, 10250.0,   1.76200E3,   3.64400E1,         0.0,   1.18200E3,     0.0,         0.0,  58390, 4.87300E6,  619500, 2378000, 1.53600E7, 1.87200E7, 4.06800E6, 9.87700E6,   88010,      0,   5780, 7.85700E5,   8151, 14810, 121900,  879100, 1.73900E6, 2.12300E7, 2116000,  321500,      0,       0,     0.0,  7854.0,  4138.0,  8557.0,  37470,  88390,  707900, 377300, 1603000,  457200, 6.15900E6, 5.33700E7, 5.67200E5,  185100, 11240.0,  1934.0,  8068.0,  50180, 41930, 21160,  64970,  48650,  236700,  356300,  112100,  48870,  1605.0, -213700, -34830, -63580, -110300, -1430000, -273400, -280200,  3.98100E4,  -74860,  7.32200E4,  1.14000E5,  8.89500E4, -218100, -31040, -55520, -26310, -66190, -433400, -1098000,  -66040,  -92670,  2.30000E4,    17360,  3.39800E4,  -74860,  2.95900E4, -110500, -6973.00, -6298, -16710.0, -11580, -518000, -243900,  -77340,  -73560,  1.34400E4,     9867,  2.21300E4, -234600, -141500, -41120.0, -1494.00, -3806.00, -26190, -24910.0, -115700,  -91990, -45600.0, -39460.0,   -1614, -146200, -21230, -128600, -51710.0, -17900, -12360.0, -2966.00, -19820, -16740, -24720.0,     2668,     6851,     5619,     6871,     6862,     6632,    6313,  -613.4, -15610.0,  -8684.0, -5204.00, -5226.00,  -9718.0,   243.2,    3501,     3088,     5761,    1883,    2248,   107.5,  -7522.0,  -8383.0, -4829.0, -2785.00, -1609.00, -3237.00,  -6575.0, -15440.0, -2803.0,   1837,   2512,   1285,   1553, -11280.0,  -9276.0, -4657.0, -3516.0, -2603.0, -1302.00, -1327.00, -4586.00,  -8317.0, -14350.0, -11010.0, -12140.0, -15480.0, -10750.0,  -9604.0,  -7172.0, -4575.0, -1977.0, -1137.0, -1091.00, -1870.00, -3648.00,  -6421.0, -4913.0, -10760.0, -13410.0, -14310.0, -10300.0],
+      [4072,  917000, 2.98100E7,  25410,  6125.0,   3.16500E3,         0.0,         0.0,         0.0, 1744.00,   2.56200E3,  14260, 3.12300E6,  378700,  815000, 6.93800E6, 1.12700E7, 4.41800E6, 1.51100E7,  141100,  10060,   5098, 5.25500E5,   7258,  9621,  55470,  374800, 9.39600E5, 1.33700E7, 1120000,  152000,  43860,  163200,     0.0,  6888.0,     0.0,     0.0,  14300,  45270,  249000, 106300,  655600,  256900, 3.49700E6, 3.61700E7, 4.23900E5,  105400,  3034.0,     0.0,  4969.0,  22780, 24270, 20410,   7004,   8678,   79430,  161000,   75530,  19110,   160.4, -233400, -40130, -73030, -125800, -1416000, -314800, -320800,  2.14500E4,  -82640,  5.04600E4,  6.95800E4,  4.09600E4, -254700, -34030, -59970, -29490, -71240, -485500, -1174000,  -71010, -115400,  1.15400E4,    11640,  2.64800E4,  -78020,  2.41600E4, -129200, -7995.00, -6842, -20760.0, -12830, -589800, -272600,  -96590,  -91760,  9.05400E3,     5240,  1.01500E4, -280400, -173300, -46060.0, -2814.00, -4591.00, -30940, -29620.0, -131200, -102600, -58160.0, -52020.0,    -697, -186300, -22930, -159100, -66460.0, -20030, -14270.0, -3729.00, -23540, -19480, -30510.0,     3760,     2200,     5507,     3689,     3727,     3934,    4389, -4205.0, -19250.0, -11380.0, -6047.00, -6245.00, -12290.0,  1077.0,    1275,     3494,     1715,     875,    2169,   398.5, -10820.0, -12560.0, -6166.0, -3388.00, -2070.00, -4016.00,  -8342.0, -21320.0, -4988.0,   1442,    582,    399,    -51, -14550.0, -12380.0, -6419.0, -4544.0, -3031.0, -1745.00, -1674.00, -6077.00, -10910.0, -19280.0, -15050.0, -16940.0, -20310.0, -13880.0, -12120.0,  -9542.0, -5422.0, -2751.0, -1232.0, -1192.00, -2242.00, -4567.00,  -8395.0, -7568.0, -14750.0, -17540.0, -18410.0, -13380.0],
+      [4078,  439800, 3.42900E7,  41650,     0.0,         0.0,         0.0,   2.56100E2,         0.0,     0.0,         0.0,  47270, 3.16200E6,  466700, 1839000, 1.02200E7, 1.27200E7, 1.42700E6, 9.60200E6,       0,      0,   2187, 5.75300E5,  11900, 16610,  64790,  464600, 1.13200E6, 1.51800E7, 1161000,  243400,  17760,  291100,     0.0,     0.0,     0.0,  8402.0,  15570,  44870,  298500, 251100,  770100,  231100, 4.33100E6, 4.17500E7, 4.18200E5,  110300,     0.0,     0.0,  8311.0,  36500, 40540,  6689,  35970,  13150,  204100,  190600,  101800,  42920,     0.0, -242500, -41360, -74280, -129500, -1423000, -320500, -330600,  1.85000E4,  -82800,  5.34000E4,  6.80400E4,  4.61200E4, -259200, -34470, -61520, -29220, -73820, -493900, -1180000,  -65830, -121900,  9.09600E3,    10070,  3.05900E4,  -75080,  2.37500E4, -132100, -8348.00, -6986, -21160.0, -13580, -608200, -276900, -101500,  -94670,  7.53000E3,     5891,  8.55600E3, -289100, -179600, -48180.0, -2466.00, -4791.00, -31160, -30530.0, -134400, -107000, -62060.0, -54730.0,    4123, -192300, -23650, -164000, -69240.0, -20920, -15230.0, -3550.00, -24060, -20020, -31050.0,     2415,     1697,     4723,     3792,     1560,     4088,    2356, -3505.0, -19460.0, -11230.0, -6237.00, -6431.00, -11990.0,  1076.0,    1906,     2142,     2383,    2077,     699,  -330.1, -11250.0, -13000.0, -6310.0, -3717.00, -2181.00, -4315.00,  -9374.0, -22590.0, -4913.0,   1633,    476,     43,   -126, -15750.0, -13020.0, -6766.0, -4895.0, -2917.0, -1761.00, -1900.00, -6449.00, -11890.0, -20590.0, -15500.0, -17420.0, -21830.0, -14340.0, -13120.0, -10200.0, -5982.0, -2633.0, -1368.0, -1389.00, -2472.00, -4747.00,  -8478.0, -8314.0, -15730.0, -19530.0, -19100.0, -13990.0],
+      [4084,  999200, 2.98200E7,  58280, 10970.0,         0.0,   2.10500E3,         0.0,   1.18700E3, 2392.00,   1.16700E3,  34290, 4.37000E6,  584500, 1674000, 1.38200E7, 1.46000E7, 2.89000E6, 1.30800E7,   67940,      0,    260, 6.40200E5,  10520, 15760,  73770,  545900, 5.69800E5, 1.62700E7, 1387000,  226600,      0,  249400,    37.6, 16980.0,  7583.0,  7161.0,  33790,  90930,  331400,      0,  795500,  326100, 5.33300E6, 4.92700E7, 5.04700E5,  132600,     0.0,   467.3,  2606.0,  38470, 20490, 11470,  28920,  22840,  116700,  219000,   71420,  24760,  2143.0, -174800, -40250, -71890, -129500, -1418000, -328700, -337900,  2.57800E4,  -78040,  4.60200E4,  7.23600E4,  4.52900E4, -258500, -34890, -61420, -29750, -72990, -501500, -1183000,  -68830, -125900,  1.29800E4,    10720,  2.48800E4,  -74170,  2.20600E4, -137400, -8198.00, -7170, -21120.0, -13800, -610500, -278300, -104400,  -98240,  1.38300E4,     3300,  1.09600E4, -305900, -185900, -48980.0, -2454.00, -4935.00, -32380, -31640.0, -138300, -109900, -64290.0, -57820.0,    1599, -203000, -24690, -170700, -71560.0, -20980, -16230.0, -4079.00, -24690, -20800, -32150.0,     5018,     2563,     3546,     4597,     2798,     4269,    4076, -2636.0, -20080.0, -12150.0, -6638.00, -6525.00, -13060.0,  1145.0,    2819,     1406,     3114,    3711,    1752,   -96.3, -11960.0, -13720.0, -6313.0, -4019.00, -2215.00, -4482.00,  -9693.0, -23260.0, -4462.0,   1773,   2554,   1116,      7, -16480.0, -13880.0, -6806.0, -4975.0, -3219.0, -1882.00, -1968.00, -6801.00, -12680.0, -21340.0, -15820.0, -17680.0, -22560.0, -14880.0, -13710.0, -10290.0, -6095.0, -2881.0, -1492.0, -1362.00, -2651.00, -5090.00,  -9552.0, -8363.0, -16310.0, -20430.0, -20180.0, -14550.0],
+      [4090,  498900, 3.46600E7,  25060,  4956.0,         0.0,   2.57800E3,         0.0,         0.0,     0.0,         0.0,   9389, 2.63500E6,  447400,  936300, 1.46100E7, 1.13100E7, 2.00000E6, 9.58400E6,       0,  14630,      0, 4.47300E5,   3396,  2830,  50050,  273500, 1.08100E6, 9.20200E6,  734100,  128100,      0,       0,     0.0,     0.0,     0.0,  4643.0,  15730,  21540,  210800, 189000,  668400,  154300, 3.59900E6, 3.18900E7, 3.22400E5,  109400,  8400.0,     0.0,  4854.0,  21850, 18900,  9152,  28370,   5672,   74290,  120500,   76640,  13190,   197.3, -243600, -42880, -78010, -131800, -1420000, -339400, -346700,  1.83500E4,  -82620,  3.47000E4,  5.99900E4,  3.75500E4, -278500, -35120, -61590, -30360, -75060, -514400, -1205000,  -67980, -132200,  1.53900E4,     7749,  1.57200E4,  -85200,  1.84200E4, -141300, -8526.00, -7242, -22640.0, -14340, -626800, -288400, -107400, -102400,  4.34000E3,     3159,  1.18000E4, -316500, -197400, -50780.0, -2562.00, -4991.00, -33000, -32280.0, -138800, -112400, -66760.0, -61410.0,    2018, -213600, -24520, -177300, -76150.0, -22390, -16300.0, -4273.00, -25340, -20960, -33530.0,      961,     1500,     3116,     2502,     3356,     2127,    2788, -3550.0, -21060.0, -12270.0, -6722.00, -6969.00, -13710.0,  -544.8,    1505,     2196,     1271,    1192,    1504,  -226.8, -13010.0, -14160.0, -6705.0, -4065.00, -2200.00, -4296.00,  -9890.0, -25160.0, -5418.0,    933,   1120,   1557,   -210, -17550.0, -14470.0, -7442.0, -5008.0, -3301.0, -1957.00, -1939.00, -7134.00, -13400.0, -22770.0, -17120.0, -19010.0, -23570.0, -15980.0, -14290.0, -11140.0, -6683.0, -3129.0, -1508.0, -1232.00, -2778.00, -5326.00, -10280.0, -8893.0, -16840.0, -21380.0, -21870.0, -15220.0],
+      [4096,  437800, 3.31200E7,  48020,  1053.0,   4.23100E2,         0.0,   9.87700E2,         0.0,     0.0,         0.0,  43900, 6.12600E6,  679500, 1770000, 1.12800E7, 1.87600E7, 2.99600E6, 1.50200E7,   52470,  84320,   7012, 1.03900E6,  19950, 23490, 104400,  769200, 1.71200E6, 1.44400E7, 1763000,  476500,  41770,   45270,  2021.0, 10390.0,     0.0, 10770.0,  77050,  70640,  396200, 192000, 1047000,  330600, 7.93900E6, 7.15600E7, 7.25500E5,  299700,  7296.0,   871.0,  2453.0,  38570, 20240, 10430,  44220,  19060,  150600,  228300,   67780,  45920,  1130.0, -242000, -43360, -77230, -135100, -1412000, -343900, -352500,  2.46500E4,  -74950,  4.94700E4,  7.98500E4,  4.87100E4, -274900, -34930, -62340, -31360, -75880, -518700, -1210000,  -65500, -138000,  1.04100E4,    11520,  2.60900E4,  -75300,  2.31200E4, -141000, -8563.00, -7358, -23060.0, -14570, -640700, -290100, -113400, -106300,  4.87600E3,     4275,  1.26700E4, -325800, -203600, -50860.0, -2986.00, -5257.00, -33670, -33350.0, -146200, -115200, -69460.0, -64000.0,     724, -223800, -23290, -182900, -78580.0, -22000, -16660.0, -4454.00, -26200, -21530, -33950.0,      494,     2468,     4388,     5538,     3466,     4027,    4059, -3751.0, -22130.0, -12450.0, -6974.00, -7498.00, -15140.0,   758.5,    2075,     2893,     2348,    2035,    2928,  1270.0, -12000.0, -15010.0, -7412.0, -4308.00, -2310.00, -4730.00, -10310.0, -25780.0, -4949.0,   2274,   2180,   1319,    208, -18050.0, -15230.0, -7768.0, -5546.0, -3394.0, -1989.00, -2241.00, -7014.00, -14150.0, -24190.0, -17300.0, -20090.0, -23150.0, -16700.0, -14720.0, -11400.0, -7138.0, -3136.0, -1606.0, -1570.00, -2862.00, -5573.00, -10700.0, -9765.0, -17160.0, -21800.0, -22360.0, -16240.0]
+    ]
+  }
+]

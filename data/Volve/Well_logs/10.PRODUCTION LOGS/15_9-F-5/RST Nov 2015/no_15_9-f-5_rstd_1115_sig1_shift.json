@@ -1,0 +1,35 @@
+[
+  {
+    "header": {
+      "name": "no_15_9-f-5_rstd_1115_sig1_shift",
+      "well": "NO_15/9-F-5",
+      "source": "Converted from LAS by Log Studio 4.87 - Petroware AS",
+      "startIndex": 3455.16,
+      "endIndex": 3626.15,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "DEPTH",
+        "description": null,
+        "quantity": null,
+        "unit": "M",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DEPTH_DS",
+        "description": null,
+        "quantity": null,
+        "unit": "M",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [3455.16, 3453.94],
+      [3585.07, 3584.39],
+      [3626.15, 3626.05]
+    ]
+  }
+]

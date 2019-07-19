@@ -7,4 +7,4 @@ of the petroleum industry.
 The code available here is an Ocean (3rd-party plugin) module for importing files in the
 JSON Well Log Format into Petrel.
 
-[Petrel](https://jsonwelllogformat.org/images/petrel.jpg)
+<img hspace="20" src="https://jsonwelllogformat.org/images/petrel.jpg">

@@ -1,0 +1,144 @@
+[
+  {
+    "header": {
+      "name": "WL_COMPUTED_DIP_MWD_3",
+      "well": "15/9-F-14",
+      "operator": "STATOILHYDRO ASA",
+      "country": "NORWAY",
+      "field": "VOLVE",
+      "source": "Converted from ASC by Log Studio 4.87 - Petroware AS",
+      "startIndex": null,
+      "endIndex": 3023.07,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "curve1",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve2",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      },
+      {
+        "name": "curve3",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve4",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      },
+      {
+        "name": "curve5",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve6",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve7",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve8",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      },
+      {
+        "name": "curve9",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve10",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      },
+      {
+        "name": "curve11",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "curve12",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "valueType": "string",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [   null, "46003]",    null, "46005]",    null,    null,    null, "45971]",    null,  "W",    null, null],
+      [   null,     null,    null,     null,    null,    null,    null,     null,    null, null,    null, null],
+      [3666.70,     null, 49.3882,     null, 93.7646, 81.4625, 349.620,     null, 73.7341, null, 267.336, null],
+      [3642.60,     null, 48.7640,     null, 94.0045, 77.6566,  98.148,     null, 53.7161, null, 185.024, null],
+      [3619.50,     null, 49.9959,     null, 93.4779, 87.9518,  47.785,     null, 59.2203, null, 123.654, null],
+      [3514.21,     null, 61.9172,     null, 89.9693, 58.0305, 260.002,     null,  9.4589, null,  63.312, null],
+      [3513.61,     null, 61.9578,     null, 89.9579, 47.7298, 231.839,     null, 33.8977, null,  54.989, null],
+      [3494.67,     null, 63.6452,     null, 89.4857, 74.8831,  70.405,     null, 45.4320, null, 153.706, null],
+      [3481.80,     null, 64.7905,     null, 89.1652, 65.8858,  41.474,     null, 67.5514, null, 133.086, null],
+      [3480.94,     null, 64.8650,     null, 89.1443, 58.4716,  54.056,     null, 65.8378, null, 147.519, null],
+      [3480.32,     null, 64.9192,     null, 89.1291, 57.3685,  55.882,     null, 65.8378, null, 149.599, null],
+      [3475.61,     null, 65.3258,     null, 88.9745, 53.8826, 264.810,     null, 11.9901, null,  16.403, null],
+      [3474.16,     null, 65.4183,     null, 88.8894, 38.7488, 246.684,     null, 31.6361, null,  26.806, null],
+      [3458.14,     null, 66.4975,     null, 87.8967, 74.3794, 299.439,     null, 30.6759, null, 260.934, null],
+      [3444.88,     null, 67.3917,     null, 87.0742, 61.5483,  57.727,     null, 58.3758, null, 149.599, null],
+      [3425.17,     null, 68.8983,     null, 86.2330, 73.0165, 187.969,     null, 73.3425, null,  77.799, null],
+      [3406.04,     null, 70.5011,     null, 85.7131, 38.2342, 171.784,     null, 77.1607, null,  39.291, null],
+      [3351.72,     null, 72.3901,     null, 85.6783, 89.5594, 194.652,     null, 71.8073, null,  95.499, null],
+      [3286.65,     null, 79.7423,     null, 85.3127, 61.7929,  20.202,     null, 73.6929, null, 123.602, null],
+      [3285.04,     null, 79.9026,     null, 85.3046, 68.1186, 245.341,     null, 22.4781, null,  55.963, null],
+      [3213.76,     null, 79.2746,     null, 80.2386, 60.4483, 194.462,     null, 63.7379, null,  62.206, null],
+      [3171.68,     null, 76.0866,     null, 76.5178, 55.2240, 200.374,     null, 54.4559, null,  56.963, null],
+      [3123.06,     null, 72.6235,     null, 74.2151, 42.3028,  94.019,     null, 67.4515, null, 194.294, null],
+      [3122.58,     null, 72.5818,     null, 74.2010, 72.5818, 254.201,     null,     0.0, null,     0.0, null],
+      [3088.68,     null, 70.5781,     null, 72.2484, 85.1811, 104.605,     null, 40.0112, null, 236.043, null],
+      [3080.90,     null, 70.1465,     null, 71.6850, 56.6804,  66.517,     null, 53.4014, null, 174.620, null],
+      [3037.30,     null, 67.2118,     null, 66.3156, 72.7736,  64.111,     null, 40.0727, null, 176.727, null],
+      [3035.33,     null, 67.0730,     null, 66.0486, 63.2617,  65.008,     null, 49.6755, null, 178.781, null],
+      [3023.07,     null, 66.2905,     null, 64.2572, 51.6908,  79.543,     null, 63.6555, null, 193.347, null]
+    ]
+  }
+]

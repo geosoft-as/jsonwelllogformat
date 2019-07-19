@@ -1,8 +1,7 @@
 # Accessing JSON Well Log Format files with Petrel
 
-[Petrel](https://www.software.slb.com/products/petrel) is a powerful software system
-by [Schlumberger](https://slb.com) that is used in the exploration and production sector
-of the petroleum industry.
+[Petrel](https://www.software.slb.com/products/petrel) is a powerful exploration software system
+by [Schlumberger](https://slb.com) for the petroleum industry.
 
 The code available here is an _Ocean_ (Petrel 3rd-party plugin) module for importing files
 in the JSON Well Log Format into Petrel.

@@ -1,0 +1,1061 @@
+[
+  {
+    "header": {
+      "name": "WL_RAW_PROD_CAL-CCL-FLOW-GR_2010-09-21_34",
+      "well": "15/9-F-12",
+      "operator": "Statoil",
+      "serviceCompany": "Schlumberger",
+      "country": "Norway",
+      "field": "Volve",
+      "date": "2010-09-20T22:00:00Z",
+      "source": "Converted from DLIS by Log Studio 4.87 - Petroware AS",
+      "startIndex": 1.018567040E8,
+      "endIndex": 1.020317040E8,
+      "step": 1.000000000E3
+    },
+    "curves": [
+      {
+        "name": "TIME",
+        "description": "1 second River Time",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "TDEP",
+        "description": "1 second River Depth",
+        "quantity": null,
+        "unit": "0.1 in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "TENS_SL",
+        "description": "Cable Tension",
+        "quantity": null,
+        "unit": "lbf",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DEPT_SL",
+        "description": "Station logging depth",
+        "quantity": null,
+        "unit": "0.1 in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "ETIM_PL",
+        "description": "Elapsed Logging Time",
+        "quantity": null,
+        "unit": "s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "TOJ",
+        "description": "Time of Job",
+        "quantity": null,
+        "unit": "s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "RSPI_SL",
+        "description": "Raw Main Spinner Velocity",
+        "quantity": null,
+        "unit": "c/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "SPIN_SL",
+        "description": "Main Spinner Velocity",
+        "quantity": null,
+        "unit": "c/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "RSP1_SL",
+        "description": "Raw Auxiliary Spinner 1 Velocity",
+        "quantity": null,
+        "unit": "c/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "SPI1_SL",
+        "description": "Auxiliary Spinner 1 Velocity",
+        "quantity": null,
+        "unit": "c/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFC1_SL",
+        "description": "PFCS CaliperX (station)",
+        "quantity": null,
+        "unit": "in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFC2_SL",
+        "description": "PFCS CaliperY (station)",
+        "quantity": null,
+        "unit": "in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "D1RB_SL",
+        "description": "Probe 1 Relative Bearing",
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFRB_SL",
+        "description": "Calibrated Relative Bearing",
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP1S_SL",
+        "description": "Probe 1 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP2S_SL",
+        "description": "Probe 2 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP3S_SL",
+        "description": "Probe 3 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP4S_SL",
+        "description": "Probe 4 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH1_SL",
+        "description": "Holdup Probe 1",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH2_SL",
+        "description": "Holdup Probe 2",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH3_SL",
+        "description": "Holdup Probe 3",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH4_SL",
+        "description": "Holdup Probe 4",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB1_SL",
+        "description": "Bubble count Probe 1",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB2_SL",
+        "description": "Bubble count Probe 2",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB3_SL",
+        "description": "Bubble count Probe 3",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB4_SL",
+        "description": "Bubble count Probe 4",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFBM_SL",
+        "description": "Bubble Count Average",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFHM_SL",
+        "description": "Holdup Average",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "FHM_SL",
+        "description": "Filtered Holdup Average",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "FBM_SL",
+        "description": "Filtered Bubble Count Average",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFCHM_SL",
+        "description": "DEFT Computed Holdup Average (Station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX1_SL",
+        "description": "Waveform Maximum Value Probe 1",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX2_SL",
+        "description": "Waveform Maximum Value Probe 2",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX3_SL",
+        "description": "Waveform Maximum Value Probe 3",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX4_SL",
+        "description": "Waveform Maximum Value Probe 4",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN1_SL",
+        "description": "Waveform Minimum Value Probe 1",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN2_SL",
+        "description": "Waveform Minimum Value Probe 2",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN3_SL",
+        "description": "Waveform Minimum Value Probe 3",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN4_SL",
+        "description": "Waveform Minimum Value Probe 4",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH1_SL",
+        "description": "Water/Oil Threshold Probe 1",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH2_SL",
+        "description": "Water/Oil Threshold Probe 2",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH3_SL",
+        "description": "Water/Oil Threshold Probe 3",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH4_SL",
+        "description": "Water/Oil Threshold Probe 4",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GTEP_SL",
+        "description": "Gradio Temperature",
+        "quantity": null,
+        "unit": "degC",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GTCO_SL",
+        "description": "Gradio Correction Temperature",
+        "quantity": null,
+        "unit": "degC",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "UWFD_SL",
+        "description": "Uncorrected Well Fluid Density",
+        "quantity": null,
+        "unit": "g/cm3",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "WFDE_SL",
+        "description": "Well Fluid Density Corrected",
+        "quantity": null,
+        "unit": "g/cm3",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GPPE_SL",
+        "description": "Gradio Pressure Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GPOP_SL",
+        "description": "PGMC Gradio Pressure Offset Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GTPE_SL",
+        "description": "Gradio Temperature Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GTOP_SL",
+        "description": "PGMC Gradio Temperature Offset Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "AZ_PGMS_SL",
+        "description": "PGMC Acceleration Along Z Axis",
+        "quantity": null,
+        "unit": "m/s2",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "ATEP_SL",
+        "description": "Accelerometer Temperature",
+        "quantity": null,
+        "unit": "degC",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "ATCOR_SL",
+        "description": "PGMC Accelero Correction Temp",
+        "quantity": null,
+        "unit": "degC",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DEVI_PGMS_SL",
+        "description": "PGMC Hole Deviation",
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "ACPE_SL",
+        "description": "PGMC Acceleration Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "ATPE_SL",
+        "description": "PGMC Accelero Temperature Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DDFBM_SL",
+        "description": "Dual DEFT Bubble Count Average (station)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DDFHM_SL",
+        "description": "Dual DEFT Holdup Average (station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "RPFCX2_SL",
+        "description": "Uncalibrated Caliper X - Station log (2nd tool)",
+        "quantity": null,
+        "unit": "in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFC12_SL",
+        "description": "Caliper X - Station log (2nd tool)",
+        "quantity": null,
+        "unit": "in",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "D1RB2_SL",
+        "description": "Probe 1 Relative Bearing (2nd tool)",
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFRB2_SL",
+        "description": "Calibrated Relative Bearing (2nd tool)",
+        "quantity": null,
+        "unit": "deg",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP5S_SL",
+        "description": "Probe 5 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP6S_SL",
+        "description": "Probe 6 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP7S_SL",
+        "description": "Probe 7 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DP8S_SL",
+        "description": "Probe 8 Allow/Disallow Switch",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH5_SL",
+        "description": "DEFTC2 Holdup Probe 1 (Station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH6_SL",
+        "description": "DEFTC2 Holdup Probe 2 (Station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH7_SL",
+        "description": "DEFTC2 Holdup Probe 3 (Station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFH8_SL",
+        "description": "DEFTC2 Holdup Probe 4 (Station)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB5_SL",
+        "description": "Bubble Count Probe 1 (2nd tool)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB6_SL",
+        "description": "Bubble Count Probe 2 (2nd tool)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB7_SL",
+        "description": "Bubble Count Probe 3 (2nd tool)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFB8_SL",
+        "description": "Bubble Count Probe 4 (2nd tool)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFBM2_SL",
+        "description": "Bubble Count Average (2nd tool)",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFHM2_SL",
+        "description": "Holdup Average (2nd tool)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "FHM2_SL",
+        "description": "Filtered Holdup Average (2nd tool)",
+        "quantity": null,
+        "unit": null,
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "FBM2_SL",
+        "description": "Filtered Bubble Count Average (2nd tool",
+        "quantity": null,
+        "unit": "1/s",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX5_SL",
+        "description": "Waveform Maximum Value Probe 1 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX6_SL",
+        "description": "Waveform Maximum Value Probe 2 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX7_SL",
+        "description": "Waveform Maximum Value Probe 3 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFX8_SL",
+        "description": "Waveform Maximum Value Probe 4 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN5_SL",
+        "description": "Waveform Minimum Value Probe 1 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN6_SL",
+        "description": "Waveform Minimum Value Probe 2 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN7_SL",
+        "description": "Waveform Minimum Value Probe 3 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "DFN8_SL",
+        "description": "Waveform Minimum Value Probe 4 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH5_SL",
+        "description": "Water/Oil Threshold Probe 1 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH6_SL",
+        "description": "Water/Oil Threshold Probe 2 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH7_SL",
+        "description": "Water/Oil Threshold Probe 3 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PFTH8_SL",
+        "description": "Water/Oil Threshold Probe 4 (2nd tool)",
+        "quantity": null,
+        "unit": "V",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "RGR_SL",
+        "description": "Raw Gamma Ray",
+        "quantity": null,
+        "unit": "gAPI",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GR_SL",
+        "description": "Gamma Ray",
+        "quantity": null,
+        "unit": "gAPI",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "QGPF_SL",
+        "description": "PBMS CQG Pressure Ref.Beat",
+        "quantity": null,
+        "unit": "Hz",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "QGTF_SL",
+        "description": "PBMS CQG Temperature Ref.Beat",
+        "quantity": null,
+        "unit": "Hz",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "QGKTF_SL",
+        "description": "PBMS CQG Clock Temp. Ref.Beat",
+        "quantity": null,
+        "unit": "Hz",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "QGKF_SL",
+        "description": "PBMS CQG Clock Freq Ref.Beat",
+        "quantity": null,
+        "unit": "Hz",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "WTPE_SL",
+        "description": "PBMS Well Temp Period",
+        "quantity": null,
+        "unit": "ms",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "WPRE_SL",
+        "description": "Well Pressure",
+        "quantity": null,
+        "unit": "psi",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "TOD7",
+        "description": "Time of Day",
+        "quantity": null,
+        "unit": "s",
+        "valueType": "integer",
+        "dimensions": 1
+      },
+      {
+        "name": "RCVL_SL",
+        "description": "Raw Main Cable Velocity",
+        "quantity": null,
+        "unit": "m/min",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "SCVL_SL",
+        "description": "Main Cable Velocity",
+        "quantity": null,
+        "unit": "m/min",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "RCV1_SL",
+        "description": "Raw Auxiliary Cable 1 Velocity",
+        "quantity": null,
+        "unit": "m/min",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "SCV1_SL",
+        "description": "Auxiliary Cable 1 Velocity",
+        "quantity": null,
+        "unit": "m/min",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "GPCO_SL",
+        "description": "Gradio Correction Pressure",
+        "quantity": null,
+        "unit": "kPa",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "WTEP_SL",
+        "description": "Well Temperature",
+        "quantity": null,
+        "unit": "degF",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "MTEP_SL",
+        "description": "Manometer Temperature",
+        "quantity": null,
+        "unit": "degF",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "QGCP_SL",
+        "description": "PBMS CQG Compensated Pressure",
+        "quantity": null,
+        "unit": "psi",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [1.018567040E8, 1260170, 2176, 1260170,   0, 132858, 4.98000, 5.12639, 5.73184, 5.57951, 6.29635, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 0.75829, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 2.92032, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33667, 3.8, 3.07601, 0.8, 5.8, 105.094, 105.094, 53.984, 3.24746, 4.15963,     0.0, 1.0000, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 1.0000, 1.000, 0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.997, 0.84945, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242,  3.2504,  5.7392, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156458, 0, 0, 0, 0, 31719.1, 224.96, 225.151, 4600.47],
+      [1.018577040E8, 1260170, 2177, 1260170,   1, 132859, 4.89107, 5.12001, 5.58527, 5.56341, 6.29176, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9953, 1.0000, 1.000,     0.0,  3.2321,     0.0,     0.0, 0.80802, 0.9988, 0.998, 0.83564, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.725, 3.783, 3.8, 2.92032, 3.4070, 3.4375, 3.4070, 107.477, 107.477, 0.9, 0.9, 0.33701, 3.8, 3.07591, 0.8, 5.8, 105.096, 105.096, 53.984, 3.24738, 4.15965, 2.15471, 0.9928, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9473, 1.000, 0,     0.0, 14.0056,     0.0, 3.50140, 0.9868, 0.997, 1.04282, 3.7, 3.7, 3.7, 3.7, 3.4125, 3.4515, 0.5265, 3.4320, 3.16368, 3.16368, 3.10284, 3.07242,  9.4297,  6.9770, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156459, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018587040E8, 1260170, 2179, 1260170,   2, 132860, 5.39500, 5.13916, 5.48878, 5.52858, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9936, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9984, 0.998, 0.85498, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.549, 3.803, 3.8, 2.92032, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33683, 3.8, 3.07601, 0.8, 5.8, 105.092, 105.092, 53.985, 3.24735, 4.15962, 1.75968, 0.9949, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9978, 0.9679, 1.000, 0,  2.0111,  7.0387,     0.0, 2.26244, 0.9914, 0.996, 1.12017, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.0225, 3.4320, 3.4515, 3.16368, 3.16368, 3.10284, 3.10284,  9.5152,  8.4029, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.46, 1285156460, 0, 0, 0, 0, 31719.1, 224.95, 225.151, 4600.46],
+      [1.018597040E8, 1260170, 2173, 1260170,   3, 132861, 5.14600, 5.12639, 5.48878, 5.49375, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9852, 0.9981, 1.000,     0.0,  6.0332, 1.00553,     0.0, 1.75968, 0.9958, 0.998, 0.85498, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 2.92032, 3.4070, 3.4679, 3.4375, 107.506, 107.506, 0.9, 0.9, 0.33705, 3.8, 3.07596, 0.8, 5.8, 105.092, 105.092, 53.985, 3.24741, 4.15962, 1.00553, 0.9977, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9982, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9995, 0.996, 1.19752, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  9.4391, 10.1749, 15406.8, 427764, 486799, 14668.7, 3.97, 4600.48, 1285156461, 0, 0, 0, 0, 31719.2, 224.95, 225.152, 4600.48],
+      [1.018607040E8, 1260170, 2177, 1260170,   4, 132862, 5.39500, 5.10724, 5.45345, 5.45892, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9876, 0.9861, 1.000,     0.0,  7.0387, 2.01106,     0.0, 2.26244, 0.9934, 0.998, 0.91299, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 2.92032, 3.4070, 3.4375, 3.3766, 107.527, 107.527, 0.9, 0.9, 0.33638, 3.8, 3.07601, 0.8, 5.8, 105.089, 105.089, 53.986, 3.24743, 4.15959, 1.50830, 0.9956, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9970, 0.9939, 1.000, 0,  2.0111,  1.0055,     0.0, 0.75415, 0.9977, 0.996, 1.25553, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.3802,  9.8335, 15406.8, 427764, 486799, 14668.7, 3.97, 4600.50, 1285156462, 0, 0, 0, 0, 31719.3, 224.95, 225.152, 4600.50],
+      [1.018617040E8, 1260170, 2178, 1260170,   5, 132863, 5.81000, 5.12001, 5.19724, 5.42374, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9775, 1.0000, 1.000,     0.0, 11.0608,     0.0,     0.0, 2.76521, 0.9944, 0.998, 0.93233, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.541, 3.803, 3.8, 2.92032, 3.4070, 3.4375, 3.3766, 107.527, 107.527, 0.9, 0.9, 0.33687, 3.8, 3.07601, 0.8, 5.8, 105.089, 105.089, 53.987, 3.24734, 4.15959, 2.63952, 0.9936, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9757, 0.995, 0,     0.0,  9.0498, 1.00553, 2.51383, 0.9927, 0.996, 1.31354, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 0.5265, 3.4515, 3.16368, 3.16368, 3.10284, 3.10284, 12.1103, 11.3906, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.48, 1285156463, 0, 0, 0, 0, 31719.2, 224.95, 225.152, 4600.48],
+      [1.018627040E8, 1260170, 2178, 1260170,   6, 132864, 5.14600, 5.14993, 5.19724, 5.38782, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9953, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9988, 0.998, 1.07735, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.763, 3.8, 2.92032, 3.3766, 3.4375, 3.4070, 107.506, 107.506, 0.9, 0.9, 0.33669, 3.8, 3.07596, 0.8, 5.8, 105.093, 105.093, 53.987, 3.24735, 4.15962, 1.38260, 0.9953, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9668, 1.000, 0,     0.0,  7.0387,     0.0, 1.75968, 0.9917, 0.996, 1.38606, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242,  7.7229, 11.7518, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156464, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018637040E8, 1260170, 2176, 1260170,   7, 132865, 4.89700, 5.16909, 5.52252, 5.35191, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9965, 0.9984, 1.000,     0.0,  3.0166, 1.00553,     0.0, 1.00553, 0.9987, 0.998, 1.13537, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 2.92032, 3.4070, 3.4375, 3.3766, 107.506, 107.506, 0.9, 0.9, 0.33665, 3.8, 3.07596, 0.8, 5.8, 105.093, 105.093, 53.988, 3.24741, 4.15962, 1.75968, 0.9968, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9974, 0.9825, 1.000, 0,  2.0111,  8.0442,     0.0, 2.51383, 0.9950, 0.995, 1.44407, 3.6, 3.7, 3.7, 3.7, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 17.3004, 11.0487, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156465, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018647040E8, 1260170, 2177, 1260170,   8, 132866, 5.22900, 5.17593, 5.27906, 5.32727, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9991, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9998, 0.998, 1.15056, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33651, 3.8, 3.07601, 0.8, 5.8, 105.094, 105.094, 53.988, 3.24741, 4.15963, 0.62846, 0.9986, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9899, 1.000, 0,     0.0,  4.0221,     0.0, 1.00553, 0.9975, 0.996, 1.40678, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4125, 3.13326, 3.16368, 2.49444, 3.07242, 11.2453, 11.7407, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156466, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018657040E8, 1260170, 2177, 1260170,   9, 132867, 4.81400, 5.16316, 5.27906, 5.31078, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 1.22791, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4375, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33641, 3.8, 3.07601, 0.8, 5.8, 105.093, 105.093, 53.989, 3.24740, 4.15962, 0.50277, 0.9986, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9903, 0.9983, 1.000, 0,  3.0166,  1.0055,     0.0, 1.00553, 0.9972, 0.996, 1.32943, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 2.52486, 3.07242,  6.8648, 12.6182, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156467, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018667040E8, 1260170, 2176, 1260170,  10, 132868, 4.73100, 5.15039, 5.27906, 5.29992, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9974, 0.9988, 1.000,     0.0,  2.0111, 1.00553,     0.0, 0.75415, 0.9990, 0.998, 1.24724, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33661, 3.8, 3.07601, 0.8, 5.8, 105.092, 105.092, 53.989, 3.24744, 4.15961, 0.75415, 0.9990, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9961, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9990, 0.995, 1.44545, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 2.49444, 3.07242, 15.5704, 11.0937, 15406.7, 427764, 486799, 14668.7, 3.97, 4600.47, 1285156468, 0, 0, 0, 0, 31719.1, 224.95, 225.152, 4600.47],
+      [1.018677040E8, 1260170, 2177, 1260170,  11, 132869, 5.14600, 5.10570, 5.27445, 5.29423, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9987, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9997, 0.998, 1.13122, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33705, 3.8, 3.07601, 0.8, 5.8, 105.093, 105.093, 53.989, 3.24736, 4.15962, 0.50277, 0.9988, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9969, 0.9948, 1.000, 0,  1.0055,  2.0111,     0.0, 0.75415, 0.9979, 0.995, 1.69683, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 2.52486, 3.07242, 12.1103, 10.9207, 15406.8, 427764, 486799, 14668.7, 3.97, 4600.51, 1285156469, 0, 0, 0, 0, 31719.4, 224.95, 225.152, 4600.51],
+      [1.018687040E8, 1260170, 2178, 1260170,  12, 132870, 5.36906, 4.99716, 5.26496, 5.30824, 6.28631, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9858, 1.0000, 1.000,     0.0,  7.5415,     0.0,     0.0, 1.88537, 0.9964, 0.998, 1.03454, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4070, 3.4070, 107.505, 107.505, 0.9, 0.9, 0.33693, 3.8, 3.07596, 0.8, 5.8, 105.091, 105.091, 53.990, 3.24740, 4.15961, 1.41403, 0.9969, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9892, 1.000, 0,     0.0,  3.7707,     0.0, 0.94268, 0.9973, 0.995, 1.65816, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 2.49444, 3.07242,  9.6778, 11.4508, 15406.8, 427764, 486799, 14668.7, 3.97, 4600.49, 1285156470, 0, 0, 0, 0, 31719.2, 224.95, 225.152, 4600.49],
+      [1.018697040E8, 1260170, 2178, 1260170,  13, 132871, 5.22900, 4.99716, 5.26496, 5.32288, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 0.9900, 1.000,     0.0,     0.0, 3.01659,     0.0, 0.75415, 0.9975, 0.998, 1.03454, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33708, 3.8, 3.07593, 0.8, 5.8, 105.092, 105.092, 53.990, 3.24744, 4.15962, 0.75415, 0.9965, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9816, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9954, 0.995, 1.60015, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.3930, 3.16368, 3.16368, 2.73780, 3.07242, 10.3802, 10.9110, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.46, 1285156471, 0, 0, 0, 0, 31719.0, 224.95, 225.152, 4600.46],
+      [1.018707040E8, 1260170, 2176, 1260170,  14, 132872, 4.98000, 5.00354, 5.26496, 5.31186, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9974, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9993, 0.998, 0.99586, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.511, 107.511, 0.9, 0.9, 0.33676, 3.8, 3.07597, 0.8, 5.8, 105.093, 105.093, 53.990, 3.24741, 4.15962, 2.01106, 0.9957, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9963, 0.9721, 1.000, 0,  1.0055, 11.0608,     0.0, 3.01659, 0.9921, 0.995, 1.52280, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.3930, 3.4710, 3.4515, 3.16368, 3.16368, 2.85948, 3.10284,  9.5152, 10.9110, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156472, 0, 0, 0, 0, 31718.9, 224.95, 225.152, 4600.44],
+      [1.018717040E8, 1260170, 2176, 1260170,  15, 132873, 5.22900, 4.99077, 5.27445, 5.30975, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9993, 0.9838, 1.000,     0.0,  1.0055, 8.04424,     0.0, 2.26244, 0.9958, 0.998, 1.03454, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.493, 107.493, 0.9, 0.9, 0.33689, 3.8, 3.07594, 0.8, 5.8, 105.094, 105.094, 53.991, 3.24740, 4.15963, 1.75968, 0.9960, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9846, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9962, 0.995, 1.54214, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.3735, 3.13326, 3.16368, 3.01158, 3.10284, 12.8715, 10.8633, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156473, 0, 0, 0, 0, 31718.9, 224.95, 225.152, 4600.43],
+      [1.018727040E8, 1260170, 2178, 1260170,  16, 132874, 4.98000, 4.99716, 5.34762, 5.30041, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9856, 0.9973, 1.000,     0.0,  6.0332, 2.01106,     0.0, 2.01106, 0.9957, 0.998, 1.05387, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33687, 3.8, 3.07601, 0.8, 5.8, 105.087, 105.087, 53.992, 3.24746, 4.15957, 1.88537, 0.9936, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9658, 1.000, 0,     0.0,  7.0387,     0.0, 1.75968, 0.9915, 0.995, 1.56147, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4320, 3.4710, 3.4515, 3.16368, 3.16368, 3.13326, 3.07242, 12.1103, 11.0363, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156474, 0, 0, 0, 0, 31718.9, 224.95, 225.152, 4600.43],
+      [1.018737040E8, 1260170, 2177, 1260170,  17, 132875, 4.81400, 5.03547, 5.37937, 5.29830, 6.29421, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9970, 0.9985, 1.000,     0.0,  2.0111, 1.00553,     0.0, 0.75415, 0.9989, 0.998, 1.01520, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.489, 107.489, 0.9, 0.9, 0.33660, 3.8, 3.07593, 0.8, 5.8, 105.091, 105.091, 53.992, 3.24738, 4.15961, 2.38813, 0.9933, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9973, 0.9537, 1.000, 0,  2.0111, 14.0774,     0.0, 4.02212, 0.9878, 0.994, 1.79352, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.13326, 3.07242,  9.4391, 11.3823, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156475, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.45],
+      [1.018747040E8, 1260170, 2176, 1260170,  18, 132876, 4.39900, 4.99875, 5.37937, 5.29655, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9930, 0.9980, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9977, 0.998, 1.05025, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.497, 107.497, 0.9, 0.9, 0.33697, 3.8, 3.07595, 0.8, 5.8, 105.091, 105.091, 53.991, 3.24741, 4.15961, 1.75968, 0.9952, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9983, 0.9766, 0.996, 0,  1.0055,  6.0332, 1.00553, 2.01106, 0.9927, 0.994, 1.89866, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.3930, 3.4710, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242, 11.2453, 11.2300, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156476, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.42],
+      [1.018757040E8, 1260170, 2178, 1260170,  19, 132877, 5.14600, 4.95606, 5.38752, 5.30493, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9853, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9963, 0.998, 1.02124, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.506, 107.506, 0.9, 0.9, 0.33708, 3.8, 3.07596, 0.8, 5.8, 105.090, 105.090, 53.991, 3.24737, 4.15960, 1.00553, 0.9973, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9976, 0.9952, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9982, 0.994, 1.84549, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242, 11.2453, 11.2107, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.41, 1285156477, 0, 0, 0, 0, 31718.7, 224.95, 225.153, 4600.41],
+      [1.018767040E8, 1260170, 2179, 1260170,  20, 132878, 4.98000, 4.92413, 5.37937, 5.31331, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9964, 0.9967, 1.000,     0.0,  1.0055, 1.00553,     0.0, 0.50277, 0.9983, 0.998, 1.00190, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33672, 3.8, 3.07601, 0.8, 5.8, 105.086, 105.086, 53.991, 3.24739, 4.15957, 1.00553, 0.9975, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9870, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9968, 0.994, 2.11621, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4320, 3.13326, 3.16368, 3.13326, 3.07242, 12.1103, 11.9179, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156478, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.42],
+      [1.018777040E8, 1260170, 2177, 1260170,  21, 132879, 5.06300, 4.89860, 5.25163, 5.32169, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9987, 0.9969, 1.000,     0.0,  1.0055, 2.01106,     0.0, 0.75415, 0.9989, 0.998, 1.02124, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 1.521, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.511, 107.511, 0.9, 0.9, 0.33690, 3.8, 3.07597, 0.8, 5.8, 105.088, 105.088, 53.991, 3.24743, 4.15958, 1.00553, 0.9978, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9985, 0.9879, 1.000, 0,  1.0055,  4.0221,     0.0, 1.25691, 0.9966, 0.994, 1.94217, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 12.0134, 12.9559, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156479, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.45],
+      [1.018787040E8, 1260170, 2176, 1260170,  22, 132880, 4.89700, 4.89221, 5.15764, 5.32999, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9986, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9996, 0.998, 1.02124, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.627, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.497, 107.497, 0.9, 0.9, 0.33675, 3.8, 3.07595, 0.8, 5.8, 105.086, 105.086, 53.991, 3.24740, 4.15956, 0.75415, 0.9968, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9975, 0.9837, 0.994, 0,  1.0055,  3.0166, 1.00553, 1.25691, 0.9939, 0.994, 1.90350, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 0.5655, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.9753, 13.1263, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156480, 0, 0, 0, 0, 31719.1, 224.95, 225.153, 4600.47],
+      [1.018797040E8, 1260170, 2177, 1260170,  23, 132881, 5.22900, 4.90498, 5.25163, 5.33174, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9982, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9995, 0.997, 1.17594, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.506, 107.506, 0.9, 0.9, 0.33675, 3.8, 3.07596, 0.8, 5.8, 105.089, 105.089, 53.991, 3.24741, 4.15959, 2.01106, 0.9940, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9536, 1.000, 0,     0.0, 15.0830,     0.0, 3.77074, 0.9884, 0.995, 1.84549, 3.8, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 16.4354, 13.4723, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156481, 0, 0, 0, 0, 31719.2, 224.95, 225.153, 4600.48],
+      [1.018807040E8, 1260170, 2177, 1260170,  24, 132882, 4.66875, 4.93690, 5.25163, 5.33105, 6.28832, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9926, 1.0000, 1.000,     0.0,  2.8281,     0.0,     0.0, 0.70701, 0.9982, 0.997, 1.27262, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.479, 107.479, 0.9, 0.9, 0.33692, 3.8, 3.07591, 0.8, 5.8, 105.089, 105.089, 53.991, 3.24741, 4.15959, 1.41403, 0.9947, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9908, 0.9744, 1.000, 0,  1.8854,  6.5988,     0.0, 2.12104, 0.9913, 0.995, 1.63278, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.0973, 12.9727, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156482, 0, 0, 0, 0, 31719.1, 224.95, 225.153, 4600.47],
+      [1.018817040E8, 1260170, 2176, 1260170,  25, 132883, 4.81400, 4.97521, 5.37389, 5.33035, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9790, 0.9967, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9939, 0.997, 1.25329, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33672, 3.8, 3.07593, 0.8, 5.8, 105.086, 105.086, 53.991, 3.24746, 4.15956, 0.87984, 0.9965, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9961, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9990, 0.995, 1.78748, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4125, 3.16368, 3.16368, 3.10284, 3.10284, 13.8403, 12.0938, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156483, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.43],
+      [1.018827040E8, 1260170, 2177, 1260170,  26, 132884, 4.81400, 4.98798, 5.37389, 5.31997, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9982, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9995, 0.997, 1.40798, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.725, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.506, 107.506, 0.9, 0.9, 0.33697, 3.8, 3.07596, 0.8, 5.8, 105.087, 105.087, 53.992, 3.24742, 4.15957, 2.38813, 0.9972, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9869, 0.9922, 1.000, 0, 10.0553,  7.0387,     0.0, 4.27350, 0.9948, 0.995, 1.86482, 3.6, 3.7, 3.7, 3.6, 3.4320, 0.5070, 3.4125, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  9.5152, 10.0178, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.41, 1285156484, 0, 0, 0, 0, 31718.7, 224.95, 225.153, 4600.41],
+      [1.018837040E8, 1260170, 2179, 1260170,  27, 132885, 4.64800, 5.00075, 5.37389, 5.30766, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.999, 0.9851, 1.0000, 1.000, 1.00553,  4.0221,     0.0,     0.0, 1.25691, 0.9960, 0.997, 1.50467, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.506, 107.506, 0.9, 0.9, 0.33692, 3.8, 3.07596, 0.8, 5.8, 105.091, 105.091, 53.991, 3.24738, 4.15961, 1.00553, 0.9974, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9993, 0.9962, 1.000, 0,  1.0055,  2.0111,     0.0, 0.75415, 0.9989, 0.995, 1.86482, 3.7, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.3540, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242,  8.5810,  9.4862, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156485, 0, 0, 0, 0, 31718.9, 224.95, 225.153, 4600.44],
+      [1.018847040E8, 1260170, 2178, 1260170,  28, 132886, 5.14600, 4.99437, 5.38243, 5.30518, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9828, 0.9986, 1.000,     0.0,  8.0442, 1.00553,     0.0, 2.26244, 0.9953, 0.997, 1.50467, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.3766, 3.4375, 3.4070, 107.497, 107.497, 0.9, 0.9, 0.33721, 3.8, 3.07595, 0.8, 5.8, 105.087, 105.087, 53.991, 3.24744, 4.15957, 1.50830, 0.9955, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9829, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9957, 0.995, 1.84549, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284,  6.0551,  9.1402, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156486, 0, 0, 0, 0, 31718.9, 224.95, 225.153, 4600.44],
+      [1.018857040E8, 1260170, 2178, 1260170,  29, 132887, 5.14600, 4.98160, 5.37035, 5.30994, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9799, 0.9960, 1.000,     0.0, 14.0774, 2.01106,     0.0, 4.02212, 0.9940, 0.997, 1.65937, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33681, 3.8, 3.07588, 0.8, 5.8, 105.088, 105.088, 53.991, 3.24741, 4.15958, 2.51383, 0.9952, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9917, 0.9985, 0.996, 0,  2.0111,  1.0055, 1.00553, 1.00553, 0.9965, 0.995, 1.74880, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.4125, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284,  9.4391,  9.3132, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156487, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.45],
+      [1.018867040E8, 1260170, 2177, 1260170,  30, 132888, 5.22900, 4.97441, 5.37035, 5.32838, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9899, 1.0000, 1.000,     0.0,  8.0442,     0.0,     0.0, 2.01106, 0.9975, 0.997, 1.78506, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.471, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.527, 107.527, 0.9, 0.9, 0.33695, 3.8, 3.07601, 0.8, 5.8, 105.090, 105.090, 53.991, 3.24740, 4.15959, 1.63399, 0.9966, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9829, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9957, 0.995, 1.65816, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.1103,  9.3270, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156488, 0, 0, 0, 0, 31719.1, 224.95, 225.153, 4600.47],
+      [1.018877040E8, 1260170, 2178, 1260170,  31, 132889, 4.89700, 4.99197, 5.37035, 5.35418, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9977, 0.9940, 1.000,     0.0,  2.0111, 3.01659,     0.0, 1.25691, 0.9979, 0.997, 1.82736, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.480, 107.480, 0.9, 0.9, 0.33668, 3.8, 3.07592, 0.8, 5.8, 105.086, 105.086, 53.991, 3.24736, 4.15956, 2.63952, 0.9944, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9930, 0.9702, 1.000, 0,  4.0221, 12.0664,     0.0, 4.02212, 0.9908, 0.995, 1.63036, 3.6, 3.7, 3.7, 3.6, 3.4320, 0.5265, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284, 10.3802,  9.4889, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156489, 0, 0, 0, 0, 31719.1, 224.95, 225.153, 4600.47],
+      [1.018887040E8, 1260170, 2178, 1260170,  32, 132890, 5.31200, 5.01112, 5.25253, 5.37057, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9887, 0.9961, 1.000,     0.0,  9.0498, 3.01659,     0.0, 3.01659, 0.9962, 0.997, 1.82736, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.599, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.471, 107.471, 0.9, 0.9, 0.33717, 3.8, 3.07591, 0.8, 5.8, 105.084, 105.084, 53.992, 3.24740, 4.15955, 2.51383, 0.9959, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9825, 1.000, 0,     0.0,  8.0442,     0.0, 2.01106, 0.9956, 0.995, 1.84307, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.2370, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  8.6502,  8.9851, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156490, 0, 0, 0, 0, 31719.2, 224.95, 225.153, 4600.48],
+      [1.018897040E8, 1260170, 2177, 1260170,  33, 132891, 5.14600, 5.03028, 5.21940, 5.38697, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9881, 0.9989, 1.000,     0.0,  6.0332, 1.00553,     0.0, 1.75968, 0.9968, 0.996, 2.04007, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.511, 107.511, 0.9, 0.9, 0.33696, 3.8, 3.07597, 0.8, 5.8, 105.084, 105.084, 53.992, 3.24742, 4.15954, 1.63399, 0.9959, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9802, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9950, 0.995, 1.55301, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242,  6.8648,  8.2931, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.46, 1285156491, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.46],
+      [1.018907040E8, 1260170, 2178, 1260170,  34, 132892, 4.98000, 5.07497, 5.21940, 5.40336, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9954, 1.0000, 1.000,     0.0,  3.0166,     0.0,     0.0, 0.75415, 0.9988, 0.997, 1.98206, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33680, 3.8, 3.07593, 0.8, 5.8, 105.085, 105.085, 53.992, 3.24740, 4.15955, 0.87984, 0.9978, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9873, 1.000, 0,     0.0,  4.0221,     0.0, 1.00553, 0.9968, 0.995, 1.61102, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  6.9202,  8.4752, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.49, 1285156492, 0, 0, 0, 0, 31719.3, 224.95, 225.153, 4600.49],
+      [1.018917040E8, 1260170, 2178, 1260170,  35, 132893, 4.73100, 5.03666, 5.21940, 5.41900, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9922, 0.9920, 1.000,     0.0,  4.0221, 5.02765,     0.0, 2.26244, 0.9960, 0.997, 1.80802, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.497, 107.497, 0.9, 0.9, 0.33719, 3.8, 3.07595, 0.8, 5.8, 105.085, 105.085, 53.992, 3.24741, 4.15955, 1.13122, 0.9980, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 1.0000, 1.000, 0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.995, 1.66904, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284,  8.6502,  9.3403, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156493, 0, 0, 0, 0, 31719.2, 224.95, 225.153, 4600.48],
+      [1.018927040E8, 1260170, 2177, 1260170,  36, 132894, 5.13562, 5.03028, 5.49138, 5.41956, 6.28631, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9827, 0.9980, 1.000,     0.0,  6.5988, 0.94268,     0.0, 1.88537, 0.9952, 0.997, 1.69200, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.482, 107.482, 0.9, 0.9, 0.33683, 3.8, 3.07592, 0.8, 5.8, 105.085, 105.085, 53.992, 3.24734, 4.15956, 2.23888, 0.9914, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9548, 0.996, 0,     0.0,  9.4268, 0.94268, 2.59238, 0.9877, 0.995, 1.68837, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.5655, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 11.2908, 11.0565, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156494, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.45],
+      [1.018937040E8, 1260170, 2177, 1260170,  37, 132895, 4.89700, 5.01112, 5.58703, 5.41561, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9961, 0.9970, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9983, 0.997, 1.57598, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.471, 107.471, 0.9, 0.9, 0.33715, 3.8, 3.07591, 0.8, 5.8, 105.090, 105.090, 53.992, 3.24737, 4.15960, 1.50830, 0.9952, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9914, 0.9771, 1.000, 0,  2.0111,  5.0277,     0.0, 1.75968, 0.9921, 0.994, 1.68837, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4125, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242, 12.9753, 10.7104, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156495, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.42],
+      [1.018947040E8, 1260170, 2179, 1260170,  38, 132896, 5.06300, 4.99197, 5.58703, 5.40251, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9920, 0.9980, 1.000,     0.0,  3.0166, 3.01659,     0.0, 1.50830, 0.9975, 0.997, 1.57598, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33699, 3.8, 3.07593, 0.8, 5.8, 105.088, 105.088, 53.993, 3.24738, 4.15958, 2.26244, 0.9943, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9645, 1.000, 0,     0.0, 12.0664,     0.0, 3.01659, 0.9911, 0.995, 1.43699, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 15.4458, 11.4025, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156496, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.42],
+      [1.018957040E8, 1260170, 2178, 1260170,  39, 132897, 5.06300, 4.99197, 5.58703, 5.39847, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9845, 0.9895, 1.000,     0.0, 10.0553, 3.01659,     0.0, 3.26797, 0.9935, 0.997, 1.47929, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.506, 107.506, 0.9, 0.9, 0.33695, 3.8, 3.07596, 0.8, 5.8, 105.087, 105.087, 53.993, 3.24742, 4.15957, 1.88537, 0.9964, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9974, 1.0000, 1.000, 0,  2.0111,     0.0,     0.0, 0.50277, 0.9993, 0.995, 1.45633, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4320, 3.4710, 3.4125, 3.13326, 3.16368, 3.10284, 3.07242,  5.1901, 10.1740, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156497, 0, 0, 0, 0, 31718.8, 224.95, 225.153, 4600.42],
+      [1.018967040E8, 1260170, 2177, 1260170,  40, 132898, 5.22900, 4.99835, 5.58703, 5.39698, 6.29421, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9991, 0.9986, 1.000,     0.0,  1.0055, 1.00553,     0.0, 0.50277, 0.9994, 0.998, 1.44062, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.638, 3.803, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.472, 107.472, 0.9, 0.9, 0.33675, 3.8, 3.07590, 0.8, 5.8, 105.086, 105.086, 53.993, 3.24741, 4.15957, 1.00553, 0.9970, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9784, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9946, 0.995, 1.51434, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.1103,  9.8280, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156498, 0, 0, 0, 0, 31719.0, 224.95, 225.153, 4600.45],
+      [1.018977040E8, 1260170, 2178, 1260170,  41, 132899, 4.64800, 4.98559, 5.58567, 5.40549, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 1.38260, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33728, 3.8, 3.07588, 0.8, 5.8, 105.082, 105.082, 53.993, 3.24737, 4.15952, 0.75415, 0.9970, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9953, 1.0000, 0.981, 0,  3.0166,     0.0, 3.01659, 1.50830, 0.9941, 0.995, 1.43699, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  5.1486,  8.8149, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156499, 0, 0, 0, 0, 31719.0, 224.95, 225.154, 4600.45],
+      [1.018987040E8, 1260170, 2178, 1260170,  42, 132900, 5.06300, 5.00474, 5.37762, 5.41702, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9813, 0.9985, 1.000,     0.0,  9.0498, 1.00553,     0.0, 2.51383, 0.9949, 0.998, 1.38986, null, 3.8, 3.998, 4.017, 3.998, 3.5, 3.763, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33708, 3.8, 3.07588, 0.8, 5.8, 105.087, 105.087, 53.993, 3.24744, 4.15957, 1.88537, 0.9953, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9827, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9957, 0.995, 1.49138, 3.7, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 11.2453,  9.8529, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156500, 0, 0, 0, 0, 31719.0, 224.95, 225.154, 4600.45],
+      [1.018997040E8, 1260170, 2177, 1260170,  43, 132901, 4.98000, 4.99277, 5.31900, 5.41380, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9998, 0.9991, 1.000,     0.0,  1.0055, 1.00553,     0.0, 0.50277, 0.9997, 0.998, 1.41886, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33719, 3.8, 3.07588, 0.8, 5.8, 105.088, 105.088, 53.993, 3.24740, 4.15958, 0.87984, 0.9968, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9975, 0.9781, 1.000, 0,  2.0111,  3.0166,     0.0, 1.25691, 0.9939, 0.995, 1.36931, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.3802,  9.3187, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156501, 0, 0, 0, 0, 31719.1, 224.95, 225.154, 4600.47],
+      [1.019007040E8, 1260170, 2177, 1260170,  44, 132902, 4.64800, 5.00554, 5.20006, 5.40623, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9917, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9979, 0.998, 1.36085, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.497, 107.497, 0.9, 0.9, 0.33711, 3.8, 3.07595, 0.8, 5.8, 105.080, 105.080, 53.993, 3.24743, 4.15951, 1.00553, 0.9978, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9910, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9977, 0.996, 1.27262, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.4320, 3.16368, 3.16368, 3.10284, 3.07242, 10.3802,  9.8460, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.50, 1285156502, 0, 0, 0, 0, 31719.3, 224.95, 225.154, 4600.50],
+      [1.019017040E8, 1260170, 2179, 1260170,  45, 132903, 5.31200, 5.02469, 5.20006, 5.39866, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9918, 1.0000, 1.000,     0.0,  7.0387,     0.0,     0.0, 1.75968, 0.9979, 0.998, 1.49621, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.527, 107.527, 0.9, 0.9, 0.33698, 3.8, 3.07601, 0.8, 5.8, 105.084, 105.084, 53.993, 3.24742, 4.15955, 2.01106, 0.9960, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9763, 1.000, 0,     0.0,  9.0498,     0.0, 2.26244, 0.9941, 0.997, 1.07925, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284,  9.4391,  9.3270, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.51, 1285156503, 0, 0, 0, 0, 31719.4, 224.95, 225.154, 4600.51],
+      [1.019027040E8, 1260170, 2178, 1260170,  46, 132904, 5.22900, 5.01831, 5.20006, 5.38808, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9957, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9989, 0.998, 1.36085, null, 3.8, 3.998, 4.017, 3.998, 3.6, 2.925, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.454, 107.454, 0.9, 0.9, 0.33727, 3.8, 3.07587, 0.8, 5.8, 105.083, 105.083, 53.993, 3.24741, 4.15954, 1.75968, 0.9963, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9906, 0.9840, 1.000, 0,  4.0221,  5.0277,     0.0, 2.26244, 0.9937, 0.996, 1.23395, 3.8, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  7.7852,  9.3478, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.51, 1285156504, 0, 0, 0, 0, 31719.4, 224.94, 225.154, 4600.51],
+      [1.019037040E8, 1260170, 2176, 1260170,  47, 132905, 4.81400, 5.01192, 5.33002, 5.37123, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 1.39952, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.3766, 107.480, 107.480, 0.9, 0.9, 0.33665, 3.8, 3.07592, 0.8, 5.8, 105.084, 105.084, 53.993, 3.24736, 4.15954,     0.0, 1.0000, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 1.0000, 1.000, 0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.995, 1.48533, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284,  8.6502, 10.5588, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156505, 0, 0, 0, 0, 31718.9, 224.94, 225.154, 4600.44],
+      [1.019047040E8, 1260170, 2178, 1260170,  48, 132906, 4.98000, 5.03108, 5.36927, 5.33688, 6.29033, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9857, 1.0000, 1.000,     0.0,  9.4268,     0.0,     0.0, 2.35671, 0.9964, 0.998, 1.51555, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.468, 107.468, 0.9, 0.9, 0.33663, 3.8, 3.07589, 0.8, 5.8, 105.086, 105.086, 53.993, 3.24742, 4.15956, 1.53186, 0.9967, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9883, 1.000, 0,     0.0,  2.8281,     0.0, 0.70701, 0.9971, 0.995, 1.52401, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 10.4843, 11.4169, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.41, 1285156506, 0, 0, 0, 0, 31718.7, 224.94, 225.154, 4600.41],
+      [1.019057040E8, 1260170, 2177, 1260170,  49, 132907, 4.98000, 5.03108, 5.44950, 5.31853, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9916, 0.9985, 1.000,     0.0,  8.0442, 1.00553,     0.0, 2.26244, 0.9975, 0.998, 1.36085, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.705, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33669, 3.8, 3.07593, 0.8, 5.8, 105.083, 105.083, 53.993, 3.24736, 4.15954, 1.63399, 0.9971, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9937, 0.9933, 1.000, 0,  2.0111,  2.0111,     0.0, 1.00553, 0.9967, 0.996, 1.50467, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.13326, 3.07242, 16.4354, 13.3200, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.41, 1285156507, 0, 0, 0, 0, 31718.7, 224.94, 225.154, 4600.41],
+      [1.019067040E8, 1260170, 2177, 1260170,  50, 132908, 5.06300, 5.00554, 5.48864, 5.29698, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9982, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9995, 0.998, 1.38019, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33705, 3.8, 3.07588, 0.8, 5.8, 105.080, 105.080, 53.994, 3.24738, 4.15951, 0.50277, 0.9995, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9978, 1.000, 0,     0.0,  2.0111,     0.0, 0.50277, 0.9994, 0.995, 1.65937, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 13.7296, 13.8390, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156508, 0, 0, 0, 0, 31718.9, 224.95, 225.154, 4600.43],
+      [1.019077040E8, 1260170, 2173, 1260170,  51, 132909, 5.31200, 5.03746, 5.48864, 5.28458, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9810, 0.9994, 1.000,     0.0, 11.0608, 2.01106,     0.0, 3.26797, 0.9951, 0.998, 1.34151, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33697, 3.8, 3.07588, 0.8, 5.8, 105.087, 105.087, 53.994, 3.24740, 4.15957, 1.88537, 0.9970, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9958, 1.0000, 1.000, 0,  2.0111,     0.0,     0.0, 0.50277, 0.9989, 0.994, 1.77539, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 17.3004, 13.2867, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.46, 1285156509, 0, 0, 0, 0, 31719.1, 224.95, 225.154, 4600.46],
+      [1.019087040E8, 1260170, 2177, 1260170,  52, 132910, 4.98000, 4.99915, 5.44950, 5.29224, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9961, 0.9966, 1.000, 1.00553,  3.0166, 2.01106,     0.0, 1.50830, 0.9975, 0.998, 1.30284, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.454, 107.454, 0.9, 0.9, 0.33695, 3.8, 3.07587, 0.8, 5.8, 105.081, 105.081, 53.993, 3.24738, 4.15952, 2.01106, 0.9952, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9951, 0.9763, 1.000, 0,  1.0055,  9.0498,     0.0, 2.51383, 0.9928, 0.995, 1.67870, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 11.2453, 11.3837, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156510, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019097040E8, 1260170, 2179, 1260170,  53, 132911, 5.14600, 4.96723, 5.36800, 5.30491, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9967, 0.9985, 1.000,     0.0,  3.0166, 1.00553,     0.0, 1.00553, 0.9988, 0.998, 1.34151, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.493, 107.493, 0.9, 0.9, 0.33681, 3.8, 3.07594, 0.8, 5.8, 105.082, 105.082, 53.993, 3.24736, 4.15952, 2.89090, 0.9921, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9744, 0.9671, 1.000, 0,  8.0442, 11.0608,     0.0, 4.77627, 0.9854, 0.994, 1.71738, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.4710, 3.4320, 3.13326, 3.16368, 3.13326, 3.07242,  7.7229, 10.7138, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156511, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019107040E8, 1260170, 2177, 1260170,  54, 132912, 4.89700, 4.98000, 5.13909, 5.30759, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9914, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9978, 0.998, 1.37777, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33648, 3.8, 3.07584, 0.8, 5.8, 105.079, 105.079, 53.992, 3.24739, 4.15950, 1.75968, 0.9960, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9975, 0.9790, 1.000, 0,  2.0111,  6.0332,     0.0, 2.01106, 0.9941, 0.994, 1.89866, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4320, 3.16368, 3.16368, 3.10284, 3.07242,  6.9202,  9.4848, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156512, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019117040E8, 1260170, 2176, 1260170,  55, 132913, 5.06300, 5.03108, 5.13909, 5.30725, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9979, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9995, 0.998, 1.29317, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33703, 3.8, 3.07588, 0.8, 5.8, 105.085, 105.085, 53.992, 3.24742, 4.15955, 0.75415, 0.9986, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9979, 0.9928, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9977, 0.994, 2.05699, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.3802,  8.6198, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.47, 1285156513, 0, 0, 0, 0, 31719.1, 224.94, 225.154, 4600.47],
+      [1.019127040E8, 1260170, 2177, 1260170,  56, 132914, 4.64800, 5.03108, 5.03883, 5.28826, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9984, 0.9992, 1.000, 1.00553,  1.0055, 1.00553,     0.0, 0.75415, 0.9987, 0.998, 1.21582, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4375, 107.458, 107.458, 0.9, 0.9, 0.33672, 3.8, 3.07588, 0.8, 5.8, 105.083, 105.083, 53.992, 3.24739, 4.15954, 2.01106, 0.9941, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9580, 1.000, 0,     0.0, 13.0719,     0.0, 3.26797, 0.9895, 0.994, 2.09566, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 0.5655, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 11.1553,  8.2862, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.50, 1285156514, 0, 0, 0, 0, 31719.3, 224.94, 225.154, 4600.50],
+      [1.019137040E8, 1260170, 2177, 1260170,  57, 132915, 5.06300, 5.02469, 5.03883, 5.26626, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9972, 0.9981, 1.000,     0.0,  2.0111, 1.00553,     0.0, 0.75415, 0.9988, 0.998, 1.27383, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33697, 3.8, 3.07593, 0.8, 5.8, 105.085, 105.085, 53.991, 3.24743, 4.15956, 1.50830, 0.9935, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9970, 0.9560, 1.000, 0,  1.0055,  8.0442,     0.0, 2.26244, 0.9882, 0.993, 2.19235, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  6.9202,  8.9616, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.51, 1285156515, 0, 0, 0, 0, 31719.4, 224.94, 225.154, 4600.51],
+      [1.019147040E8, 1260170, 2173, 1260170,  58, 132916, 4.81400, 5.01831, 5.29957, 5.24426, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9897, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9974, 0.998, 1.06112, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4375, 107.458, 107.458, 0.9, 0.9, 0.33652, 3.8, 3.07588, 0.8, 5.8, 105.085, 105.085, 53.992, 3.24738, 4.15955, 1.13122, 0.9973, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9936, 0.9953, 1.000, 0,  3.0166,  1.0055,     0.0, 1.00553, 0.9972, 0.993, 2.30837, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.0810, 3.4320, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284,  6.0551,  8.5108, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.49, 1285156516, 0, 0, 0, 0, 31719.3, 224.94, 225.154, 4600.49],
+      [1.019157040E8, 1260170, 2176, 1260170,  59, 132917, 4.81400, 4.99277, 5.36483, 5.23014, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9913, 0.9981, 1.000,     0.0,  6.0332, 1.00553,     0.0, 1.75968, 0.9973, 0.998, 1.06112, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.458, 107.458, 0.9, 0.9, 0.33705, 3.8, 3.07588, 0.8, 5.8, 105.085, 105.085, 53.991, 3.24742, 4.15956, 2.26244, 0.9940, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9671, 0.995, 0,     0.0, 10.0553, 1.00553, 2.76521, 0.9906, 0.993, 2.15367, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 0.5655, 3.13326, 3.16368, 3.10284, 3.07242, 10.2972,  8.3557, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.49, 1285156517, 0, 0, 0, 0, 31719.3, 224.94, 225.154, 4600.49],
+      [1.019167040E8, 1260170, 2177, 1260170,  60, 132918, 4.98000, 4.99915, 5.36483, 5.22357, 6.28631, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9978, 1.0000, 1.000,     0.0,  1.8854,     0.0,     0.0, 0.47134, 0.9995, 0.998, 1.02245, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.686, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33693, 3.8, 3.07584, 0.8, 5.8, 105.081, 105.081, 53.992, 3.24741, 4.15952, 1.41403, 0.9976, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9910, 0.9917, 1.000, 0,  4.7134,  4.7134,     0.0, 2.35671, 0.9957, 0.994, 1.92163, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  8.1259,  8.5163, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156518, 0, 0, 0, 0, 31719.0, 224.94, 225.154, 4600.44],
+      [1.019177040E8, 1260170, 2176, 1260170,  61, 132919, 5.64400, 4.99915, 5.36483, 5.23461, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9941, 0.9969, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9977, 0.998, 1.00311, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33677, 3.8, 3.07588, 0.8, 5.8, 105.079, 105.079, 53.992, 3.24742, 4.15950, 2.01106, 0.9954, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9721, 1.000, 0,     0.0, 11.0608,     0.0, 2.76521, 0.9930, 0.994, 1.90229, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4320, 3.4320, 3.13326, 3.16368, 3.13326, 3.07242, 10.3802,  9.3813, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156519, 0, 0, 0, 0, 31719.0, 224.94, 225.154, 4600.45],
+      [1.019187040E8, 1260170, 2173, 1260170,  62, 132920, 4.98000, 4.96723, 5.20265, 5.24565, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9868, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9967, 0.998, 1.00311, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33717, 3.8, 3.07588, 0.8, 5.8, 105.078, 105.078, 53.992, 3.24742, 4.15949, 1.38260, 0.9955, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9772, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9943, 0.994, 1.88295, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  7.7229,  8.7059, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156520, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019197040E8, 1260170, 2177, 1260170,  63, 132921, 4.98000, 4.98638, 5.20265, 5.27269, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9908, 0.9947, 1.000,     0.0,  2.0111, 3.01659,     0.0, 1.25691, 0.9964, 0.998, 1.08046, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4070, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33670, 3.8, 3.07584, 0.8, 5.8, 105.079, 105.079, 53.992, 3.24739, 4.15950, 1.50830, 0.9941, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9777, 0.9893, 1.000, 0,  5.0277,  2.0111,     0.0, 1.75968, 0.9918, 0.994, 1.80560, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.3802,  8.6253, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156521, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019207040E8, 1260170, 2176, 1260170,  64, 132922, 5.22900, 4.98638, 5.20265, 5.29973, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9973, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9993, 0.998, 1.21582, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33725, 3.8, 3.07584, 0.8, 5.8, 105.080, 105.080, 53.993, 3.24734, 4.15951, 1.25691, 0.9962, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9721, 1.000, 0,     0.0,  8.0442,     0.0, 2.01106, 0.9930, 0.995, 1.68958, 3.8, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  6.9202,  8.2793, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156522, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019217040E8, 1260170, 2173, 1260170,  65, 132923, 4.64800, 5.01192, 5.26592, 5.31087, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9962, 0.9973, 1.000,     0.0,  2.0111, 4.02212,     0.0, 1.50830, 0.9984, 0.998, 1.21582, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.511, 107.511, 0.9, 0.9, 0.33687, 3.8, 3.07597, 0.8, 5.8, 105.077, 105.077, 53.992, 3.24738, 4.15949, 1.00553, 0.9988, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9973, 1.000, 0,     0.0,  2.0111,     0.0, 0.50277, 0.9993, 0.995, 1.70892, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242,  7.7229, 10.5408, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156523, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019227040E8, 1260170, 2173, 1260170,  66, 132924, 5.22900, 5.03068, 5.28261, 5.31699, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9994, 0.9988, 1.000,     0.0,  1.0055, 1.00553,     0.0, 0.50277, 0.9995, 0.998, 1.26175, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.541, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33689, 3.8, 3.07588, 0.8, 5.8, 105.080, 105.080, 53.992, 3.24740, 4.15951, 1.13122, 0.9969, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9974, 0.9795, 1.000, 0,  1.0055,  6.0332,     0.0, 1.75968, 0.9942, 0.995, 1.69562, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242,  8.6502, 10.3526, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.46, 1285156524, 0, 0, 0, 0, 31719.1, 224.94, 225.154, 4600.46],
+      [1.019237040E8, 1260170, 2176, 1260170,  67, 132925, 4.89700, 5.04345, 5.28261, 5.31895, 6.27707, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9971, 0.9979, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9987, 0.998, 1.30284, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33651, 3.8, 3.07584, 0.8, 5.8, 105.082, 105.082, 53.993, 3.24741, 4.15952, 1.50830, 0.9960, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9959, 0.9769, 1.000, 0,  2.0111,  5.0277,     0.0, 1.75968, 0.9932, 0.995, 1.66904, 3.7, 3.7, 3.7, 3.6, 3.4320, 0.5460, 0.4875, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 19.0304, 10.8716, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156525, 0, 0, 0, 0, 31718.9, 224.94, 225.154, 4600.44],
+      [1.019247040E8, 1260170, 2178, 1260170,  68, 132926, 4.64800, 4.98599, 5.28261, 5.31165, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9973, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9993, 0.998, 1.28350, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33696, 3.8, 3.07593, 0.8, 5.8, 105.078, 105.078, 53.993, 3.24743, 4.15949, 0.62846, 0.9986, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9974, 0.9942, 1.000, 0,  1.0055,  2.0111,     0.0, 0.75415, 0.9979, 0.995, 1.61102, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.16368, 3.16368, 3.10284, 3.10284,  9.4391, 12.4411, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156526, 0, 0, 0, 0, 31719.2, 224.94, 225.154, 4600.48],
+      [1.019257040E8, 1260170, 2176, 1260170,  69, 132927, 4.89700, 4.97322, 5.39039, 5.31682, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9926, 0.9988, 1.000, 1.00553,  5.0277, 1.00553,     0.0, 1.75968, 0.9970, 0.998, 1.18682, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33671, 3.8, 3.07584, 0.8, 5.8, 105.080, 105.080, 53.992, 3.24742, 4.15951, 2.01106, 0.9964, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9829, 1.000, 0,     0.0,  9.0498,     0.0, 2.26244, 0.9957, 0.995, 1.59169, 3.7, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4515, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284,  9.5152, 12.9421, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.53, 1285156527, 0, 0, 0, 0, 31719.5, 224.94, 225.154, 4600.53],
+      [1.019267040E8, 1260170, 2178, 1260170,  70, 132928, 5.06300, 4.96683, 5.39039, 5.32198, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9851, 0.9997, 1.000,     0.0,  9.0498, 1.00553,     0.0, 2.51383, 0.9962, 0.998, 1.12880, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.471, 107.471, 0.9, 0.9, 0.33699, 3.8, 3.07591, 0.8, 5.8, 105.078, 105.078, 53.993, 3.24741, 4.15949, 1.63399, 0.9975, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9978, 0.9975, 1.000, 0,  2.0111,  1.0055,     0.0, 0.75415, 0.9988, 0.996, 1.53368, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.5265, 3.4125, 3.13326, 3.16368, 3.10284, 3.07242, 15.5704, 11.7363, 15406.8, 427764, 486798, 14668.7, 3.97, 4600.52, 1285156528, 0, 0, 0, 0, 31719.4, 224.94, 225.154, 4600.52],
+      [1.019277040E8, 1260170, 2178, 1260170,  71, 132929, 5.14600, 4.97322, 5.44436, 5.33330, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9972, 0.9981, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9988, 0.998, 1.26416, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.744, 3.705, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.450, 107.450, 0.9, 0.9, 0.33672, 3.8, 3.07586, 0.8, 5.8, 105.076, 105.076, 53.993, 3.24744, 4.15947, 1.25691, 0.9963, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9749, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9937, 0.995, 1.64970, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242, 11.1553, 12.0975, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156529, 0, 0, 0, 0, 31719.2, 224.94, 225.155, 4600.48],
+      [1.019287040E8, 1260170, 2177, 1260170,  72, 132930, 5.05781, 5.01791, 5.44436, 5.34757, 6.29033, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.994, 0.9942, 0.9973, 1.000, 0.94268,  6.5988, 1.88537,     0.0, 2.35671, 0.9963, 0.998, 1.22549, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.460, 107.460, 0.9, 0.9, 0.33675, 3.8, 3.07588, 0.8, 5.8, 105.077, 105.077, 53.993, 3.24741, 4.15948, 2.47455, 0.9942, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9941, 0.9740, 1.000, 0,  2.8281,  7.5415,     0.0, 2.59238, 0.9920, 0.995, 1.66904, 3.6, 3.7, 3.7, 3.6, 3.4320, 0.5460, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 13.0015, 13.6269, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.46, 1285156530, 0, 0, 0, 0, 31719.0, 224.94, 225.154, 4600.46],
+      [1.019297040E8, 1260170, 2176, 1260170,  73, 132931, 5.14600, 5.01152, 5.39039, 5.36665, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.999, 1.0000, 0.9960, 1.000, 1.00553,     0.0, 3.01659,     0.0, 1.00553, 0.9989, 0.998, 1.20615, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33703, 3.8, 3.07584, 0.8, 5.8, 105.078, 105.078, 53.994, 3.24742, 4.15949, 1.50830, 0.9972, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9903, 0.992, 0,     0.0,  6.0332, 2.01106, 2.01106, 0.9956, 0.995, 1.76572, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4125, 3.16368, 3.16368, 3.10284, 3.07242, 11.2453, 12.0699, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.49, 1285156531, 0, 0, 0, 0, 31719.3, 224.94, 225.155, 4600.49],
+      [1.019307040E8, 1260170, 2177, 1260170,  74, 132932, 4.89700, 4.99875, 5.26983, 5.38572, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9959, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9990, 0.998, 1.22549, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.3766, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33663, 3.8, 3.07584, 0.8, 5.8, 105.079, 105.079, 53.994, 3.24743, 4.15950, 1.50830, 0.9974, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9928, 0.9902, 1.000, 0,  6.0332,  2.0111,     0.0, 2.01106, 0.9958, 0.995, 1.70771, 3.6, 3.7, 3.7, 3.7, 3.4125, 3.4515, 3.4320, 3.3150, 3.13326, 3.16368, 3.10284, 3.07242, 17.1620, 11.2228, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156532, 0, 0, 0, 0, 31719.1, 224.94, 225.155, 4600.47],
+      [1.019317040E8, 1260170, 2177, 1260170,  75, 132933, 4.81400, 5.05622, 5.26983, 5.40386, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 1.28350, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33693, 3.8, 3.07584, 0.8, 5.8, 105.082, 105.082, 53.994, 3.24740, 4.15953, 0.62846, 0.9990, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9920, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9980, 0.994, 2.01710, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.3735, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  7.7852, 10.6820, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.41, 1285156533, 0, 0, 0, 0, 31718.7, 224.94, 225.155, 4600.41],
+      [1.019327040E8, 1260170, 2177, 1260170,  76, 132934, 4.89700, 5.07537, 5.26983, 5.41370, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9931, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9983, 0.998, 1.26416, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.472, 107.472, 0.9, 0.9, 0.33736, 3.8, 3.07590, 0.8, 5.8, 105.076, 105.076, 53.995, 3.24738, 4.15948, 0.75415, 0.9971, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9922, 0.991, 0,     0.0,  2.0111, 2.01106, 1.00553, 0.9959, 0.994, 1.95909, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.1980, 3.13326, 3.16368, 3.10284, 3.07242,  6.9202,  9.6439, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.39, 1285156534, 0, 0, 0, 0, 31718.6, 224.94, 225.154, 4600.39],
+      [1.019337040E8, 1260170, 2177, 1260170,  77, 132935, 5.31200, 5.04983, 5.34978, 5.41281, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9800, 0.9993, 1.000,     0.0,  8.0442, 1.00553,     0.0, 2.26244, 0.9948, 0.998, 1.16748, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.480, 107.480, 0.9, 0.9, 0.33719, 3.8, 3.07592, 0.8, 5.8, 105.074, 105.074, 53.995, 3.24738, 4.15945, 2.89090, 0.9906, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9979, 0.9474, 1.000, 0,  1.0055, 13.0719,     0.0, 3.51936, 0.9863, 0.994, 1.99777, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.2972,  8.9796, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.42, 1285156535, 0, 0, 0, 0, 31718.8, 224.94, 225.155, 4600.42],
+      [1.019347040E8, 1260170, 2178, 1260170,  78, 132936, 5.22900, 5.03706, 5.45142, 5.40695, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9952, 0.9989, 1.000,     0.0,  3.0166, 1.00553,     0.0, 1.00553, 0.9985, 0.998, 1.17956, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33692, 3.8, 3.07584, 0.8, 5.8, 105.078, 105.078, 53.995, 3.24737, 4.15949, 0.87984, 0.9983, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9921, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9980, 0.993, 2.22740, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  6.0551,  9.8252, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156536, 0, 0, 0, 0, 31719.0, 224.94, 225.155, 4600.45],
+      [1.019357040E8, 1260170, 2177, 1260170,  79, 132937, 5.14600, 5.04385, 5.53060, 5.40110, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9987, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9997, 0.998, 1.03695, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33685, 3.8, 3.07584, 0.8, 5.8, 105.076, 105.076, 53.995, 3.24731, 4.15947, 1.63399, 0.9944, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9983, 0.9586, 1.000, 0,  1.0055, 11.0608,     0.0, 3.01659, 0.9892, 0.993, 2.04732, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 13.8403, 10.8633, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156537, 0, 0, 0, 0, 31719.4, 224.94, 225.155, 4600.51],
+      [1.019367040E8, 1260170, 2177, 1260170,  80, 132938, 4.73100, 5.00554, 5.53060, 5.39533, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9868, 1.0000, 0.998,     0.0,  5.0277,     0.0, 1.00553, 1.50830, 0.9962, 0.998, 1.11430, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.647, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33722, 3.8, 3.07584, 0.8, 5.8, 105.079, 105.079, 53.995, 3.24742, 4.15950, 1.25691, 0.9970, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9993, 0.9917, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9977, 0.993, 2.08599, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 12.0134, 11.7449, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.54, 1285156538, 0, 0, 0, 0, 31719.6, 224.94, 225.155, 4600.54],
+      [1.019377040E8, 1260170, 2177, 1260170,  81, 132939, 5.39500, 5.01192, 5.51834, 5.39885, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.998, 0.9949, 1.0000, 1.000, 1.00553,  4.0221,     0.0,     0.0, 1.25691, 0.9981, 0.998, 1.17231, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33688, 3.8, 3.07593, 0.8, 5.8, 105.079, 105.079, 53.995, 3.24737, 4.15950, 3.01659, 0.9930, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9863, 0.9651, 1.000, 0,  7.0387, 12.0664,     0.0, 4.77627, 0.9879, 0.993, 2.10533, 3.8, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4515, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242, 12.1103, 11.9068, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156539, 0, 0, 0, 0, 31719.5, 224.94, 225.155, 4600.52],
+      [1.019387040E8, 1260170, 2177, 1260170,  82, 132940, 5.14600, 5.03746, 5.51834, 5.40641, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9923, 0.9990, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9978, 0.998, 1.36568, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33679, 3.8, 3.07584, 0.8, 5.8, 105.080, 105.080, 53.995, 3.24735, 4.15951, 1.50830, 0.9966, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9968, 0.9851, 1.000, 0,  2.0111,  4.0221,     0.0, 1.50830, 0.9955, 0.993, 2.06666, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284, 14.7053, 11.2515, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156540, 0, 0, 0, 0, 31719.3, 224.94, 225.155, 4600.50],
+      [1.019397040E8, 1260170, 2176, 1260170,  83, 132941, 4.73100, 5.03746, 5.37882, 5.41991, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9963, 0.9990, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9988, 0.998, 1.32701, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.489, 107.489, 0.9, 0.9, 0.33685, 3.8, 3.07593, 0.8, 5.8, 105.077, 105.077, 53.995, 3.24740, 4.15949, 1.25691, 0.9970, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9934, 0.9953, 0.992, 0,  2.0111,  2.0111, 1.00553, 1.25691, 0.9952, 0.993, 2.08599, 3.8, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  6.8648, 11.6169, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156541, 0, 0, 0, 0, 31719.0, 224.94, 225.155, 4600.46],
+      [1.019407040E8, 1260170, 2173, 1260170,  84, 132942, 4.98000, 4.99915, 5.36824, 5.42115, 6.27626, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9966, 0.9928, 1.000,     0.0,  1.8854, 3.77074,     0.0, 1.41403, 0.9974, 0.998, 1.28834, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33692, 3.8, 3.07584, 0.8, 5.8, 105.080, 105.080, 53.995, 3.24738, 4.15950, 2.82805, 0.9897, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9919, 0.9365, 1.000, 0,  1.8854, 15.0830,     0.0, 4.24208, 0.9821, 0.994, 1.85395, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.3930, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 10.5637, 11.4259, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.44, 1285156542, 0, 0, 0, 0, 31718.9, 224.94, 225.155, 4600.44],
+      [1.019417040E8, 1260170, 2177, 1260170,  85, 132943, 5.14600, 4.98000, 5.36824, 5.42068, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9991, 1.0000, 1.000, 1.00553,  1.0055,     0.0,     0.0, 0.50277, 0.9991, 0.998, 1.32701, null, 3.8, 3.998, 4.017, 3.998, 3.5, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33696, 3.8, 3.07584, 0.8, 5.8, 105.076, 105.076, 53.995, 3.24736, 4.15948, 0.37707, 0.9982, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9892, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9973, 0.993, 2.02798, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.13326, 3.10284, 13.8403, 11.5989, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.43, 1285156543, 0, 0, 0, 0, 31718.9, 224.94, 225.155, 4600.43],
+      [1.019427040E8, 1260170, 2177, 1260170,  86, 132944, 4.64800, 4.96085, 5.31548, 5.42345, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9931, 0.9969, 1.000,     0.0,  2.0111, 6.03318,     0.0, 2.01106, 0.9975, 0.998, 1.42370, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33686, 3.8, 3.07584, 0.8, 5.8, 105.072, 105.072, 53.995, 3.24738, 4.15944, 2.26244, 0.9944, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9977, 0.9677, 1.000, 0,  1.0055,  9.0498,     0.0, 2.51383, 0.9914, 0.994, 1.81527, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.4680, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 11.1553, 12.8210, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.42, 1285156544, 0, 0, 0, 0, 31718.8, 224.94, 225.155, 4600.42],
+      [1.019437040E8, 1260170, 2176, 1260170,  87, 132945, 4.98000, 5.03746, 5.31548, 5.41689, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9930, 0.9942, 1.000,     0.0,  3.0166, 4.02212,     0.0, 1.75968, 0.9968, 0.998, 1.36568, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.705, 3.8, 3.25494, 3.4375, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33717, 3.8, 3.07584, 0.8, 5.8, 105.076, 105.076, 53.995, 3.24734, 4.15947, 2.01106, 0.9943, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9970, 0.9753, 0.995, 0,  1.0055,  7.0387, 1.00553, 2.26244, 0.9917, 0.994, 1.93130, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 15.5704, 12.5961, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.40, 1285156545, 0, 0, 0, 0, 31718.6, 224.94, 225.154, 4600.40],
+      [1.019447040E8, 1260170, 2176, 1260170,  88, 132946, 5.14600, 5.01831, 5.36824, 5.40517, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9896, 0.9960, 1.000,     0.0,  8.0442, 2.01106,     0.0, 2.51383, 0.9964, 0.998, 1.32701, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4070, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33663, 3.8, 3.07584, 0.8, 5.8, 105.074, 105.074, 53.996, 3.24736, 4.15945, 1.63399, 0.9975, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9997, 0.9948, 1.000, 0,  1.0055,  2.0111,     0.0, 0.75415, 0.9986, 0.994, 1.60256, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.2370, 3.4515, 3.4515, 3.13326, 3.16368, 2.92032, 3.07242, 12.9753, 11.7311, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.39, 1285156546, 0, 0, 0, 0, 31718.6, 224.94, 225.154, 4600.39],
+      [1.019457040E8, 1260170, 2178, 1260170,  89, 132947, 4.89700, 5.00554, 5.44529, 5.38548, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.998, 1.23032, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33681, 3.8, 3.07588, 0.8, 5.8, 105.076, 105.076, 53.996, 3.24739, 4.15947, 0.62846, 0.9989, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9916, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9979, 0.994, 1.79594, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 2.73780, 3.07242,  9.4391, 11.7491, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.42, 1285156547, 0, 0, 0, 0, 31718.8, 224.94, 225.155, 4600.42],
+      [1.019467040E8, 1260170, 2176, 1260170,  90, 132948, 4.81400, 5.03068, 5.36592, 5.37653, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9960, 0.9928, 1.000,     0.0,  4.0221, 3.01659,     0.0, 1.75968, 0.9972, 0.998, 1.16990, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33698, 3.8, 3.07584, 0.8, 5.8, 105.075, 105.075, 53.997, 3.24738, 4.15947, 1.13122, 0.9982, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9970, 1.0000, 1.000, 0,  2.0111,     0.0,     0.0, 0.50277, 0.9992, 0.994, 1.80802, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.16368, 3.16368, 2.58570, 3.07242,  9.5152, 10.0079, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156548, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019477040E8, 1260170, 2176, 1260170,  91, 132949, 4.98000, 5.01152, 5.44529, 5.35780, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9900, 0.9990, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9973, 0.998, 1.13847, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33691, 3.8, 3.07584, 0.8, 5.8, 105.072, 105.072, 53.997, 3.24737, 4.15944, 2.26244, 0.9939, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9654, 0.997, 0,     0.0, 11.0608, 1.00553, 3.01659, 0.9906, 0.995, 1.59773, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4320, 3.16368, 3.16368, 2.40318, 3.10284, 11.2453,  9.6619, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.49, 1285156549, 0, 0, 0, 0, 31719.2, 224.94, 225.155, 4600.49],
+      [1.019487040E8, 1260170, 2177, 1260170,  92, 132950, 4.89700, 4.98599, 5.56665, 5.33907, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9935, 0.9977, 1.000,     0.0,  4.0221, 2.01106,     0.0, 1.50830, 0.9978, 0.998, 1.17715, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.541, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33727, 3.8, 3.07588, 0.8, 5.8, 105.076, 105.076, 53.997, 3.24741, 4.15948, 0.87984, 0.9986, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9975, 1.0000, 1.000, 0,  1.0055,     0.0,     0.0, 0.25138, 0.9994, 0.995, 1.65574, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 2.25108, 3.07242,  6.8648, 10.7152, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156550, 0, 0, 0, 0, 31719.1, 224.94, 225.155, 4600.46],
+      [1.019497040E8, 1260170, 2179, 1260170,  93, 132951, 5.72700, 4.99237, 5.44529, 5.33788, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.996, 1.0000, 1.0000, 1.000, 3.01659,     0.0,     0.0,     0.0, 0.75415, 0.9991, 0.998, 1.09980, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33671, 3.8, 3.07584, 0.8, 5.8, 105.073, 105.073, 53.997, 3.24740, 4.15945, 1.63399, 0.9947, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9951, 0.9663, 1.000, 0,  2.0111,  8.0442,     0.0, 2.51383, 0.9903, 0.996, 1.52038, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.16368, 3.16368, 2.40318, 3.07242, 11.2453, 11.3864, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156551, 0, 0, 0, 0, 31719.1, 224.94, 225.155, 4600.46],
+      [1.019507040E8, 1260170, 2176, 1260170,  94, 132952, 5.14600, 5.00514, 5.36592, 5.33669, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9970, 0.9989, 1.000,     0.0,  2.0111, 1.00553,     0.0, 0.75415, 0.9990, 0.998, 1.06112, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33672, 3.8, 3.07584, 0.8, 5.8, 105.075, 105.075, 53.997, 3.24739, 4.15947, 0.62846, 0.9984, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9960, 0.9953, 1.000, 0,  1.0055,  1.0055,     0.0, 0.50277, 0.9978, 0.996, 1.34635, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 2.58570, 3.07242, 14.7053, 11.2501, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156552, 0, 0, 0, 0, 31719.2, 224.94, 225.155, 4600.48],
+      [1.019517040E8, 1260170, 2176, 1260170,  95, 132953, 4.98000, 4.98599, 5.26245, 5.31740, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 0.9990, 1.000,     0.0,     0.0, 1.00553,     0.0, 0.25138, 0.9997, 0.998, 1.21582, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33703, 3.8, 3.07584, 0.8, 5.8, 105.075, 105.075, 53.996, 3.24735, 4.15946, 2.13675, 0.9938, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9549, 0.997, 0,     0.0, 15.0830, 1.00553, 4.02212, 0.9879, 0.996, 1.28834, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 2.58570, 3.10284, 12.8715, 12.2799, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156553, 0, 0, 0, 0, 31719.2, 224.94, 225.155, 4600.48],
+      [1.019527040E8, 1260170, 2178, 1260170,  96, 132954, 5.05781, 5.00514, 5.26245, 5.30301, 6.28229, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9983, 0.9984, 1.000,     0.0,  0.9427, 0.94268,     0.0, 0.47134, 0.9992, 0.998, 1.31251, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33658, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.996, 3.24742, 4.15940, 0.94268, 0.9977, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9845, 1.000, 0,     0.0,  5.6561,     0.0, 1.41403, 0.9961, 0.996, 1.40436, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 2.92032, 3.07242, 10.5637, 13.1449, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156554, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.50],
+      [1.019537040E8, 1260170, 2177, 1260170,  97, 132955, 4.73100, 4.98599, 5.12474, 5.29473, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9887, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9972, 0.998, 1.19648, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4070, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33679, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.996, 3.24739, 4.15939, 1.25691, 0.9976, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9967, 0.9954, 1.000, 0,  1.0055,  5.0277,     0.0, 1.50830, 0.9980, 0.995, 1.57839, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 0.5070, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.0134, 12.7989, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156555, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.50],
+      [1.019547040E8, 1260170, 2173, 1260170,  98, 132956, 4.81400, 4.96683, 5.12474, 5.28034, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9941, 0.9970, 1.000,     0.0,  2.0111, 2.01106,     0.0, 1.00553, 0.9978, 0.998, 1.15781, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33648, 3.8, 3.07584, 0.8, 5.8, 105.071, 105.071, 53.996, 3.24740, 4.15943, 1.00553, 0.9980, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9926, 1.0000, 1.000, 0,  4.0221,     0.0,     0.0, 1.00553, 0.9981, 0.996, 1.48171, 3.7, 3.7, 3.7, 3.6, 3.4320, 0.5655, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 15.5704, 11.5975, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156556, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019557040E8, 1260170, 2177, 1260170,  99, 132957, 4.73100, 4.96683, 5.29997, 5.26064, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9919, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9980, 0.998, 1.21582, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33640, 3.8, 3.07584, 0.8, 5.8, 105.072, 105.072, 53.996, 3.24742, 4.15944, 0.87984, 0.9978, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9906, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9977, 0.996, 1.48171, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242, 12.9753, 11.7338, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156557, 0, 0, 0, 0, 31719.3, 224.94, 225.155, 4600.50],
+      [1.019567040E8, 1260170, 2177, 1260170, 100, 132958, 5.14600, 4.92214, 5.29997, 5.25826, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9918, 0.9987, 1.000,     0.0,  4.0221, 1.00553,     0.0, 1.25691, 0.9976, 0.998, 1.29317, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33665, 3.8, 3.07579, 0.8, 5.8, 105.071, 105.071, 53.996, 3.24738, 4.15943, 0.62846, 0.9988, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 1.0000, 1.000, 0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.996, 1.40436, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4125, 3.16368, 3.16368, 3.10284, 3.10284,  6.8648, 11.4072, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156558, 0, 0, 0, 0, 31719.4, 224.94, 225.155, 4600.51],
+      [1.019577040E8, 1260170, 2176, 1260170, 101, 132959, 4.89700, 4.92214, 5.11758, 5.27022, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.996, 0.9836, 0.9981, 1.000, 3.01659, 13.0719, 2.01106,     0.0, 4.52489, 0.9943, 0.998, 1.27383, null, 3.8, 4.017, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33678, 3.8, 3.07584, 0.8, 5.8, 105.077, 105.077, 53.996, 3.24742, 4.15948, 2.26244, 0.9972, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 1.0000, 1.000, 0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.996, 1.42370, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 11.2453,  9.8502, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156559, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.50],
+      [1.019587040E8, 1260170, 2176, 1260170, 102, 132960, 5.14600, 4.94608, 5.25820, 5.29013, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9963, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9991, 0.998, 1.32701, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33653, 3.8, 3.07584, 0.8, 5.8, 105.069, 105.069, 53.996, 3.24740, 4.15941, 2.01106, 0.9952, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9949, 0.9705, 1.000, 0,  2.0111,  9.0498,     0.0, 2.76521, 0.9914, 0.997, 1.29559, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 10.3802,  8.6281, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156560, 0, 0, 0, 0, 31719.1, 224.94, 225.155, 4600.47],
+      [1.019597040E8, 1260170, 2179, 1260170, 103, 132961, 4.56500, 4.98479, 5.25820, 5.30822, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9994, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9998, 0.998, 1.40678, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33649, 3.8, 3.07584, 0.8, 5.8, 105.072, 105.072, 53.996, 3.24737, 4.15944, 1.50830, 0.9970, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9912, 0.9851, 1.000, 0,  4.0221,  7.0387,     0.0, 2.76521, 0.9941, 0.997, 1.26416, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284,  7.7852,  9.1581, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156561, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019607040E8, 1260170, 2178, 1260170, 104, 132962, 4.73100, 5.00394, 5.25820, 5.33689, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9877, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9969, 0.998, 1.48412, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33673, 3.8, 3.07584, 0.8, 5.8, 105.071, 105.071, 53.995, 3.24735, 4.15943, 1.38260, 0.9963, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9829, 1.000, 0,     0.0,  7.0387,     0.0, 1.75968, 0.9957, 0.997, 1.18682, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284,  6.8648, 10.7152, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156562, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.50],
+      [1.019617040E8, 1260170, 2176, 1260170, 105, 132963, 4.89700, 5.01033, 5.31062, 5.34486, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.996, 0.9910, 0.9987, 1.000, 1.00553,  7.0387, 1.00553,     0.0, 2.26244, 0.9964, 0.998, 1.52280, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33688, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.995, 3.24739, 4.15938, 1.25691, 0.9981, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9987, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9997, 0.997, 1.12880, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4515, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242,  9.5152, 11.0418, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156563, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019627040E8, 1260170, 2177, 1260170, 106, 132964, 5.14600, 5.02948, 5.41428, 5.33936, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.999, 0.9970, 0.9972, 1.000, 2.01106,  3.0166, 2.01106,     0.0, 1.75968, 0.9984, 0.998, 1.58081, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33675, 3.8, 3.07584, 0.8, 5.8, 105.071, 105.071, 53.995, 3.24733, 4.15943, 1.63399, 0.9981, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9966, 0.9947, 1.000, 0,  1.0055,  5.0277,     0.0, 1.50830, 0.9978, 0.997, 1.22549, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.4875, 3.4515, 3.16368, 3.16368, 3.10284, 3.10284, 19.0304, 11.2725, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156564, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019637040E8, 1260170, 2178, 1260170, 107, 132965, 5.14600, 5.01033, 5.52139, 5.33385, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9983, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9996, 0.998, 1.60015, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33658, 3.8, 3.07584, 0.8, 5.8, 105.070, 105.070, 53.995, 3.24742, 4.15942, 0.62846, 0.9982, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9990, 0.9941, 0.994, 0,  1.0055,  1.0055, 1.00553, 0.75415, 0.9969, 0.997, 1.24483, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3345, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 12.0134, 12.4738, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156565, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019647040E8, 1260170, 2177, 1260170, 108, 132966, 5.29125, 4.99756, 5.52139, 5.34237, 6.28832, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9975, 0.9989, 1.000,     0.0,  2.8281, 0.94268,     0.0, 0.94268, 0.9991, 0.998, 1.32943, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33665, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.994, 3.24738, 4.15939, 1.64970, 0.9969, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9978, 0.9808, 1.000, 0,  0.9427,  8.4842,     0.0, 2.35671, 0.9947, 0.997, 1.45754, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  8.9385, 12.3008, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156566, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.019657040E8, 1260170, 2173, 1260170, 109, 132967, 5.56100, 4.99117, 5.49751, 5.35938, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9870, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9968, 0.998, 1.31009, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33682, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.994, 3.24740, 4.15939, 1.25691, 0.9972, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9902, 1.000, 0,     0.0,  4.0221,     0.0, 1.00553, 0.9976, 0.996, 1.47687, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4515, 3.4515, 3.16368, 3.16368, 3.10284, 3.07242, 12.8715, 10.2248, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.49, 1285156567, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.49],
+      [1.019667040E8, 1260170, 2173, 1260170, 110, 132968, 4.98000, 5.06140, 5.49751, 5.37639, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9910, 0.9993, 1.000,     0.0,  7.0387, 1.00553,     0.0, 2.01106, 0.9976, 0.998, 1.42611, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33680, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.994, 3.24741, 4.15939, 1.25691, 0.9983, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9961, 1.000, 0,     0.0,  2.0111,     0.0, 0.50277, 0.9990, 0.996, 1.43820, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.10284,  8.6502, 10.3964, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156568, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.50],
+      [1.019677040E8, 1260170, 2178, 1260170, 111, 132969, 4.89700, 5.09971, 5.22839, 5.36964, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9901, 0.9937, 1.000,     0.0,  4.0221, 2.01106,     0.0, 1.50830, 0.9960, 0.998, 1.40678, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33658, 3.8, 3.07584, 0.8, 5.8, 105.074, 105.074, 53.993, 3.24743, 4.15946, 0.87984, 0.9977, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9977, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9994, 0.996, 1.47687, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242,  8.6502, 10.8577, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156569, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.019687040E8, 1260170, 2172, 1260170, 112, 132970, 4.98000, 5.08056, 5.22839, 5.35663, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9891, 1.0000, 1.000, 1.00553,  6.0332,     0.0,     0.0, 1.75968, 0.9965, 0.998, 1.32943, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.697, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33708, 3.8, 3.07584, 0.8, 5.8, 105.070, 105.070, 53.994, 3.24738, 4.15942, 1.88537, 0.9970, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9971, 0.9927, 1.000, 0,  1.0055,  7.0387,     0.0, 2.01106, 0.9974, 0.996, 1.53488, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4125, 3.4710, 3.4515, 3.13326, 3.16368, 3.13326, 3.07242, 12.8715, 10.3595, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156570, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.45],
+      [1.019697040E8, 1260170, 2176, 1260170, 113, 132971, 4.89700, 5.09333, 5.22839, 5.33564, 6.27921, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9970, 0.9968, 1.000,     0.0,  3.0166, 3.01659,     0.0, 1.50830, 0.9984, 0.998, 1.23274, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33681, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.994, 3.24738, 4.15939, 0.87984, 0.9989, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9972, 1.0000, 1.000, 0,  1.0055,     0.0,     0.0, 0.25138, 0.9993, 0.995, 1.67024, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.1980, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 11.2453, 11.3975, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156571, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.46],
+      [1.019707040E8, 1260170, 2177, 1260170, 114, 132972, 4.73100, 5.07457, 5.22839, 5.30642, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9973, 0.9964, 1.000,     0.0,  1.0055, 3.01659,     0.0, 1.00553, 0.9984, 0.998, 1.26658, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 1.618, 3.8, 3.28536, 3.4070, 3.4070, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33682, 3.8, 3.07584, 0.8, 5.8, 105.068, 105.068, 53.994, 3.24736, 4.15940, 1.88537, 0.9959, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9734, 1.000, 0,     0.0, 11.0608,     0.0, 2.76521, 0.9933, 0.995, 1.72100, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.13326, 3.10284, 10.3802, 12.0701, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156572, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.46],
+      [1.019717040E8, 1260170, 2177, 1260170, 115, 132973, 5.06300, 5.03786, 5.47930, 5.28756, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9884, 0.9993, 1.000,     0.0,  3.0166, 1.00553,     0.0, 1.00553, 0.9969, 0.997, 1.36810, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4375, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33689, 3.8, 3.07584, 0.8, 5.8, 105.069, 105.069, 53.994, 3.24737, 4.15941, 2.01106, 0.9923, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9957, 0.9552, 1.000, 0,  2.0111, 10.0553,     0.0, 3.01659, 0.9877, 0.995, 1.98447, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.07242, 13.8403, 12.0909, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156573, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019727040E8, 1260170, 2172, 1260170, 116, 132974, 5.47800, 4.98678, 5.47930, 5.27760, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9901, 1.0000, 1.000,     0.0,  7.0387,     0.0,     0.0, 1.75968, 0.9975, 0.997, 1.40678, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33682, 3.8, 3.07584, 0.8, 5.8, 105.071, 105.071, 53.994, 3.24738, 4.15943, 2.01106, 0.9947, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9950, 0.9840, 0.988, 0,  3.0166,  4.0221, 2.01106, 2.26244, 0.9918, 0.995, 1.98447, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.1785, 0.5655, 3.16368, 3.16368, 3.10284, 3.07242, 12.0134, 12.6099, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156574, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.46],
+      [1.019737040E8, 1260170, 2173, 1260170, 117, 132975, 5.22900, 4.98040, 5.17042, 5.26765, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9956, 1.0000, 1.000,     0.0,  3.0166,     0.0,     0.0, 0.75415, 0.9989, 0.997, 1.44545, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33709, 3.8, 3.07584, 0.8, 5.8, 105.067, 105.067, 53.995, 3.24735, 4.15939, 1.50830, 0.9971, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9939, 0.9873, 1.000, 0,  2.0111,  7.0387,     0.0, 2.26244, 0.9953, 0.994, 2.10050, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4320, 3.16368, 3.16368, 3.10284, 3.07242, 12.9753, 12.7649, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156575, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.019747040E8, 1260170, 2176, 1260170, 118, 132976, 4.64800, 4.97401, 5.14150, 5.27359, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9927, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9982, 0.997, 1.46479, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33691, 3.8, 3.07584, 0.8, 5.8, 105.068, 105.068, 53.995, 3.24737, 4.15940, 1.13122, 0.9972, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9987, 0.9862, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9962, 0.994, 2.25519, 3.8, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.10284, 3.10284, 13.8403, 13.5723, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156576, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019757040E8, 1260170, 2176, 1260170, 119, 132977, 5.31200, 4.96763, 5.14150, 5.27726, 6.29421, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 0.9979, 1.000,     0.0,     0.0, 2.01106,     0.0, 0.50277, 0.9995, 0.997, 1.36810, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33696, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.995, 3.24744, 4.15938, 1.88537, 0.9956, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9889, 0.9777, 1.000, 0,  6.0332,  7.0387,     0.0, 3.26797, 0.9917, 0.994, 2.13917, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.07242, 11.1553, 14.4304, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.55, 1285156577, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.55],
+      [1.019767040E8, 1260170, 2172, 1260170, 120, 132978, 4.90219, 4.96125, 5.14150, 5.28320, 6.28430, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9945, 1.0000, 1.000,     0.0,  3.7707,     0.0,     0.0, 0.94268, 0.9986, 0.997, 1.36810, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33696, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.995, 3.24737, 4.15938, 1.17836, 0.9960, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9993, 0.9749, 0.999, 0,  0.9427,  3.7707, 0.94268, 1.41403, 0.9934, 0.993, 2.48724, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 0.4875, 3.3540, 3.13326, 3.16368, 3.10284, 3.07242, 17.8771, 14.9494, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.54, 1285156578, 0, 0, 0, 0, 31719.6, 224.93, 225.155, 4600.54],
+      [1.019777040E8, 1260170, 2176, 1260170, 121, 132979, 4.81400, 5.02509, 5.27614, 5.28914, 6.27921, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9826, 0.9940, 1.000,     0.0,  6.0332, 3.01659,     0.0, 2.26244, 0.9941, 0.997, 1.40678, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.521, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33748, 3.8, 3.07584, 0.8, 5.8, 105.068, 105.068, 53.995, 3.24743, 4.15940, 4.02212, 0.9907, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9919, 0.9573, 1.000, 0,  4.0221, 19.1051,     0.0, 5.78180, 0.9873, 0.993, 2.39055, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 2.92032, 16.3039, 13.2194, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156579, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.019787040E8, 1260170, 2173, 1260170, 122, 132980, 4.89700, 5.03148, 5.36812, 5.27578, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9861, 0.9988, 1.000,     0.0,  7.0387, 1.00553,     0.0, 2.01106, 0.9962, 0.998, 1.44545, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.458, 107.458, 0.9, 0.9, 0.33657, 3.8, 3.07588, 0.8, 5.8, 105.068, 105.068, 53.995, 3.24736, 4.15940, 1.50830, 0.9965, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9970, 0.9904, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9969, 0.994, 2.19718, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 2.88990, 2.82906, 15.5704, 13.9058, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156580, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.45],
+      [1.019797040E8, 1260170, 2173, 1260170, 123, 132981, 4.89700, 5.00594, 5.36812, 5.25820, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9755, 0.9964, 1.000,     0.0,  7.0387, 3.01659,     0.0, 2.51383, 0.9930, 0.998, 1.34876, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.521, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33688, 3.8, 3.07584, 0.8, 5.8, 105.069, 105.069, 53.995, 3.24745, 4.15941, 2.26244, 0.9935, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9957, 0.9803, 1.000, 0,  1.0055,  7.0387,     0.0, 2.01106, 0.9940, 0.994, 2.11983, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4320, 3.4515, 3.16368, 3.16368, 2.70738, 2.82906,  5.1901, 12.2335, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156581, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.019807040E8, 1260170, 2172, 1260170, 124, 132982, 4.81400, 4.98040, 5.30560, 5.27277, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.994, 0.9970, 0.9985, 1.000, 3.01659,  3.0166, 1.00553,     0.0, 1.75968, 0.9975, 0.998, 1.40678, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33690, 3.8, 3.07584, 0.8, 5.8, 105.069, 105.069, 53.995, 3.24747, 4.15941, 2.01106, 0.9955, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9947, 0.9831, 0.996, 0,  1.0055,  7.0387, 1.00553, 2.26244, 0.9935, 0.994, 2.06182, 3.7, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4515, 3.4320, 3.13326, 3.16368, 2.46402, 2.88990, 14.5877, 12.4328, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156582, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019817040E8, 1260170, 2173, 1260170, 125, 132983, 4.89700, 5.01232, 5.27614, 5.28118, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9978, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9994, 0.998, 1.44545, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33686, 3.8, 3.07579, 0.8, 5.8, 105.069, 105.069, 53.995, 3.24740, 4.15941, 0.50277, 0.9978, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9842, 1.000, 0,     0.0,  2.0111,     0.0, 0.50277, 0.9961, 0.994, 2.11983, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4515, 3.4515, 3.16368, 3.16368, 2.31192, 2.92032,  9.5152, 12.0646, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.53, 1285156583, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.53],
+      [1.019827040E8, 1260170, 2177, 1260170, 126, 132984, 4.81400, 4.97481, 5.30560, 5.28959, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9963, 0.9966, 1.000,     0.0,  4.0221, 2.01106,     0.0, 1.50830, 0.9982, 0.997, 1.49742, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33706, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.995, 3.24739, 4.15938, 3.14228, 0.9941, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9601, 1.000, 0,     0.0, 19.1051,     0.0, 4.77627, 0.9900, 0.994, 2.06786, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 0.5265, 3.4515, 3.16368, 3.16368, 2.06856, 2.92032, 17.3004, 14.4867, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156584, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.019837040E8, 1260170, 2172, 1260170, 127, 132985, 5.56100, 4.99357, 5.30560, 5.30362, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9950, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9987, 0.997, 1.52159, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33681, 3.8, 3.07584, 0.8, 5.8, 105.066, 105.066, 53.995, 3.24738, 4.15938, 1.50830, 0.9977, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9896, 0.9969, 1.000, 0,  5.0277,  1.0055,     0.0, 1.50830, 0.9966, 0.995, 1.99777, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 2.28150, 3.07242, 13.7296, 14.5102, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156585, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.019847040E8, 1260170, 2173, 1260170, 128, 132986, 5.14600, 5.00634, 5.30560, 5.31005, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9948, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9987, 0.998, 1.38623, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.599, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33715, 3.8, 3.07584, 0.8, 5.8, 105.064, 105.064, 53.995, 3.24740, 4.15937, 1.00553, 0.9988, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9960, 1.000, 0,     0.0,  2.0111,     0.0, 0.50277, 0.9990, 0.995, 1.76572, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.4515, 3.16368, 3.16368, 2.28150, 3.07242, 17.3004, 14.8382, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156586, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019857040E8, 1260170, 2177, 1260170, 129, 132987, 5.14600, 4.99357, 5.25081, 5.31084, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9965, 0.9986, 1.000,     0.0,  1.0055, 1.00553,     0.0, 0.50277, 0.9988, 0.998, 1.28954, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.686, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33701, 3.8, 3.07584, 0.8, 5.8, 105.068, 105.068, 53.995, 3.24740, 4.15940, 0.87984, 0.9974, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9962, 0.9879, 1.000, 0,  2.0111,  3.0166,     0.0, 1.25691, 0.9960, 0.994, 1.84307, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 2.49444, 3.07242, 14.7053, 12.5892, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.53, 1285156587, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.53],
+      [1.019867040E8, 1260170, 2176, 1260170, 130, 132988, 4.89700, 4.96803, 5.35982, 5.31162, 6.27921, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9958, 0.9928, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9971, 0.998, 1.21220, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.454, 107.454, 0.9, 0.9, 0.33695, 3.8, 3.07587, 0.8, 5.8, 105.064, 105.064, 53.995, 3.24739, 4.15937, 1.50830, 0.9963, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9820, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9955, 0.994, 1.95909, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 2.49444, 3.13326, 11.1553, 13.0936, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.55, 1285156588, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.55],
+      [1.019877040E8, 1260170, 2173, 1260170, 131, 132989, 5.06300, 4.96803, 5.25081, 5.31302, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9939, 0.9983, 1.000,     0.0,  6.0332, 1.00553,     0.0, 1.75968, 0.9980, 0.998, 1.19286, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.441, 107.441, 0.9, 0.9, 0.33723, 3.8, 3.07585, 0.8, 5.8, 105.061, 105.061, 53.995, 3.24736, 4.15934, 1.75968, 0.9973, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9968, 0.9894, 1.000, 0,  1.0055,  6.0332,     0.0, 1.75968, 0.9966, 0.994, 1.82373, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.3735, 3.4515, 3.13326, 3.16368, 3.13326, 3.13326,  6.0551, 11.3497, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.57, 1285156589, 0, 0, 0, 0, 31719.8, 224.93, 225.155, 4600.57],
+      [1.019887040E8, 1260170, 2173, 1260170, 132, 132990, 4.82438, 4.93611, 5.25081, 5.31263, 6.29033, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.996, 0.9983, 0.9983, 1.000, 0.94268,  1.8854, 1.88537,     0.0, 1.17836, 0.9982, 0.998, 1.15418, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.541, 3.783, 3.8, 3.28536, 3.4070, 3.4070, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33684, 3.8, 3.07584, 0.8, 5.8, 105.063, 105.063, 53.995, 3.24734, 4.15936, 1.88537, 0.9937, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9570, 1.000, 0,     0.0, 10.3695,     0.0, 2.59238, 0.9893, 0.995, 1.92042, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.16368, 3.16368, 3.16368, 3.16368, 16.2519, 10.6577, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156590, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.52],
+      [1.019897040E8, 1260170, 2176, 1260170, 133, 132991, 5.14600, 4.92334, 5.32382, 5.30998, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9918, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9979, 0.998, 1.09617, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.541, 3.783, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33698, 3.8, 3.07584, 0.8, 5.8, 105.063, 105.063, 53.995, 3.24735, 4.15936, 0.87984, 0.9983, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9948, 1.0000, 1.000, 0,  2.0111,     0.0,     0.0, 0.50277, 0.9987, 0.995, 1.61102, 3.7, 3.7, 3.7, 3.6, 3.4125, 3.4125, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  8.5810, 10.6757, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.44, 1285156591, 0, 0, 0, 0, 31718.9, 224.93, 225.155, 4600.44],
+      [1.019907040E8, 1260170, 2171, 1260170, 134, 132992, 4.98000, 4.88503, 5.35982, 5.30732, 6.29421, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9941, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9985, 0.999, 0.98015, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33666, 3.8, 3.07584, 0.8, 5.8, 105.065, 105.065, 53.995, 3.24738, 4.15937, 1.63399, 0.9936, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9984, 0.9561, 1.000, 0,  1.0055, 10.0553,     0.0, 2.76521, 0.9886, 0.995, 1.59169, 3.8, 3.7, 3.7, 3.7, 3.4320, 3.3540, 3.4710, 3.4125, 3.13326, 3.16368, 3.10284, 3.16368, 11.2453, 11.6957, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156592, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.45],
+      [1.019917040E8, 1260170, 2173, 1260170, 135, 132993, 4.73100, 4.85311, 5.37829, 5.30580, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9952, 1.0000, 1.000,     0.0,  3.0166,     0.0,     0.0, 0.75415, 0.9988, 0.998, 0.98015, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33719, 3.8, 3.07584, 0.8, 5.8, 105.070, 105.070, 53.995, 3.24734, 4.15942, 1.38260, 0.9965, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9839, 0.9928, 1.000, 0,  3.0166,  5.0277,     0.0, 2.01106, 0.9942, 0.995, 1.66904, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 11.2453, 11.3864, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156593, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.52],
+      [1.019927040E8, 1260170, 2173, 1260170, 136, 132994, 4.56500, 4.81480, 5.37829, 5.32819, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9935, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9984, 0.998, 1.07684, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.638, 3.763, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33666, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.995, 3.24739, 4.15934, 2.51383, 0.9938, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9623, 0.995, 0,     0.0, 13.0719, 1.00553, 3.51936, 0.9893, 0.995, 1.72705, 3.6, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.19410, 11.1553, 12.7843, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.55, 1285156594, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.55],
+      [1.019937040E8, 1260170, 2172, 1260170, 137, 132995, 4.81400, 4.80841, 5.32382, 5.34220, 6.27921, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9959, 0.9967, 1.000,     0.0,  4.0221, 2.01106,     0.0, 1.50830, 0.9981, 0.999, 1.05750, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33666, 3.8, 3.07584, 0.8, 5.8, 105.064, 105.064, 53.996, 3.24738, 4.15937, 1.00553, 0.9984, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9947, 1.0000, 1.000, 0,  2.0111,     0.0,     0.0, 0.50277, 0.9987, 0.995, 1.74638, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4515, 3.4320, 3.13326, 3.16368, 3.10284, 3.16368, 14.7053, 12.7663, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.56, 1285156595, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.56],
+      [1.019947040E8, 1260170, 2171, 1260170, 138, 132996, 4.48200, 4.79006, 5.27109, 5.36778, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.999, 0.99465, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.763, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33660, 3.8, 3.07579, 0.8, 5.8, 105.064, 105.064, 53.996, 3.24740, 4.15936, 0.87984, 0.9985, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9882, 1.000, 0,     0.0,  7.0387,     0.0, 1.75968, 0.9971, 0.995, 1.82857, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 0.4875, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 15.5704, 13.2853, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.55, 1285156596, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.55],
+      [1.019957040E8, 1260170, 2173, 1260170, 139, 132997, 4.64800, 4.81480, 5.27109, 5.39017, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.994, 0.9984, 1.0000, 1.000, 1.00553,  2.0111,     0.0,     0.0, 0.75415, 0.9980, 0.999, 1.00070, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.618, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33667, 3.8, 3.07584, 0.8, 5.8, 105.060, 105.060, 53.996, 3.24738, 4.15933, 0.75415, 0.9981, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9966, 0.996, 0,     0.0,  2.0111, 1.00553, 0.75415, 0.9981, 0.996, 1.64849, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4515, 3.13326, 3.16368, 3.13326, 3.16368, 11.1553, 13.4763, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.53, 1285156597, 0, 0, 0, 0, 31719.6, 224.93, 225.155, 4600.53],
+      [1.019967040E8, 1260170, 2176, 1260170, 140, 132998, 5.06300, 4.79564, 5.27109, 5.38668, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 1.0000, 1.0000, 1.000,     0.0,     0.0,     0.0,     0.0,     0.0, 1.0000, 0.999, 1.03937, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.437, 107.437, 0.9, 0.9, 0.33682, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.997, 3.24741, 4.15934, 0.62846, 0.9986, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9889, 1.000, 0,     0.0,  5.0277,     0.0, 1.25691, 0.9972, 0.996, 1.68716, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.3930, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 13.8403, 12.7663, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156598, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.019977040E8, 1260170, 2172, 1260170, 141, 132999, 4.73100, 4.79564, 5.28579, 5.37219, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9949, 0.9985, 1.000,     0.0,  5.0277, 1.00553,     0.0, 1.50830, 0.9983, 0.999, 1.09738, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33733, 3.8, 3.07584, 0.8, 5.8, 105.059, 105.059, 53.997, 3.24736, 4.15932, 1.50830, 0.9979, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9896, 1.000, 0,     0.0,  6.0332,     0.0, 1.50830, 0.9974, 0.996, 1.53247, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.2760, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 12.1103, 11.7283, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.51, 1285156599, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.51],
+      [1.019987040E8, 1260170, 2172, 1260170, 142, 133000, 4.64800, 4.81480, 5.54192, 5.36019, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9952, 0.9971, 1.000,     0.0,  4.0221, 3.01659,     0.0, 1.75968, 0.9981, 0.998, 1.15539, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.705, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33727, 3.8, 3.07584, 0.8, 5.8, 105.062, 105.062, 53.998, 3.24742, 4.15935, 1.88537, 0.9955, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9988, 0.9785, 0.995, 0,  1.0055,  6.0332, 1.00553, 2.01106, 0.9930, 0.996, 1.45512, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 11.1553, 11.6100, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156600, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.019997040E8, 1260170, 2173, 1260170, 143, 133001, 4.81400, 4.82757, 5.54192, 5.34559, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9968, 1.0000, 1.000,     0.0,  5.0277,     0.0,     0.0, 1.25691, 0.9992, 0.999, 1.05871, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33698, 3.8, 3.07584, 0.8, 5.8, 105.062, 105.062, 53.998, 3.24735, 4.15935, 1.50830, 0.9983, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9990, 0.9904, 1.000, 0,  1.0055,  6.0332,     0.0, 1.75968, 0.9974, 0.997, 1.31976, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.3345, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 10.3802, 12.1027, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.53, 1285156601, 0, 0, 0, 0, 31719.6, 224.93, 225.155, 4600.53],
+      [1.020007040E8, 1260170, 2171, 1260170, 144, 133002, 4.82438, 4.83395, 5.58336, 5.33778, 6.28631, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9982, 1.0000, 1.000,     0.0,  3.7707,     0.0,     0.0, 0.94268, 0.9996, 0.999, 1.02003, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33725, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.998, 3.24738, 4.15934, 1.88537, 0.9969, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9815, 0.996, 0,     0.0, 10.3695, 0.94268, 2.82805, 0.9943, 0.997, 1.33910, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.16368, 10.5637, 12.2757, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156602, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.50],
+      [1.020017040E8, 1260170, 2171, 1260170, 145, 133003, 5.14600, 4.87864, 5.54192, 5.33142, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9964, 0.9960, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9981, 0.998, 1.09738, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.3766, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33699, 3.8, 3.07584, 0.8, 5.8, 105.063, 105.063, 53.999, 3.24741, 4.15936, 0.75415, 0.9982, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9929, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9982, 0.996, 1.31976, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.16368, 3.16368, 3.10284, 3.16368, 16.3039, 11.6017, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156603, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.020027040E8, 1260170, 2172, 1260170, 146, 133004, 4.89700, 4.90418, 5.27845, 5.32767, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9932, 0.9975, 1.000,     0.0,  5.0277, 2.01106,     0.0, 1.75968, 0.9977, 0.998, 1.11672, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33708, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.998, 3.24736, 4.15934, 1.38260, 0.9980, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9959, 0.9971, 1.000, 0,  2.0111,  2.0111,     0.0, 1.00553, 0.9982, 0.996, 1.43578, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.3735, 3.4710, 3.4320, 3.13326, 3.16368, 3.10284, 3.19410, 12.9753, 12.7864, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.48, 1285156604, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.48],
+      [1.020037040E8, 1260170, 2172, 1260170, 147, 133005, 4.98000, 4.91695, 5.17142, 5.32582, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9920, 0.9965, 1.000,     0.0,  3.0166, 2.01106,     0.0, 1.25691, 0.9971, 0.998, 1.19407, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.560, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33728, 3.8, 3.07584, 0.8, 5.8, 105.060, 105.060, 53.998, 3.24734, 4.15933, 1.00553, 0.9978, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9939, 1.000, 0,     0.0,  3.0166,     0.0, 0.75415, 0.9985, 0.996, 1.51313, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4320, 3.13326, 3.16368, 3.13326, 3.16368,  7.7852, 12.9227, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156605, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.020047040E8, 1260170, 2172, 1260170, 148, 133006, 4.98000, 4.94887, 5.22230, 5.32284, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9885, 1.0000, 1.000,     0.0,  6.0332,     0.0,     0.0, 1.50830, 0.9971, 0.998, 1.15539, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33741, 3.8, 3.07584, 0.8, 5.8, 105.059, 105.059, 53.997, 3.24739, 4.15932, 1.25691, 0.9970, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9982, 0.9895, 1.000, 0,  1.0055,  3.0166,     0.0, 1.00553, 0.9969, 0.996, 1.53247, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.19410, 16.3039, 11.5650, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.54, 1285156606, 0, 0, 0, 0, 31719.6, 224.93, 225.155, 4600.54],
+      [1.020057040E8, 1260170, 2171, 1260170, 149, 133007, 4.73100, 4.97441, 5.18846, 5.30415, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9982, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9995, 0.998, 1.09738, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.666, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.384, 107.384, 0.9, 0.9, 0.33710, 3.8, 3.07575, 0.8, 5.8, 105.057, 105.057, 53.997, 3.24742, 4.15930, 1.00553, 0.9962, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9960, 0.9757, 1.000, 0,  1.0055,  6.0332,     0.0, 1.75968, 0.9929, 0.996, 1.53247, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 11.2453, 10.6861, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.55, 1285156607, 0, 0, 0, 0, 31719.7, 224.93, 225.155, 4600.55],
+      [1.020067040E8, 1260170, 2173, 1260170, 150, 133008, 4.89700, 4.97441, 5.22230, 5.28764, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9955, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9989, 0.998, 1.03937, null, 3.8, 3.998, 4.017, 3.998, 3.6, 2.769, 3.803, 3.8, 3.25494, 3.4375, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33710, 3.8, 3.07584, 0.8, 5.8, 105.064, 105.064, 53.997, 3.24739, 4.15937, 0.87984, 0.9985, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9974, 0.9954, 1.000, 0,  1.0055,  2.0111,     0.0, 0.75415, 0.9982, 0.996, 1.55180, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4320, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.19410,  9.5152, 12.2432, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.54, 1285156608, 0, 0, 0, 0, 31719.6, 224.93, 225.155, 4600.54],
+      [1.020077040E8, 1260170, 2173, 1260170, 151, 133009, 5.06300, 4.97441, 5.18846, 5.26576, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9956, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9989, 0.998, 1.03937, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33698, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.997, 3.24735, 4.15934, 1.25691, 0.9961, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9969, 0.9811, 0.995, 0,  1.0055,  4.0221, 1.00553, 1.50830, 0.9932, 0.996, 1.56993, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4515, 3.4320, 3.13326, 3.16368, 3.10284, 3.19410,  8.5810, 10.8854, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156609, 0, 0, 0, 0, 31719.4, 224.93, 225.155, 4600.52],
+      [1.020087040E8, 1260170, 2171, 1260170, 152, 133010, 4.98000, 4.95526, 5.22230, 5.23731, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9970, 0.9887, 1.000,     0.0,  1.0055, 3.01659,     0.0, 1.00553, 0.9964, 0.998, 1.13606, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.627, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33693, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.996, 3.24739, 4.15934, 1.63399, 0.9958, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9804, 1.000, 0,     0.0,  9.0498,     0.0, 2.26244, 0.9951, 0.995, 1.82132, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3735, 3.4515, 3.16368, 3.16368, 3.10284, 3.19410, 15.5704, 11.5539, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.50, 1285156610, 0, 0, 0, 0, 31719.3, 224.93, 225.155, 4600.50],
+      [1.020097040E8, 1260170, 2171, 1260170, 153, 133011, 5.22900, 4.97441, 5.24705, 5.23889, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9938, 1.0000, 1.000,     0.0,  4.0221,     0.0,     0.0, 1.00553, 0.9984, 0.998, 1.03937, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.725, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33673, 3.8, 3.07584, 0.8, 5.8, 105.057, 105.057, 53.997, 3.24734, 4.15931, 1.63399, 0.9973, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9937, 0.9912, 1.000, 0,  4.0221,  5.0277,     0.0, 2.26244, 0.9962, 0.994, 1.97601, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  9.5152, 12.7649, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156611, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.020107040E8, 1260170, 2173, 1260170, 154, 133012, 5.14600, 4.98718, 5.24705, 5.25087, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9968, 0.9978, 1.000,     0.0,  2.0111, 2.01106,     0.0, 1.00553, 0.9986, 0.998, 1.25208, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33678, 3.8, 3.07584, 0.8, 5.8, 105.058, 105.058, 53.997, 3.24736, 4.15932, 1.38260, 0.9971, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9826, 1.000, 0,     0.0,  7.0387,     0.0, 1.75968, 0.9957, 0.994, 2.05336, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.4515, 3.13326, 3.16368, 3.10284, 3.19410, 14.5877, 14.1628, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156612, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.020117040E8, 1260170, 2172, 1260170, 155, 133013, 4.98000, 5.01911, 5.29900, 5.26484, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9955, 0.9986, 1.000,     0.0,  3.0166, 1.00553,     0.0, 1.00553, 0.9985, 0.998, 1.19407, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.638, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33697, 3.8, 3.07579, 0.8, 5.8, 105.058, 105.058, 53.997, 3.24739, 4.15932, 1.50830, 0.9964, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9945, 0.9830, 1.000, 0,  3.0166,  5.0277,     0.0, 2.01106, 0.9944, 0.994, 2.01469, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.16368, 15.5704, 13.4682, 15406.8, 427763, 486798, 14668.7, 3.97, 4600.52, 1285156613, 0, 0, 0, 0, 31719.5, 224.93, 225.155, 4600.52],
+      [1.020127040E8, 1260170, 2171, 1260170, 156, 133014, 4.81400, 5.05741, 5.32724, 5.28315, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9988, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9997, 0.998, 1.32943, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33690, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.998, 3.24739, 4.15934, 1.25691, 0.9967, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9746, 1.000, 0,     0.0,  8.0442,     0.0, 2.01106, 0.9936, 0.994, 2.03402, 3.8, 3.7, 3.7, 3.7, 3.4320, 3.4515, 0.5265, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 15.5704, 13.2952, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.49, 1285156614, 0, 0, 0, 0, 31719.2, 224.93, 225.155, 4600.49],
+      [1.020137040E8, 1260170, 2172, 1260170, 157, 133015, 4.82438, 5.08934, 5.29900, 5.29885, 6.27827, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9999, 0.9950, 1.000,     0.0,  0.9427, 2.82805,     0.0, 0.94268, 0.9987, 0.998, 1.31009, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33704, 3.8, 3.07584, 0.8, 5.8, 105.061, 105.061, 53.998, 3.24736, 4.15934, 2.00321, 0.9950, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9652, 1.000, 0,     0.0, 12.2549,     0.0, 3.06373, 0.9913, 0.994, 2.05336, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.16368, 12.0973, 13.6384, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.46, 1285156615, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.46],
+      [1.020147040E8, 1260170, 2172, 1260170, 158, 133016, 4.89700, 5.07657, 5.17199, 5.31542, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9870, 0.9968, 1.000,     0.0,  8.0442, 2.01106,     0.0, 2.51383, 0.9960, 0.997, 1.54214, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.560, 3.783, 3.8, 3.25494, 3.4070, 3.4679, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33716, 3.8, 3.07584, 0.8, 5.8, 105.058, 105.058, 53.998, 3.24732, 4.15932, 3.01659, 0.9919, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9979, 0.9538, 1.000, 0,  2.0111, 12.0664,     0.0, 3.51936, 0.9879, 0.994, 2.15005, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  8.6502, 13.2924, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.47, 1285156616, 0, 0, 0, 0, 31719.1, 224.93, 225.155, 4600.47],
+      [1.020157040E8, 1260170, 2172, 1260170, 159, 133017, 5.14600, 5.10849, 5.29900, 5.30744, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9963, 1.0000, 1.000,     0.0,  2.0111,     0.0,     0.0, 0.50277, 0.9991, 0.997, 1.63882, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.433, 107.433, 0.9, 0.9, 0.33689, 3.8, 3.07583, 0.8, 5.8, 105.059, 105.059, 53.998, 3.24738, 4.15932, 1.75968, 0.9947, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9967, 0.9692, 0.995, 0,  1.0055, 10.0553, 1.00553, 3.01659, 0.9903, 0.994, 2.05336, 3.7, 3.7, 3.7, 3.7, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 16.3039, 12.0814, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.48, 1285156617, 0, 0, 0, 0, 31719.2, 224.93, 225.154, 4600.48],
+      [1.020167040E8, 1260170, 2171, 1260170, 160, 133018, 5.14600, 5.10211, 5.32724, 5.29756, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9825, 0.9833, 1.000,     0.0, 11.0608, 5.02765,     0.0, 4.02212, 0.9915, 0.997, 1.71617, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.420, 107.420, 0.9, 0.9, 0.33698, 3.8, 3.07581, 0.8, 5.8, 105.055, 105.055, 53.998, 3.24736, 4.15929, 2.89090, 0.9928, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9885, 0.9883, 1.000, 0,  4.0221,  3.0166,     0.0, 1.75968, 0.9942, 0.994, 1.95668, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.2760, 3.4710, 3.4515, 3.16368, 3.16368, 3.10284, 3.16368, 13.8403, 12.2570, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156618, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.45],
+      [1.020177040E8, 1260170, 2172, 1260170, 161, 133019, 5.39500, 5.12126, 5.40387, 5.28768, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9978, 1.0000, 1.000,     0.0,  3.0166,     0.0,     0.0, 0.75415, 0.9994, 0.997, 1.67750, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33720, 3.8, 3.07584, 0.8, 5.8, 105.058, 105.058, 53.998, 3.24743, 4.15931, 0.62846, 0.9988, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9944, 1.0000, 0.998, 0,  1.0055,     0.0, 1.00553, 0.50277, 0.9981, 0.994, 1.99535, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4125, 3.3735, 3.13326, 3.16368, 3.10284, 3.16368,  9.5152, 13.6161, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.42, 1285156619, 0, 0, 0, 0, 31718.8, 224.93, 225.155, 4600.42],
+      [1.020187040E8, 1260170, 2171, 1260170, 162, 133020, 5.22900, 5.15318, 5.42644, 5.27380, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9835, 1.0000, 1.000,     0.0,  8.0442,     0.0,     0.0, 2.01106, 0.9959, 0.997, 1.75484, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33708, 3.8, 3.07579, 0.8, 5.8, 105.057, 105.057, 53.998, 3.24743, 4.15930, 2.01106, 0.9959, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9878, 0.9956, 1.000, 0,  6.0332,  2.0111,     0.0, 2.01106, 0.9959, 0.995, 1.85999, 3.6, 3.7, 3.7, 3.6, 3.4320, 0.5850, 3.4515, 3.4320, 3.13326, 3.16368, 3.10284, 3.16368, 12.9753, 12.2584, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.43, 1285156620, 0, 0, 0, 0, 31718.8, 224.93, 225.155, 4600.43],
+      [1.020197040E8, 1260170, 2172, 1260170, 163, 133021, 5.31200, 5.18989, 5.42644, 5.25834, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9972, 1.0000, 1.000,     0.0,  3.0166,     0.0,     0.0, 0.75415, 0.9993, 0.997, 1.80681, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.28536, 3.4070, 3.4679, 3.3766, 107.458, 107.458, 0.9, 0.9, 0.33710, 3.8, 3.07588, 0.8, 5.8, 105.056, 105.056, 53.997, 3.24738, 4.15930, 0.87984, 0.9970, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9786, 1.000, 0,     0.0,  4.0221,     0.0, 1.00553, 0.9946, 0.995, 1.77781, 3.8, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.3930, 3.4125, 3.16368, 3.16368, 3.10284, 3.16368, 15.4458, 12.2584, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156621, 0, 0, 0, 0, 31718.8, 224.93, 225.154, 4600.42],
+      [1.020207040E8, 1260170, 2172, 1260170, 164, 133022, 4.89700, 5.20825, 5.40387, 5.24631, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9796, 0.9988, 1.000,     0.0, 15.0830, 1.00553,     0.0, 4.02212, 0.9946, 0.997, 1.81165, null, 3.8, 3.998, 4.017, 3.998, 3.6, 1.599, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33702, 3.8, 3.07584, 0.8, 5.8, 105.057, 105.057, 53.997, 3.24739, 4.15930, 3.39367, 0.9954, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9973, 0.9878, 1.000, 0,  1.0055, 10.0553,     0.0, 2.76521, 0.9963, 0.996, 1.58081, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4320, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  9.5152, 11.7283, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.43, 1285156622, 0, 0, 0, 0, 31718.9, 224.93, 225.155, 4600.43],
+      [1.020217040E8, 1260170, 2172, 1260170, 165, 133023, 5.39500, 5.21463, 5.11859, 5.26544, 6.29207, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.998, 0.9893, 1.0000, 1.000, 1.00553,  8.0442,     0.0,     0.0, 2.26244, 0.9968, 0.997, 1.73430, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.3766, 107.410, 107.410, 0.9, 0.9, 0.33685, 3.8, 3.07579, 0.8, 5.8, 105.055, 105.055, 53.997, 3.24739, 4.15929, 1.63399, 0.9971, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9898, 1.000, 0,     0.0,  4.0221,     0.0, 1.00553, 0.9975, 0.996, 1.58081, 3.6, 3.7, 3.7, 3.6, 3.4125, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 13.8403, 11.0363, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.44, 1285156623, 0, 0, 0, 0, 31718.9, 224.93, 225.155, 4600.44],
+      [1.020227040E8, 1260170, 2171, 1260170, 166, 133024, 5.14600, 5.18271, 5.11859, 5.26885, 6.28992, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9953, 0.9967, 1.000,     0.0,  5.0277, 3.01659,     0.0, 2.01106, 0.9980, 0.997, 1.71496, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.354, 3.783, 3.8, 3.25494, 3.3766, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33713, 3.8, 3.07584, 0.8, 5.8, 105.055, 105.055, 53.997, 3.24734, 4.15929, 1.50830, 0.9981, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9931, 0.9996, 1.000, 0,  3.0166,  1.0055,     0.0, 1.00553, 0.9982, 0.997, 1.36810, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  6.8648,  9.6772, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156624, 0, 0, 0, 0, 31718.9, 224.93, 225.154, 4600.43],
+      [1.020237040E8, 1260170, 2171, 1260170, 167, 133025, 5.39500, 5.18271, 5.11859, 5.27603, 6.28135, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 0.997, 0.9980, 1.0000, 1.000, 1.00553,  1.0055,     0.0,     0.0, 0.50277, 0.9988, 0.998, 1.61828, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33700, 3.8, 3.07584, 0.8, 5.8, 105.055, 105.055, 53.997, 3.24743, 4.15929, 1.38260, 0.9974, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9969, 0.9868, 1.000, 0,  1.0055,  8.0442,     0.0, 2.26244, 0.9959, 0.997, 1.34876, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.5070, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  9.5152, 10.1936, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.43, 1285156625, 0, 0, 0, 0, 31718.8, 224.93, 225.154, 4600.43],
+      [1.020247040E8, 1260170, 2173, 1260170, 168, 133026, 5.39500, 5.15079, 5.11859, 5.27732, 6.27707, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9877, 0.9977, 1.000,     0.0,  6.0332, 2.01106,     0.0, 2.01106, 0.9964, 0.998, 1.57960, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.783, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.437, 107.437, 0.9, 0.9, 0.33711, 3.8, 3.07584, 0.8, 5.8, 105.056, 105.056, 53.997, 3.24736, 4.15929, 1.13122, 0.9980, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9989, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9997, 0.997, 1.46479, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4125, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368,  8.6502,  9.3285, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.44, 1285156626, 0, 0, 0, 0, 31718.9, 224.93, 225.155, 4600.44],
+      [1.020257040E8, 1260170, 2173, 1260170, 169, 133027, 5.29125, 5.14440, 5.12624, 5.27687, 6.28631, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9942, 1.0000, 1.000,     0.0,  4.7134,     0.0,     0.0, 1.17836, 0.9986, 0.998, 1.54093, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33706, 3.8, 3.07584, 0.8, 5.8, 105.055, 105.055, 53.997, 3.24734, 4.15929, 1.06052, 0.9972, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9833, 1.000, 0,     0.0,  3.7707,     0.0, 0.94268, 0.9958, 0.997, 1.44545, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.3930, 0.4875, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 12.0973, 10.0150, 15406.7, 427763, 486798, 14668.7, 3.97, 4600.45, 1285156627, 0, 0, 0, 0, 31719.0, 224.93, 225.155, 4600.45],
+      [1.020267040E8, 1260170, 2171, 1260170, 170, 133028, 5.06300, 5.13163, 5.14262, 5.27642, 6.28778, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9979, 0.9966, 1.000,     0.0,  2.0111, 2.01106,     0.0, 1.00553, 0.9986, 0.998, 1.59894, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33711, 3.8, 3.07584, 0.8, 5.8, 105.056, 105.056, 53.997, 3.24736, 4.15929, 0.75415, 0.9985, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9979, 0.9954, 1.000, 0,  1.0055,  1.0055,     0.0, 0.50277, 0.9983, 0.997, 1.50346, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.19410,  9.5152, 10.0150, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.45, 1285156628, 0, 0, 0, 0, 31719.0, 224.93, 225.154, 4600.45],
+      [1.020277040E8, 1260170, 2171, 1260170, 171, 133029, 4.98000, 5.15079, 5.42059, 5.27771, 6.27921, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9975, 0.9930, 1.000,     0.0,  3.0166, 3.01659,     0.0, 1.50830, 0.9976, 0.998, 1.40557, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.28536, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33693, 3.8, 3.07584, 0.8, 5.8, 105.058, 105.058, 53.997, 3.24737, 4.15932, 2.51383, 0.9957, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9995, 0.9756, 1.000, 0,  1.0055, 13.0719,     0.0, 3.51936, 0.9938, 0.997, 1.42611, 3.7, 3.7, 3.7, 3.7, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 3.10284, 3.16368, 10.2972, 10.0150, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.44, 1285156629, 0, 0, 0, 0, 31719.0, 224.93, 225.154, 4600.44],
+      [1.020287040E8, 1260170, 2173, 1260170, 172, 133030, 4.73100, 5.13163, 5.34340, 5.30094, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9989, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9997, 0.998, 1.34756, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.803, 3.8, 3.25494, 3.4070, 3.4070, 3.4070, 107.410, 107.410, 0.9, 0.9, 0.33678, 3.8, 3.07579, 0.8, 5.8, 105.052, 105.052, 53.996, 3.24737, 4.15926, 0.25138, 0.9996, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 1.0000, 0.9981, 1.000, 0,     0.0,  1.0055,     0.0, 0.25138, 0.9995, 0.996, 1.48412, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.3735, 3.4320, 3.4320, 3.13326, 3.16368, 3.10284, 3.16368,  9.5152,  9.3256, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156630, 0, 0, 0, 0, 31718.8, 224.93, 225.154, 4600.42],
+      [1.020297040E8, 1260170, 2171, 1260170, 173, 133031, 5.14600, 5.13163, 5.42059, 5.32417, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9871, 0.9942, 1.000,     0.0,  8.0442, 3.01659,     0.0, 2.76521, 0.9953, 0.998, 1.30888, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.783, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.437, 107.437, 0.9, 0.9, 0.33641, 3.8, 3.07584, 0.8, 5.8, 105.054, 105.054, 53.996, 3.24735, 4.15928, 2.13675, 0.9960, 5.8, 6.05556, 196.803, 186.252, 1, 1, 1, 1, 1, 0.9994, 0.9871, 1.000, 0,  1.0055,  5.0277,     0.0, 1.50830, 0.9966, 0.996, 1.54214, 3.7, 3.7, 3.7, 3.6, 3.4320, 3.4515, 0.4875, 3.4125, 3.13326, 3.16368, 3.10284, 3.19410,  8.6502,  8.9671, 15406.6, 427764, 486798, 14668.7, 3.97, 4600.39, 1285156631, 0, 0, 0, 0, 31718.6, 224.93, 225.154, 4600.39],
+      [1.020307040E8, 1260170, 2171, 1260170, 174, 133032, 4.98000, 5.11248, 5.42059, 5.34740, 6.28564, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9957, 1.0000, 1.000,     0.0,  1.0055,     0.0,     0.0, 0.25138, 0.9989, 0.998, 1.38623, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.627, 3.803, 3.8, 3.25494, 3.4070, 3.4375, 3.4375, 107.388, 107.388, 0.9, 0.9, 0.33626, 3.8, 3.07576, 0.8, 5.8, 105.057, 105.057, 53.996, 3.24742, 4.15930, 1.13122, 0.9979, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 1.0000, 0.9875, 1.000, 0,     0.0,  8.0442,     0.0, 2.01106, 0.9969, 0.996, 1.50346, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 2.79864, 3.16368,  8.6502,  8.9671, 15406.6, 427764, 486798, 14668.7, 3.97, 4600.38, 1285156632, 0, 0, 0, 0, 31718.5, 224.93, 225.154, 4600.38],
+      [1.020317040E8, 1260170, 2172, 1260170, 175, 133033, 5.14600, 5.09333, 5.42059, 5.37063, 6.28350, 6.25944, 250.8, 191.9, 1, 1, 1, 1, 1.000, 0.9941, 0.9970, 1.000,     0.0,  3.0166, 3.01659,     0.0, 1.50830, 0.9978, 0.998, 1.34756, null, 3.8, 3.998, 4.017, 3.998, 3.6, 3.803, 3.763, 3.8, 3.25494, 3.4070, 3.4375, 3.4070, 107.433, 107.433, 0.9, 0.9, 0.33683, 3.8, 3.07583, 0.8, 5.8, 105.055, 105.055, 53.996, 3.24739, 4.15929, 1.63399, 0.9960, 5.8, 6.05556, 198.214, 187.663, 1, 1, 1, 1, 1, 0.9814, 0.9957, 1.000, 0,  5.0277,  2.0111,     0.0, 1.75968, 0.9943, 0.995, 1.61948, 3.6, 3.7, 3.7, 3.6, 3.4320, 3.4515, 3.4710, 3.4515, 3.13326, 3.16368, 2.79864, 3.16368,  7.7229,  8.9671, 15406.7, 427764, 486798, 14668.7, 3.97, 4600.42, 1285156633, 0, 0, 0, 0, 31718.8, 224.93, 225.154, 4600.42]
+    ]
+  }
+]

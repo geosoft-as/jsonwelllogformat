@@ -79,5 +79,5 @@ For the ```demo.json``` file available in this repository the result is as follo
 ## More test data
 
 The public _Volve_ data from Equinor is available in the JSON Well Log Format
-at [https://jsonwelllogformat.org/Volve](https://jsonwelllogformat.org/Volve)
+at [https://jsonwelllogformat.org/Volve](https://jsonwelllogformat.org/Volve).
 

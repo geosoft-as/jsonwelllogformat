@@ -1,0 +1,66 @@
+[
+  {
+    "header": {
+      "name": "FM_PRESS_COMPUTED_MWD_1",
+      "well": "15/9-F-1 B",
+      "source": "Converted from LAS by Log Studio 4.87 - Petroware AS",
+      "startIndex": 3247.0,
+      "endIndex": 3330.0,
+      "step": null
+    },
+    "curves": [
+      {
+        "name": "DEPTH",
+        "description": null,
+        "quantity": null,
+        "unit": "M",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PRES_FORM",
+        "description": null,
+        "quantity": null,
+        "unit": "BAR",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PRES_MOBL",
+        "description": null,
+        "quantity": null,
+        "unit": "MD/CP",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PRES_QUAL",
+        "description": null,
+        "quantity": null,
+        "unit": "UNITLESS",
+        "valueType": "float",
+        "dimensions": 1
+      },
+      {
+        "name": "PRES_TST_NO",
+        "description": null,
+        "quantity": null,
+        "unit": "UNITLESS",
+        "valueType": "float",
+        "dimensions": 1
+      }
+    ],
+    "data": [
+      [3247.0, 344.563,   60.4, 3, 10],
+      [3255.0, 345.124,   55.5, 3,  9],
+      [3261.0, 345.604,   46.2, 3,  8],
+      [3266.5, 346.523,  237.7, 4,  7],
+      [3273.5, 347.050,  580.7, 4,  6],
+      [3280.5, 347.584,  120.2, 4,  5],
+      [3291.0, 348.236, 1685.7, 4,  4],
+      [3296.0, 348.639,   37.4, 3,  3],
+      [3301.5, 349.407,    9.2, 2,  2],
+      [3330.0, 344.675,  208.3, 4,  1]
+    ]
+  }
+]

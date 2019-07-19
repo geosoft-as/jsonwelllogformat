@@ -2,7 +2,6 @@
 
 <img hspace="100" src="https://petroware.no/images/json.png">
 
-
 ## Background
 
 Most well log and drilling data in the oil and gas industry is trapped within tapes and disk files of ancient and hard to access data formats like DLIS, LAS, LIS, BIT, XTF, WITS, ASC and SPWLA.

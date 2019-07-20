@@ -2,7 +2,7 @@
 
 As MATLAB has built-in JSON support, accessing JSON Well Log Format files with
 MATLAB is trivial.
-
+<p>
 Loading and parsing the logs of a .json file is done as follows:
 
 ```matlab

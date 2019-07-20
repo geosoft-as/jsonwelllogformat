@@ -7,4 +7,5 @@ The code available here is an _Ocean_ (Petrel 3rd-party plugin) module for impor
 in the JSON Well Log Format into Petrel.
 
 <br>
-<img hspace="20" src="https://jsonwelllogformat.org/images/petrel.jpg">
+
+![Petrel](https://jsonwelllogformat.org/images/petrel.jpg)

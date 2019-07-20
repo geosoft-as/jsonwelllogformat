@@ -13,7 +13,7 @@ data = logs.data;
 
 For the ```demo.json``` file available in this repository the result is as follows:
 
-![Matrix](https://petroware.no/images/matlabMatrix.png)
+![Matrix](https://jsonwelllogformat.org/images/matlabMatrix.png)
 
 
 

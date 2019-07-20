@@ -2,7 +2,7 @@
 
 As MATLAB has built-in JSON support, accessing JSON Well Log Format files with
 MATLAB is trivial.
-<p>
+
 Loading and parsing the logs of a .json file is done as follows:
 
 ```matlab
@@ -13,7 +13,8 @@ curves = logs.curves;
 data = logs.data;
 ```
 
-For the ```demo.json``` file available in the _data_ matrix will show as follows:
+For the ```demo.json``` file available in this repository the _data_ matrix will
+show as follows:
 
 ![Matrix](https://jsonwelllogformat.org/images/matlabMatrix.png)
 

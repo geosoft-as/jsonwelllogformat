@@ -11,7 +11,7 @@ curves = logs.curves;
 data = logs.data;
 ```
 
-For the ```demo.json``` file available in this repository the result is as follows:
+For the ```demo.json``` file available in the _data_ matrix will show as follows:
 
 ![Matrix](https://jsonwelllogformat.org/images/matlabMatrix.png)
 

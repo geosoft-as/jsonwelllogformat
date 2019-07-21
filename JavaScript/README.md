@@ -22,6 +22,6 @@ npm install
 npm start
 ```
 
-On online version of this simple JavaScript program is
-demonstrated at wit the public Volve Dataset at
+An online version of this simple JavaScript program is
+demonstrated for the public _Volve_ dataset at
 [http://www.jsonwelllogformat.org/viewer/](http://www.jsonwelllogformat.org/viewer/).

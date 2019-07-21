@@ -1,10 +1,14 @@
-# JSON Well Log Format JavaScript Viewer
+# Accessing JSON Well Log Format files with JavaScript
 
-Test the viewer example code on the (Volve Dataset)[http://www.jsonwelllogformat.org/viewer/]
+As JavaScript has built-in JSON support, accessing JSON Well Log Format
+files with Python is trivial.
 
-# Build
 
-The viewer example uses (NodeJS)[https://nodejs.org/en/].
+## Example
+
+The present example demonstrates how simple it is to create an
+online log viewer using JavaScript and JSON Well Log Format files.
+The viewer example uses [NodeJS](https://nodejs.org/en/).
 
 To build:
 ```
@@ -17,3 +21,7 @@ To run on local machine:
 npm install
 npm start
 ```
+
+On online version of this simple JavaScript program is
+demonstrated at wit the public Volve Dataset at
+[http://www.jsonwelllogformat.org/viewer/](http://www.jsonwelllogformat.org/viewer/).

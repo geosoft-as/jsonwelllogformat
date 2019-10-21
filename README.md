@@ -15,7 +15,7 @@ But still: These are the main storage and communication media for well logging i
 
 The JSON Well Log Format is a modern well log format designed for the future requirements of simplicity, compatibility, speed, massive storage, massive transmission, cloud computing and big data analytics. It overcome many of the deficiencies of existing well log formats.
 
-* Based on the _JavaScript Object Notation_ ([JSON](https://www.json.org/)) open standard ([RFC 8259](https://tools.ietf.org/html/rfc8259) and and [RFC 7493](https://tools.ietf.org/html/rfc7493)
+* Based on the _JavaScript Object Notation_ ([JSON](https://www.json.org/)) open standard ([RFC 8259](https://tools.ietf.org/html/rfc8259) and [RFC 7493](https://tools.ietf.org/html/rfc7493))
 * Non-proprietary
 * Text-based, lightweight and human readable
 * Full [UTF-8](https://en.wikipedia.org/wiki/UTF-8) support according to the JSON standard

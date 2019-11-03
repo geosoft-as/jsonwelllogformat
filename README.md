@@ -2,6 +2,14 @@
 
 <img hspace="100" src="https://petroware.no/images/json.png">
 
+## Setup
+
+Capture the JSON Well Log Format GitHub content to local disk by:
+
+```
+$ git clone https://github.com/JSONWellLogFormat/JSONWellLogFormat.git
+```
+
 ## Background
 
 Most well log and drilling data in the oil and gas industry is trapped within tapes and disk files of ancient and hard to access data formats like DLIS, LAS, LIS, BIT, XTF, WITS, ASC and SPWLA.
@@ -22,7 +30,6 @@ The JSON Well Log Format is a modern well log format designed for the future req
 * Built-in _no-value_ support
 * Simple syntax consisting of collections of name/value pairs (_objects_) and ordered lists of values (_arrays_)
 * Compact type system
-
 * Quantity and unit support based on the [Unit of Measure Standard](https://www.energistics.org/energistics-unit-of-measure-standard/) from [Energistics](https://energistics.org)
 * Date and time support through the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standard
 * Well log semantics based on a limited set of _well known_ keys to ensures consistency, compatibility and efficient processing
@@ -105,19 +112,21 @@ Also, numeric values that cannot be represented as sequences of digits (such as 
 
 The following header keys are defined as _well known_:
 
-| Key                | Type     | Description                           |
-|--------------------|----------|---------------------------------------|
-| **name**           | string   | Log name                              |
-| **description**    | string   | Log description                       |
-| **well**           | string   | Well name                             |
-| **wellbore**       | string   | Wellbore name                         |
-| **field**          | string   | Field name                            |
-| **country**        | string   | Country of operation                  |
-| **date**           | datetime | Logging date                          |
-| **operator**       | string   | Operator company name                 |
-| **serviceCompany** | string   | Service company name                  |
-| **runNumber**      | string   | Run number                            |
-| **source**         | string   | Source system or process of this log  |
+| Key                | Type                             | Description                           |
+|--------------------|----------------------------------|---------------------------------------|
+| **name**           | string                           | Log name                              |
+| **description**    | string                           | Log description                       |
+| **externalIds**    | Object of key,value pairs        | IDs within external storage, _key_ being the storage name, and _value_ being the ID. |
+| **well**           | string                           | Well name                             |
+| **wellbore**       | string                           | Wellbore name                         |
+| **field**          | string                           | Field name                            |
+| **country**        | string                           | Country of operation                  |
+| **date**           | datetime                         | Logging date                          |
+| **operator**       | string                           | Operator company name                 |
+| **serviceCompany** | string                           | Service company name                  |
+| **runNumber**      | string                           | Run number                            |
+| ** elevation**     | float                            | Vertical distance between measured depth 0.0 and _mean sea level_ in SI unit (meters). |
+| **source**         | string                           | Source system or process of this log  |
 | **startIndex**     | _According to index value type_  | Value of the first index. Unit according to index curve. |
 | **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |
 | **step**           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
@@ -131,14 +140,15 @@ In addition to the listed entries, clients may add any number of _custom_ header
 
 The following keys are used for curve definitions:
 
-| Key                 | Type     | Description                                                              |
-|---------------------|----------|--------------------------------------------------------------------------|
-| **name**            | string   | Curve name or mnemonic. Mandatory. Non-null.                             |
-| **description**     | string   | Curve description. Optional.                                             |
-| **quantity**        | string   | Curve quantity such as _length_, _pressure_, _force_ etc. Optional.      |
-| **unit**            | string   | Unit of measurement such as _m_, _ft_, _bar_, etc. Optional.             |
-| **valueType**       | string   | Curve value type: _float_, _integer_, _string_, _datetime_ or _boolean_. Non-null. Optional. _float_ assumed if not present. |
-| **dimensions**      | integer  | Number of dimensions. [1,>. Non-null. Optional. 1 assumed if not present.|
+| Key                 | Type                      | Description                                                              |
+|---------------------|---------------------------|--------------------------------------------------------------------------|
+| **name**            | string                    | Curve name or mnemonic. Mandatory. Non-null.                             |
+| **description**     | string                    | Curve description. Optional.                                             |
+| **quantity**        | string                    | Curve quantity such as _length_, _pressure_, _force_ etc. Optional.      |
+| **unit**            | string                    | Unit of measurement such as _m_, _ft_, _bar_, etc. Optional.             |
+| **valueType**       | string                    | Curve value type: _float_, _integer_, _string_, _datetime_ or _boolean_. Non-null. Optional. _float_ assumed if not present. |
+| **dimensions**      | integer                   | Number of dimensions. [1,>. Non-null. Optional. 1 assumed if not present.|
+| **axis**            | array of curve definition | A detailed description of the multi-dimensional structure of the curve in case this spans multiple _axes_. One element per axis. The combined product of the axis ```diemsnsions``` elements must equal the dimensions of the curve. Optional.
 
 Quantities and units should follow the [Unit of Measure Standard](https://www.energistics.org/energistics-unit-of-measure-standard/) from Energistics. To ease transition from legacy formats this is no requirement.
 
@@ -150,6 +160,8 @@ In addition to the listed, clients may add any number of _custom_ curve definiti
 Curve data are specified in arrays for each index entry, with one entry per curve. If a curve is multi-dimensional, the entry is itself an array of subentries, one per dimension.
 
 Curve values are according to the value type defined for the curve, or `null` for no-values. The index curve is always the first curve listed, and must not contain no-values. It is advised that the index curve is continuously increasing or decreasing.
+
+No custom additions to the curve defintion may alter the _structure_ of the data definition as specified above.
 
 
 ## Transition objects

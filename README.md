@@ -116,7 +116,7 @@ The following header keys are defined as _well known_:
 |--------------------|----------------------------------|---------------------------------------|
 | **name**           | string                           | Log name                              |
 | **description**    | string                           | Log description                       |
-| **externalIds**    | Object of key,value pairs        | IDs within external storage, _key_ being the storage name, and _value_ being the ID. |
+| **externalIds**    | object of key,value string pairs | IDs within external storage, _key_ being the storage name, and _value_ being the ID. |
 | **well**           | string                           | Well name                             |
 | **wellbore**       | string                           | Wellbore name                         |
 | **field**          | string                           | Field name                            |
@@ -125,7 +125,7 @@ The following header keys are defined as _well known_:
 | **operator**       | string                           | Operator company name                 |
 | **serviceCompany** | string                           | Service company name                  |
 | **runNumber**      | string                           | Run number                            |
-| ** elevation**     | float                            | Vertical distance between measured depth 0.0 and _mean sea level_ in SI unit (meters). |
+| **elevation**      | float                            | Vertical distance between measured depth 0.0 and _mean sea level_ in SI unit (meters). |
 | **source**         | string                           | Source system or process of this log  |
 | **startIndex**     | _According to index value type_  | Value of the first index. Unit according to index curve. |
 | **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |

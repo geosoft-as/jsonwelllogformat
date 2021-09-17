@@ -16,7 +16,7 @@ Most well log and drilling data in the oil and gas industry is trapped within ta
 
 These formats represents _orphaned_ technologies and are outdated in all possible ways. Their syntax is overly complex, convoluted and awkward, available support software is limited, software tools are rare and documentation is poor or nonexistent.
 
-But still: These are the main storage and communication media for well logging information in the 2018. The amount of data is immense and growing, as is the aggregate cost of maintaining and utilizing this information.
+But still: These are the main storage and communication media for well logging information in the 2020s. The amount of data is immense and growing, as is the aggregate cost of maintaining and utilizing this information.
 
 
 ## The JSON Well Log Format

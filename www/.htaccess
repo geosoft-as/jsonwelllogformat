@@ -1,0 +1,17 @@
+#
+# Redirect http to https
+#
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#
+# Disable caching
+#
+Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+Header add "disablevcache" "true"
+
+#
+# Enable directoy listing
+#
+Options +Indexes

@@ -1,0 +1,33 @@
+Original disclamier by Equinor
+------------------------------
+
+The users of the information and data are expressly informed that the data
+provided by Equinor and the former Volve License partners is provided on
+an "as is" basis and may contain errors and omissions.
+
+Equinor and former Volve licence partners provide no warranties, expressed
+or implied, either relating to the content or to the relevance of the data.
+Equinor disclaims any liability for errors and defects associated with the
+data to the maximum extent permitted by law.
+
+Equinor and the former Volve Licence partners shall not be liable for any
+direct or indirect losses as a result of use of the data or concerning
+possible infringement of any intellectual property and/or patent rights of
+a third party.
+
+
+Disclaimer by Petroware
+-----------------------
+
+The users of the information and data are expressly informed that the data
+provided by Petroware is provided on  an "as is" basis and may contain
+errors and omissions.
+
+Petroware provide no warranties, expressed or implied, either relating to
+the content or to the relevance of the data. Petroware disclaims any
+liability for errors and defects associated with the data to the maximum
+extent permitted by law.
+
+Petroware shall not be liable for any direct or indirect losses as a result
+of use of the data or concerning possible infringement of any intellectual
+property and/or patent rights of a third party.

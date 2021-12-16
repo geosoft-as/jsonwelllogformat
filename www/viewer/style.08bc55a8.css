@@ -1,0 +1,96 @@
+body {
+    color: white;
+    background: #1e1e1e;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+    background-color: var(--filter-background);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 2px;
+    padding: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.launcher {
+    --filter-background: grey; 
+    --filter-hover-background: darkgrey;
+}
+
+button:hover {
+    background-color: var(--filter-hover-background);
+}
+
+button:focus {
+    outline-offset: -4px;
+    outline-style: dashed;
+    outline-color: white;
+    outline-width: 1px;
+}
+
+button::after {
+    content: "\00a0 ";
+    display: inline-block;
+    width: 20px;   
+}
+
+.include::before {
+    content: "\00a0 ";
+    display: inline-block;
+    width: 20px;
+}
+
+.filter::before {
+    content: "+ ";
+    display: inline-block;
+    width: 20px;
+}
+
+.exclude::before {
+    content: "- ";
+    display: inline-block;
+    width: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline;
+}
+
+ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+text {
+    fill: white;
+}
+
+.back {
+    fill: #222221;
+}
+
+.axis line,
+.axis path {
+    stroke: #2a2a2b;
+}
+
+.line {
+    fill: transparent;
+    stroke-thickness: 2;
+}
+
+/*# sourceMappingURL=%27viewer%27/style.08bc55a8.css.map */

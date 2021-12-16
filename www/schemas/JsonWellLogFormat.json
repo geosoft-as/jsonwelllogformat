@@ -1,0 +1,170 @@
+{
+  "title": "JSON Well Log Format",
+  "$id": "https://jsonwelllogformat.org/schemas/JsonWellLogFormat.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "title": "Logs",
+    "type": "object",
+    "required": ["header", "curves", "data"],
+    "additionalProperties": false,
+    "properties": {
+      "header": {
+        "title": "Header",
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "title": "Log name",
+            "type": "string",
+            "default": ""
+          },
+          "description": {
+            "title": "Log description",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "well": {
+            "title": "Well name",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "wellbore": {
+            "title": "Wellbore name",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "field": {
+            "title": "Field name",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "country": {
+            "title": "Country of operation",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "date": {
+            "title": "Logging date",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "operator": {
+            "title": "Operator company name",
+            "type": "string",
+            "default": null
+          },
+          "serviceCompany": {
+            "title": "The Service company name",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "runNumber": {
+            "title": "Run number",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "elevation": {
+            "title": "Vertical distance between measured depth 0.0 and mean sea level",
+            "type": ["number", "null"],
+            "default": null
+          },
+          "source": {
+            "title": "Source system of process of this log",
+            "type": ["string", "null"],
+            "default": null
+          },
+          "startIndex": {
+            "title": "Value of the first index",
+            "type": ["number", "null"],
+            "default": null
+          },
+          "endIndex": {
+            "title": "Value of the last index",
+            "type": ["number", "null"],
+            "default": null
+          },
+          "step": {
+            "title": "Distance between indices if regularly sampled",
+            "type": ["number", "null"],
+            "default": null
+          },
+          "dataUri": {
+            "title": "Point to data source in case this is kept separate",
+            "type": ["string", "null"],
+            "default": null
+          }
+        }
+      },
+      "curves": {
+        "title": "Curves",
+        "type": "array",
+        "items": {
+          "title": "Curve",
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": {
+              "title": "Curve name or mnemonic",
+              "type": "string",
+              "default": ""
+            },
+            "description": {
+              "title": "Curve description",
+              "type": ["string", "null"],
+              "default": null
+            },
+            "quantity": {
+              "title": "Quantity",
+              "type": ["string", "null"],
+              "default": null
+            },
+            "unit": {
+              "title": "Unit of measurement",
+              "type": ["string", "null"],
+              "default": null
+            },
+            "valueType": {
+              "title": "Value type",
+              "type": ["string", "null"],
+              "enum": ["float", "integer", "string", "datetime", "boolean", null],
+              "default": "float"
+            },
+            "dimensions": {
+              "title": "Number of dimensions",
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
+            "axis": {
+              "title": "Axis specification of dimensions",
+              "type": "array",
+              "items": {
+                "title": "Axis",
+                "type": "object"
+              }
+            },
+            "maxSize": {
+              "title": "Maximum storae size for string data",
+              "type": "integer",
+              "minimum": 0,
+              "default": 20
+            }
+          }
+        }
+      },
+      "data": {
+        "title": "Data",
+        "type": "array",
+        "items": {
+          "title": "Data row",
+          "type": "array",
+          "items": {
+            "title": "Data items",
+            "type": ["string", "number", "boolean", "null", "array"]
+          }
+        }
+      }
+    }
+  }
+}

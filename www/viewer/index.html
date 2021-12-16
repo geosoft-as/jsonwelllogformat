@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.08bc55a8.css">
+
+    <title>JSON Well Log Format - Volve</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164960475-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164960475-1');
+    </script>
+  </head>
+
+<body>
+<div id="app">
+  <h1><center>JSON Well Log Format - Volve</center></h1>
+
+  <p>
+    &nbsp; &nbsp; &nbsp; Click the colored buttons to filter.<br>
+    &nbsp; &nbsp; &nbsp; Click the log buttons at the bottom to view.
+  </p>
+
+  <h1 v-if="loading">Loading...</h1>
+  <div id="plot"></div>
+  <ul v-for="filter in filters">
+    <li v-for="value in filter.values">
+      <button :class="value.state" v-on:click="toggle(value)" v-bind:style="filter.style">{{ value.text }}</button>
+    </li>
+  </ul>
+  <ol>
+    <li v-for="item in items" v-if="filterMatch(item)">
+      <button class="launcher" v-on:click="load(item)" :title="item.url">{{item.type}} {{ item.well }} {{ item.name }}</button>
+    </li>
+  </ol>
+</div>
+<script src="app.d8efb27c.js">
+</script>
+</body>
+</html>

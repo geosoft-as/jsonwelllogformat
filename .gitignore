@@ -1,9 +1,4 @@
 #
-# Personal access token
-#
-.pat
-
-#
 #  Bulk data
 #
 **/*.json

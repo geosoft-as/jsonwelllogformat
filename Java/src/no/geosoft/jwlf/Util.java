@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * A collection of utilities for the Log I/O library.
+ * A collection of utilities for the JWLF library.
  *
  * @author <a href="mailto:jacob.dreyer@geosoft.no">Jacob Dreyer</a>
  */
@@ -40,118 +40,6 @@ public final class Util
   private Util()
   {
     assert false : "This constructor should never be called";
-  }
-
-  /**
-   * Split the specified text in tokens based on the given delimiter.
-   * <p>
-   * Some special cases:
-   * <ul>
-   *   <li>Tokens can be in quotes, in case they can contain the delimiter</li>
-   *   <li>Quotes is pair of " or ' characters</li>
-   *   <li>Token in quotes can contain quote characters of the other type</li>
-   *   <li>Tokens are always trimmed unless they are in quotes</li>
-   *   <li>If delimiter is space, no empty tokens are returned (unless quoted)</li>
-   * </ul>
-   * Examples:
-   * <pre>
-   *   "1 2 3 4"            split on ' ' gives "1","2","3","4"
-   *   "   1  2  3 4  "     split on ' ' gives "1","2","3","4"
-   *   "   '1 2' 3 '4 ' ''" split on ' ' gives "1 2","3","4 ",""
-   *   "1 2 '3"' 4"         split on ' ' gives "1","2","3"","4"
-   *   " "                  split on ' ' gives nothing
-   *   ","                  split on ',' gives "",""
-   *   "1,2,3,4"            split on ',' gives "1","2","3","4"
-   *   "  1,  2,  3,  4 "   split on ',' gives "1","2","3","4"
-   *   ",,1,2,,3,4,5,,"     split on ',' gives "","","1","2","","3","4","5","",""
-   * </pre>
-   * Issue: How to handle this case:
-   * <pre>
-   *   "1 2 '3''4' 5"  split on ' ' gives "1","2","34","5"
-   * </pre>
-   * Not sure what the optimal solution should be.
-   * <p>
-   * <b>Performace:</b>
-   * <p>
-   * For comma (or similar) delimited strings without quotes the String.split()
-   * method will behave slightly better (40%). For space delimited strings where
-   * "\\s+" is used to suppress additional whitespace, this method is about 3x faster.
-   * It is possible to use String.split() with regex to handle quotes, but it is
-   * slower, and it will leave the quotes in there so they must be removed afterwards.
-   *
-   * @param text       Text to split. Non-null.
-   * @param delimiter  Delimiter character such as comma or space etc.
-   * @return           The tokens of the text. Never null.
-   */
-  public static List<String> split(String text, char delimiter)
-  {
-    if (text == null)
-      throw new IllegalArgumentException("text cannot be null");
-
-    final boolean isSpaceDelimited = delimiter == ' ';
-
-    // Prepare the return array
-    List<String> tokens = new ArrayList<>();
-
-    // If not equal '\0' this indicates that we are inside a quoted string
-    // and the type of quotes
-    char inString = '\0';
-
-    // We don't trim quoted text so keep track if the current is quoted
-    boolean isTokenQuoted = false;
-
-    String token;
-
-    // Pointers indicating substring that make up the next token
-    int p0 = 0;
-    int p1 = 0;
-
-    char prevChar = '\0';
-    char currentChar = '\0';
-
-    for (int i = 0; i < text.length(); i++) {
-      prevChar = currentChar;
-      currentChar = text.charAt(i);
-
-      boolean isQuote = currentChar == '\"' || currentChar == '\'';
-
-      // Start quote
-      if (isQuote && inString == '\0') {
-        inString = currentChar;
-        isTokenQuoted = true;
-        p0 = i + 1;
-        p1 = p0;
-        continue;
-      }
-
-      // End quote
-      if (isQuote && inString == currentChar) {
-        inString = '\0';
-        continue;
-      }
-
-      // Delimiter that is not inside quotes
-      if (currentChar == delimiter && inString == '\0') {
-        token = isTokenQuoted ? text.substring(p0, p1) : text.substring(p0, p1).trim();
-        if (!token.isEmpty() || !isSpaceDelimited || isTokenQuoted)
-          tokens.add(token);
-
-        p0 = isTokenQuoted ? p1 + 2 : p1 + 1;
-        p1 = p0;
-
-        isTokenQuoted = false;
-        continue;
-      }
-
-      p1++;
-    }
-
-    // We are done. Capture that last token (if any)
-    token = isTokenQuoted ? text.substring(p0, p1) : text.substring(p0, p1).trim();
-    if (!token.isEmpty() || !isSpaceDelimited || isTokenQuoted)
-      tokens.add(token);
-
-    return tokens;
   }
 
   /**
@@ -676,29 +564,6 @@ public final class Util
     }
 
     return fileContent;
-  }
-
-  /**
-   * Testing this class.
-   *
-   * @param arguments  Application arguments. Not used.
-   */
-  private static void main(String[] arguments)
-  {
-    String s0 = "1 2 3 4";                  // split on ' ' gives "1","2","3","4"
-    String s1 = "   1  2  3 4  ";           // split on ' ' gives "1","2","3","4"
-    String s2 = "   \'1 2\' 3 \'4 \' \'\'"; // split on ' ' gives "1 2","3","4 ",""
-    String s3 = "1 2 \'3\"\' 4";            // split on ' ' gives "1","2","3"","4"
-    String s4 = " ";                        // split on ' ' gives nothing
-    String s5 = ",";                        // split on ',' gives "",""
-    String s6 = "1,2,3,4";                  // split on ',' gives "1","2","3","4"
-    String s7 = "  1,  2,  3,  4 ";         // split on ',' gives "1","2","3","4"
-    String s8 = ",,1,2,,3,4,5,,";           // split on ',' gives "","","1","2","","3","4","5","",""
-    String s9 = "\'A B\',2";                // split on ',' gives "A B","2"
-
-    List<String> t = Util.split(s9, ',');
-    for (String a : t)
-      System.out.println(a);
   }
 }
 

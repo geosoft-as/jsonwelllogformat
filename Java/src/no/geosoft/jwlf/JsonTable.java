@@ -519,30 +519,4 @@ public final class JsonTable
 
     return s.toString();
   }
-
-  private static void main(String[] arguments)
-  {
-    List<String> attributes = new ArrayList<>();
-    attributes.add("value");
-    attributes.add("unit");
-    attributes.add("description");
-
-    JsonTable table = new JsonTable("test", attributes);
-
-    table.addObject("MD");
-    table.addValue("MD", "value", 201.12);
-    table.addValue("MD", "value", 333.45);
-    table.addValue("MD", "unit", "m");
-    table.addValue("MD", "description", "Measured depth");
-
-    table.addObject("TVD");
-    table.addValue("TVD", "value", 932.1);
-    table.addValue("TVD", "unit", "m");
-    table.addValue("TVD", "description", "True vertical depth");
-
-    System.out.println(table);
-
-    JsonObject jsonObject = table.asJsonObject();
-    System.out.println(jsonObject);
-  }
 }

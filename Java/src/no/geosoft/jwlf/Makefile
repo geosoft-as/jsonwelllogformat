@@ -1,8 +1,14 @@
 Source = \
+	DataArray.java \
+	DoubleList.java \
+	FloatList.java \
+	Formatter.java \
+	Indentation.java \
+	IntList.java \
+	ISO8601DateParser.java \
 	JsonCurve.java \
 	JsonDataListener.java \
 	JsonLog.java \
-	JsonLogUtil.java \
 	JsonReader.java \
 	JsonTable.java \
 	JsonUtil.java \
@@ -11,8 +17,7 @@ Source = \
 	JsonWellLogFormatSchema.java \
 	JsonWellLogProperty.java \
 	JsonWriter.java \
+	Util.java \
 	units.txt \
-
-Main = JsonReader
 
 include $(DEV_HOME)/JSONWellLogFormat/Java/Makefile

@@ -65,13 +65,10 @@ import org.leadpony.justify.api.Problem;
     reader.read();
   }
 
-
-
   public static String getSchema(JsonLog log)
   {
-    return "Hei";
+    return "Todo";
   }
-
 
   private static class EventHandler implements ProblemHandler
   {
@@ -80,16 +77,6 @@ import org.leadpony.justify.api.Problem;
     {
       for (Problem problem : problems)
         System.out.println(problem);
-    }
-  }
-
-  public static void main(String[] arguments)
-  {
-    try {
-      JsonWellLogFormatSchema.validate(new FileInputStream(new File("C:/Users/main/logdata/json/WLC_COMPOSITE_1.json")));
-    }
-    catch (IOException exception) {
-      exception.printStackTrace();
     }
   }
 }

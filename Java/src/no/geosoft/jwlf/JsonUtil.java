@@ -16,7 +16,7 @@ import javax.json.JsonValue;
 import javax.json.stream.JsonParser;
 
 /**
- * A collection of utilities for the Log I/O JSON module.
+ * A collection of JSON utilities for the JWLF library.
  *
  * @author <a href="mailto:jacob.dreyer@geosoft.no">Jacob Dreyer</a>
  */

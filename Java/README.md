@@ -12,12 +12,20 @@ lib/javax.json-api-1.1.3.jar
 lib/javax.json-1.1.3.jar
 ```
 
-The JWLF jar file as well as its dependencies are available [here](https://github.com/JSONWellLogFormat/JSONWellLogFormat/tree/master/Java/lib).
+In addition, the JWLF validator (no.geosoft.jwlf.JsonValidator) depends on the
+[Justify](https://github.com/leadpony/justify) library for schema validation.
+
+```
+lib/justify-0.15.0.jar
+```
+
+The JWLF jar (```jwlf.jar```) file as well as its dependencies are available
+[here](https://github.com/JSONWellLogFormat/JSONWellLogFormat/tree/master/Java/lib).
 
 
 ## API Documentation
 
-API documentation (JavaDoc) is available [here]().
+API documentation (JavaDoc) is available [here](https://jsonwelllogformat.github.io/jwlf/javadoc/index.html).
 
 
 ## Programming examples

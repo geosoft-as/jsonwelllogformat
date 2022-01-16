@@ -31,7 +31,7 @@ import javax.json.stream.JsonParser;
  * <blockquote>
  *   <pre>
  *   JsonReader reader = new JsonReader(new File("path/to/file.json"));
- *   List&lt;JsonLog&gt; logs = reader.read(true, true, null);
+ *   List&lt;JsonLog&gt; logs = reader.read(true, null);
  *   </pre>
  * </blockquote>
  *
@@ -41,7 +41,7 @@ import javax.json.stream.JsonParser;
  * <blockquote>
  *   <pre>
  *   JsonReader reader = new JsonReader(new File("path/to/file.json"));
- *   List&lt;JsonLog&gt; logs = reader.read(false, false, null);
+ *   List&lt;JsonLog&gt; logs = reader.read(false, null);
  *   :
  *   reader.readData(logs);
  *   </pre>
@@ -910,25 +910,6 @@ public final class JsonReader
           }
         }
       }
-    }
-  }
-
-  /**
-   * Testing this class
-   *
-   * @param arguments  Application arguments. Not used.
-   */
-  private static void main(String[] arguments)
-  {
-    try {
-      File file = new File("C:/Users/jacob/logdata/json/WLC_COMPOSITE_TINY.JSON");
-      JsonReader reader = new JsonReader(file);
-      List<JsonLog> logs = reader.read();
-
-      System.out.println(JsonWriter.toString(logs.get(0)));
-    }
-    catch (Exception exception) {
-      exception.printStackTrace();
     }
   }
 }

@@ -922,21 +922,4 @@ public enum JsonValidator
       }
     }
   }
-
-  /**
-   * Testing this class.
-   *
-   * @param arguments  Application arguments. Not used.
-   */
-  private static void main(String[] arguments)
-  {
-    try {
-      List<JsonValidator.Message> messages = JsonValidator.getInstance().validate(new File("C:/Users/main/logdata/json/tab.json"));
-      for (JsonValidator.Message message : messages)
-        System.out.println(message);
-    }
-    catch (Exception e) {
-      e.printStackTrace();
-    }
-  }
 }

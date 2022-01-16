@@ -11,3 +11,7 @@ JavaLibraries = \
 JavadocPackages = -subpackages no
 
 include $(DEV_HOME)/tools/Make/Makefile
+
+# Override since we are at unstandard folder level
+JarFile = lib/jwlf.jar
+

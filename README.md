@@ -312,4 +312,4 @@ Thanks to [Equinor](http://equinor.com) all subsurface and production data from 
 
 The dataset contains about 15GB of well log data in about 1000 different DLIS, LIS, LAS, ASC and SPWLA files. This part has been converted to the JSON Well Log Format by [Petroware](https://petroware.no) and is available [here](https://jsonwelllogformat.org/Volve).
 
-[JavaScript Code](https://github.com/JSONWellLogFormat/JSONWellLogFormat/JavaScript) to view JSON Well Log Format data in a web browser has been contributed and is available [here](https://jsonwelllogformat.org/viewer/index.html).
+[JavaScript Code](https://github.com/JSONWellLogFormat/JSONWellLogFormat/tree/master/JavaScript) to view JSON Well Log Format data in a web browser has been contributed and is available [here](https://jsonwelllogformat.org/viewer/index.html).

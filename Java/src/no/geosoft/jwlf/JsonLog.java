@@ -101,7 +101,7 @@ public final class JsonLog
    * Set the header of this instance.
    *
    * @param header  JSON header object. Non-null.
-   * @throws IllegalArgumentEception  If header is null.
+   * @throws IllegalArgumentException  If header is null.
    */
   public void setHeader(JsonObject header)
   {

@@ -45,7 +45,7 @@ public interface JsonDataListener
    * This will close all resources and throw an InterruptedException
    * back to the client.
    * <p>
-   * @see JsonReader#read(boolean,boolean,JsonDataListener)
+   * @see JsonReader#read(boolean,JsonDataListener)
    *
    * @param log  Log that has been populated with new data. Never null.
    * @return     True to continue reading, false to abort the process.

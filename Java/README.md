@@ -1,65 +1,40 @@
-# Log I/O - Library for accessing well log files
+# JWLF - Java library for accessing JSON Well Log Format files
 
-Log I/O is a library from Petroware AS for reading and writing well log files.
-
-As of Q1/2019 Log I/O supports DLIS, LIS, LAS 2.0, LAS 3.0, BIT, XTF, ASC,
-SPWLA, CSV, and JSON Well Log Format. Log I/O wraps the complexity of these
-formats in a clean, complete, well documented, efficient and extremely simple
-to use programming API.
-
-<img hspace="100" src="https://petroware.no/images/LogIoBox.250.png">
-
-The [open source](https://github.com/Petroware/LogIo) version of Log I/O contains
-the Java accessor and validator for the JSON Well Log Format.
-
-Log I/O web page: https://petroware.no/logio.html
-
-
-
-## Setup
-
-Capture the Log I/O code to local disk by:
-
-```
-$ git clone https://github.com/Petroware/LogIo.git
-```
-
+JWLF is an open source library from GeoSoft for reading and writing JWLF log files.
 
 
 ## Dependencies
 
-The JSON Well Log Format accessor depends on the JSON API specification
-and an implementation of this:
+The JWLF library depends on the JSON API specification and an implementation of this:
 
 ```
 lib/javax.json-api-1.1.3.jar
 lib/javax.json-1.1.3.jar
 ```
 
+The JWLF jar file as well as its dependencies are available [here](https://github.com/JSONWellLogFormat/JSONWellLogFormat/tree/master/Java/lib).
 
 
 ## API Documentation
 
-https://petroware.no/logio/javadoc/index.html
-
+API documentation (JavaDoc) is available [here]().
 
 
 ## Programming examples
-
 
 ### Read
 
 Example for reading a JSON Well Log file:
 
 ```java
-import no.petroware.logio.json.JsonLog;
-import no.petroware.logio.json.JsonReader;
+import no.geosoft.jwlf.JsonLog;
+import no.geosoft.jwlf.JsonReader;
 
 :
 
 // Create a JSON Well Log reader and read specified file to memory
 JsonReader jsonReader = new JsonReader(new File("path/to/file.JSON"));
-List<JsonLog> jsonLogs = jsonReader.read(true, false, null);
+List<JsonLog> jsonLogs = jsonReader.read(true, null);
 ```
 
 From this point the `JsonLog` instance(s) can be navigated to access curves
@@ -74,7 +49,7 @@ in a streaming manner by adding a `JsonDataListener` to the `read()` call.
 Example for validating a JSON Well Log file:
 
 ```java
-import no.petroware.logio.json.JsonValidator;
+import no.geosoft.jwlf.JsonValidator;
 
 :
 
@@ -91,9 +66,9 @@ problems at specific locations in the input file.
 Example for creating a JSON Well Log file from scratch:
 
 ```java
-import no.petroware.logio.json.JsonCurve;
-import no.petroware.logio.json.JsonLog;
-import no.petroware.logio.json.JsonWriter;
+import no.geosoft.jwlf.JsonCurve;
+import no.geosoft.jwlf.JsonLog;
+import no.geosoft.jwlf.JsonWriter;
 
 :
 
@@ -179,4 +154,3 @@ This will produce the following file:
   }
 ]
 ```
-

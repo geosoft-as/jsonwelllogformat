@@ -2,8 +2,3 @@
 #  Bulk data
 #
 **/*.json
-
-#
-# Javadoc is normally excluded, but here we want it
-#
-!docs/

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: JSON Well Log Format Java library JWLF
+Specification-Version: 1.00
+Specification-Vendor: GeoSoft
+Specification-Vision: Simplicity is the ultimate sophistication
+Implementation-Title: JSON Well Log Format Java library JWLF
+Implementation-Vendor: GeoSoft
+Built-By: jacob
+GnuMake-Version: 4.2.1
+Build-Time: 2022-01-16 13:10:00
+Build-OS: Windows 11
+Build-Host: helium.geosoft.no
+Build-Jdk: 1.8.0_185

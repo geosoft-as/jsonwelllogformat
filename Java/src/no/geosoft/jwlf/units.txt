@@ -1,0 +1,2377 @@
+#
+# Valid combinations of
+#   quantity,unit
+# Extracted from Energistics UoM database
+#
+Cartesian coordinates,chBnA
+Cartesian coordinates,chBnB
+Cartesian coordinates,chCla
+Cartesian coordinates,chSe
+Cartesian coordinates,chUS
+Cartesian coordinates,cm
+Cartesian coordinates,dm
+Cartesian coordinates,fm
+Cartesian coordinates,ft
+Cartesian coordinates,ftBnA
+Cartesian coordinates,ftBnB
+Cartesian coordinates,ftBr(65)
+Cartesian coordinates,ftCla
+Cartesian coordinates,ftGC
+Cartesian coordinates,ftInd
+Cartesian coordinates,ftInd(37)
+Cartesian coordinates,ftInd(62)
+Cartesian coordinates,ftInd(75)
+Cartesian coordinates,ftMA
+Cartesian coordinates,ftSe
+Cartesian coordinates,ftUS
+Cartesian coordinates,in
+Cartesian coordinates,in/10
+Cartesian coordinates,in/16
+Cartesian coordinates,in/32
+Cartesian coordinates,in/64
+Cartesian coordinates,inUS
+Cartesian coordinates,km
+Cartesian coordinates,lkBnA
+Cartesian coordinates,lkBnB
+Cartesian coordinates,lkCla
+Cartesian coordinates,lkSe
+Cartesian coordinates,lkUS
+Cartesian coordinates,m
+Cartesian coordinates,mGer
+Cartesian coordinates,mi
+Cartesian coordinates,miUS
+Cartesian coordinates,nautmi
+Cartesian coordinates,yd
+Cartesian coordinates,ydBnA
+Cartesian coordinates,ydBnB
+Cartesian coordinates,ydCla
+Cartesian coordinates,ydIm
+Cartesian coordinates,ydInd
+Cartesian coordinates,ydInd(37)
+Cartesian coordinates,ydInd(62)
+Cartesian coordinates,ydInd(75)
+Cartesian coordinates,ydSe
+Darcy flow coefficient,Pa/m3
+Darcy flow coefficient,psi2.d/cP.ft3
+Darcy flow coefficient,psi2.d/cp.ft3
+absorbed dose,Gy
+absorbed dose,mGy
+absorbed dose,rd
+acceleration linear,Gal
+acceleration linear,cm/s2
+acceleration linear,ft/s2
+acceleration linear,gn
+acceleration linear,m/s2
+acceleration linear,mGal
+acceleration linear,mgn
+acoustic impedance,Pa.s/m3
+activity (of radioactivity),Bq
+activity (of radioactivity),Ci
+activity (of radioactivity),GBq
+activity (of radioactivity),MBq
+activity (of radioactivity),TBq
+activity (of radioactivity),curie
+activity (of radioactivity),mCi
+activity (of radioactivity),mcurie
+activity (of radioactivity),nCi
+activity (of radioactivity),ncurie
+activity (of radioactivity),pCi
+activity (of radioactivity),pcurie
+activity (of radioactivity),uCi
+activity (of radioactivity),ucurie
+admittance,GS
+admittance,S
+admittance,kS
+admittance,mS
+admittance,mho
+admittance,pS
+admittance,uS
+affinity of a chemical reaction,Btu/lbmole
+affinity of a chemical reaction,Btu/mol(lbm)
+affinity of a chemical reaction,J/mol
+affinity of a chemical reaction,MJ/kmol
+affinity of a chemical reaction,MJ/mol(kg)
+affinity of a chemical reaction,kJ/kmol
+affinity of a chemical reaction,kJ/mol(kg)
+affinity of a chemical reaction,kcal/mol
+affinity of a chemical reaction,kcal/mol(g)
+amount of a substance,kmol/m3
+amount of a substance,lbmole/ft3
+amount of a substance,lbmole/galUK
+amount of a substance,lbmole/galUS
+amount of a substance,mol(kg)/m3
+amount of a substance,mol(lbm)/ft3
+amount of a substance,mol(lbm)/galUK
+amount of a substance,mol(lbm)/galUS
+amount of a substance,mol/m3
+amount of substance,kmol
+amount of substance,lbmole
+amount of substance,m3(std,0C)
+amount of substance,m3(std,15C)
+amount of substance,mmol
+amount of substance,mol
+amount of substance,mol(g)
+amount of substance,mol(kg)
+amount of substance,mol(lbm)
+amount of substance,umol
+angle per length,dega/100ft
+angle per length,dega/30ft
+angle per length,dega/30m
+angle per length,dega/ft
+angle per length,dega/ft(100)
+angle per length,dega/m
+angle per length,dega/m(30)
+angle per length,rad/ft
+angle per length,rad/m
+angle per time,c/s
+angle per time,dega/h
+angle per time,dega/min
+angle per time,dega/s
+angle per time,rad/s
+angle per time,rev/min
+angle per time,rev/s
+angle per time,rpm
+angle per volume,rad/ft3
+angle per volume,rad/m3
+angular acceleration,rad/s2
+angular acceleration,rpm/s
+angular velocity,c/s
+angular velocity,rad/s
+area per area,%
+area per area,Euc
+area per area,in2/ft2
+area per area,in2/in2
+area per area,m2/m2
+area per area,mm2/mm2
+area per area,pu
+area per time,cSt
+area per time,cm2/s
+area per time,ft2/h
+area per time,ft2/s
+area per time,in2/s
+area per time,m2/h
+area per time,m2/s
+area per time,mm2/s
+area per volume,1/m
+area per volume,b/cm3
+area per volume,cu
+area per volume,ft2/in3
+area per volume,m2/cm3
+area per volume,m2/m3
+area per volume,sigma
+area,acre
+area,b
+area,cm2
+area,ft2
+area,ha
+area,in2
+area,km2
+area,m2
+area,mi2
+area,miUS2
+area,mm2
+area,sq ft
+area,sq in
+area,sq mi
+area,sq yd
+area,um2
+area,yd2
+areic mass,Mg/m2
+areic mass,kg/m2
+areic mass,lbm/100ft2
+areic mass,lbm/ft2
+areic mass,tonUS/ft2
+attenuation per length,B/m
+attenuation per length,dB/ft
+attenuation per length,dB/km
+attenuation per length,dB/m
+attenuation,B/O
+attenuation,Euc
+attenuation,dB/O
+breadth,chBnA
+breadth,chBnB
+breadth,chCla
+breadth,chSe
+breadth,chUS
+breadth,cm
+breadth,dm
+breadth,fm
+breadth,ft
+breadth,in
+breadth,in/10
+breadth,in/16
+breadth,in/32
+breadth,in/64
+breadth,km
+breadth,m
+breadth,mi
+breadth,mil
+breadth,nm
+breadth,pm
+breadth,um
+breadth,yd
+bulk compressibility,1/Pa
+bulk compressibility,1/bar
+bulk compressibility,1/kPa
+bulk compressibility,1/pPa
+bulk compressibility,1/psi
+bulk compressibility,1/upsi
+bulk modulus,Btu/bbl
+bulk modulus,Btu/ft3
+bulk modulus,Btu/galUK
+bulk modulus,Btu/galUS
+bulk modulus,J/dm3
+bulk modulus,J/m3
+bulk modulus,MJ/m3
+bulk modulus,MW.h/m3
+bulk modulus,cal/cm3
+bulk modulus,cal/mL
+bulk modulus,cal/mm3
+bulk modulus,erg/cm3
+bulk modulus,erg/m3
+bulk modulus,ft.lbf/bbl
+bulk modulus,ft.lbf/galUS
+bulk modulus,hp.hr/bbl
+bulk modulus,kJ/dm3
+bulk modulus,kJ/m3
+bulk modulus,kW.h/dm3
+bulk modulus,kW.h/m3
+bulk modulus,kcal/cm3
+bulk modulus,kcal/m3
+bulk modulus,lbf.ft/bbl
+bulk modulus,therm/ft3
+bulk modulus,therm/galUK
+bulk modulus,tonfUS.mi/bbl
+capacitance,F
+capacitance,pF
+capacitance,uF
+charge density,C/cm3
+charge density,C/m3
+charge density,C/mm3
+chemical potential,Btu/lbmole
+chemical potential,Btu/mol(lbm)
+chemical potential,J/mol
+chemical potential,MJ/kmol
+chemical potential,MJ/mol(kg)
+chemical potential,kJ/kmol
+chemical potential,kJ/mol(kg)
+chemical potential,kcal/mol
+chemical potential,kcal/mol(g)
+circular frequency,c/s
+circular frequency,dega/h
+circular frequency,dega/min
+circular frequency,dega/s
+circular frequency,rad/s
+coefficient of thermal insulation,K.m2/W
+coefficient of thermal insulation,K.m2/kW
+coefficient of thermal insulation,degC.m2.h/kcal
+coefficient of thermal insulation,degF.ft2.h/Btu
+compressibility,1/Pa
+compressibility,1/bar
+compressibility,1/kPa
+compressibility,1/pPa
+compressibility,1/psi
+compressibility,1/upsi
+concentration of B,kmol/m3
+concentration of B,lbmole/ft3
+concentration of B,lbmole/galUK
+concentration of B,lbmole/galUS
+concentration of B,mol(kg)/m3
+concentration of B,mol(lbm)/ft3
+concentration of B,mol(lbm)/galUK
+concentration of B,mol(lbm)/galUS
+concentration of B,mol/m3
+conductivity,S/m
+conductivity,mS/m
+conductivity,mho/m
+conductivity,mmho/m
+cross section absorption,b/elec
+cross section absorption,m2/mol
+current density,A/cm2
+current density,A/ft2
+current density,A/m2
+current density,A/mm2
+current density,mA/cm2
+current density,mA/ft2
+current density,uA/cm2
+current density,uA/in2
+data transmission speed,Bd
+data transmission speed,bps
+delta temperature,K
+delta temperature,ddegC
+delta temperature,ddegF
+delta temperature,ddegK
+delta temperature,ddegR
+density of heat flow rate,Btu/hr.ft2
+density of heat flow rate,Btu/s.ft2
+density of heat flow rate,W/cm2
+density of heat flow rate,W/m2
+density of heat flow rate,W/mm2
+density of heat flow rate,cal/h.cm2
+density of heat flow rate,hhp/in2
+density of heat flow rate,hp/in2
+density of heat flow rate,kW/cm2
+density of heat flow rate,kW/m2
+density of heat flow rate,mW/m2
+density of heat flow rate,ucal/s.cm2
+density,10Mg/m3
+density,Mg/m3
+density,dAPI
+density,g/L
+density,g/cm3
+density,g/dm3
+density,g/galUK
+density,g/galUS
+density,g/m3
+density,grain/100ft3
+density,grain/ft3
+density,grain/ft3(100)
+density,grain/galUS
+density,kg/L
+density,kg/dm3
+density,kg/m3
+density,lbm/1000galUK
+density,lbm/1000galUS
+density,lbm/10bbl
+density,lbm/Mbbl
+density,lbm/bbl
+density,lbm/ft3
+density,lbm/galUK
+density,lbm/galUK(1000)
+density,lbm/galUS
+density,lbm/galUS(1000)
+density,lbm/in3
+density,mg/L
+density,mg/dm3
+density,mg/galUS
+density,mg/m3
+density,ug/cm3
+depth,fathom
+depth,ftBnA
+depth,ftBnB
+depth,ftBr(65)
+depth,ftCla
+depth,ftGC
+depth,ftInd
+depth,ftInd(37)
+depth,ftInd(62)
+depth,ftInd(75)
+depth,ftMA
+depth,ftSe
+depth,ftUS
+depth,inUS
+depth,lkBnA
+depth,lkBnB
+depth,lkCla
+depth,lkSe
+depth,lkUS
+depth,m
+depth,mGer
+depth,miUS
+depth,nautmi
+depth,ydBnA
+depth,ydBnB
+depth,ydCla
+depth,ydIm
+depth,ydInd
+depth,ydInd(37)
+depth,ydInd(62)
+depth,ydInd(75)
+depth,ydSe
+diameter,chBnA
+diameter,chBnB
+diameter,chCla
+diameter,chSe
+diameter,chUS
+diameter,cm
+diameter,dm
+diameter,fm
+diameter,ft
+diameter,in
+diameter,in/10
+diameter,in/16
+diameter,in/32
+diameter,in/64
+diameter,km
+diameter,m
+diameter,mi
+diameter,mil
+diameter,nm
+diameter,pm
+diameter,um
+diameter,yd
+diffusion coefficient,m2/s
+digital storage,Mbyte
+digital storage,bit
+digital storage,byte
+digital storage,kbyte
+dimensionless,%
+dimensionless,Euc
+dimensionless,cEuc
+dimensionless,mEuc
+dimensionless,nEuc
+dimensionless,pu
+dimensionless,uEuc
+dimensionless,unitless
+distance,chBnA
+distance,chBnB
+distance,chCla
+distance,chSe
+distance,chUS
+distance,cm
+distance,dm
+distance,fm
+distance,ft
+distance,ftBnA
+distance,ftBnB
+distance,ftBr(65)
+distance,ftCla
+distance,ftGC
+distance,ftInd
+distance,ftInd(37)
+distance,ftInd(62)
+distance,ftInd(75)
+distance,ftMA
+distance,ftSe
+distance,ftUS
+distance,in
+distance,inUS
+distance,km
+distance,lkBnA
+distance,lkBnB
+distance,lkCla
+distance,lkSe
+distance,lkUS
+distance,m
+distance,mGer
+distance,mi
+distance,miUS
+distance,mil
+distance,nautmi
+distance,yd
+distance,ydBnA
+distance,ydBnB
+distance,ydCla
+distance,ydIm
+distance,ydInd
+distance,ydInd(37)
+distance,ydInd(62)
+distance,ydInd(75)
+distance,ydSe
+dose equivalent rate,Sv/h
+dose equivalent rate,Sv/s
+dose equivalent rate,mSv/h
+dose equivalent rate,mrem/h
+dose equivalent rate,rem/h
+dose equivalent,Sv
+dose equivalent,mSv
+dose equivalent,mrem
+dose equivalent,rem
+dynamic viscosity,N.s/m2
+dynamic viscosity,P
+dynamic viscosity,Pa.s
+dynamic viscosity,cP
+dynamic viscosity,dyne.s/cm2
+dynamic viscosity,kgf.s/m2
+dynamic viscosity,lbf.s/ft2
+dynamic viscosity,lbf.s/in2
+dynamic viscosity,mPa.s
+dynamic viscosity,psi.s
+electric capacity,A.h
+electric capacity,C
+electric capacity,fC
+electric capacity,kC
+electric capacity,mC
+electric capacity,nC
+electric capacity,pC
+electric capacity,uC
+electric charge,A.h
+electric charge,C
+electric charge,fC
+electric charge,kC
+electric charge,mC
+electric charge,nC
+electric charge,pC
+electric charge,uC
+electric conductance,GS
+electric conductance,S
+electric conductance,kS
+electric conductance,mS
+electric conductance,mho
+electric conductance,pS
+electric conductance,uS
+electric current,A
+electric current,MA
+electric current,kA
+electric current,mA
+electric current,nA
+electric current,pA
+electric current,uA
+electric dipole moment,C.m
+electric field strength,V/m
+electric field strength,mV/ft
+electric field strength,mV/m
+electric field strength,uV/ft
+electric field strength,uV/m
+electric flux,A.h
+electric flux,C
+electric flux,fC
+electric flux,kC
+electric flux,mC
+electric flux,nC
+electric flux,pC
+electric flux,uC
+electric polarization,C/cm2
+electric polarization,C/m2
+electric polarization,C/mm2
+electric polarization,mC/m2
+electric potential,MV
+electric potential,V
+electric potential,kV
+electric potential,mV
+electric potential,uV
+electrical resistivity,kohm.m
+electrical resistivity,ohm.cm
+electrical resistivity,ohm.m
+electrochemical equivalent,eq
+electrochemical equivalent,meq
+electromagnetic energy density,Btu/bbl
+electromagnetic energy density,Btu/ft3
+electromagnetic energy density,Btu/galUK
+electromagnetic energy density,Btu/galUS
+electromagnetic energy density,J/dm3
+electromagnetic energy density,J/m3
+electromagnetic energy density,MJ/m3
+electromagnetic energy density,MW.h/m3
+electromagnetic energy density,cal/cm3
+electromagnetic energy density,cal/mL
+electromagnetic energy density,cal/mm3
+electromagnetic energy density,erg/cm3
+electromagnetic energy density,erg/m3
+electromagnetic energy density,ft.lbf/bbl
+electromagnetic energy density,ft.lbf/galUS
+electromagnetic energy density,hp.hr/bbl
+electromagnetic energy density,kJ/dm3
+electromagnetic energy density,kJ/m3
+electromagnetic energy density,kW.h/dm3
+electromagnetic energy density,kW.h/m3
+electromagnetic energy density,kcal/cm3
+electromagnetic energy density,kcal/m3
+electromagnetic energy density,lbf.ft/bbl
+electromagnetic energy density,therm/ft3
+electromagnetic energy density,therm/galUK
+electromagnetic energy density,tonfUS.mi/bbl
+electromagnetic moment,A.m2
+energy fluence rate,Btu/hr.ft2
+energy fluence rate,Btu/s.ft2
+energy fluence rate,W/cm2
+energy fluence rate,W/m2
+energy fluence rate,W/mm2
+energy fluence rate,cal/h.cm2
+energy fluence rate,hhp/in2
+energy fluence rate,hp/in2
+energy fluence rate,kW/cm2
+energy fluence rate,kW/m2
+energy fluence rate,mW/m2
+energy fluence rate,ucal/s.cm2
+energy length per area,N
+energy length per area,kcal.m/cm2
+energy length per time area temperature,Btu.in/hr.ft2.F
+energy length per time area temperature,W/m.K
+energy length per time area temperature,kJ.m/h.m2.K
+energy per area,J/cm2
+energy per area,J/m2
+energy per area,N/m
+energy per area,erg/cm2
+energy per area,kgf.m/cm2
+energy per area,lbf.ft/in2
+energy per area,mJ/cm2
+energy per area,mJ/m2
+energy per length,J/m
+energy per length,MJ/m
+energy per length,N
+energy,Btu
+energy,CV.h
+energy,Chu
+energy,EJ
+energy,GJ
+energy,GW.h
+energy,GeV
+energy,J
+energy,MJ
+energy,MW.h
+energy,MeV
+energy,TJ
+energy,TW.h
+energy,TeV
+energy,aJ
+energy,cal
+energy,ch.h
+energy,eV
+energy,erg
+energy,hp.hr
+energy,kJ
+energy,kW.h
+energy,kcal
+energy,keV
+energy,mJ
+energy,nJ
+energy,quad
+energy,therm
+energy,uJ
+equivalent per mass,eq/kg
+equivalent per mass,meq/100g
+equivalent per mass,meq/g
+equivalent per volume,eq/L
+equivalent per volume,eq/m3
+equivalent per volume,meq/cm3
+exposure (radioactivity),C/g
+exposure (radioactivity),C/kg
+fluence rate,Btu/hr.ft2
+fluence rate,Btu/s.ft2
+fluence rate,W/cm2
+fluence rate,W/m2
+fluence rate,W/mm2
+fluence rate,cal/h.cm2
+fluence rate,hhp/in2
+fluence rate,hp/in2
+fluence rate,kW/cm2
+fluence rate,kW/m2
+fluence rate,mW/m2
+fluence rate,ucal/s.cm2
+force area,N.m2
+force area,dyne.cm2
+force area,kN.m2
+force area,kgf.m2
+force area,lbf.in2
+force area,mN.m2
+force area,pdl.cm2
+force area,tonfUK.ft2
+force area,tonfUS.ft2
+force length per length,N
+force length per length,N.m/m
+force length per length,kgf.m/m
+force length per length,lbf.ft/in
+force length per length,lbf.in/in
+force length per length,tonfUS.mi/ft
+force per area,GPa
+force per area,MPa
+force per area,Mpsi
+force per area,N/m2
+force per area,N/mm2
+force per area,Pa
+force per area,Pa(g)
+force per area,at
+force per area,atm
+force per area,bar
+force per area,cmH2O(4degC)
+force per area,dyne/cm2
+force per area,hbar
+force per area,inH2O(39.2F)
+force per area,inH2O(60F)
+force per area,inHg(32F)
+force per area,inHg(60F)
+force per area,kN/m2
+force per area,kPa
+force per area,kgf/cm2
+force per area,kgf/mm2
+force per area,kpsi
+force per area,lbf/100ft2
+force per area,lbf/ft2
+force per area,lbf/ft2(100)
+force per area,lbf/in2
+force per area,mPa
+force per area,mbar
+force per area,mmHg(0C)
+force per area,pPa
+force per area,psf
+force per area,psi
+force per area,psia
+force per area,psig
+force per area,tonfUS/ft2
+force per area,tonfUS/in2
+force per area,torr
+force per area,uPa
+force per area,ubar
+force per area,umHg(0C)
+force per area,upsi
+force per force,%
+force per force,Euc
+force per force,kgf/kgf
+force per force,lbf/lbf
+force per force,pu
+force per length,N/30m
+force per length,N/m
+force per length,dyne/cm
+force per length,kN/m
+force per length,kgf/cm
+force per length,lbf/100ft
+force per length,lbf/30m
+force per length,lbf/ft
+force per length,lbf/in
+force per length,mN/km
+force per length,mN/m
+force per length,pdl/cm
+force per length,tonfUK/ft
+force per length,tonfUS/ft
+force per volume,GPa/cm
+force per volume,MPa/m
+force per volume,N/m3
+force per volume,Pa/m
+force per volume,atm/ft
+force per volume,atm/hm
+force per volume,atm/m
+force per volume,bar/km
+force per volume,bar/m
+force per volume,kPa/100m
+force per volume,kPa/m
+force per volume,lbf/ft3
+force per volume,lbf/galUS
+force per volume,psi/100ft
+force per volume,psi/ft
+force per volume,psi/ft(100)
+force per volume,psi/kft
+force per volume,psi/m
+force,MN
+force,Mgf
+force,N
+force,daN
+force,dyne
+force,gf
+force,kN
+force,kdyne
+force,kgf
+force,klbf
+force,lbf
+force,mN
+force,ozf
+force,pdl
+force,tonfUK
+force,tonfUS
+force,uN
+frequency interval,O
+frequency,1/s
+frequency,GHz
+frequency,Hz
+frequency,MHz
+frequency,c/s
+frequency,kHz
+frequency,mHz
+frequency,uHz
+gamma ray API unit,gAPI
+heat capacity,J/K
+heat flow rate,Btu(million)/hr
+heat flow rate,Btu/hr
+heat flow rate,Btu/min
+heat flow rate,Btu/s
+heat flow rate,EJ/a
+heat flow rate,GW
+heat flow rate,MBtu/hr
+heat flow rate,MW
+heat flow rate,TJ/a
+heat flow rate,TW
+heat flow rate,W
+heat flow rate,erg/a
+heat flow rate,ft.lbf/min
+heat flow rate,ft.lbf/s
+heat flow rate,kW
+heat flow rate,mW
+heat flow rate,nW
+heat flow rate,quad/yr
+heat flow rate,uW
+heat transfer coefficient,Btu/hr.ft2.degF
+heat transfer coefficient,Btu/hr.ft2.degR
+heat transfer coefficient,Btu/hr.m2.degC
+heat transfer coefficient,Btu/s.ft2.degF
+heat transfer coefficient,J/s.m2.degC
+heat transfer coefficient,W/m2.K
+heat transfer coefficient,cal/h.cm2.degC
+heat transfer coefficient,cal/s.cm2.degC
+heat transfer coefficient,kJ/h.m2.K
+heat transfer coefficient,kW/m2.K
+heat transfer coefficient,kcal/h.m2.degC
+height,chBnA
+height,chBnB
+height,chCla
+height,chSe
+height,chUS
+height,cm
+height,dm
+height,fm
+height,ft
+height,in
+height,in/10
+height,in/16
+height,in/32
+height,in/64
+height,km
+height,m
+height,mi
+height,mil
+height,nm
+height,pm
+height,um
+height,yd
+illuminance,footcandle
+illuminance,klx
+illuminance,lx
+impedance,Gohm
+impedance,Mohm
+impedance,Tohm
+impedance,kohm
+impedance,mohm
+impedance,nohm
+impedance,ohm
+impedance,uohm
+impulse,kg.m/s
+impulse,lbm.ft/s
+interval transit time,s/m
+irradiance,Btu/hr.ft2
+irradiance,Btu/s.ft2
+irradiance,W/cm2
+irradiance,W/m2
+irradiance,W/mm2
+irradiance,cal/h.cm2
+irradiance,hhp/in2
+irradiance,hp/in2
+irradiance,kW/cm2
+irradiance,kW/m2
+irradiance,mW/m2
+irradiance,ucal/s.cm2
+isothermal compressibility,dm3/MJ
+isothermal compressibility,dm3/kW.h
+isothermal compressibility,m3/J
+isothermal compressibility,m3/kW.h
+isothermal compressibility,mm3/J
+isothermal compressibility,ptUK/hp.hr
+kinematic viscosity,cSt
+kinematic viscosity,cm2/s
+kinematic viscosity,ft2/h
+kinematic viscosity,ft2/s
+kinematic viscosity,in2/s
+kinematic viscosity,m2/h
+kinematic viscosity,m2/s
+kinematic viscosity,mm2/s
+length of path,cm
+length of path,dm
+length of path,fm
+length of path,ft
+length of path,in
+length of path,km
+length of path,m
+length of path,mi
+length of path,mil
+length of path,nm
+length of path,pm
+length of path,um
+length of path,yd
+length per length,%
+length per length,Euc
+length per length,ft/100ft
+length per length,ft/ft
+length per length,ft/in
+length per length,ft/m
+length per length,ft/mi
+length per length,km/cm
+length per length,m/30m
+length per length,m/cm
+length per length,m/km
+length per length,m/m
+length per length,mi/in
+length per length,pu
+length per temperature,ft/degF
+length per temperature,m/K
+length per volume,1/m2
+length per volume,ft/bbl
+length per volume,ft/ft3
+length per volume,ft/galUS
+length per volume,km/L
+length per volume,km/dm3
+length per volume,m/m3
+length per volume,mi/galUK
+length per volume,mi/galUS
+length,Mm
+length,angstrom
+length,chBnA
+length,chBnB
+length,chCla
+length,chSe
+length,chUS
+length,cm
+length,dm
+length,fathom
+length,fm
+length,ft
+length,ftBnA
+length,ftBnB
+length,ftBr(65)
+length,ftCla
+length,ftGC
+length,ftInd
+length,ftInd(37)
+length,ftInd(62)
+length,ftInd(75)
+length,ftMA
+length,ftSe
+length,ftUS
+length,in
+length,in/10
+length,in/16
+length,in/32
+length,in/64
+length,inUS
+length,km
+length,lkBnA
+length,lkBnB
+length,lkCla
+length,lkSe
+length,lkUS
+length,m
+length,mGer
+length,mi
+length,miUS
+length,mil
+length,mm
+length,nautmi
+length,nm
+length,pm
+length,um
+length,yd
+length,ydBnA
+length,ydBnB
+length,ydCla
+length,ydIm
+length,ydInd
+length,ydInd(37)
+length,ydInd(62)
+length,ydInd(75)
+length,ydSe
+level of power intensity,B
+level of power intensity,dB
+light exposure,footcandle.s
+light exposure,lx.s
+linear concentration,Euc
+linear concentration,ft/100ft
+linear concentration,ft/ft
+linear concentration,ft/m
+linear concentration,ft/mi
+linear concentration,m/30m
+linear concentration,m/km
+linear concentration,m/m
+linear density,Mg/in
+linear density,kg/m
+linear density,klbm/in
+linear density,lbm/ft
+linear electric current density,A/m
+linear electric current density,A/mm
+linear electric current density,Oe
+linear electric current density,gamma
+linear mass,kg/m
+linear strain,%
+linear strain,Euc
+linear strain,ft/100ft
+linear strain,ft/ft
+linear strain,ft/m
+linear strain,ft/mi
+linear strain,m/30m
+linear strain,m/km
+linear strain,m/m
+linear strain,pu
+linear thermal expansion,1/K
+linear thermal expansion,in/in.degF
+linear thermal expansion,m/m.K
+linear thermal expansion,mm/mm.K
+luminance,cd/m2
+luminous efficacy,lm/W
+luminous exitance,lm/m2
+luminous exitance,lx
+luminous flux,lm
+luminous intensity,cd
+luminous intensity,kcd
+magnetic dipole moment,Wb.m
+magnetic field strength,A/m
+magnetic field strength,A/mm
+magnetic field strength,Oe
+magnetic field strength,gamma
+magnetic flux density,T
+magnetic flux density,gauss
+magnetic flux density,mT
+magnetic flux density,mgauss
+magnetic flux density,nT
+magnetic flux density,uT
+magnetic flux,Wb
+magnetic flux,mWb
+magnetic flux,uWb
+magnetic induction,T
+magnetic induction,gauss
+magnetic induction,mT
+magnetic induction,mgauss
+magnetic induction,nT
+magnetic induction,uT
+magnetic permeability,H/m
+magnetic permeability,uH/m
+magnetic potential difference,A
+magnetic potential difference,MA
+magnetic potential difference,kA
+magnetic potential difference,mA
+magnetic potential difference,nA
+magnetic potential difference,pA
+magnetic potential difference,uA
+magnetic vector potential,Wb/m
+magnetic vector potential,Wb/mm
+magnetization,A/m
+magnetization,A/mm
+magnetization,Oe
+magnetization,gamma
+magnetomotive force,A
+magnetomotive force,MA
+magnetomotive force,kA
+magnetomotive force,mA
+magnetomotive force,nA
+magnetomotive force,pA
+magnetomotive force,uA
+mass attenuation coefficient,cm2/g
+mass attenuation coefficient,m2/g
+mass attenuation coefficient,m2/kg
+mass concentration,%
+mass concentration,Euc
+mass concentration,g/kg
+mass concentration,kg/kg
+mass concentration,kg/sack94
+mass concentration,mg/kg
+mass concentration,permil
+mass concentration,ppdk
+mass concentration,ppk
+mass concentration,ppm
+mass concentration,pu
+mass concentration,wtpercent
+mass concentration,wtppm
+mass density,10Mg/m3
+mass density,Mg/m3
+mass density,dAPI
+mass density,g/L
+mass density,g/cm3
+mass density,g/dm3
+mass density,g/galUK
+mass density,g/galUS
+mass density,g/m3
+mass density,grain/100ft3
+mass density,grain/ft3
+mass density,grain/ft3(100)
+mass density,grain/galUS
+mass density,kg/L
+mass density,kg/dm3
+mass density,kg/m3
+mass density,lbm/1000galUK
+mass density,lbm/1000galUS
+mass density,lbm/10bbl
+mass density,lbm/Mbbl
+mass density,lbm/bbl
+mass density,lbm/ft3
+mass density,lbm/galUK
+mass density,lbm/galUK(1000)
+mass density,lbm/galUS
+mass density,lbm/galUS(1000)
+mass density,lbm/in3
+mass density,mg/L
+mass density,mg/dm3
+mass density,mg/galUS
+mass density,mg/m3
+mass density,ug/cm3
+mass flow rate,Mg/a
+mass flow rate,Mg/d
+mass flow rate,Mg/h
+mass flow rate,Mlbm/yr
+mass flow rate,g/s
+mass flow rate,kg/d
+mass flow rate,kg/h
+mass flow rate,kg/min
+mass flow rate,kg/s
+mass flow rate,lbm(million)/yr
+mass flow rate,lbm/d
+mass flow rate,lbm/h
+mass flow rate,lbm/min
+mass flow rate,lbm/s
+mass flow rate,t/a
+mass flow rate,t/d
+mass flow rate,t/h
+mass flow rate,t/min
+mass flow rate,tonUK/a
+mass flow rate,tonUK/d
+mass flow rate,tonUK/h
+mass flow rate,tonUK/min
+mass flow rate,tonUS/a
+mass flow rate,tonUS/d
+mass flow rate,tonUS/h
+mass flow rate,tonUS/min
+mass length,ft.lbm
+mass length,kg.m
+mass per energy,kg/J
+mass per energy,kg/MJ
+mass per energy,kg/kW.h
+mass per energy,lbm/hp.h
+mass per energy,mg/J
+mass per length,Mg/in
+mass per length,kg.m/cm2
+mass per length,kg/m
+mass per length,klbm/in
+mass per length,lbm/ft
+mass per time per area,MPa.s/m
+mass per time per area,g.ft/cm3.s
+mass per time per area,kPa.s/m
+mass per time per area,kg/m2.s
+mass per time per area,lbm/h.ft2
+mass per time per area,lbm/s.ft2
+mass per time per length,Pa.s
+mass per time per length,kg/m.s
+mass per time per length,lbm/ft.h
+mass per time per length,lbm/ft.s
+mass per time per length,lbm/h.ft
+mass per time per length,lbm/s.ft
+mass per volume per length,g/cm4
+mass per volume per length,kg/dm4
+mass per volume per length,kg/m4
+mass per volume per length,lbm/ft4
+mass per volume per length,lbm/galUK.ft
+mass per volume per length,lbm/galUS.ft
+mass,Mg
+mass,ag
+mass,ct
+mass,cwtUK
+mass,cwtUS
+mass,g
+mass,grain
+mass,kg
+mass,klbm
+mass,lbm
+mass,mg
+mass,oz(av)
+mass,oz(troy)
+mass,ozm
+mass,sack94
+mass,t
+mass,tonUK
+mass,tonUS
+mass,ug
+massic heat capacity,Btu/lbm.degF
+massic heat capacity,Btu/lbm.degR
+massic heat capacity,J/g.K
+massic heat capacity,J/kg.K
+massic heat capacity,cal/g.K
+massic heat capacity,kJ/kg.K
+massic heat capacity,kW.h/kg.degC
+massic heat capacity,kcal/kg.degC
+massic volume,L/100kg
+massic volume,L/kg
+massic volume,L/t
+massic volume,L/tonUK
+massic volume,bbl/tonUK
+massic volume,bbl/tonUS
+massic volume,cm3/g
+massic volume,dm3/kg
+massic volume,dm3/t
+massic volume,ft3/kg
+massic volume,ft3/lbm
+massic volume,ft3/sack94
+massic volume,gal/sack
+massic volume,galUK/lbm
+massic volume,galUS/lbm
+massic volume,galUS/sack94
+massic volume,galUS/tonUK
+massic volume,galUS/tonUS
+massic volume,m3/g
+massic volume,m3/kg
+massic volume,m3/t
+massic volume,m3/tonUK
+massic volume,m3/tonUS
+mean free path,cm
+mean free path,dm
+mean free path,fm
+mean free path,ft
+mean free path,in
+mean free path,km
+mean free path,m
+mean free path,mil
+mean free path,nm
+mean free path,pm
+mean free path,um
+mobility,m2/Pa.s
+mobility,mD.ft2/lbf.s
+mobility,mD.in2/lbf.s
+mobility,mD/Pa.s
+mobility,mD/cP
+modulus of compression,Btu/bbl
+modulus of compression,Btu/ft3
+modulus of compression,Btu/galUK
+modulus of compression,Btu/galUS
+modulus of compression,J/dm3
+modulus of compression,J/m3
+modulus of compression,MJ/m3
+modulus of compression,MW.h/m3
+modulus of compression,cal/cm3
+modulus of compression,cal/mL
+modulus of compression,cal/mm3
+modulus of compression,erg/cm3
+modulus of compression,erg/m3
+modulus of compression,ft.lbf/bbl
+modulus of compression,ft.lbf/galUS
+modulus of compression,hp.hr/bbl
+modulus of compression,kJ/dm3
+modulus of compression,kJ/m3
+modulus of compression,kW.h/dm3
+modulus of compression,kW.h/m3
+modulus of compression,kcal/cm3
+modulus of compression,kcal/m3
+modulus of compression,lbf.ft/bbl
+modulus of compression,therm/ft3
+modulus of compression,therm/galUK
+modulus of compression,tonfUS.mi/bbl
+modulus of elasticity,Btu/bbl
+modulus of elasticity,Btu/ft3
+modulus of elasticity,Btu/galUK
+modulus of elasticity,Btu/galUS
+modulus of elasticity,J/dm3
+modulus of elasticity,J/m3
+modulus of elasticity,MJ/m3
+modulus of elasticity,MW.h/m3
+modulus of elasticity,cal/cm3
+modulus of elasticity,cal/mL
+modulus of elasticity,cal/mm3
+modulus of elasticity,erg/cm3
+modulus of elasticity,erg/m3
+modulus of elasticity,ft.lbf/bbl
+modulus of elasticity,ft.lbf/galUS
+modulus of elasticity,hp.hr/bbl
+modulus of elasticity,kJ/dm3
+modulus of elasticity,kJ/m3
+modulus of elasticity,kW.h/dm3
+modulus of elasticity,kW.h/m3
+modulus of elasticity,kcal/cm3
+modulus of elasticity,kcal/m3
+modulus of elasticity,lbf.ft/bbl
+modulus of elasticity,therm/ft3
+modulus of elasticity,therm/galUK
+modulus of elasticity,tonfUS.mi/bbl
+modulus of rigidity,Btu/bbl
+modulus of rigidity,Btu/ft3
+modulus of rigidity,Btu/galUK
+modulus of rigidity,Btu/galUS
+modulus of rigidity,J/dm3
+modulus of rigidity,J/m3
+modulus of rigidity,MJ/m3
+modulus of rigidity,MW.h/m3
+modulus of rigidity,cal/cm3
+modulus of rigidity,cal/mL
+modulus of rigidity,cal/mm3
+modulus of rigidity,erg/cm3
+modulus of rigidity,erg/m3
+modulus of rigidity,ft.lbf/bbl
+modulus of rigidity,ft.lbf/galUS
+modulus of rigidity,hp.hr/bbl
+modulus of rigidity,kJ/dm3
+modulus of rigidity,kJ/m3
+modulus of rigidity,kW.h/dm3
+modulus of rigidity,kW.h/m3
+modulus of rigidity,kcal/cm3
+modulus of rigidity,kcal/m3
+modulus of rigidity,lbf.ft/bbl
+modulus of rigidity,therm/ft3
+modulus of rigidity,therm/galUK
+modulus of rigidity,tonfUS.mi/bbl
+molar entropy,Btu/lbmole.F
+molar entropy,Btu/mol(lbm).F
+molar entropy,J/mol.K
+molar entropy,cal/mol(g).degC
+molar entropy,cal/mol.degC
+molar entropy,kJ/kmol.K
+molar entropy,kJ/mol(kg).K
+molar gas constant,Btu/lbmole.F
+molar gas constant,Btu/mol(lbm).F
+molar gas constant,J/mol.K
+molar gas constant,cal/mol(g).degC
+molar gas constant,cal/mol.degC
+molar gas constant,kJ/kmol.K
+molar gas constant,kJ/mol(kg).K
+molar heat capacity,Btu/lbmole.F
+molar heat capacity,Btu/mol(lbm).F
+molar heat capacity,J/mol.K
+molar heat capacity,cal/mol(g).degC
+molar heat capacity,cal/mol.degC
+molar heat capacity,kJ/kmol.K
+molar heat capacity,kJ/mol(kg).K
+molar thermodynamic energy,Btu/lbmole
+molar thermodynamic energy,Btu/mol(lbm)
+molar thermodynamic energy,J/mol
+molar thermodynamic energy,MJ/kmol
+molar thermodynamic energy,MJ/mol(kg)
+molar thermodynamic energy,kJ/kmol
+molar thermodynamic energy,kJ/mol(kg)
+molar thermodynamic energy,kcal/mol
+molar thermodynamic energy,kcal/mol(g)
+molar volume,L/kmol
+molar volume,L/mol
+molar volume,L/mol(g)
+molar volume,L/mol(kg)
+molar volume,dm3/kmol
+molar volume,dm3/mol(kg)
+molar volume,ft3/lbmole
+molar volume,ft3/mol(lbm)
+molar volume,m3/kmol
+molar volume,m3/mol
+molar volume,m3/mol(kg)
+mole per area,mol/m2
+mole per time per area,lbmole/h.ft2
+mole per time per area,lbmole/s.ft2
+mole per time per area,mol(lbm)/h.ft2
+mole per time per area,mol(lbm)/s.ft2
+mole per time per area,mol/m2.s
+mole per time,kmol/h
+mole per time,kmol/s
+mole per time,lbmole/h
+mole per time,lbmole/s
+mole per time,mol(kg)/h
+mole per time,mol(kg)/s
+mole per time,mol(lbm)/h
+mole per time,mol(lbm)/s
+mole per time,mol/s
+moment of couple,J
+moment of couple,N.m
+moment of couple,dN.m
+moment of couple,daN.m
+moment of couple,ft.lbf
+moment of couple,kN.m
+moment of couple,kft.lbf
+moment of couple,kgf.m
+moment of couple,lbf.ft
+moment of couple,lbf.in
+moment of couple,lbm.ft2/s2
+moment of couple,pdl.ft
+moment of couple,tonfUS.ft
+moment of couple,tonfUS.mi
+moment of force,J
+moment of force,N.m
+moment of force,dN.m
+moment of force,daN.m
+moment of force,ft.lbf
+moment of force,kN.m
+moment of force,kft.lbf
+moment of force,kgf.m
+moment of force,lbf.ft
+moment of force,lbf.in
+moment of force,lbm.ft2/s2
+moment of force,pdl.ft
+moment of force,tonfUS.ft
+moment of force,tonfUS.mi
+moment of inertia,kg.m2
+moment of inertia,lbm.ft2
+moment of section,m4
+momentum,kg.m/s
+momentum,lbm.ft/s
+neutron API unit,nAPI
+nonDarcy flow coefficient,Pa.s/m6
+nonDarcy flow coefficient,psi2.d2/cP.ft6
+nonDarcy flow coefficient,psi2.d2/cp.ft6
+normal stress,Btu/bbl
+normal stress,Btu/ft3
+normal stress,Btu/galUK
+normal stress,Btu/galUS
+normal stress,J/dm3
+normal stress,J/m3
+normal stress,MJ/m3
+normal stress,MW.h/m3
+normal stress,cal/cm3
+normal stress,cal/mL
+normal stress,cal/mm3
+normal stress,erg/cm3
+normal stress,erg/m3
+normal stress,ft.lbf/bbl
+normal stress,ft.lbf/galUS
+normal stress,hp.hr/bbl
+normal stress,kJ/dm3
+normal stress,kJ/m3
+normal stress,kW.h/dm3
+normal stress,kW.h/m3
+normal stress,kcal/cm3
+normal stress,kcal/m3
+normal stress,lbf.ft/bbl
+normal stress,therm/ft3
+normal stress,therm/galUK
+normal stress,tonfUS.mi/bbl
+operations per time,1/s
+operations per time,Mflops
+operations per time,flops
+pH,pH
+parachor,(N/m)4/kg.m3
+parachor,(dyne/cm)4/gcm3
+parachor,N4/kg.m7
+per area,1/ft2
+per area,1/km2
+per area,1/m2
+per area,1/mi2
+per electric potential,1/V
+per electric potential,1/uV
+per force,1/N
+per force,1/lbf
+per length,1/angstrom
+per length,1/cm
+per length,1/ft
+per length,1/in
+per length,1/m
+per length,1/mi
+per length,1/mm
+per length,1/nm
+per length,1/yd
+per mass,1/g
+per mass,1/kg
+per mass,1/lbm
+per time,1/a
+per time,1/d
+per time,1/h
+per time,1/min
+per time,1/s
+per time,1/wk
+per time,kEuc/s
+per volume,1/L
+per volume,1/bbl
+per volume,1/ft3
+per volume,1/galUK
+per volume,1/galUS
+per volume,1/m3
+permeability length,D.ft
+permeability length,D.m
+permeability length,m3
+permeability length,mD.ft
+permeability length,mD.m
+permeability rock,D
+permeability rock,m2
+permeability rock,mD
+permeance,H
+permeance,mH
+permeance,nH
+permeance,uH
+permittivity,F/m
+permittivity,uF/m
+plane angle,Grad
+plane angle,Mrad
+plane angle,c
+plane angle,ccgr
+plane angle,cgr
+plane angle,dega
+plane angle,gon
+plane angle,gr
+plane angle,krad
+plane angle,mila
+plane angle,mina
+plane angle,mrad
+plane angle,mseca
+plane angle,rad
+plane angle,seca
+plane angle,urad
+poisson ratio,Euc
+poisson ratio,cEuc
+poisson ratio,mEuc
+poisson ratio,nEuc
+poisson ratio,uEuc
+potential difference per per power drop,V/B
+potential difference per per power drop,V/dB
+power per volume,Btu/hr.ft3
+power per volume,Btu/s.ft3
+power per volume,W/m3
+power per volume,cal/h.cm3
+power per volume,cal/s.cm3
+power per volume,hp/ft3
+power per volume,kW/m3
+power per volume,uW/m3
+power,CV
+power,GW
+power,MJ/a
+power,MW
+power,TW
+power,W
+power,ch
+power,ehp
+power,hhp
+power,hp
+power,kW
+power,kcal/h
+power,mW
+power,nW
+power,ton of refrig
+power,uW
+poynting vector,Btu/hr.ft2
+poynting vector,Btu/s.ft2
+poynting vector,W/cm2
+poynting vector,W/m2
+poynting vector,W/mm2
+poynting vector,cal/h.cm2
+poynting vector,hhp/in2
+poynting vector,hp/in2
+poynting vector,kW/cm2
+poynting vector,kW/m2
+poynting vector,mW/m2
+poynting vector,ucal/s.cm2
+pressure per length,GPa/cm
+pressure per length,MPa/m
+pressure per length,N/m3
+pressure per length,Pa/m
+pressure per length,atm/ft
+pressure per length,atm/hm
+pressure per length,atm/m
+pressure per length,bar/km
+pressure per length,bar/m
+pressure per length,kPa/100m
+pressure per length,kPa/m
+pressure per length,lbf/ft3
+pressure per length,lbf/galUS
+pressure per length,psi/100ft
+pressure per length,psi/ft
+pressure per length,psi/ft(100)
+pressure per length,psi/kft
+pressure per length,psi/m
+pressure per time,MPa/h
+pressure per time,Pa/h
+pressure per time,Pa/s
+pressure per time,atm/h
+pressure per time,bar/h
+pressure per time,kPa/h
+pressure per time,kPa/min
+pressure per time,psi/h
+pressure per time,psi/min
+pressure squared per (dynamic viscosity),Pa/s
+pressure squared per (dynamic viscosity),bar2/cP
+pressure squared per (dynamic viscosity),kPa2/cP
+pressure squared per (dynamic viscosity),kPa2/kcP
+pressure squared per (dynamic viscosity),psi2/cP
+pressure squared,GPa2
+pressure squared,Pa2
+pressure squared,bar2
+pressure squared,kPa2
+pressure squared,kpsi2
+pressure squared,psi2
+pressure time per volume,Pa.s/m3
+pressure time per volume,psi.d/bbl
+pressure,GPa
+pressure,MPa
+pressure,Mpsi
+pressure,N/m2
+pressure,N/mm2
+pressure,Pa
+pressure,Pa(g)
+pressure,at
+pressure,atm
+pressure,bar
+pressure,cmH2O(4degC)
+pressure,dyne/cm2
+pressure,hbar
+pressure,inH2O(39.2F)
+pressure,inH2O(60F)
+pressure,inHg(32F)
+pressure,inHg(60F)
+pressure,kN/m2
+pressure,kPa
+pressure,kgf/cm2
+pressure,kgf/mm2
+pressure,kpsi
+pressure,lbf/100ft2
+pressure,lbf/ft2
+pressure,lbf/ft2(100)
+pressure,lbf/in2
+pressure,mPa
+pressure,mbar
+pressure,mmHg(0C)
+pressure,pPa
+pressure,psf
+pressure,psi
+pressure,psia
+pressure,psig
+pressure,tonfUK/ft2
+pressure,tonfUS/ft2
+pressure,tonfUS/in2
+pressure,torr
+pressure,uPa
+pressure,ubar
+pressure,umHg(0C)
+pressure,upsi
+productivity index,1000ft3/psi.d
+productivity index,L/bar.min
+productivity index,bbl/d.psi
+productivity index,bbl/kPa.d
+productivity index,bbl/psi.d
+productivity index,m3/Pa.s
+productivity index,m3/Pa/s
+productivity index,m3/bar.d
+productivity index,m3/bar.h
+productivity index,m3/bar.min
+productivity index,m3/d.kPa
+productivity index,m3/kPa.d
+productivity index,m3/kPa.h
+productivity index,m3/psi.d
+quantity of light,lm.s
+quantity of light,talbot
+radiance,W/m2.sr
+radiant energy density,Btu/bbl
+radiant energy density,Btu/ft3
+radiant energy density,Btu/galUK
+radiant energy density,Btu/galUS
+radiant energy density,J/dm3
+radiant energy density,J/m3
+radiant energy density,MJ/m3
+radiant energy density,MW.h/m3
+radiant energy density,cal/cm3
+radiant energy density,cal/mL
+radiant energy density,cal/mm3
+radiant energy density,erg/cm3
+radiant energy density,erg/m3
+radiant energy density,ft.lbf/bbl
+radiant energy density,ft.lbf/galUS
+radiant energy density,hp.hr/bbl
+radiant energy density,kJ/dm3
+radiant energy density,kJ/m3
+radiant energy density,kW.h/dm3
+radiant energy density,kW.h/m3
+radiant energy density,kcal/cm3
+radiant energy density,kcal/m3
+radiant energy density,lbf.ft/bbl
+radiant energy density,therm/ft3
+radiant energy density,therm/galUK
+radiant energy density,tonfUS.mi/bbl
+radiant energy,Btu/hr.ft2
+radiant energy,Btu/s.ft2
+radiant energy,W/cm2
+radiant energy,W/m2
+radiant energy,W/mm2
+radiant energy,cal/h.cm2
+radiant energy,hhp/in2
+radiant energy,hp/in2
+radiant energy,kW/cm2
+radiant energy,kW/m2
+radiant energy,mW/m2
+radiant energy,ucal/s.cm2
+radiant exitance,Btu/hr.ft2
+radiant exitance,Btu/s.ft2
+radiant exitance,W/cm2
+radiant exitance,W/m2
+radiant exitance,W/mm2
+radiant exitance,cal/h.cm2
+radiant exitance,hhp/in2
+radiant exitance,hp/in2
+radiant exitance,kW/cm2
+radiant exitance,kW/m2
+radiant exitance,mW/m2
+radiant exitance,ucal/s.cm2
+radiant intensity,W/sr
+radius of curvature,cm
+radius of curvature,dm
+radius of curvature,fm
+radius of curvature,ft
+radius of curvature,in
+radius of curvature,in/10
+radius of curvature,in/16
+radius of curvature,in/32
+radius of curvature,in/64
+radius of curvature,km
+radius of curvature,m
+radius of curvature,mi
+radius of curvature,mil
+radius of curvature,nm
+radius of curvature,pm
+radius of curvature,um
+radius of curvature,yd
+radius,chBnA
+radius,chBnB
+radius,chCla
+radius,chSe
+radius,chUS
+radius,cm
+radius,dm
+radius,fm
+radius,ft
+radius,in
+radius,in/10
+radius,in/16
+radius,in/32
+radius,in/64
+radius,km
+radius,m
+radius,mi
+radius,mil
+radius,nm
+radius,pm
+radius,um
+radius,yd
+relative elongation,%
+relative elongation,Euc
+relative elongation,ft/100ft
+relative elongation,ft/ft
+relative elongation,ft/m
+relative elongation,ft/mi
+relative elongation,m/30m
+relative elongation,m/km
+relative elongation,m/m
+relative elongation,pu
+relative power,%
+relative power,Btu/bhp.hr
+relative power,Euc
+relative power,W/W
+relative power,W/kW
+relative power,pu
+relative time,Euc
+relative time,ms/s
+reluctance,1/H
+resistance,Gohm
+resistance,Mohm
+resistance,Tohm
+resistance,kohm
+resistance,mohm
+resistance,nohm
+resistance,ohm
+resistance,uohm
+resistivity per length,ohm/m
+resistivity per length,uohm/ft
+resistivity per length,uohm/m
+rotational frequency,c/s
+rotational frequency,dega/h
+rotational frequency,dega/min
+rotational frequency,dega/s
+rotational frequency,rad/s
+rotational velocity,c/s
+rotational velocity,dega/h
+rotational velocity,dega/min
+rotational velocity,rad/s
+scale,Euc
+scale,ft/100ft
+scale,ft/ft
+scale,ft/in
+scale,ft/m
+scale,ft/mi
+scale,km/cm
+scale,m/30m
+scale,m/cm
+scale,m/km
+scale,m/m
+scale,mi/in
+second moment of area,cm4
+second moment of area,in4
+second moment of area,m4
+self inductance,H
+self inductance,mH
+self inductance,nH
+self inductance,uH
+shear modulus,Btu/bbl
+shear modulus,Btu/ft3
+shear modulus,Btu/galUK
+shear modulus,Btu/galUS
+shear modulus,J/dm3
+shear modulus,J/m3
+shear modulus,MJ/m3
+shear modulus,MW.h/m3
+shear modulus,cal/cm3
+shear modulus,cal/mL
+shear modulus,cal/mm3
+shear modulus,erg/cm3
+shear modulus,erg/m3
+shear modulus,ft.lbf/bbl
+shear modulus,ft.lbf/galUS
+shear modulus,hp.hr/bbl
+shear modulus,kJ/dm3
+shear modulus,kJ/m3
+shear modulus,kW.h/dm3
+shear modulus,kW.h/m3
+shear modulus,kcal/cm3
+shear modulus,kcal/m3
+shear modulus,lbf.ft/bbl
+shear modulus,therm/ft3
+shear modulus,therm/galUK
+shear modulus,tonfUS.mi/bbl
+shear strain,Euc
+shear strain,in2/ft2
+shear strain,in2/in2
+shear strain,m2/m2
+shear strain,mm2/mm2
+shear stress,Btu/bbl
+shear stress,Btu/ft3
+shear stress,Btu/galUK
+shear stress,Btu/galUS
+shear stress,J/dm3
+shear stress,J/m3
+shear stress,MJ/m3
+shear stress,MW.h/m3
+shear stress,cal/cm3
+shear stress,cal/mL
+shear stress,cal/mm3
+shear stress,erg/cm3
+shear stress,erg/m3
+shear stress,ft.lbf/bbl
+shear stress,ft.lbf/galUS
+shear stress,hp.hr/bbl
+shear stress,kJ/dm3
+shear stress,kJ/m3
+shear stress,kW.h/dm3
+shear stress,kW.h/m3
+shear stress,kcal/cm3
+shear stress,kcal/m3
+shear stress,lbf.ft/bbl
+shear stress,therm/ft3
+shear stress,therm/galUK
+shear stress,tonfUS.mi/bbl
+slowness,ms/cm
+slowness,ms/ft
+slowness,ms/in
+slowness,ms/m
+slowness,ns/ft
+slowness,ns/m
+slowness,s/cm
+slowness,s/ft
+slowness,s/m
+slowness,us/ft
+slowness,us/m
+solid angle,sr
+sound intensity,Btu/hr.ft2
+sound intensity,Btu/s.ft2
+sound intensity,W/cm2
+sound intensity,W/m2
+sound intensity,W/mm2
+sound intensity,cal/h.cm2
+sound intensity,hhp/in2
+sound intensity,hp/in2
+sound intensity,kW/cm2
+sound intensity,kW/m2
+sound intensity,mW/m2
+sound intensity,ucal/s.cm2
+specific activity (of radioactivity),Bq/kg
+specific activity (of radioactivity),pCi/g
+specific energy,Btu/lbm
+specific energy,J/g
+specific energy,J/kg
+specific energy,MJ/kg
+specific energy,MW.h/kg
+specific energy,cal/g
+specific energy,cal/kg
+specific energy,cal/lbm
+specific energy,erg/g
+specific energy,erg/kg
+specific energy,ft.lbf/lbm
+specific energy,hp.hr/lbm
+specific energy,kJ/kg
+specific energy,kW.h/kg
+specific energy,kcal/g
+specific energy,kcal/kg
+specific energy,lbf.ft/lbm
+specific energy,therm/lbm
+specific heat capacity,Btu/lbm.degF
+specific heat capacity,Btu/lbm.degR
+specific heat capacity,J/g.K
+specific heat capacity,J/kg.K
+specific heat capacity,cal/g.K
+specific heat capacity,kJ/kg.K
+specific heat capacity,kW.h/kg.degC
+specific heat capacity,kcal/kg.degC
+specific productivity index,bbl/cP.d.psi
+specific productivity index,m3/Pa2.s2
+specific productivity index,m3/cP.Pa.s
+specific productivity index,m3/cP.d.kPa
+specific volume,L/100kg
+specific volume,L/kg
+specific volume,L/t
+specific volume,L/tonUK
+specific volume,bbl/tonUK
+specific volume,bbl/tonUS
+specific volume,cm3/g
+specific volume,dm3/kg
+specific volume,dm3/t
+specific volume,ft3/kg
+specific volume,ft3/lbm
+specific volume,ft3/sack94
+specific volume,gal/sack
+specific volume,galUK/lbm
+specific volume,galUS/lbm
+specific volume,galUS/sack94
+specific volume,galUS/tonUK
+specific volume,galUS/tonUS
+specific volume,m3/g
+specific volume,m3/kg
+specific volume,m3/t
+specific volume,m3/tonUK
+specific volume,m3/tonUS
+stadard volume per volume,scm(15C)/m3
+standard volume  per area,scm(0C)/m2
+standard volume per area,MMstb/acre
+standard volume per area,scf(60F)/ft2
+standard volume per area,scm(15C)/m2
+standard volume per area,stb(60F)/acre
+standard volume per time,MMscf(60F)/d
+standard volume per time,MMscm(15C)/d
+standard volume per time,MMstb(60F)/d
+standard volume per time,Mscf(60F)/d
+standard volume per time,Mscm(15C)/d
+standard volume per time,Mstb(60F)/d
+standard volume per time,ksm3/d
+standard volume per time,scf(60F)/d
+standard volume per time,scm(15C)/d
+standard volume per time,scm(15C)/s
+standard volume per time,stb(60F)/d
+standard volume per volume,MMstb/acre.ft
+standard volume per volume,scf(60F)/bbl
+standard volume per volume,scf(60F)/ft3
+standard volume per volume,scm(0C)/m3
+standard volume per volume,stb(60F)/bbl
+standard volume,Gsm3
+standard volume,MMscf(60F)
+standard volume,MMscm(15C)
+standard volume,MMstb(60F)
+standard volume,Mscf(60F)
+standard volume,Msm3
+standard volume,Mstb(60F)
+standard volume,ft3(std,60F)
+standard volume,ksm3
+standard volume,scf(60F)
+standard volume,scm(0C)
+standard volume,scm(15C)
+standard volume,stb(60F)
+surface density,Mg/m2
+surface density,kg/m2
+surface density,lbm/100ft2
+surface density,lbm/ft2
+surface density,tonUS/ft2
+susceptance,GS
+susceptance,S
+susceptance,kS
+susceptance,mS
+susceptance,mho
+susceptance,pS
+susceptance,uS
+temperature per length,K/m
+temperature per length,degC/100m
+temperature per length,degC/ft
+temperature per length,degC/km
+temperature per length,degC/m
+temperature per length,degF/100ft
+temperature per length,degF/ft
+temperature per length,degF/ft(100)
+temperature per length,degF/m
+temperature per length,mK/m
+temperature per time,K/s
+temperature per time,degC/h
+temperature per time,degC/min
+temperature per time,degC/s
+temperature per time,degF/h
+temperature per time,degF/min
+temperature per time,degF/s
+thermal conductance,W/K
+thermal conductivity,Btu/hr.ft.degF
+thermal conductivity,W/m.K
+thermal conductivity,cal/h.cm.degC
+thermal conductivity,cal/s.cm.degC
+thermal conductivity,kcal/h.m.degC
+thermal diffusivity,cm2/s
+thermal diffusivity,ft2/h
+thermal diffusivity,ft2/s
+thermal diffusivity,in2/s
+thermal diffusivity,m2/h
+thermal diffusivity,m2/s
+thermal diffusivity,mm2/s
+thermal insulance,K.m2/W
+thermal insulance,K.m2/kW
+thermal insulance,degC.m2.h/kcal
+thermal insulance,degF.ft2.h/Btu
+thermal resistance,K/W
+thermodynamic temperature,K
+thermodynamic temperature,degC
+thermodynamic temperature,degF
+thermodynamic temperature,degR
+thickness,chBnA
+thickness,chBnB
+thickness,chCla
+thickness,chSe
+thickness,chUS
+thickness,cm
+thickness,dm
+thickness,fm
+thickness,ft
+thickness,in
+thickness,in/10
+thickness,in/16
+thickness,in/32
+thickness,in/64
+thickness,km
+thickness,m
+thickness,mi
+thickness,mil
+thickness,nm
+thickness,pm
+thickness,um
+thickness,yd
+time per length,h/kft
+time per length,h/km
+time per length,min/ft
+time per length,min/m
+time per length,ms/cm
+time per length,ms/ft
+time per length,ms/in
+time per length,ms/m
+time per length,ns/ft
+time per length,ns/m
+time per length,s/cm
+time per length,s/ft
+time per length,s/in
+time per length,s/m
+time per length,us/ft
+time per length,us/m
+time per volume,d/bbl
+time per volume,d/ft3
+time per volume,d/k(ft3)
+time per volume,d/m3
+time per volume,h/ft3
+time per volume,h/m3
+time per volume,s/L
+time per volume,s/ft3
+time per volume,s/m3
+time per volume,s/qtUK
+time per volume,s/qtUS
+time,100ka
+time,Ga
+time,MY
+time,Ma
+time,a
+time,cs
+time,d
+time,h
+time,hs
+time,min
+time,ms
+time,ms/2
+time,ns
+time,ps
+time,s
+time,us
+time,wk
+time,yr(100k)
+torque,J
+torque,N.m
+torque,dN.m
+torque,daN.m
+torque,ft.lbf
+torque,kN.m
+torque,kft.lbf
+torque,kgf.m
+torque,lbf.ft
+torque,lbf.in
+torque,lbm.ft2/s2
+torque,pdl.ft
+torque,tonfUS.ft
+torque,tonfUS.mi
+unit productivity index,bbl/d.ft.psi
+unit productivity index,ft3/d.ft.psi
+unit productivity index,m2/Pa.s
+unit productivity index,m2/d.kPa
+velocity,cm/a
+velocity,cm/s
+velocity,dm/s
+velocity,ft/d
+velocity,ft/h
+velocity,ft/min
+velocity,ft/ms
+velocity,ft/s
+velocity,ft/us
+velocity,in/a
+velocity,in/min
+velocity,in/s
+velocity,kft/h
+velocity,kft/s
+velocity,km/h
+velocity,km/s
+velocity,knot
+velocity,m/d
+velocity,m/h
+velocity,m/min
+velocity,m/ms
+velocity,m/s
+velocity,mi/h
+velocity,mil/yr
+velocity,mm/a
+velocity,mm/s
+velocity,nm/s
+velocity,um/s
+volume flow rate,1000ft3/d
+volume flow rate,1000m3/d
+volume flow rate,1000m3/h
+volume flow rate,L/h
+volume flow rate,L/min
+volume flow rate,L/s
+volume flow rate,M(ft3)/d
+volume flow rate,M(m3)/d
+volume flow rate,Mbbl/d
+volume flow rate,bbl/d
+volume flow rate,bbl/hr
+volume flow rate,bbl/min
+volume flow rate,cm3/30min
+volume flow rate,cm3/h
+volume flow rate,cm3/min
+volume flow rate,cm3/s
+volume flow rate,dm3/s
+volume flow rate,ft3/d
+volume flow rate,ft3/h
+volume flow rate,ft3/min
+volume flow rate,ft3/s
+volume flow rate,galUK/d
+volume flow rate,galUK/hr
+volume flow rate,galUK/min
+volume flow rate,galUS/d
+volume flow rate,galUS/hr
+volume flow rate,galUS/min
+volume flow rate,kbbl/d
+volume flow rate,m3/d
+volume flow rate,m3/h
+volume flow rate,m3/min
+volume flow rate,m3/s
+volume length per time,1000m4/d
+volume length per time,Mbbl.ft/d
+volume length per time,m4/s
+volume per area,bbl/acre
+volume per area,m
+volume per area,m3/m2
+volume per length,L/100km
+volume per length,L/km(100)
+volume per length,L/m
+volume per length,bbl/ft
+volume per length,bbl/in
+volume per length,bbl/mi
+volume per length,dm3/100km
+volume per length,dm3/km(100)
+volume per length,dm3/m
+volume per length,ft3/ft
+volume per length,galUK/mi
+volume per length,galUS/ft
+volume per length,galUS/mi
+volume per length,in3/ft
+volume per length,m2
+volume per length,m3/km
+volume per length,m3/m
+volume per standard volume,acre.ft/MMstb
+volume per standard volume,bbl/MMscf(60F)
+volume per standard volume,bbl/stb(60F)
+volume per standard volume,ft3/scf(60F)
+volume per standard volume,galUS/Mscf(60F)
+volume per standard volume,m3/scm(0C)
+volume per standard volume,m3/scm(15C)
+volume per time per area,ft3/min.ft2
+volume per time per area,ft3/s.ft2
+volume per time per area,galUK/hr.ft2
+volume per time per area,galUK/hr.in2
+volume per time per area,galUK/min.ft2
+volume per time per area,galUS/hr.ft2
+volume per time per area,galUS/hr.in2
+volume per time per area,galUS/min.ft2
+volume per time per area,m/s
+volume per time per area,m3/s.m2
+volume per time per length,1000ft3/d.ft
+volume per time per length,1000m3/d.m
+volume per time per length,1000m3/h.m
+volume per time per length,bbl/d.ft
+volume per time per length,galUK/hr.ft
+volume per time per length,galUK/hr.in
+volume per time per length,galUK/min.ft
+volume per time per length,galUS/hr.ft
+volume per time per length,galUS/hr.in
+volume per time per length,galUS/min.ft
+volume per time per length,m2/s
+volume per time per length,m3/d.m
+volume per time per length,m3/h.m
+volume per time per length,m3/s.ft
+volume per time per length,m3/s.m
+volume per time per time,L/s2
+volume per time per time,bbl/d2
+volume per time per time,bbl/hr2
+volume per time per time,dm3/s2
+volume per time per time,ft3/d2
+volume per time per time,ft3/h2
+volume per time per time,ft3/min2
+volume per time per time,ft3/s2
+volume per time per time,galUK/hr2
+volume per time per time,galUK/min2
+volume per time per time,galUS/hr2
+volume per time per time,galUS/min2
+volume per time per time,m3/d2
+volume per time per time,m3/s2
+volume per time per volume,1/s
+volume per time per volume,bbl/d.acre.ft
+volume per volume,1000ft3/bbl
+volume per volume,Euc
+volume per volume,L/10bbl
+volume per volume,L/m3
+volume per volume,M(ft3)/acre.ft
+volume per volume,MMbbl/acre.ft
+volume per volume,MMscf60/stb60
+volume per volume,Mscf60/stb60
+volume per volume,bbl/100bbl
+volume per volume,bbl/M(ft3)
+volume per volume,bbl/acre.ft
+volume per volume,bbl/bbl
+volume per volume,bbl/ft3
+volume per volume,bbl/k(ft3)
+volume per volume,cm3/cm3
+volume per volume,cm3/m3
+volume per volume,dm3/m3
+volume per volume,ft3/bbl
+volume per volume,ft3/ft3
+volume per volume,galUK/Mbbl
+volume per volume,galUK/ft3
+volume per volume,galUK/kgalUK
+volume per volume,galUS/10bbl
+volume per volume,galUS/Mbbl
+volume per volume,galUS/bbl
+volume per volume,galUS/ft3
+volume per volume,galUS/kgalUS
+volume per volume,ksm3/sm3
+volume per volume,m3/ha.m
+volume per volume,m3/m3
+volume per volume,mL/galUK
+volume per volume,mL/galUS
+volume per volume,mL/mL
+volume per volume,ptUK/Mbbl
+volume per volume,ptUS/10bbl
+volume per volume,scm15/stb60
+volume per volume,sm3/ksm3
+volume per volume,sm3/sm3
+volume per volume,stb60/MMscf60
+volume per volume,stb60/MMscm15
+volume per volume,stb60/Mscf60
+volume per volume,stb60/Mscm15
+volume per volume,stb60/scm15
+volume per volume,volpercent
+volume per volume,volppm
+volume,1000ft3
+volume,L
+volume,M(ft3)
+volume,M(m3)
+volume,MMbbl
+volume,MMcf
+volume,Mbbl
+volume,Mcf
+volume,acre.ft
+volume,bbl
+volume,bcf
+volume,cm3
+volume,cu ft
+volume,cu in
+volume,cu yd
+volume,cubem
+volume,dm3
+volume,fl ozUK
+volume,fl ozUS
+volume,flozUK
+volume,flozUS
+volume,ft3
+volume,galUK
+volume,galUS
+volume,hL
+volume,ha.m
+volume,in3
+volume,km3
+volume,m3
+volume,mL
+volume,mi3
+volume,mm3
+volume,ptUK
+volume,ptUS
+volume,qtUK
+volume,qtUS
+volume,tcf
+volume,um2.m
+volume,yd3
+volumetric heat transfer coefficient,Btu/hr.ft3.degF
+volumetric heat transfer coefficient,Btu/s.ft3.degF
+volumetric heat transfer coefficient,W/m3.K
+volumetric heat transfer coefficient,kW/m3.K
+volumetric thermal expansion,1/K
+volumetric thermal expansion,1/degC
+volumetric thermal expansion,1/degF
+volumetric thermal expansion,1/degR
+volumetric thermal expansion,ppm/degC
+volumetric thermal expansion,ppm/degF
+volumic concentration,%
+volumic concentration,Euc
+volumic concentration,gu
+volumic concentration,permil
+volumic concentration,ppdk
+volumic concentration,ppk
+volumic concentration,ppm
+volumic concentration,pu
+volumic mass,10Mg/m3
+volumic mass,Mg/m3
+volumic mass,dAPI
+volumic mass,g/L
+volumic mass,g/cm3
+volumic mass,g/dm3
+volumic mass,g/galUK
+volumic mass,g/galUS
+volumic mass,g/m3
+volumic mass,grain/100ft3
+volumic mass,grain/ft3
+volumic mass,grain/ft3(100)
+volumic mass,grain/galUS
+volumic mass,kg/L
+volumic mass,kg/dm3
+volumic mass,kg/m3
+volumic mass,lbm/1000galUK
+volumic mass,lbm/1000galUS
+volumic mass,lbm/10bbl
+volumic mass,lbm/Mbbl
+volumic mass,lbm/bbl
+volumic mass,lbm/ft3
+volumic mass,lbm/galUK
+volumic mass,lbm/galUK(1000)
+volumic mass,lbm/galUS
+volumic mass,lbm/galUS(1000)
+volumic mass,lbm/in3
+volumic mass,mg/L
+volumic mass,mg/dm3
+volumic mass,mg/galUS
+volumic mass,mg/m3
+volumic mass,ug/cm3
+wave number,1/angstrom
+wave number,1/cm
+wave number,1/m
+wave number,1/mm
+wave number,1/nm
+wavelength,cm
+wavelength,dm
+wavelength,fm
+wavelength,ft
+wavelength,in
+wavelength,km
+wavelength,m
+wavelength,mi
+wavelength,mil
+wavelength,nm
+wavelength,pm
+wavelength,um
+work,Btu
+work,CV.h
+work,Chu
+work,EJ
+work,GJ
+work,GW.h
+work,GeV
+work,J
+work,MJ
+work,MW.h
+work,MeV
+work,TJ
+work,TW.h
+work,TeV
+work,aJ
+work,cal
+work,ch.h
+work,eV
+work,erg
+work,hp.hr
+work,kJ
+work,kW.h
+work,kcal
+work,keV
+work,mJ
+work,nJ
+work,quad
+work,therm
+work,uJ

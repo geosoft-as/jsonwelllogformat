@@ -51,8 +51,8 @@ A JSON Well Log file consists of one or more log sets each containing a log head
       "name": "EcoScope Data",
       "well": "35/12-6S",
       "field": "Fram",
-      "date": "2019-06-14",
-      "operator": "Logtek Petroleum",
+      "date": "2022-06-14",
+      "operator": "GeoSoft",
       "startIndex": 2907.79,
       "endIndex": 2907.84,
       "step": 0.01
@@ -110,7 +110,9 @@ Also, numeric values that cannot be represented as sequences of digits (such as 
 
 ## Log header
 
-The following header keys are defined as _well known_:
+The log header contains metadata that describes the overall logging operation and consists of any JSON objects and arrays that the producing entity find necessary and sufficient.
+
+However, in order to efficiently communicate metadata across disparate systems and companies the common properties listed below are defined as _well known_. Metadata outside this set has low informational value and is in general not fit for further processing.
 
 | Key                | Type                             | Description                           |
 |--------------------|----------------------------------|---------------------------------------|
@@ -130,10 +132,11 @@ The following header keys are defined as _well known_:
 | **startIndex**     | _According to index value type_  | Value of the first index. Unit according to index curve. |
 | **endIndex**       | _According to index value type_  | Value of the last index. Unit according to index curve. |
 | **step**           | _According to index value type_  | Distance between indices if regularly sampled. Unit according to index curve. If log is time based, milliseconds assumed. |
+| **dataUri**        | string                           | Point to data source in case this is kept separate. Can be absolute or relative according to the [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) specification. |
 
-All header data are optional.
+All header data are optional including the header object itself.
 
-In addition to the listed entries, clients may add any number of _custom_ header data in any form supported by the JSON syntax. Note that the general informational value of custom header data is _low_. Some clients may understand the meaning of the entries, but in general such information is not fit for further processing.
+Please note that there is no perfect set of header information suiting all clients, and to avoid lengthy discussions on the topic the _well known_ part of the header is deliberately kept at a minimum.
 
 
 ## Curve definition
@@ -148,11 +151,12 @@ The following keys are used for curve definitions:
 | **unit**            | string                    | Unit of measurement such as _m_, _ft_, _bar_, etc. Optional.             |
 | **valueType**       | string                    | Curve value type: _float_, _integer_, _string_, _datetime_ or _boolean_. Non-null. Optional. _float_ assumed if not present. |
 | **dimensions**      | integer                   | Number of dimensions. [1,>. Non-null. Optional. 1 assumed if not present.|
-| **axis**            | array of curve definition | A detailed description of the multi-dimensional structure of the curve in case this spans multiple _axes_. One element per axis. The combined product of the axis ```diemsnsions``` elements must equal the dimensions of the curve. Optional.
+| **axis**            | array of curve definition | A detailed description of the multi-dimensional structure of the curve in case this spans multiple _axes_. One element per axis. The combined product of the axis ```diemsnsions``` elements must equal the dimensions of the curve. Optional. |
+| **maxSize**         | integer                   | Maximum storage size (number of bytes) for UTF-8 string data. Used with binary storage in order to align the curve data. [0,>. Optional. 20 assumed if not present. Ignored for curves where ```valueType``` is other than string. |
 
 Quantities and units should follow the [Unit of Measure Standard](https://www.energistics.org/energistics-unit-of-measure-standard/) from Energistics. To ease transition from legacy formats this is no requirement.
 
-In addition to the listed, clients may add any number of _custom_ curve definition entries in any form supported by the JSON syntax.
+In addition to the listed, clients may add any number of _custom_ curve definition entries in any form supported by the JSON syntax, but as for header data in general this is not recommended.
 
 
 ## Curve data
@@ -264,13 +268,37 @@ For well logs that may possibly be viewed by humans the pretty format should alw
 ```txt
 "data": [
     [828420, 282.589,  8.6657, 2.202, 2.222, [1.759, 2.31469,  1.33991E-3, 3.75839], 0.52435, ... ],
-    [828480, 286.239,  9.6601, 2.277, 2.297, [2.219, 2.31189,  1.12295E-3, 3.72152], 0.52387, ... ],
-    [828540, 276.537, 10.6638, 2.309,  null, [2.267, 2.29509, -3.67117E-3, 3.70351], 0.53936, ... ],
+    [828480, 286.239,  9.6601, 2.277, 2.297, [2.219, 2.31189,        null,    null], 0.52387, ... ],
+    [828540, 276.537, 10.6638, 2.309,  null, [2.267, 2.29509, -3.67117E-3,    null], 0.53936, ... ],
     [828600, 264.325, 10.6545, 2.324,  null, [2.110, 2.27902, -7.77555E-3, 3.67927], 0.55439, ... ],
     [828660, 245.938,  9.6937, 2.333, 2.356, [1.525, 2.26512, -1.17965E-2, 3.68386], 0.56211, ... ],
     :
 ]
 ```
+
+
+## Binary storage
+
+The _data_ object of JSON Well Log Format file may optionally be stored in a separate binary file. The location of the file must be specified in the ```dataUri``` property of the header.
+
+The binary format is without structure, it just lists the curve values row by row. This allows for extremely fast access along any axis of the data.
+
+The binary storage format for each value type is described below:
+
+| Type        | Storage                                                                                                                                                                        | No-value                                                     |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **float**   | 64 bit [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) floating point                                                                                                       | IEEE 754 NaN                                                 |
+| **integer** | 64 bit, [big endian](https://en.wikipedia.org/wiki/Endianness)                                                                                                                 | 2<sup>63</sup> - 1, being the largest possible 64 bit number |
+| **string**  | [UTF-8](https://en.wikipedia.org/wiki/UTF-8) encoded text, left aligned, space padded, ```maxSize``` _bytes_ (or 20 if not specified)                                          | Empty string                                                 |
+| **boolean** | 8 bit, 0 = false, 1 = true                                                                                                                                                     | Any value different from 0 and 1                             |
+| **datetime**| [ASCII](https://en.wikipedia.org/wiki/ASCII) encoded text containing [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date/time specification, 30 characters | Empty string                                                 |
+
+
+## Version
+
+To ensure stability, The JSON Well Log Format is _unversioned_.
+
+The set of _well known_ header information may possibly be extended over time, but the structure of the format as such will not change.
 
 
 ## Schema
@@ -284,4 +312,4 @@ Thanks to [Equinor](http://equinor.com) all subsurface and production data from 
 
 The dataset contains about 15GB of well log data in about 1000 different DLIS, LIS, LAS, ASC and SPWLA files. This part has been converted to the JSON Well Log Format by [Petroware](https://petroware.no) and is available [here](https://jsonwelllogformat.org/Volve).
 
-An online viewer based on the JavaScript code contributed here is available at [https://jsonwelllogformat.org/viewer](https://jsonwelllogformat.org/viewer/index.html).
+[JavaScript Code](https://github.com/JSONWellLogFormat/JSONWellLogFormat/JavaScript) to view JSON Well Log Format data in a web browser has been contributed and is available [here](https://jsonwelllogformat.org/viewer/index.html).

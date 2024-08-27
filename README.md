@@ -7,7 +7,7 @@
 Capture the JSON Well Log Format GitHub content to local disk by:
 
 ```
-$ git clone https://github.com/JSONWellLogFormat/JSONWellLogFormat.git
+$ git clone git@github.com:geosoft-as/jsonwelllogformat.git
 ```
 
 ## Background
